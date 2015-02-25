@@ -44,6 +44,12 @@ namespace QUML_Keystrokes
             Console.ReadKey(); 
         }
 
+        /// <summary>
+        /// This is the method that will convert the file into a 2D double array or whichever type of 2D array that is required for whatever
+        /// problem is being solved. 
+        /// </summary>
+        /// <param name="filePath">The path the file which is going to be used to convert from file to 2D array</param>
+        /// <returns>The 2D double array</returns>
         static double[,] ParseData(string filePath)
         {
             // Using the String class, will now be able to start the conversion of the CSV file to a 2D double array
