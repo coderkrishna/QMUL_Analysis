@@ -46,6 +46,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Latency Data\user1.csv" />
+    <None Include="Latency Data\user2.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
