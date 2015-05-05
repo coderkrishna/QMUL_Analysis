@@ -6,11 +6,9 @@ using System.IO; // Required using statement for File I/O
 
 ///<summary>
 /// Pranav S. Krishnamurthy
-/// 31st December 2014
-/// Version: 0.1
-/// Purpose: To review my knowledge that I learned about using various verifiers
-/// to be able to analyze data sets, and also to enhance my knowledge about the 
-/// concepts behind machine learning. 
+/// 5th May 2015
+/// * Revisiting this project after a while to brush up on various things
+/// * Also to further develop this code to be more readable, usable, etc... 
 /// 
 /// Verifier: Manhattan Verifier
 /// 
@@ -21,19 +19,25 @@ namespace QUML_Keystrokes
 {
     class Program
     {
+        #region Static 2D Double arrays
+        static double[,] s001;
+        static double[,] s002;
+        #endregion
+
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the QUML Analyzer!");
 
             #region Data Extraction
-            double[,] s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
+            s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
+            s002 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv"); 
             #endregion
 
             // Printing out the 2D double array to be sure of proper data extraction
             #region Printing out, this is a test
-            for (int i = 0; i < s001.GetLength(0); i++)
+            for (int i = 0; i < s002.GetLength(0); i++)
             {
-                for (int j = 0; j < s001.GetLength(1); j++)
+                for (int j = 0; j < s002.GetLength(1); j++)
                 {
                     Console.Write(string.Format("{0} ", s001[i, j])); 
                 }
