@@ -19,9 +19,10 @@ namespace QUML_Keystrokes
 {
     class Program
     {
-        #region Static 2D Double arrays
+        #region Static 2D Double arrays for all of the users
         static double[,] s001;
         static double[,] s002;
+        static double[,] s003; 
         #endregion
 
         static void Main(string[] args)
@@ -30,7 +31,8 @@ namespace QUML_Keystrokes
 
             #region Data Extraction
             s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
-            s002 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv"); 
+            s002 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
+            s003 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             #endregion
 
             // Printing out the 2D double array to be sure of proper data extraction
@@ -44,6 +46,12 @@ namespace QUML_Keystrokes
                 Console.Write(Environment.NewLine); 
             } 
             #endregion
+
+            // Will now be going for the Manhattan Verifier class
+            ManhattanDistance mD = new ManhattanDistance(); 
+
+            // Executing the Test method
+            mD.Test(); 
 
             Console.ReadKey(); 
         }
