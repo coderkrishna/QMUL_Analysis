@@ -6,10 +6,8 @@ using System.IO; // Required using statement for File I/O
 
 ///<summary>
 /// Pranav S. Krishnamurthy
-/// 5th May 2015
-/// * Revisiting this project after a while to brush up on various things
-/// * Also to further develop this code to be more readable, usable, etc... 
-/// 
+/// Project: Analyzing a Keystrokes data set on my own. 
+/// Version: 0.2
 /// Verifier: Manhattan Verifier
 /// 
 /// Source of the Data: http://www.eecs.qmul.ac.uk/~ccloy/downloads_keystroke100.html
@@ -25,6 +23,12 @@ namespace QUML_Keystrokes
         static double[,] s003; 
         #endregion
 
+        #region Static Double arrays for each user - these are the mean arrays
+        static double[] s001_Mean;
+        static double[] s002_Mean;
+        static double[] s003_Mean;
+        #endregion
+
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome to the QUML Analyzer!");
@@ -35,23 +39,26 @@ namespace QUML_Keystrokes
             s003 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             #endregion
 
-            // Printing out the 2D double array to be sure of proper data extraction
-            #region Printing out, this is a test
-            for (int i = 0; i < s002.GetLength(0); i++)
-            {
-                for (int j = 0; j < s002.GetLength(1); j++)
-                {
-                    Console.Write(string.Format("{0} ", s001[i, j])); 
-                }
-                Console.Write(Environment.NewLine); 
-            } 
-            #endregion
-
             // Will now be going for the Manhattan Verifier class
             ManhattanDistance mD = new ManhattanDistance(); 
 
             // Executing the Test method
-            mD.Test(); 
+            // mD.Test(); 
+
+            // Executing the Print method in the Manhattan Distance class
+            mD.Print(s001); 
+
+            // Populating the mean array for the first user
+            s001_Mean = mD.CalculateMeanVector(s001);
+
+            Console.Write(Environment.NewLine); 
+
+            // Printing out locally here in the main class
+            for (int i = 0; i < s001_Mean.Length; i++)
+            {
+                // Print the average
+                Console.Write(s001_Mean[i] + " "); 
+            }
 
             Console.ReadKey(); 
         }

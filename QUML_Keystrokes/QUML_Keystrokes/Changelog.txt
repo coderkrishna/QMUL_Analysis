@@ -1,4 +1,12 @@
 ﻿31st December 2014
 Version: 0.1
-Purpose: To review my knowledge that I learned about using various verifiers to be able to analyze data sets, and also to enhance my knowledge about the 
+Purpose: To review my knowledge that I learned about using various verifiers
+to be able to analyze data sets, and also to enhance my knowledge about the 
 concepts of machine learning. 
+
+5th May 2015
+* Revisiting this project after a while to brush up on various things
+* Also to further develop this code to be more readable, usable, etc... 
+* Added a new class - ManhattanDistance.cs to implement the basic steps that are involved with the Manhattan verifier
+* Having various things be done like printing out the data, and all. 
+* Editing the Manhattan Verifier class such that it will print the original data, then calculate the average vector.  
