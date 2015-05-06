@@ -46,9 +46,9 @@ namespace QUML_Keystrokes
         }
 
         /// <summary>
-        /// This method will calculate the mean vector for the user
+        /// This method will calculate the mean vector for the user file that I have already specified. 
         /// </summary>
-        /// <param name="s001"></param>
+        /// <param name="s001">This is the 2D double array that is already created from the user CSV file.</param>
         /// <returns></returns>
         public double[] CalculateMeanVector(double[,] s001)
         {
@@ -63,7 +63,7 @@ namespace QUML_Keystrokes
                 // Iterate over the columns of the 2D array so that it can be able to properly calculate the sum and then the mean
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // Going from 2D to a 1D array.
+                    // Going from 2D to a 1D array, by doing a column-wise addition. 
                     sum[j] += s001[i, j]; 
                 }
             }
