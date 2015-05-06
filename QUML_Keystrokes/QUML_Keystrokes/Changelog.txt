@@ -15,3 +15,4 @@ concepts of machine learning.
 * Making more code regions possible - that way this code is not only readable, but understandable. 
 * Having more annotations, methods in the ManhattanDistance class file. 
 * Making further method calls. 
+* Adding more user functionality so that the end user can be able to see which verifier to use and therefore see the results. 

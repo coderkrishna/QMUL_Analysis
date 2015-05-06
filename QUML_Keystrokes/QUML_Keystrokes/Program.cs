@@ -37,26 +37,56 @@ namespace QUML_Keystrokes
             // Greeting of the Console
             Console.WriteLine("Welcome to the QUML Analyzer!" + Environment.NewLine);
 
-            #region Data Extraction
+            #region Data Extraction - This will be done before jumping into the use of any verifier
             s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
             s002 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
             s003 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             #endregion
 
-            // Will now be going for the Manhattan Verifier class
-            ManhattanDistance mD = new ManhattanDistance(); 
+            Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
 
-            // Executing the Print method in the Manhattan Distance class
-            mD.Print(s001);
+            string input = Console.ReadLine();
+
+            switch (input)
+            {
+                case "0":
+                    ManhattanVerifier();
+                    break;
+                case "1":
+                    EuclideanVerifier();
+                    break; 
+                case "2":
+                    SMVerifier();
+                    break;
+                case "3":
+                    SEVerifier();
+                    break; 
+                case "4":
+                    Console.WriteLine("The program will now quit. Good Bye!");
+                    Console.ReadKey();
+                    break;
+                default:
+                    Console.WriteLine("No option selected, or input is not one of the options. Program will now quit."); 
+                    break;
+            }
+
+            // Default exiting of the program
+            Console.ReadKey(); 
+        }
+
+        /// <summary>
+        /// This method will now jump to the ManhattanDistance class file.
+        /// </summary>
+        private static void ManhattanVerifier()
+        {
+            // Will now be going for the Manhattan Verifier class
+            ManhattanDistance mD = new ManhattanDistance();
 
             #region Populating the mean arrays for each user
             s001_Mean = mD.CalculateMeanVector(s001);
             s002_Mean = mD.CalculateMeanVector(s002);
-            s003_Mean = mD.CalculateMeanVector(s003); 
+            s003_Mean = mD.CalculateMeanVector(s003);
             #endregion
-
-            // Default exiting of the program
-            Console.ReadKey(); 
         }
 
         /// <summary>
