@@ -71,9 +71,11 @@ namespace QUML_Keystrokes
             // Now to calculate the mean vector
             for (int z = 0; z < sum.Length; z++)
             {
+                // Each value of the mean array is divided by n = 10 [The number of features]
                 mean[z] = sum[z] / 10; 
             }
 
+            // This is the return statement of the method. 
             return mean;
         }
     }
