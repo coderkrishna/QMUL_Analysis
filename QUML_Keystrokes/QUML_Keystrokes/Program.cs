@@ -31,7 +31,8 @@ namespace QUML_Keystrokes
 
         static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to the QUML Analyzer!");
+            // Greeting of the Console
+            Console.WriteLine("Welcome to the QUML Analyzer!" + Environment.NewLine);
 
             #region Data Extraction
             s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
@@ -51,6 +52,7 @@ namespace QUML_Keystrokes
             // Populating the mean array for the first user
             s001_Mean = mD.CalculateMeanVector(s001);
 
+            // Spacing for the output
             Console.Write(Environment.NewLine); 
 
             // Printing out locally here in the main class
@@ -60,6 +62,7 @@ namespace QUML_Keystrokes
                 Console.Write(s001_Mean[i] + " "); 
             }
 
+            // Default exiting of the program
             Console.ReadKey(); 
         }
 
