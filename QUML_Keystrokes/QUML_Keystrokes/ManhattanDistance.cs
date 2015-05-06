@@ -49,7 +49,7 @@ namespace QUML_Keystrokes
         /// This method will calculate the mean vector for the user file that I have already specified. 
         /// </summary>
         /// <param name="s001">This is the 2D double array that is already created from the user CSV file.</param>
-        /// <returns></returns>
+        /// <returns>What is returned is a 1D array (or a normal array) that is of type double that represents the mean vector.</returns>
         public double[] CalculateMeanVector(double[,] s001)
         {
             #region Creating two single dimension double arrays
