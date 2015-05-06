@@ -10,3 +10,8 @@ concepts of machine learning.
 * Added a new class - ManhattanDistance.cs to implement the basic steps that are involved with the Manhattan verifier
 * Having various things be done like printing out the data, and all. 
 * Editing the Manhattan Verifier class such that it will print the original data, then calculate the average vector.  
+
+6th May 2015
+* Making more code regions possible - that way this code is not only readable, but understandable. 
+* Having more annotations, methods in the ManhattanDistance class file. 
+* Making further method calls. 

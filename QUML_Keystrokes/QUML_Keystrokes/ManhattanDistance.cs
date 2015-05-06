@@ -7,8 +7,10 @@ using System.IO; // This is for the I/O
 namespace QUML_Keystrokes
 {
     /// <summary>
+    /// Pranav S. Krishnamurthy
+    /// Date Created: 5th May 2015
     /// This class will now  be used for calculating the Manhattan Distance for the various parameters and will be returning
-    /// back to the Main driver class when it is appropriately done so. 
+    /// back to the Main driver class when it is appropriately done so.
     /// </summary>
     public class ManhattanDistance
     {

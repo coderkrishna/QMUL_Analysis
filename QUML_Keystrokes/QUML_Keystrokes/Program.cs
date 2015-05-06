@@ -29,6 +29,9 @@ namespace QUML_Keystrokes
         static double[] s003_Mean;
         #endregion
 
+        /// <summary>
+        /// This is the main point of the program execution. 
+        /// </summary>
         static void Main(string[] args)
         {
             // Greeting of the Console
@@ -43,24 +46,14 @@ namespace QUML_Keystrokes
             // Will now be going for the Manhattan Verifier class
             ManhattanDistance mD = new ManhattanDistance(); 
 
-            // Executing the Test method
-            // mD.Test(); 
-
             // Executing the Print method in the Manhattan Distance class
-            mD.Print(s001); 
+            mD.Print(s001);
 
-            // Populating the mean array for the first user
+            #region Populating the mean arrays for each user
             s001_Mean = mD.CalculateMeanVector(s001);
-
-            // Spacing for the output
-            Console.Write(Environment.NewLine); 
-
-            // Printing out locally here in the main class
-            for (int i = 0; i < s001_Mean.Length; i++)
-            {
-                // Print the average
-                Console.Write(s001_Mean[i] + " "); 
-            }
+            s002_Mean = mD.CalculateMeanVector(s002);
+            s003_Mean = mD.CalculateMeanVector(s003); 
+            #endregion
 
             // Default exiting of the program
             Console.ReadKey(); 
