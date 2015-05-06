@@ -18,15 +18,19 @@ namespace QUML_Keystrokes
     class Program
     {
         #region Static 2D Double arrays for all of the users
-        static double[,] s001;
+        static double[,] s001; 
         static double[,] s002;
-        static double[,] s003; 
+        static double[,] s003;
+        static double[,] s004;
+        static double[,] s005; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays
         static double[] s001_Mean;
         static double[] s002_Mean;
         static double[] s003_Mean;
+        static double[] s004_Mean;
+        static double[] s005_Mean;
         #endregion
 
         /// <summary>
@@ -74,8 +78,37 @@ namespace QUML_Keystrokes
             Console.ReadKey(); 
         }
 
+        #region Verifier calls
         /// <summary>
-        /// This method will now jump to the ManhattanDistance class file.
+        /// This is the method which will jump to the Scaled Euclidean Class and then 
+        /// the various methods associated with this class file will be executed.
+        /// </summary>
+        private static void SEVerifier()
+        {
+            // Temporary place holder for the time being
+            Console.WriteLine("Scaled Euclidean Verifer - TBC (To Be Coded)");
+        }
+
+        /// <summary>
+        /// This is the method to be executed for which the Scaled Manhattan Verifier will be executed. 
+        /// </summary>
+        private static void SMVerifier()
+        {
+            // Some temporary place holder text
+            Console.WriteLine("Scaled Manhattan Verifier - TBC");
+        }
+
+        /// <summary>
+        /// This is the method that will be executed when calculating the Euclidean verifier. 
+        /// </summary>
+        private static void EuclideanVerifier()
+        {
+            // Temporary place holder for the time being
+            Console.WriteLine("Going to now be calculating the Euclidean verifier - TBC");
+        }
+
+        /// <summary>
+        /// This method will now jump to the ManhattanDistance class file and execute those methods.
         /// </summary>
         private static void ManhattanVerifier()
         {
@@ -88,6 +121,7 @@ namespace QUML_Keystrokes
             s003_Mean = mD.CalculateMeanVector(s003);
             #endregion
         }
+        #endregion
 
         /// <summary>
         /// This is the method that will convert the file into a 2D double array or whichever type of 2D array that is required for whatever

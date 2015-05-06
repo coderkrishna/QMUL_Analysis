@@ -16,3 +16,4 @@ concepts of machine learning.
 * Having more annotations, methods in the ManhattanDistance class file. 
 * Making further method calls. 
 * Adding more user functionality so that the end user can be able to see which verifier to use and therefore see the results. 
+* Now creating the data structures for the additional data files which I just imported.  
