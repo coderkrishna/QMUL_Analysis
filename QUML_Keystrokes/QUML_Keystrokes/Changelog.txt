@@ -17,3 +17,8 @@ concepts of machine learning.
 * Making further method calls. 
 * Adding more user functionality so that the end user can be able to see which verifier to use and therefore see the results. 
 * Now creating the data structures for the additional data files which I just imported.  
+
+11th May 2014
+* Having a DataFiltering class with one method to really make sure that we put in a text file, 
+get out a 2D double array. 
+* Adding in the various comments and made sure that everything still makes sense. 

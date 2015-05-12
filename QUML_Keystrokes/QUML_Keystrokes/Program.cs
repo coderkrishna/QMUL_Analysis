@@ -15,6 +15,12 @@ using System.IO; // Required using statement for File I/O
 
 namespace QUML_Keystrokes
 {
+    /// <summary>
+    /// This is the main class where all of the execution will be taking place. 
+    /// Right now here is what is going on:
+    /// 1. DataFiltering class will be called in order to properly make sure the data is in the right format for processing
+    /// 2. ManhattanDistance class will then be called for all of the data to be properly manipulated. 
+    /// </summary>
     class Program
     {
         #region Static 2D Double arrays for all of the users
@@ -41,12 +47,15 @@ namespace QUML_Keystrokes
             // Greeting of the Console
             Console.WriteLine("Welcome to the QUML Analyzer!" + Environment.NewLine);
 
+            // Importing the DataFiltering class
+            DataFiltering dataFilter = new DataFiltering(); 
+
             #region Data Extraction - This will be done before jumping into the use of any verifier
-            s001 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
-            s002 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
-            s003 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
-            s004 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
-            s005 = ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
+            s001 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
+            s002 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
+            s003 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
+            s004 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
+            s005 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -126,41 +135,5 @@ namespace QUML_Keystrokes
             #endregion
         }
         #endregion
-
-        /// <summary>
-        /// This is the method that will convert the file into a 2D double array or whichever type of 2D array that is required for whatever
-        /// problem is being solved. 
-        /// </summary>
-        /// <param name="filePath">The path the file which is going to be used to convert from file to 2D array</param>
-        /// <returns>The 2D double array</returns>
-        static double[,] ParseData(string filePath)
-        {
-            // Using the String class, will now be able to start the conversion of the CSV file to a 2D double array
-            String input = File.ReadAllText(filePath); 
-
-            // Initialize the counters for the rows and columns
-            int i = 0, j = 0; 
-
-            // Initialize the new 2D double array which has 10 rows and 7 columns
-            double[,] dataVals = new double[10, 7]; 
-
-            // Using nested foreach loop here, each row being separated by the new line ('\n')
-            foreach (var row in input.Split('\n'))
-            {
-                j = 0; 
-
-                // This inner foreach loop will look at the columns being separated by the comma (',')
-                foreach(var col in row.Trim().Split(','))
-                {
-                    // Populating the values of the 2D double array dataVals
-                    dataVals[i, j] = double.Parse(col.Trim());
-                    j++; // Increment the column
-                }
-                i++; // Increment the row
-            }
-
-            // Outputs the 2D double array dataVals in this return statement, and I will print out in the main method. 
-            return dataVals;
-        }
     }
 }
