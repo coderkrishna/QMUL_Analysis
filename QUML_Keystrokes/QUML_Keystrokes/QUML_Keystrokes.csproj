@@ -55,6 +55,8 @@
     <None Include="Latency Data\user5.csv" />
     <Content Include="Latency Data\user6.csv" />
     <Content Include="Latency Data\user7.csv" />
+    <None Include="Latency Data\user8.csv" />
+    <None Include="Latency Data\user9.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

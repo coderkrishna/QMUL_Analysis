@@ -18,11 +18,17 @@ concepts of machine learning.
 * Adding more user functionality so that the end user can be able to see which verifier to use and therefore see the results. 
 * Now creating the data structures for the additional data files which I just imported.  
 
-11th May 2014
+11th May 2015
 * Having a DataFiltering class with one method to really make sure that we put in a text file, 
 get out a 2D double array. 
 * Adding in the various comments and made sure that everything still makes sense. 
 
-12 May 2014
+12 May 2015
 * Adding in more user data, and right now, having all of the user data entered into the solution is most important thing to get done
 * Also to format the txt files and save them as csv files also is an important aspect to making this work
+
+13th May 2015
+* Going to add more users to this solution
+* Review the in-code documentation that is currently written and edit that.
+* After that will be writing the method to calculate the genuine scores
+which is part of the process for the Manhattan Verifier.

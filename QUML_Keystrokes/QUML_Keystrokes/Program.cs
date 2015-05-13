@@ -28,7 +28,11 @@ namespace QUML_Keystrokes
         static double[,] s002;
         static double[,] s003;
         static double[,] s004;
-        static double[,] s005; 
+        static double[,] s005;
+        static double[,] s006; // Added the new users 6 through 9 - 13th May 2015
+        static double[,] s007;
+        static double[,] s008;
+        static double[,] s009; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays
@@ -37,6 +41,10 @@ namespace QUML_Keystrokes
         static double[] s003_Mean;
         static double[] s004_Mean;
         static double[] s005_Mean;
+        static double[] s006_Mean; // Added the new users 6 through 9 - 13th May 2015
+        static double[] s007_Mean;
+        static double[] s008_Mean;
+        static double[] s009_Mean;
         #endregion
 
         /// <summary>
@@ -56,6 +64,10 @@ namespace QUML_Keystrokes
             s003 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             s004 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
             s005 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
+            s006 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv"); // Parsing the csv files of users 6 through 9 - 13th May 2015
+            s007 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
+            s008 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
+            s009 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -132,6 +144,12 @@ namespace QUML_Keystrokes
             s003_Mean = mD.CalculateMeanVector(s003);
             s004_Mean = mD.CalculateMeanVector(s004);
             s005_Mean = mD.CalculateMeanVector(s005); 
+
+            // Adding the mean vectors for users 6 through 9 here.
+            s006_Mean = mD.CalculateMeanVector(s006);
+            s007_Mean = mD.CalculateMeanVector(s007);
+            s008_Mean = mD.CalculateMeanVector(s008);
+            s009_Mean = mD.CalculateMeanVector(s009); 
             #endregion
         }
         #endregion
