@@ -151,6 +151,11 @@ namespace QUML_Keystrokes
             s008_Mean = mD.CalculateMeanVector(s008);
             s009_Mean = mD.CalculateMeanVector(s009); 
             #endregion
+
+            // Adding this code region to make the calculations
+            #region Calculating the genuine scores for each user
+            
+            #endregion
         }
         #endregion
     }

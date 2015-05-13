@@ -80,5 +80,16 @@ namespace QUML_Keystrokes
             // This is the return statement of the method. 
             return mean;
         }
+
+        /// <summary>
+        /// This is the method to calculate the genuine scores given the following parameters
+        /// </summary>
+        /// <param name="s001">The original user data that is in the form of a 2D double array</param>
+        /// <param name="s001_Mean">The mean vector that is formed from the original user data.</param>
+        /// <returns></returns>
+        public double[,] CalculateGenuineScores(double[,] s001, double[] s001_Mean)
+        {
+
+        }
     }
 }
