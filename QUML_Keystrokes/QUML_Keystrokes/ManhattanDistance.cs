@@ -86,10 +86,24 @@ namespace QUML_Keystrokes
         /// </summary>
         /// <param name="s001">The original user data that is in the form of a 2D double array</param>
         /// <param name="s001_Mean">The mean vector that is formed from the original user data.</param>
-        /// <returns></returns>
+        /// <returns>The 2D double array of genuine scores</returns>
         public double[,] CalculateGenuineScores(double[,] s001, double[] s001_Mean)
         {
+            // Creating the variable for the Genuine Scores here. (Local variable)
+            double[,] genScores = new double[s001.GetLength(0), s001.GetLength(1)];
 
+            // Iterating over the 2D double array.
+            for (int i = 0; i < s001.GetLength(0); i++)
+            {
+                for (int j = 0; j < s001.GetLength(1); j++)
+                {
+                    // This is populating the 2D double array of genuine scores.
+                    genScores[i, j] += (Math.Abs(s001[i, j] - s001_Mean[i])) / s001_Mean.Length; 
+                }
+            }
+
+            // Returns the Genuine Scores that are being calculated by the Manhattan Distance class
+            return genScores; 
         }
     }
 }

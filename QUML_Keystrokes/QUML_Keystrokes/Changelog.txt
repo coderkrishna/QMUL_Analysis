@@ -30,5 +30,9 @@ get out a 2D double array.
 13th May 2015
 * Going to add more users to this solution
 * Review the in-code documentation that is currently written and edit that.
-* After that will be writing the method to calculate the genuine scores
-which is part of the process for the Manhattan Verifier.
+* After that will be writing the method to calculate the genuine scores which is part of the process for the Manhattan Verifier.
+
+23rd May 2015
+* Reviewing the written code and catching up to speed.
+* Finishing up the genuine score calculation method.
+* Also keeping up with the changelog.
