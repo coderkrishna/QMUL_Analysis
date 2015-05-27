@@ -36,3 +36,9 @@ get out a 2D double array.
 * Reviewing the written code and catching up to speed.
 * Finishing up the genuine score calculation method.
 * Also keeping up with the changelog.
+
+27th May 2015
+* Adding more user data.
+* Making more progress with regards to the ManhattanDistance class. 
+* Also making sure to understand the EuclideanDistance verifier via examples and also then will be 
+planning out the pseudocode for it as well. 
