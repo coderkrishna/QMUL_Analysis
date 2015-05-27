@@ -48,6 +48,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Latency Data\user1.csv" />
+    <None Include="Latency Data\user10.csv" />
+    <None Include="Latency Data\user11.csv" />
+    <None Include="Latency Data\user12.csv" />
     <None Include="Latency Data\user2.csv" />
     <Content Include="Changelog.txt" />
     <Content Include="Latency Data\user3.csv" />

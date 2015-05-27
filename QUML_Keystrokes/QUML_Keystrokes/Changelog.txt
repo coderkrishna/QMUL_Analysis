@@ -38,7 +38,7 @@ get out a 2D double array.
 * Also keeping up with the changelog.
 
 27th May 2015
-* Adding more user data.
+* Adding more user data - users 10 through 12, the CSV files.  In code will be done later. 
 * Making more progress with regards to the ManhattanDistance class. 
 * Also making sure to understand the EuclideanDistance verifier via examples and also then will be 
 planning out the pseudocode for it as well. 
