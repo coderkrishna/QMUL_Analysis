@@ -32,7 +32,10 @@ namespace QUML_Keystrokes
         static double[,] s006; // Added the new users 6 through 9 - 13th May 2015
         static double[,] s007;
         static double[,] s008;
-        static double[,] s009; 
+        static double[,] s009;
+        static double[,] s010; // Adding the users 10, 11, and 12 - 27th May 2015
+        static double[,] s011;
+        static double[,] s012;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays
@@ -45,6 +48,9 @@ namespace QUML_Keystrokes
         static double[] s007_Mean;
         static double[] s008_Mean;
         static double[] s009_Mean;
+        static double[] s010_Mean; // Adding the mean vectors for users 10, 11, and 12 - 27th May 2015
+        static double[] s011_Mean;
+        static double[] s012_Mean;
         #endregion
 
         /// <summary>
@@ -68,6 +74,11 @@ namespace QUML_Keystrokes
             s007 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
             s008 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
             s009 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
+
+            // Parsing the CSV files for users 10, 11, and 12 - 27th May 2015
+            s010 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user10.csv");
+            s011 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user11.csv");
+            s012 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
