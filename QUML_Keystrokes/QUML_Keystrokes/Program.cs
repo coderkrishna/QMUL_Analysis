@@ -135,14 +135,14 @@ namespace QUML_Keystrokes
             s012 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv"); 
 
             // Parsing the CSV files for users 13 through 20 - 29th May 2015
-            s013 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
-            s014 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
-            s015 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
-            s016 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user16.csv");
-            s017 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user17.csv");
-            s018 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
-            s019 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
-            s020 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QUML_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
+            s013 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
+            s014 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
+            s015 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
+            s016 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user16.csv");
+            s017 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user17.csv");
+            s018 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
+            s019 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
+            s020 = dataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
