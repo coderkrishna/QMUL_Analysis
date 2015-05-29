@@ -42,3 +42,10 @@ get out a 2D double array.
 * Making more progress with regards to the ManhattanDistance class. 
 * Also making sure to understand the EuclideanDistance verifier via examples and also then will be 
 planning out the pseudocode for it as well. 
+
+29th May 2015
+* Making sure that I have an Excel file with which I can double check some key points in the Manhattan Distance verifier
+* Adding the calculations of the template vectors of users 10 through 20. 
+* Will begin the calculation of the genuine scores for users 1 through 20.
+* Adding more user data to this solution. Will be adding the data for users 13 through 20. (approximately eight more users into this solution)
+* Also ensuring that everything is okay even in execution. 
