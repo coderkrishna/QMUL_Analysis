@@ -264,14 +264,14 @@ namespace QUML_Keystrokes
             s020_Gen = mD.CalculateGenuineScores(s020, s020_Mean); 
             #endregion
 
-            // Really for printing out the genuine scores - as a test
-            for (int i = 0; i < s020_Gen.GetLength(0); i++)
+            // Printing out a test
+            for (int i = 0; i < s001.GetLength(0); i++)
             {
-                for (int j = 0; j < s020_Gen.GetLength(1); j++)
+                for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    Console.Write(string.Format("{0} ", s020_Gen[i, j])); 
+                    Console.Write(string.Format("{0} ", s001_Gen[i, j])); 
                 }
-                Console.Write(Environment.NewLine); 
+                Console.WriteLine(); 
             }
         }
         #endregion

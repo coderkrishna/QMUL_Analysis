@@ -49,3 +49,7 @@ planning out the pseudocode for it as well.
 * Will begin the calculation of the genuine scores for users 1 through 20.
 * Adding more user data to this solution. Will be adding the data for users 13 through 20. (approximately eight more users into this solution)
 * Also ensuring that everything is okay even in execution. 
+
+31st May 2015
+* Reviewing previously written code to be able to calculate the genuine scores
+* Now that is working correctly and I am beginning to have the results double checked

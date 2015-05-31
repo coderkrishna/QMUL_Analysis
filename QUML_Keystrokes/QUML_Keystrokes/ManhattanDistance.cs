@@ -90,20 +90,20 @@ namespace QUML_Keystrokes
         public double[,] CalculateGenuineScores(double[,] s001, double[] s001_Mean)
         {
             // Creating the variable for the Genuine Scores here. (Local variable)
-            double[,] genScores = new double[10, 7];
+            double[,] difference = new double[s001.GetLength(0), 7];
 
             // Iterating over the 2D double array.
-            for (int i = 0; i < 10; i++)
+            for (int i = 0; i < s001.GetLength(0); i++)
             {
-                for (int j = 0; j < 7; j++)
+                for (int j = 0; j < s001.GetLength(1); j++)
                 {
                     // This is populating the 2D double array of genuine scores.
-                    genScores[i, j] += (Math.Abs(s001[i, j] - s001_Mean[i])) / 10;
+                    difference[i, j] += (Math.Abs(s001[i, j] - s001_Mean[j])) / 10.0;
                 }
             }
 
             // Returns the Genuine Scores that are being calculated by the Manhattan Distance class
-            return genScores; 
+            return difference; 
         }
     }
 }
