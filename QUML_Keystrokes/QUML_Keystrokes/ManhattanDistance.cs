@@ -95,10 +95,10 @@ namespace QUML_Keystrokes
             // Iterating over the 2D double array.
             for (int i = 0; i < 10; i++)
             {
-                for (int j = 0; j < 6; j++)
+                for (int j = 0; j < 7; j++)
                 {
                     // This is populating the 2D double array of genuine scores.
-                    genScores[i, j] += (Math.Abs(s001[i, j] - s001_Mean[i])) / 10; 
+                    genScores[i, j] += (Math.Abs(s001[i, j] - s001_Mean[i])) / 10;
                 }
             }
 
