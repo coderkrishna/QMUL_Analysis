@@ -97,7 +97,7 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // This is populating the 2D double array of genuine scores.
+                    // This is populating the 2D double array of genuine scores. - Make sure to that the mean's indeces are on the indeces of the inner most loop (31st May 2015)
                     difference[i, j] += (Math.Abs(s001[i, j] - s001_Mean[j])) / 10.0;
                 }
             }
