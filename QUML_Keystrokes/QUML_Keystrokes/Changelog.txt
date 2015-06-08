@@ -47,9 +47,16 @@ planning out the pseudocode for it as well.
 * Making sure that I have an Excel file with which I can double check some key points in the Manhattan Distance verifier
 * Adding the calculations of the template vectors of users 10 through 20. 
 * Will begin the calculation of the genuine scores for users 1 through 20.
-* Adding more user data to this solution. Will be adding the data for users 13 through 20. (approximately eight more users into this solution)
+* Adding more user data to this solution. Will be adding the data for users 13 through 20. 
+(approximately eight more users into this solution)
 * Also ensuring that everything is okay even in execution. 
 
 31st May 2015
 * Reviewing previously written code to be able to calculate the genuine scores
 * Now that is working correctly and I am beginning to have the results double checked
+
+7th June 2015
+* Adding the EuclideanDistance.cs class file. 
+* Will be then adding more user data into this solution file, and then handling that in code. 
+* To-do: For the Manhattan Distance class, will have to write the method to be able to 
+calculate the impostor scores

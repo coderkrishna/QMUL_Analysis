@@ -197,12 +197,18 @@ namespace QUML_Keystrokes
         }
 
         /// <summary>
-        /// This is the method that will be executed when calculating the Euclidean verifier. 
+        /// This is the method that will be executed when calculating the Euclidean verifier, and 
+        /// will now be having this method be active. 
         /// </summary>
         private static void EuclideanVerifier()
         {
-            // Temporary place holder for the time being
-            Console.WriteLine("Going to now be calculating the Euclidean verifier - TBC");
+            // Use of professional practices (coding standards) in this solution. 
+            EuclideanDistance EuclidDist = new EuclideanDistance();
+
+            #region Populating the mean arrays for each user under the Euclidean Distance method
+            s001_Mean = EuclidDist.CalculateMeanVector(s001);
+            s002_Mean = EuclidDist.CalculateMeanVector(s002); 
+            #endregion
         }
 
         /// <summary>
@@ -211,68 +217,58 @@ namespace QUML_Keystrokes
         private static void ManhattanVerifier()
         {
             // Will now be going for the Manhattan Verifier class
-            ManhattanDistance mD = new ManhattanDistance();
+            ManhattanDistance ManhDist = new ManhattanDistance();
 
             #region Populating the mean arrays for each user
-            s001_Mean = mD.CalculateMeanVector(s001);
-            s002_Mean = mD.CalculateMeanVector(s002);
-            s003_Mean = mD.CalculateMeanVector(s003);
-            s004_Mean = mD.CalculateMeanVector(s004);
-            s005_Mean = mD.CalculateMeanVector(s005); 
+            s001_Mean = ManhDist.CalculateMeanVector(s001);
+            s002_Mean = ManhDist.CalculateMeanVector(s002);
+            s003_Mean = ManhDist.CalculateMeanVector(s003);
+            s004_Mean = ManhDist.CalculateMeanVector(s004);
+            s005_Mean = ManhDist.CalculateMeanVector(s005); 
 
             // Adding the mean vectors for users 6 through 9 here.
-            s006_Mean = mD.CalculateMeanVector(s006);
-            s007_Mean = mD.CalculateMeanVector(s007);
-            s008_Mean = mD.CalculateMeanVector(s008);
-            s009_Mean = mD.CalculateMeanVector(s009); 
+            s006_Mean = ManhDist.CalculateMeanVector(s006);
+            s007_Mean = ManhDist.CalculateMeanVector(s007);
+            s008_Mean = ManhDist.CalculateMeanVector(s008);
+            s009_Mean = ManhDist.CalculateMeanVector(s009); 
 
             // Adding the mean vectors for users 10 through 20 here - 29th May 2015
-            s010_Mean = mD.CalculateMeanVector(s010);
-            s011_Mean = mD.CalculateMeanVector(s011);
-            s012_Mean = mD.CalculateMeanVector(s012);
-            s013_Mean = mD.CalculateMeanVector(s013);
-            s014_Mean = mD.CalculateMeanVector(s014);
-            s015_Mean = mD.CalculateMeanVector(s015);
-            s016_Mean = mD.CalculateMeanVector(s016);
-            s017_Mean = mD.CalculateMeanVector(s017);
-            s018_Mean = mD.CalculateMeanVector(s018);
-            s019_Mean = mD.CalculateMeanVector(s019);
-            s020_Mean = mD.CalculateMeanVector(s020); 
+            s010_Mean = ManhDist.CalculateMeanVector(s010);
+            s011_Mean = ManhDist.CalculateMeanVector(s011);
+            s012_Mean = ManhDist.CalculateMeanVector(s012);
+            s013_Mean = ManhDist.CalculateMeanVector(s013);
+            s014_Mean = ManhDist.CalculateMeanVector(s014);
+            s015_Mean = ManhDist.CalculateMeanVector(s015);
+            s016_Mean = ManhDist.CalculateMeanVector(s016);
+            s017_Mean = ManhDist.CalculateMeanVector(s017);
+            s018_Mean = ManhDist.CalculateMeanVector(s018);
+            s019_Mean = ManhDist.CalculateMeanVector(s019);
+            s020_Mean = ManhDist.CalculateMeanVector(s020); 
             #endregion
 
             // This code region is designated for the calculations of the genuine scores (20 so far) - 29th May 2015
             #region Calculating the genuine scores for each user
-            s001_Gen = mD.CalculateGenuineScores(s001, s001_Mean);
-            s002_Gen = mD.CalculateGenuineScores(s002, s002_Mean);
-            s003_Gen = mD.CalculateGenuineScores(s003, s003_Mean);
-            s004_Gen = mD.CalculateGenuineScores(s004, s004_Mean);
-            s005_Gen = mD.CalculateGenuineScores(s005, s005_Mean);
-            s006_Gen = mD.CalculateGenuineScores(s006, s006_Mean);
-            s007_Gen = mD.CalculateGenuineScores(s007, s007_Mean);
-            s008_Gen = mD.CalculateGenuineScores(s008, s008_Mean);
-            s009_Gen = mD.CalculateGenuineScores(s009, s009_Mean);
-            s010_Gen = mD.CalculateGenuineScores(s010, s010_Mean);
-            s011_Gen = mD.CalculateGenuineScores(s011, s011_Mean);
-            s012_Gen = mD.CalculateGenuineScores(s012, s012_Mean);
-            s013_Gen = mD.CalculateGenuineScores(s013, s013_Mean);
-            s014_Gen = mD.CalculateGenuineScores(s014, s014_Mean);
-            s015_Gen = mD.CalculateGenuineScores(s015, s015_Mean);
-            s016_Gen = mD.CalculateGenuineScores(s016, s016_Mean);
-            s017_Gen = mD.CalculateGenuineScores(s017, s017_Mean);
-            s018_Gen = mD.CalculateGenuineScores(s018, s018_Mean);
-            s019_Gen = mD.CalculateGenuineScores(s019, s019_Mean);
-            s020_Gen = mD.CalculateGenuineScores(s020, s020_Mean); 
+            s001_Gen = ManhDist.CalculateGenuineScores(s001, s001_Mean);
+            s002_Gen = ManhDist.CalculateGenuineScores(s002, s002_Mean);
+            s003_Gen = ManhDist.CalculateGenuineScores(s003, s003_Mean);
+            s004_Gen = ManhDist.CalculateGenuineScores(s004, s004_Mean);
+            s005_Gen = ManhDist.CalculateGenuineScores(s005, s005_Mean);
+            s006_Gen = ManhDist.CalculateGenuineScores(s006, s006_Mean);
+            s007_Gen = ManhDist.CalculateGenuineScores(s007, s007_Mean);
+            s008_Gen = ManhDist.CalculateGenuineScores(s008, s008_Mean);
+            s009_Gen = ManhDist.CalculateGenuineScores(s009, s009_Mean);
+            s010_Gen = ManhDist.CalculateGenuineScores(s010, s010_Mean);
+            s011_Gen = ManhDist.CalculateGenuineScores(s011, s011_Mean);
+            s012_Gen = ManhDist.CalculateGenuineScores(s012, s012_Mean);
+            s013_Gen = ManhDist.CalculateGenuineScores(s013, s013_Mean);
+            s014_Gen = ManhDist.CalculateGenuineScores(s014, s014_Mean);
+            s015_Gen = ManhDist.CalculateGenuineScores(s015, s015_Mean);
+            s016_Gen = ManhDist.CalculateGenuineScores(s016, s016_Mean);
+            s017_Gen = ManhDist.CalculateGenuineScores(s017, s017_Mean);
+            s018_Gen = ManhDist.CalculateGenuineScores(s018, s018_Mean);
+            s019_Gen = ManhDist.CalculateGenuineScores(s019, s019_Mean);
+            s020_Gen = ManhDist.CalculateGenuineScores(s020, s020_Mean);
             #endregion
-
-            // Printing out a test
-            for (int i = 0; i < s001.GetLength(0); i++)
-            {
-                for (int j = 0; j < s001.GetLength(1); j++)
-                {
-                    Console.Write(string.Format("{0} ", s001_Gen[i, j])); 
-                }
-                Console.WriteLine(); 
-            }
         }
         #endregion
     }

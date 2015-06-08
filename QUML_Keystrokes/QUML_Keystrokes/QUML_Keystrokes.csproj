@@ -42,6 +42,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DataFiltering.cs" />
+    <Compile Include="EuclideanDistance.cs" />
     <Compile Include="ManhattanDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
