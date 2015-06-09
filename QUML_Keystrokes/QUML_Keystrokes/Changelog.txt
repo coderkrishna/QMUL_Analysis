@@ -57,6 +57,11 @@ planning out the pseudocode for it as well.
 
 7th June 2015
 * Adding the EuclideanDistance.cs class file. 
-* Will be then adding more user data into this solution file, and then handling that in code. 
+* Will be then adding more user data into this solution file, and then handling that in code. (TODO item) 
 * To-do: For the Manhattan Distance class, will have to write the method to be able to 
 calculate the impostor scores
+
+9th June 2015
+* Making some more changes with the in-code documentation.
+* Also will be adding the method to calculate the impostor scores (zero-effort impostor scores)
+* If possible, will add maybe three more users (raw data)

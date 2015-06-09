@@ -63,6 +63,9 @@
     <Content Include="Changelog.txt" />
     <Content Include="Latency Data\user3.csv" />
     <None Include="Latency Data\user20.csv" />
+    <None Include="Latency Data\user21.csv" />
+    <None Include="Latency Data\user22.csv" />
+    <None Include="Latency Data\user23.csv" />
     <None Include="Latency Data\user4.csv" />
     <None Include="Latency Data\user5.csv" />
     <Content Include="Latency Data\user6.csv" />
