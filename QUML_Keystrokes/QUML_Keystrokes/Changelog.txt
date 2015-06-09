@@ -64,4 +64,5 @@ calculate the impostor scores
 9th June 2015
 * Making some more changes with the in-code documentation.
 * Also will be adding the method to calculate the impostor scores (zero-effort impostor scores)
-* If possible, will add maybe three more users (raw data)
+	* For the ManhattanDistance.cs class file
+* If possible, will add maybe three more users (raw data) - That is done!

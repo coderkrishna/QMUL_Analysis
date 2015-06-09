@@ -7,8 +7,9 @@ using System.IO; // Required using statement for File I/O
 ///<summary>
 /// Pranav S. Krishnamurthy
 /// Project: Analyzing a Keystrokes data set on my own. 
-/// Version: 0.2
-/// Verifier: Manhattan Verifier
+/// Version: 1.0
+/// Verifiers: Manhattan, Euclidean, Scaled Manhattan, and Scaled Euclidean - These are the four verifiers are the ones
+/// being used in this project right now.  
 /// 
 /// Source of the Data: http://www.eecs.qmul.ac.uk/~ccloy/downloads_keystroke100.html
 ///</summary>
@@ -19,7 +20,8 @@ namespace QUML_Keystrokes
     /// This is the main class where all of the execution will be taking place. 
     /// Right now here is what is going on:
     /// 1. DataFiltering class will be called in order to properly make sure the data is in the right format for processing
-    /// 2. ManhattanDistance class will then be called for all of the data to be properly manipulated. 
+    /// 2. ManhattanDistance class will then be called for all of the data to be properly manipulated.
+    /// 3. EuclideanDistance class will be called for all of the data to be used in the Euclidean Verifier.
     /// </summary>
     class Program
     {
@@ -50,59 +52,74 @@ namespace QUML_Keystrokes
         static double[,] s018;
         static double[,] s019;
         static double[,] s020; 
+
+        // Adding the users 21 through 23 - 9th June 2015
+        static double[,] s021;
+        static double[,] s022;
+        static double[,] s023; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
-        static double[] s001_Mean;
-        static double[] s002_Mean;
-        static double[] s003_Mean;
-        static double[] s004_Mean;
-        static double[] s005_Mean;
-        static double[] s006_Mean; 
+        static double[] s001Mean;
+        static double[] s002Mean;
+        static double[] s003Mean;
+        static double[] s004Mean;
+        static double[] s005Mean;
+        static double[] s006Mean; 
         
         // Added the new users 6 through 9 - 13th May 2015
-        static double[] s007_Mean;
-        static double[] s008_Mean;
-        static double[] s009_Mean;
-        static double[] s010_Mean; 
+        static double[] s007Mean;
+        static double[] s008Mean;
+        static double[] s009Mean;
+        static double[] s010Mean; 
         
         // Adding the mean vectors for users 10, 11, and 12 - 27th May 2015
-        static double[] s011_Mean;
-        static double[] s012_Mean;
-        static double[] s013_Mean;
-        static double[] s014_Mean;
-        static double[] s015_Mean;
-        static double[] s016_Mean;
-        static double[] s017_Mean;
-        static double[] s018_Mean;
-        static double[] s019_Mean;
-        static double[] s020_Mean;
+        static double[] s011Mean;
+        static double[] s012Mean;
+        static double[] s013Mean;
+        static double[] s014Mean;
+        static double[] s015Mean;
+        static double[] s016Mean;
+        static double[] s017Mean;
+        static double[] s018Mean;
+        static double[] s019Mean;
+        static double[] s020Mean;
+
+        // Adding the mean vectors for users 21 through 23 - 9th June 2015
+        static double[] s021Mean;
+        static double[] s022Mean;
+        static double[] s023Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
         // Adding the genuine scores for users 1 through 12 - 29th May 2015
-        static double[,] s001_Gen;
-        static double[,] s002_Gen;
-        static double[,] s003_Gen;
-        static double[,] s004_Gen;
-        static double[,] s005_Gen;
-        static double[,] s006_Gen;
-        static double[,] s007_Gen;
-        static double[,] s008_Gen;
-        static double[,] s009_Gen;
-        static double[,] s010_Gen;
-        static double[,] s011_Gen;
-        static double[,] s012_Gen;
+        static double[,] s001Gen;
+        static double[,] s002Gen;
+        static double[,] s003Gen;
+        static double[,] s004Gen;
+        static double[,] s005Gen;
+        static double[,] s006Gen;
+        static double[,] s007Gen;
+        static double[,] s008Gen;
+        static double[,] s009Gen;
+        static double[,] s010Gen;
+        static double[,] s011Gen;
+        static double[,] s012Gen;
 
         // Adding the genuine scores for users 13 through 20 - 29th May 2015 @ 5:34 pm
-        static double[,] s013_Gen;
-        static double[,] s014_Gen;
-        static double[,] s015_Gen;
-        static double[,] s016_Gen;
-        static double[,] s017_Gen;
-        static double[,] s018_Gen;
-        static double[,] s019_Gen;
-        static double[,] s020_Gen; 
+        static double[,] s013Gen;
+        static double[,] s014Gen;
+        static double[,] s015Gen;
+        static double[,] s016Gen;
+        static double[,] s017Gen;
+        static double[,] s018Gen;
+        static double[,] s019Gen;
+        static double[,] s020Gen; 
+
+        // Adding the genuine scores for users 21 through 23 - 9th June 2015
+        static double[,] s021Gen;
+        static double[,] s022Gen;
+        static double[,] s023Gen;
         #endregion
 
         /// <summary>
@@ -143,6 +160,11 @@ namespace QUML_Keystrokes
             s018 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
             s019 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
             s020 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
+
+            // Inserting the CSV files to be parsed for users 21 through 23.  - 9th June 2015
+            s021 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
+            s022 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
+            s023 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -208,8 +230,34 @@ namespace QUML_Keystrokes
             EuclideanDistance EuclidDist = new EuclideanDistance();
 
             #region Populating the mean arrays for each user under the Euclidean Distance method
-            s001_Mean = EuclidDist.CalculateMeanVector(s001);
-            s002_Mean = EuclidDist.CalculateMeanVector(s002); 
+            // Adding users 1 through 23 here - 9th June 2015
+
+            // First users 1 through 10
+            s001Mean = EuclidDist.CalculateMeanVector(s001);
+            s002Mean = EuclidDist.CalculateMeanVector(s002);
+            s003Mean = EuclidDist.CalculateMeanVector(s003);
+            s004Mean = EuclidDist.CalculateMeanVector(s004);
+            s005Mean = EuclidDist.CalculateMeanVector(s005);
+            s006Mean = EuclidDist.CalculateMeanVector(s006);
+            s007Mean = EuclidDist.CalculateMeanVector(s007);
+            s008Mean = EuclidDist.CalculateMeanVector(s008);
+            s009Mean = EuclidDist.CalculateMeanVector(s009);
+            s010Mean = EuclidDist.CalculateMeanVector(s010); 
+
+            // Next users 10 through 23
+            s011Mean = EuclidDist.CalculateMeanVector(s011);
+            s012Mean = EuclidDist.CalculateMeanVector(s012);
+            s013Mean = EuclidDist.CalculateMeanVector(s013);
+            s014Mean = EuclidDist.CalculateMeanVector(s014);
+            s015Mean = EuclidDist.CalculateMeanVector(s015);
+            s016Mean = EuclidDist.CalculateMeanVector(s016);
+            s017Mean = EuclidDist.CalculateMeanVector(s017);
+            s018Mean = EuclidDist.CalculateMeanVector(s018);
+            s019Mean = EuclidDist.CalculateMeanVector(s019);
+            s020Mean = EuclidDist.CalculateMeanVector(s020);
+            s021Mean = EuclidDist.CalculateMeanVector(s021);
+            s022Mean = EuclidDist.CalculateMeanVector(s022);
+            s023Mean = EuclidDist.CalculateMeanVector(s023); 
             #endregion
         }
 
@@ -222,54 +270,67 @@ namespace QUML_Keystrokes
             ManhattanDistance ManhDist = new ManhattanDistance();
 
             #region Populating the mean arrays for each user
-            s001_Mean = ManhDist.CalculateMeanVector(s001);
-            s002_Mean = ManhDist.CalculateMeanVector(s002);
-            s003_Mean = ManhDist.CalculateMeanVector(s003);
-            s004_Mean = ManhDist.CalculateMeanVector(s004);
-            s005_Mean = ManhDist.CalculateMeanVector(s005); 
+            s001Mean = ManhDist.CalculateMeanVector(s001);
+            s002Mean = ManhDist.CalculateMeanVector(s002);
+            s003Mean = ManhDist.CalculateMeanVector(s003);
+            s004Mean = ManhDist.CalculateMeanVector(s004);
+            s005Mean = ManhDist.CalculateMeanVector(s005); 
 
             // Adding the mean vectors for users 6 through 9 here.
-            s006_Mean = ManhDist.CalculateMeanVector(s006);
-            s007_Mean = ManhDist.CalculateMeanVector(s007);
-            s008_Mean = ManhDist.CalculateMeanVector(s008);
-            s009_Mean = ManhDist.CalculateMeanVector(s009); 
+            s006Mean = ManhDist.CalculateMeanVector(s006);
+            s007Mean = ManhDist.CalculateMeanVector(s007);
+            s008Mean = ManhDist.CalculateMeanVector(s008);
+            s009Mean = ManhDist.CalculateMeanVector(s009); 
 
             // Adding the mean vectors for users 10 through 20 here - 29th May 2015
-            s010_Mean = ManhDist.CalculateMeanVector(s010);
-            s011_Mean = ManhDist.CalculateMeanVector(s011);
-            s012_Mean = ManhDist.CalculateMeanVector(s012);
-            s013_Mean = ManhDist.CalculateMeanVector(s013);
-            s014_Mean = ManhDist.CalculateMeanVector(s014);
-            s015_Mean = ManhDist.CalculateMeanVector(s015);
-            s016_Mean = ManhDist.CalculateMeanVector(s016);
-            s017_Mean = ManhDist.CalculateMeanVector(s017);
-            s018_Mean = ManhDist.CalculateMeanVector(s018);
-            s019_Mean = ManhDist.CalculateMeanVector(s019);
-            s020_Mean = ManhDist.CalculateMeanVector(s020); 
+            s010Mean = ManhDist.CalculateMeanVector(s010);
+            s011Mean = ManhDist.CalculateMeanVector(s011);
+            s012Mean = ManhDist.CalculateMeanVector(s012);
+            s013Mean = ManhDist.CalculateMeanVector(s013);
+            s014Mean = ManhDist.CalculateMeanVector(s014);
+            s015Mean = ManhDist.CalculateMeanVector(s015);
+            s016Mean = ManhDist.CalculateMeanVector(s016);
+            s017Mean = ManhDist.CalculateMeanVector(s017);
+            s018Mean = ManhDist.CalculateMeanVector(s018);
+            s019Mean = ManhDist.CalculateMeanVector(s019);
+            s020Mean = ManhDist.CalculateMeanVector(s020);
+ 
+            // Adding the mean vectors for users 21 through 23 - 9th June 2015
+            s021Mean = ManhDist.CalculateMeanVector(s021);
+            s022Mean = ManhDist.CalculateMeanVector(s022);
+            s023Mean = ManhDist.CalculateMeanVector(s023); 
             #endregion
 
-            // This code region is designated for the calculations of the genuine scores (20 so far) - 29th May 2015
+            /**
+             * Having the genuine scores being calculated for 20 users (so far) - 29th May 2015
+             * Adding the genuine scores for users 21 through 23 - 9th June 2015.  
+             **/
             #region Calculating the genuine scores for each user
-            s001_Gen = ManhDist.CalculateGenuineScores(s001, s001_Mean);
-            s002_Gen = ManhDist.CalculateGenuineScores(s002, s002_Mean);
-            s003_Gen = ManhDist.CalculateGenuineScores(s003, s003_Mean);
-            s004_Gen = ManhDist.CalculateGenuineScores(s004, s004_Mean);
-            s005_Gen = ManhDist.CalculateGenuineScores(s005, s005_Mean);
-            s006_Gen = ManhDist.CalculateGenuineScores(s006, s006_Mean);
-            s007_Gen = ManhDist.CalculateGenuineScores(s007, s007_Mean);
-            s008_Gen = ManhDist.CalculateGenuineScores(s008, s008_Mean);
-            s009_Gen = ManhDist.CalculateGenuineScores(s009, s009_Mean);
-            s010_Gen = ManhDist.CalculateGenuineScores(s010, s010_Mean);
-            s011_Gen = ManhDist.CalculateGenuineScores(s011, s011_Mean);
-            s012_Gen = ManhDist.CalculateGenuineScores(s012, s012_Mean);
-            s013_Gen = ManhDist.CalculateGenuineScores(s013, s013_Mean);
-            s014_Gen = ManhDist.CalculateGenuineScores(s014, s014_Mean);
-            s015_Gen = ManhDist.CalculateGenuineScores(s015, s015_Mean);
-            s016_Gen = ManhDist.CalculateGenuineScores(s016, s016_Mean);
-            s017_Gen = ManhDist.CalculateGenuineScores(s017, s017_Mean);
-            s018_Gen = ManhDist.CalculateGenuineScores(s018, s018_Mean);
-            s019_Gen = ManhDist.CalculateGenuineScores(s019, s019_Mean);
-            s020_Gen = ManhDist.CalculateGenuineScores(s020, s020_Mean);
+            s001Gen = ManhDist.CalculateGenuineScores(s001, s001Mean);
+            s002Gen = ManhDist.CalculateGenuineScores(s002, s002Mean);
+            s003Gen = ManhDist.CalculateGenuineScores(s003, s003Mean);
+            s004Gen = ManhDist.CalculateGenuineScores(s004, s004Mean);
+            s005Gen = ManhDist.CalculateGenuineScores(s005, s005Mean);
+            s006Gen = ManhDist.CalculateGenuineScores(s006, s006Mean);
+            s007Gen = ManhDist.CalculateGenuineScores(s007, s007Mean);
+            s008Gen = ManhDist.CalculateGenuineScores(s008, s008Mean);
+            s009Gen = ManhDist.CalculateGenuineScores(s009, s009Mean);
+            s010Gen = ManhDist.CalculateGenuineScores(s010, s010Mean);
+            s011Gen = ManhDist.CalculateGenuineScores(s011, s011Mean);
+            s012Gen = ManhDist.CalculateGenuineScores(s012, s012Mean);
+            s013Gen = ManhDist.CalculateGenuineScores(s013, s013Mean);
+            s014Gen = ManhDist.CalculateGenuineScores(s014, s014Mean);
+            s015Gen = ManhDist.CalculateGenuineScores(s015, s015Mean);
+            s016Gen = ManhDist.CalculateGenuineScores(s016, s016Mean);
+            s017Gen = ManhDist.CalculateGenuineScores(s017, s017Mean);
+            s018Gen = ManhDist.CalculateGenuineScores(s018, s018Mean);
+            s019Gen = ManhDist.CalculateGenuineScores(s019, s019Mean);
+            s020Gen = ManhDist.CalculateGenuineScores(s020, s020Mean);
+
+            // Adding the genuine scores for users 21 through 23 - 9th June 2015
+            s021Gen = ManhDist.CalculateGenuineScores(s021, s021Mean);
+            s022Gen = ManhDist.CalculateGenuineScores(s022, s022Mean);
+            s023Gen = ManhDist.CalculateGenuineScores(s023, s023Mean); 
             #endregion
         }
         #endregion
