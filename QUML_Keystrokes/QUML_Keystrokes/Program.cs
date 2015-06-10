@@ -161,7 +161,7 @@ namespace QUML_Keystrokes
             s019 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
             s020 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
 
-            // Inserting the CSV files to be parsed for users 21 through 23.  - 9th June 2015
+            // Inserting the CSV files to be parsed for users 21 through 23 - 9th June 2015
             s021 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
             s022 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
             s023 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
@@ -175,17 +175,17 @@ namespace QUML_Keystrokes
             {
                 case "0":
                     // Accesses the Manhattan Verifier method - Accesses the ManhattanDistance.cs class file 
-                    ManhattanVerifier();
+                    UseManhattanVerifier();
                     break;
                 case "1":
                     // Accesses the Euclidean Verifier method - Accesses the EuclideanDistance.cs class file
-                    EuclideanVerifier();
+                    UseEuclideanVerifier();
                     break; 
                 case "2":
-                    SMVerifier();
+                    UseScaledManhattanVerifier();
                     break;
                 case "3":
-                    SEVerifier();
+                    UseScaledEuclideanVerifier();
                     break; 
                 case "4":
                     Console.WriteLine("The program will now quit. Good Bye!");
@@ -205,7 +205,7 @@ namespace QUML_Keystrokes
         /// This is the method which will jump to the Scaled Euclidean Class and then 
         /// the various methods associated with this class file will be executed.
         /// </summary>
-        private static void SEVerifier()
+        private static void UseScaledEuclideanVerifier()
         {
             // Temporary place holder for the time being
             Console.WriteLine("Scaled Euclidean Verifer - TBC (To Be Coded)");
@@ -214,7 +214,7 @@ namespace QUML_Keystrokes
         /// <summary>
         /// This is the method to be executed for which the Scaled Manhattan Verifier will be executed. 
         /// </summary>
-        private static void SMVerifier()
+        private static void UseScaledManhattanVerifier()
         {
             // Some temporary place holder text
             Console.WriteLine("Scaled Manhattan Verifier - TBC");
@@ -224,7 +224,7 @@ namespace QUML_Keystrokes
         /// This is the method that will be executed when calculating the Euclidean verifier, and 
         /// will now be having this method be active. 
         /// </summary>
-        private static void EuclideanVerifier()
+        private static void UseEuclideanVerifier()
         {
             // Use of professional practices (coding standards) in this solution. 
             EuclideanDistance EuclidDist = new EuclideanDistance();
@@ -264,7 +264,7 @@ namespace QUML_Keystrokes
         /// <summary>
         /// This method will now jump to the ManhattanDistance class file and execute those methods.
         /// </summary>
-        private static void ManhattanVerifier()
+        private static void UseManhattanVerifier()
         {
             // Will now be going for the Manhattan Verifier class
             ManhattanDistance ManhDist = new ManhattanDistance();

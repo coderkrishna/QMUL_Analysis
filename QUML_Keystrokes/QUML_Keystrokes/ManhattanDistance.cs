@@ -86,25 +86,58 @@ namespace QUML_Keystrokes
         /// This is the method to calculate the genuine scores given the following parameters
         /// </summary>
         /// <param name="s001">The original user data that is in the form of a 2D double array</param>
-        /// <param name="s001_Mean">The mean vector that is formed from the original user data.</param>
+        /// <param name="s001Mean">The mean vector that is formed from the original user data.</param>
         /// <returns>The 2D double array of genuine scores</returns>
-        public double[,] CalculateGenuineScores(double[,] s001, double[] s001_Mean)
+        public double[,] CalculateGenuineScores(double[,] s001, double[] s001Mean)
         {
             // Creating the variable for the Genuine Scores here. (Local variable)
-            double[,] difference = new double[s001.GetLength(0), 7];
+            double[,] genScoreMatrix = new double[s001.GetLength(0), s001.GetLength(1)];
 
             // Iterating over the 2D double array.
             for (int i = 0; i < s001.GetLength(0); i++)
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // This is populating the 2D double array of genuine scores. - Make sure to that the mean's indeces are on the indeces of the inner most loop (31st May 2015)
-                    difference[i, j] += (Math.Abs(s001[i, j] - s001_Mean[j])) / 10.0;
+                    // This is populating the 2D double array of genuine scores. - Make sure to that the mean's 
+                    // indeces are on the indeces of the inner most loop (31st May 2015)
+                    genScoreMatrix[i, j] += (Math.Abs(s001[i, j] - s001Mean[j])) / 10.0;
                 }
             }
 
             // Returns the Genuine Scores that are being calculated by the Manhattan Distance class
-            return difference; 
+            return genScoreMatrix; 
+        }
+
+        /// <summary>
+        /// This is the method where the zero-effort impostor scores are calculated.
+        /// Zero-Effort means that the training data (used for Genuine Scores) and
+        /// the testing data (used for Impostor Scores) are all in the same data set. 
+        /// </summary>
+        /// <param name="s001Mean">The mean of the user for which we are calculating impostor scores</param>
+        /// <param name="s002">Data that will be used as test data, which comes from another user</param>
+        /// <returns>The impostor scores for a specific user will be returned</returns>
+        public double[,] CalculateImpostorScores(double[] s001Mean, double[,] s002)
+        {
+            // Creating the variable for the Impostor scores here (local variable). 
+            double[,] impScoreMatrix = new double[s002.GetLength(0), s002.GetLength(1)]; 
+
+            /*
+             * Iterating over the test vector (s002 as the test vector), and going over
+             * each row and column, making sure that each and every element is accessed
+             * and that the correct mathematical operations are being performed and the
+             * results can be double-checked later on.  
+             */
+            for (int i = 0; i < s002.GetLength(0); i++)
+            {
+                for (int j = 0; j < s002.GetLength(1); j++)
+                {
+                    // Performing the calculations and populating the impScoreMatrix
+                    impScoreMatrix[i, j] += (Math.Abs(s002[i, j] - s001Mean[j])) / 10.0; 
+                }
+            }
+
+            // Returning the results of the impostor score matrix
+            return impScoreMatrix; 
         }
     }
 }

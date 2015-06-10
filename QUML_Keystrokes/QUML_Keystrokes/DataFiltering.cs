@@ -22,7 +22,7 @@ namespace QUML_Keystrokes
         public double[,] ParseData(string filePath)
         {
             // Using the String class, will now be able to start the conversion of the CSV file to a 2D double array
-            String input = File.ReadAllText(filePath);
+            String inputFile = File.ReadAllText(filePath);
 
             // Initialize the counters for the rows and columns
             int i = 0, j = 0;
@@ -31,7 +31,7 @@ namespace QUML_Keystrokes
             double[,] dataVals = new double[10, 7];
 
             // Using nested foreach loop here, each row being separated by the new line ('\n')
-            foreach (var row in input.Split('\n'))
+            foreach (var row in inputFile.Split('\n'))
             {
                 j = 0;
 
@@ -40,7 +40,9 @@ namespace QUML_Keystrokes
                 {
                     // Populating the values of the 2D double array dataVals
                     dataVals[i, j] = double.Parse(col.Trim());
-                    j++; // Increment the column
+
+                    // Increment the column
+                    j++; 
                 }
                 i++; // Increment the row
             }
