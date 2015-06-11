@@ -78,3 +78,8 @@ and CalculateFalseRejectRate(params go here).
 * Begin to double check the manhattan distance results (even the intermediate steps)
 	* From the mean calculations, to the genuine scores that are generated.
 	* Next, double check on the impostor scores that are generated.
+
+11th June 2015
+* Today, I am going to be adding more user data - hopefully
+* Have to be on top of this coding, and also make sure to write abiding by the Bluesmith C# standards.
+* Make sure to have the calls made for the impostor scores
