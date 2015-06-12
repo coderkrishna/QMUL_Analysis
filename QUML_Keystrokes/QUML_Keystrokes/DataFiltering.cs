@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+ * Author: Pranav Krishnamurthy
+ * 
+ * File Name: DataFiltering.cs
+ * 
+ * Version History
+ * 
+ * Version  Date        Who     Description
+ * -------  ----------  ------- ---------------
+ * 1.0      11/05/2015  PKR     Original Version
+ * 1.1      12/06/2015  PKR     Updating in-code documentation
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,9 +20,8 @@ using System.IO;
 namespace QUML_Keystrokes
 {
     /// <summary>
-    /// Pranav S. Krishnamurthy
-    /// Adding in the DataFiltering Class which can be able to use as much as possible with
-    /// outside classes thereby having some type of a custom API which is built entirely from C#.   
+    /// This class will be converting a .csv class file into a 2D double array to be used
+    /// for calculations with various statistical measures (or verifiers)
     /// </summary>
     public class DataFiltering
     {

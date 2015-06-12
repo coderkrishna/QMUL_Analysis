@@ -1,4 +1,16 @@
-﻿using System;
+﻿/*
+ * Author: Pranav Krishnamurthy
+ * File Name: ManhattanDistance.cs
+ * 
+ * Version History
+ * 
+ * Version  Date        Who     Description
+ * -------  ----------  ------- ---------------
+ * 1.0      03/05/2015  PKR     Original Version
+ * 1.2      11/06/2015  PKR     Calculated the genuine and impostor scores
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,10 +19,8 @@ using System.IO; // This is for the I/O
 namespace QUML_Keystrokes
 {
     /// <summary>
-    /// Pranav S. Krishnamurthy
-    /// Date Created: 5th May 2015
-    /// This class will now  be used for calculating the Manhattan Distance for the various parameters and will be returning
-    /// back to the Main driver class when it is appropriately done so.
+    /// This class will be performing the calculations using the Manhattan Distance verifier, and 
+    /// then calculate the False Accept and False Reject rates.  
     /// </summary>
     public class ManhattanDistance
     {

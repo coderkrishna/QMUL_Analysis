@@ -1,4 +1,17 @@
-﻿using System;
+﻿/*
+ * Author: Pranav Krishnamurthy
+ * 
+ * File Name: EuclideanDistance.cs
+ * 
+ * Version History
+ * 
+ * Version  Date        Who     Description
+ * -------  ----------  ------- ---------------
+ * 1.0      07/06/2015  PKR     Original Version
+ * 1.1      12/06/2015  PKR     Updating various aspects with regards to in-code documentation
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -7,11 +20,8 @@ using System.IO; // This is required for the I/O with regards to text files and 
 namespace QUML_Keystrokes
 {
     /// <summary>
-    /// Author: Pranav S. Krishnamurthy
     /// Purpose: To be able to calculate the Euclidean Distance with the raw data that has been
-    /// given already. 
-    /// Version: 0.1
-    /// Date Created: 7th June 2015
+    /// already processed
     /// </summary>
     public class EuclideanDistance
     {

@@ -1,16 +1,26 @@
-﻿using System;
+﻿/*
+ * Author: Pranav Krishnamurthy
+ * File Name: ManhattanDistance.cs
+ * 
+ * Version History
+ * 
+ * Version  Date        Who     Description
+ * -------  ----------  ------- ---------------
+ * 1.0      03/05/2015  PKR     Original Version
+ * 1.1      29/05/2015  PKR     Adding more users in-code and also calculating the Mean vectors under the Manhattan Distance class
+ * 1.2      09/06/2015  PKR     Adding users in-code
+ * 1.3      10/06/2015  PKR     More method calls from the ManhattanDistance.cs class file for calculation purposes
+ * 1.2      11/06/2015  PKR     Adding more users - in the repository
+ * 1.4      12/06/2015  PKR     Adding more users in-code, updating in-code documentation
+ */
+
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.IO; // Required using statement for File I/O
 
 ///<summary>
-/// Pranav S. Krishnamurthy
-/// Project: Analyzing a Keystrokes data set on my own. 
-/// Version: 1.0
-/// Verifiers: Manhattan, Euclidean, Scaled Manhattan, and Scaled Euclidean - These are the four verifiers are the ones
-/// being used in this project right now.  
-/// 
 /// Source of the Data: http://www.eecs.qmul.ac.uk/~ccloy/downloads_keystroke100.html
 ///</summary>
 
@@ -18,14 +28,10 @@ namespace QUML_Keystrokes
 {
     /// <summary>
     /// This is the main class where all of the execution will be taking place. 
-    /// Right now here is what is going on:
-    /// 1. DataFiltering class will be called in order to properly make sure the data is in the right format for processing
-    /// 2. ManhattanDistance class will then be called for all of the data to be properly manipulated.
-    /// 3. EuclideanDistance class will be called for all of the data to be used in the Euclidean Verifier.
     /// </summary>
     class Program
     {
-        #region Static 2D Double arrays for all of the users - using the dataFilter.ParseData(string filepath) method
+        #region Static 2D Double arrays for all of the users - using the DataFilter.ParseData(string filepath) method
         static double[,] s001; 
         static double[,] s002;
         static double[,] s003;
