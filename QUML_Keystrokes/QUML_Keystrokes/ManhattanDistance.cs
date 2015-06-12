@@ -1,12 +1,13 @@
 ﻿/*
  * Author: Pranav Krishnamurthy
+ * 
  * File Name: ManhattanDistance.cs
  * 
  * Version History
  * 
- * Version  Date        Who     Description
+ * Version  Date        Author     Description
  * -------  ----------  ------- ---------------
- * 1.0      03/05/2015  PKR     Original Version
+ * 1.0      05/05/2015  PKR     Original Version
  * 1.2      11/06/2015  PKR     Calculated the genuine and impostor scores
  */
 

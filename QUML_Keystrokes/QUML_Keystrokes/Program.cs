@@ -1,6 +1,7 @@
 ﻿/*
  * Author: Pranav Krishnamurthy
- * File Name: ManhattanDistance.cs
+ * 
+ * File Name: Program.cs
  * 
  * Version History
  * 
@@ -12,6 +13,8 @@
  * 1.3      10/06/2015  PKR     More method calls from the ManhattanDistance.cs class file for calculation purposes
  * 1.2      11/06/2015  PKR     Adding more users - in the repository
  * 1.4      12/06/2015  PKR     Adding more users in-code, updating in-code documentation
+ * 1.4.1    12/06/2015  PKR     Adding the static variables for more users, will have to populate all of them soon. 
+ * 1.4.2    12/06/2015  PKR     Added users 24 through 26 in-code right now. 
  */
 
 using System;
@@ -63,6 +66,11 @@ namespace QUML_Keystrokes
         static double[,] s021;
         static double[,] s022;
         static double[,] s023; 
+
+        // Adding users 24 through 26 - 12th June 2015
+        static double[,] s024;
+        static double[,] s025;
+        static double[,] s026; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -95,6 +103,11 @@ namespace QUML_Keystrokes
         static double[] s021Mean;
         static double[] s022Mean;
         static double[] s023Mean;
+
+        // Adding the mean vectors for users 24 through 26 - 12th June 2015
+        static double[] s024Mean;
+        static double[] s025Mean;
+        static double[] s026Mean; 
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -126,6 +139,11 @@ namespace QUML_Keystrokes
         static double[,] s021Gen;
         static double[,] s022Gen;
         static double[,] s023Gen;
+
+        // Adding the genuine scores for users 24 through 26 - 12th June 2015
+        static double[,] s024Gen;
+        static double[,] s025Gen;
+        static double[,] s026Gen;
         #endregion
 
         /// <summary>
@@ -171,6 +189,11 @@ namespace QUML_Keystrokes
             s021 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
             s022 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
             s023 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
+
+            // Inserting the CSV files to be parsed for users 24 through 26 - 12th June 2015
+            s024 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user24.csv");
+            s025 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
+            s026 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -305,6 +328,11 @@ namespace QUML_Keystrokes
             s021Mean = ManhDist.CalculateMeanVector(s021);
             s022Mean = ManhDist.CalculateMeanVector(s022);
             s023Mean = ManhDist.CalculateMeanVector(s023); 
+
+            // Adding the mean vectors for users 24 through 26 - 12th June 2015
+            s024Mean = ManhDist.CalculateMeanVector(s024);
+            s025Mean = ManhDist.CalculateMeanVector(s025);
+            s026Mean = ManhDist.CalculateMeanVector(s026); 
             #endregion
 
             /**
@@ -337,6 +365,11 @@ namespace QUML_Keystrokes
             s021Gen = ManhDist.CalculateGenuineScores(s021, s021Mean);
             s022Gen = ManhDist.CalculateGenuineScores(s022, s022Mean);
             s023Gen = ManhDist.CalculateGenuineScores(s023, s023Mean); 
+
+            // Adding the genuine scores for users 24 through 26 - 12th June 2015
+            s024Gen = ManhDist.CalculateGenuineScores(s024, s024Mean);
+            s025Gen = ManhDist.CalculateGenuineScores(s025, s025Mean);
+            s026Gen = ManhDist.CalculateGenuineScores(s026, s026Mean); 
             #endregion
         }
         #endregion
