@@ -15,7 +15,8 @@
  * 1.4      12/06/2015  PKR     Adding more users in-code, updating in-code documentation
  * 1.4.1    12/06/2015  PKR     Adding the static variables for more users, will have to populate all of them soon. 
  * 1.4.2    12/06/2015  PKR     Added users 24 through 26 in-code right now. 
- * 1.4.3    12/06/2015  PKR     Adding users 27 through 30 in both the repository and in code.
+ * 1.4.3    12/06/2015  PKR     Adding users 27 through 30 in the repository, declared and initialized the 2D double arrays for users 27-30
+ * 1.4.4    13/06/2015  PKR     Now after initializing users 27-30, calculating their mean vectors and their genuine scores
  */
 
 using System;
@@ -157,6 +158,12 @@ namespace QUML_Keystrokes
         static double[,] s024Gen;
         static double[,] s025Gen;
         static double[,] s026Gen;
+
+        // Adding the genuine scores users 27 through 30 - 13th June 2015
+        static double[,] s027Gen;
+        static double[,] s028Gen;
+        static double[,] s029Gen;
+        static double[,] s030Gen;
         #endregion
 
         /// <summary>
@@ -217,8 +224,14 @@ namespace QUML_Keystrokes
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
 
+            // The input condition that will be the parameters for the switch statement that follows this. 
             string input = Console.ReadLine();
 
+            /*
+             * The user option determines which class, and methods are executed 
+             * when and then further user input will be determined if necessary
+             * for further calculations. 
+             */
             switch (input)
             {
                 case "0":
@@ -352,6 +365,12 @@ namespace QUML_Keystrokes
             s024Mean = ManhDist.CalculateMeanVector(s024);
             s025Mean = ManhDist.CalculateMeanVector(s025);
             s026Mean = ManhDist.CalculateMeanVector(s026); 
+
+            // Adding the mean vectors for users 27 through 30 - 13th June 2015
+            s027Mean = ManhDist.CalculateMeanVector(s027);
+            s028Mean = ManhDist.CalculateMeanVector(s028);
+            s029Mean = ManhDist.CalculateMeanVector(s029);
+            s030Mean = ManhDist.CalculateMeanVector(s030); 
             #endregion
 
             /**
@@ -389,6 +408,23 @@ namespace QUML_Keystrokes
             s024Gen = ManhDist.CalculateGenuineScores(s024, s024Mean);
             s025Gen = ManhDist.CalculateGenuineScores(s025, s025Mean);
             s026Gen = ManhDist.CalculateGenuineScores(s026, s026Mean); 
+
+            // Adding the genuine scores for users 27 through 30 - 13th June 2015
+            s027Gen = ManhDist.CalculateGenuineScores(s027, s027Mean);
+            s028Gen = ManhDist.CalculateGenuineScores(s028, s028Mean);
+            s029Gen = ManhDist.CalculateGenuineScores(s029, s029Mean);
+            s030Gen = ManhDist.CalculateGenuineScores(s030, s030Mean); 
+            #endregion
+
+            /*
+             * Now this is where I will also calculate the impostor scores here.
+             * The parameters are the mean vector of the first user, and the 
+             * raw scores of the other users.  This is also known as a zero
+             * effort attack because all the training data and testing data are
+             * in the same place. 
+             */
+            #region Calculating the impostor scores next
+            
             #endregion
         }
         #endregion

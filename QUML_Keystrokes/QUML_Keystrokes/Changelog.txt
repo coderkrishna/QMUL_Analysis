@@ -85,6 +85,11 @@ and CalculateFalseRejectRate(params go here).
 
 12th June 2015
 * Updating the in-code documentation, and annotating the code where it is appropriate. 
-* Making sure to apply the normalized verifiers (Manhattan Distance, Euclidean Distance, etc...)
+* Making sure to apply the normalized (this is very key) verifiers (Manhattan Distance, Euclidean Distance, etc...)
 * This is my own project that I am doing on my own, on the side just for the sake of practicing
-* Adding more users to the repository as well! 
+* Adding more users to the repository as well, and adding these users in-code
+
+13th June 2015
+* Adding about five more users to the solution (and the code repository in the process)
+* Will then add the same users in-code as parameters for data extraction
+* Making additional calls for generating the template vectors etc...
