@@ -86,4 +86,5 @@ and CalculateFalseRejectRate(params go here).
 12th June 2015
 * Updating the in-code documentation, and annotating the code where it is appropriate. 
 * Making sure to apply the normalized verifiers (Manhattan Distance, Euclidean Distance, etc...)
-* This is my own project that I am doing on my own, on the side just for the sake of practicing 
+* This is my own project that I am doing on my own, on the side just for the sake of practicing
+* Adding more users to the repository as well! 

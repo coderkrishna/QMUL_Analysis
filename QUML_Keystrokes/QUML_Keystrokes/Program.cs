@@ -15,6 +15,7 @@
  * 1.4      12/06/2015  PKR     Adding more users in-code, updating in-code documentation
  * 1.4.1    12/06/2015  PKR     Adding the static variables for more users, will have to populate all of them soon. 
  * 1.4.2    12/06/2015  PKR     Added users 24 through 26 in-code right now. 
+ * 1.4.3    12/06/2015  PKR     Adding users 27 through 30 in both the repository and in code.
  */
 
 using System;
@@ -71,6 +72,12 @@ namespace QUML_Keystrokes
         static double[,] s024;
         static double[,] s025;
         static double[,] s026; 
+
+        // Adding users 27 through 30 - 12th June 2015
+        static double[,] s027;
+        static double[,] s028;
+        static double[,] s029;
+        static double[,] s030; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -108,6 +115,12 @@ namespace QUML_Keystrokes
         static double[] s024Mean;
         static double[] s025Mean;
         static double[] s026Mean; 
+
+        // Adding the mean vectors for users 27 through 30 - 12th June 2015
+        static double[] s027Mean;
+        static double[] s028Mean;
+        static double[] s029Mean;
+        static double[] s030Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -194,6 +207,12 @@ namespace QUML_Keystrokes
             s024 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user24.csv");
             s025 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
             s026 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
+
+            // Inserting the csv files to be parsed for user 27 through 30 - 12th June 2015
+            s027 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user27.csv");
+            s028 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user28.csv");
+            s029 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user29.csv");
+            s030 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user30.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
