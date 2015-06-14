@@ -26,6 +26,7 @@
  * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
  * 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to                                 be added soon
  * 1.5.2    14/06/2015  PKR     Declaring more user variables: users 51 through 60, and then the mean templates and genuine scores later will be declared
+ * 1.5.3    14/06/2015  PKR     Fixing Git issues
  */
 
 using System;
