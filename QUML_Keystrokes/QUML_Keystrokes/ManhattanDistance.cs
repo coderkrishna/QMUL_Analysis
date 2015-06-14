@@ -9,13 +9,13 @@
  * -------  ----------  ------- ---------------
  * 1.0      05/05/2015  PKR     Original Version
  * 1.2      11/06/2015  PKR     Calculated the genuine and impostor scores
+ * 1.3      13/06/2015  PKR     Organizing the various using statements, and updating the in-code documentation
  */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO; // This is for the I/O
 
 namespace QUML_Keystrokes
 {
@@ -67,7 +67,10 @@ namespace QUML_Keystrokes
         public double[] CalculateMeanVector(double[,] s001)
         {
             #region Creating two single dimension double arrays
+            // The length of this array is dependendent on the number of columns in the input array
             double[] sum = new double[s001.GetLength(1)];
+
+            // The length of the mean array is also dependent on the number of columns in the input array
             double[] mean = new double[s001.GetLength(1)];
             #endregion
 

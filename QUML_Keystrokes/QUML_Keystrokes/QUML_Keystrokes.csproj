@@ -76,7 +76,14 @@
     <None Include="Latency Data\user31.csv" />
     <None Include="Latency Data\user32.csv" />
     <None Include="Latency Data\user33.csv" />
+    <None Include="Latency Data\user34.csv" />
+    <None Include="Latency Data\user35.csv" />
+    <None Include="Latency Data\user36.csv" />
+    <None Include="Latency Data\user37.csv" />
+    <None Include="Latency Data\user38.csv" />
+    <None Include="Latency Data\user39.csv" />
     <None Include="Latency Data\user4.csv" />
+    <None Include="Latency Data\user40.csv" />
     <None Include="Latency Data\user5.csv" />
     <Content Include="Latency Data\user6.csv" />
     <Content Include="Latency Data\user7.csv" />

@@ -9,13 +9,14 @@
  * -------  ----------  ------- ---------------
  * 1.0      11/05/2015  PKR     Original Version
  * 1.1      12/06/2015  PKR     Updating in-code documentation
+ * 1.2      13/06/2015  PKR     Editing the number of lines of code that were written, and updating the in-code documentation
  */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO; 
+using System.IO; // This using statement is responsible for handling much of the File I/O
 
 namespace QUML_Keystrokes
 {
