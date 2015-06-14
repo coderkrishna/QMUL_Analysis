@@ -17,6 +17,7 @@
  * 1.4.2    12/06/2015  PKR     Added users 24 through 26 in-code right now. 
  * 1.4.3    12/06/2015  PKR     Adding users 27 through 30 in the repository, declared and initialized the 2D double arrays for users 27-30
  * 1.4.4    13/06/2015  PKR     Now after initializing users 27-30, calculating their mean vectors and their genuine scores
+ * 1.4.5    13/06/2015  PKR     Initializing the impostor scores for users 1 through 5, and will also be adding more user data users 31 and 32
  */
 
 using System;
@@ -36,6 +37,7 @@ namespace QUML_Keystrokes
     /// </summary>
     class Program
     {
+        #region Static 2D double arrays that will be used/created
         #region Static 2D Double arrays for all of the users - using the DataFilter.ParseData(string filepath) method
         static double[,] s001; 
         static double[,] s002;
@@ -78,7 +80,12 @@ namespace QUML_Keystrokes
         static double[,] s027;
         static double[,] s028;
         static double[,] s029;
-        static double[,] s030; 
+        static double[,] s030;
+
+        // Adding users 31,32, and 33 - 13th June 2015
+        static double[,] s031;
+        static double[,] s032;
+        static double[,] s033;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -122,6 +129,11 @@ namespace QUML_Keystrokes
         static double[] s028Mean;
         static double[] s029Mean;
         static double[] s030Mean;
+
+        // Adding the mean vectors for users 31 and 32, and 33 - 13th June 2015
+        static double[] s031Mean;
+        static double[] s032Mean;
+        static double[] s033Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -164,6 +176,224 @@ namespace QUML_Keystrokes
         static double[,] s028Gen;
         static double[,] s029Gen;
         static double[,] s030Gen;
+
+        // Adding the genuine scores user 31 and 32 and 33 - 13th June 2015
+        static double[,] s031Gen;
+        static double[,] s032Gen;
+        static double[,] s033Gen;
+        #endregion
+
+        #region These are the impostor scores for each user combination
+        #region Having static 2D double arrays for the impostor scores with user 1 as the template
+        static double[,] impostorScoresUser1User2;
+        static double[,] impostorScoresUser1User3;
+        static double[,] impostorScoresUser1User4;
+        static double[,] impostorScoresUser1User5;
+        static double[,] impostorScoresUser1User6;
+        static double[,] impostorScoresUser1User7;
+        static double[,] impostorScoresUser1User8;
+        static double[,] impostorScoresUser1User9;
+        static double[,] impostorScoresUser1User10;
+        static double[,] impostorScoresUser1User11;
+        static double[,] impostorScoresUser1User12;
+        static double[,] impostorScoresUser1User13;
+        static double[,] impostorScoresUser1User14;
+        static double[,] impostorScoresUser1User15;
+        static double[,] impostorScoresUser1User16;
+        static double[,] impostorScoresUser1User17;
+        static double[,] impostorScoresUser1User18;
+        static double[,] impostorScoresUser1User19;
+        static double[,] impostorScoresUser1User20;
+        static double[,] impostorScoresUser1User21;
+        static double[,] impostorScoresUser1User22;
+        static double[,] impostorScoresUser1User23;
+        static double[,] impostorScoresUser1User24;
+        static double[,] impostorScoresUser1User25;
+        static double[,] impostorScoresUser1User26;
+        static double[,] impostorScoresUser1User27;
+        static double[,] impostorScoresUser1User28;
+        static double[,] impostorScoresUser1User29;
+        static double[,] impostorScoresUser1User30;
+        static double[,] impostorScoresUser1User31;
+        static double[,] impostorScoresUser1User32;
+        static double[,] impostorScoresUser1User33;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 2 as the template
+        static double[,] impostorScoresUser2User1;
+        static double[,] impostorScoresUser2User3;
+        static double[,] impostorScoresUser2User4;
+        static double[,] impostorScoresUser2User5;
+        static double[,] impostorScoresUser2User6;
+        static double[,] impostorScoresUser2User7;
+        static double[,] impostorScoresUser2User8;
+        static double[,] impostorScoresUser2User9;
+        static double[,] impostorScoresUser2User10;
+        static double[,] impostorScoresUser2User11;
+        static double[,] impostorScoresUser2User12;
+        static double[,] impostorScoresUser2User13;
+        static double[,] impostorScoresUser2User14;
+        static double[,] impostorScoresUser2User15;
+        static double[,] impostorScoresUser2User16;
+        static double[,] impostorScoresUser2User17;
+        static double[,] impostorScoresUser2User18;
+        static double[,] impostorScoresUser2User19;
+        static double[,] impostorScoresUser2User20;
+        static double[,] impostorScoresUser2User21;
+        static double[,] impostorScoresUser2User22;
+        static double[,] impostorScoresUser2User23;
+        static double[,] impostorScoresUser2User24;
+        static double[,] impostorScoresUser2User25;
+        static double[,] impostorScoresUser2User26;
+        static double[,] impostorScoresUser2User27;
+        static double[,] impostorScoresUser2User28;
+        static double[,] impostorScoresUser2User29;
+        static double[,] impostorScoresUser2User30;
+        static double[,] impostorScoresUser2User31;
+        static double[,] impostorScoresUser2User32;
+        static double[,] impostorScoresUser2User33;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 3 as the template
+        static double[,] impostorScoresUser3User1;
+        static double[,] impostorScoresUser3User2;
+        static double[,] impostorScoresUser3User4;
+        static double[,] impostorScoresUser3User5;
+        static double[,] impostorScoresUser3User6;
+        static double[,] impostorScoresUser3User7;
+        static double[,] impostorScoresUser3User8;
+        static double[,] impostorScoresUser3User9;
+        static double[,] impostorScoresUser3User10;
+        static double[,] impostorScoresUser3User11;
+        static double[,] impostorScoresUser3User12;
+        static double[,] impostorScoresUser3User13;
+        static double[,] impostorScoresUser3User14;
+        static double[,] impostorScoresUser3User15;
+        static double[,] impostorScoresUser3User16;
+        static double[,] impostorScoresUser3User17;
+        static double[,] impostorScoresUser3User18;
+        static double[,] impostorScoresUser3User19;
+        static double[,] impostorScoresUser3User20;
+        static double[,] impostorScoresUser3User21;
+        static double[,] impostorScoresUser3User22;
+        static double[,] impostorScoresUser3User23;
+        static double[,] impostorScoresUser3User24;
+        static double[,] impostorScoresUser3User25;
+        static double[,] impostorScoresUser3User26;
+        static double[,] impostorScoresUser3User27;
+        static double[,] impostorScoresUser3User28;
+        static double[,] impostorScoresUser3User29;
+        static double[,] impostorScoresUser3User30;
+        static double[,] impostorScoresUser3User31;
+        static double[,] impostorScoresUser3User32;
+        static double[,] impostorScoresUser3User33;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 4 as the template
+        static double[,] impostorScoresUser4User1;
+        static double[,] impostorScoresUser4User2;
+        static double[,] impostorScoresUser4User3;
+        static double[,] impostorScoresUser4User5;
+        static double[,] impostorScoresUser4User6;
+        static double[,] impostorScoresUser4User7;
+        static double[,] impostorScoresUser4User8;
+        static double[,] impostorScoresUser4User9;
+        static double[,] impostorScoresUser4User10;
+        static double[,] impostorScoresUser4User11;
+        static double[,] impostorScoresUser4User12;
+        static double[,] impostorScoresUser4User13;
+        static double[,] impostorScoresUser4User14;
+        static double[,] impostorScoresUser4User15;
+        static double[,] impostorScoresUser4User16;
+        static double[,] impostorScoresUser4User17;
+        static double[,] impostorScoresUser4User18;
+        static double[,] impostorScoresUser4User19;
+        static double[,] impostorScoresUser4User20;
+        static double[,] impostorScoresUser4User21;
+        static double[,] impostorScoresUser4User22;
+        static double[,] impostorScoresUser4User23;
+        static double[,] impostorScoresUser4User24;
+        static double[,] impostorScoresUser4User25;
+        static double[,] impostorScoresUser4User26;
+        static double[,] impostorScoresUser4User27;
+        static double[,] impostorScoresUser4User28;
+        static double[,] impostorScoresUser4User29;
+        static double[,] impostorScoresUser4User30;
+        static double[,] impostorScoresUser4User31;
+        static double[,] impostorScoresUser4User32;
+        static double[,] impostorScoresUser4User33;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 5 as the template
+        static double[,] impostorScoresUser5User1;
+        static double[,] impostorScoresUser5User2;
+        static double[,] impostorScoresUser5User3;
+        static double[,] impostorScoresUser5User4;
+        static double[,] impostorScoresUser5User6;
+        static double[,] impostorScoresUser5User7;
+        static double[,] impostorScoresUser5User8;
+        static double[,] impostorScoresUser5User9;
+        static double[,] impostorScoresUser5User10;
+        static double[,] impostorScoresUser5User11;
+        static double[,] impostorScoresUser5User12;
+        static double[,] impostorScoresUser5User13;
+        static double[,] impostorScoresUser5User14;
+        static double[,] impostorScoresUser5User15;
+        static double[,] impostorScoresUser5User16;
+        static double[,] impostorScoresUser5User17;
+        static double[,] impostorScoresUser5User18;
+        static double[,] impostorScoresUser5User19;
+        static double[,] impostorScoresUser5User20;
+        static double[,] impostorScoresUser5User21;
+        static double[,] impostorScoresUser5User22;
+        static double[,] impostorScoresUser5User23;
+        static double[,] impostorScoresUser5User24;
+        static double[,] impostorScoresUser5User25;
+        static double[,] impostorScoresUser5User26;
+        static double[,] impostorScoresUser5User27;
+        static double[,] impostorScoresUser5User28;
+        static double[,] impostorScoresUser5User29;
+        static double[,] impostorScoresUser5User30;
+        static double[,] impostorScoresUser5User31;
+        static double[,] impostorScoresUser5User32;
+        static double[,] impostorScoresUser5User33;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 6 as the template
+        static double[,] impostorScoresUser6User1;
+        static double[,] impostorScoresUser6User2;
+        static double[,] impostorScoresUser6User3;
+        static double[,] impostorScoresUser6User4;
+        static double[,] impostorScoresUser6User5;
+        static double[,] impostorScoresUser6User7;
+        static double[,] impostorScoresUser6User8;
+        static double[,] impostorScoresUser6User9;
+        static double[,] impostorScoresUser6User10;
+        static double[,] impostorScoresUser6User11;
+        static double[,] impostorScoresUser6User12;
+        static double[,] impostorScoresUser6User13;
+        static double[,] impostorScoresUser6User14;
+        static double[,] impostorScoresUser6User15;
+        static double[,] impostorScoresUser6User16;
+        static double[,] impostorScoresUser6User17;
+        static double[,] impostorScoresUser6User18;
+        static double[,] impostorScoresUser6User19;
+        static double[,] impostorScoresUser6User20;
+        static double[,] impostorScoresUser6User21;
+        static double[,] impostorScoresUser6User22;
+        static double[,] impostorScoresUser6User23;
+        static double[,] impostorScoresUser6User24;
+        static double[,] impostorScoresUser6User25;
+        static double[,] impostorScoresUser6User26;
+        static double[,] impostorScoresUser6User27;
+        static double[,] impostorScoresUser6User28;
+        static double[,] impostorScoresUser6User29;
+        static double[,] impostorScoresUser6User30;
+        static double[,] impostorScoresUser6User31;
+        static double[,] impostorScoresUser6User32;
+        static double[,] impostorScoresUser6User33;
+        #endregion
+        #endregion
         #endregion
 
         /// <summary>
@@ -215,11 +445,16 @@ namespace QUML_Keystrokes
             s025 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
             s026 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
 
-            // Inserting the csv files to be parsed for user 27 through 30 - 12th June 2015
+            // Inserting the CSV files to be parsed for user 27 through 30 - 12th June 2015
             s027 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user27.csv");
             s028 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user28.csv");
             s029 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user29.csv");
             s030 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user30.csv");
+
+            // Inserting the CSV files to be parsed for users 31 and 32 and 33 - 13th June 2015
+            s031 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user31.csv");
+            s032 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user32.csv");
+            s033 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user33.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -371,12 +606,13 @@ namespace QUML_Keystrokes
             s028Mean = ManhDist.CalculateMeanVector(s028);
             s029Mean = ManhDist.CalculateMeanVector(s029);
             s030Mean = ManhDist.CalculateMeanVector(s030); 
+
+            // Adding the mean vectors for users 31 and 32 and 33 - 13th June 2015
+            s031Mean = ManhDist.CalculateMeanVector(s031);
+            s032Mean = ManhDist.CalculateMeanVector(s032);
+            s033Mean = ManhDist.CalculateMeanVector(s033);
             #endregion
 
-            /**
-             * Having the genuine scores being calculated for 20 users (so far) - 29th May 2015
-             * Adding the genuine scores for users 21 through 23 - 9th June 2015.  
-             **/
             #region Calculating the genuine scores for each user
             s001Gen = ManhDist.CalculateGenuineScores(s001, s001Mean);
             s002Gen = ManhDist.CalculateGenuineScores(s002, s002Mean);
@@ -414,6 +650,11 @@ namespace QUML_Keystrokes
             s028Gen = ManhDist.CalculateGenuineScores(s028, s028Mean);
             s029Gen = ManhDist.CalculateGenuineScores(s029, s029Mean);
             s030Gen = ManhDist.CalculateGenuineScores(s030, s030Mean); 
+
+            // Adding the genuine scores for users 31 and 32 - 13th June 2015
+            s031Gen = ManhDist.CalculateGenuineScores(s031, s031Mean);
+            s032Gen = ManhDist.CalculateGenuineScores(s032, s032Mean);
+            s033Gen = ManhDist.CalculateGenuineScores(s033, s033Mean); 
             #endregion
 
             /*
@@ -423,8 +664,13 @@ namespace QUML_Keystrokes
              * effort attack because all the training data and testing data are
              * in the same place. 
              */
-            #region Calculating the impostor scores next
-            
+            #region Calculating the impostor scores next - and populating them
+            // Taking care of user 1 right now
+            impostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);
+            impostorScoresUser1User3 = ManhDist.CalculateImpostorScores(s001Mean, s003);
+            impostorScoresUser1User4 = ManhDist.CalculateImpostorScores(s001Mean, s004);
+            impostorScoresUser1User5 = ManhDist.CalculateImpostorScores(s001Mean, s005);
+            impostorScoresUser1User6 = ManhDist.CalculateImpostorScores(s001Mean, s006);
             #endregion
         }
         #endregion
