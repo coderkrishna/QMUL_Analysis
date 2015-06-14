@@ -93,3 +93,5 @@ and CalculateFalseRejectRate(params go here).
 * Adding about five more users to the solution (and the code repository in the process)
 * Will then add the same users in-code as parameters for data extraction
 * Making additional calls for generating the template vectors etc...
+* Working with about 33 user data - generating their template vectors and genuine scores
+* Now also will be working on populating the impostor scores of approximately 6 users, and having the other users as the zero-effort impostors
