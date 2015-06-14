@@ -23,6 +23,7 @@
  * 1.4.8    13/06/2015  PKR     Finished up populating the impostor scores for user 2 (not with all the 100 users) but with 33 users so far. 
  * 1.4.9    13/06/2015  PKR     Now adding more users to the solution and will be then referencing them in the code.  There is going to be a lot of code additions!
  * 1.4.10   13/06/2015  PKR     Having more users in this solution - users 34 through 40, updating the in-code documentation
+ * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
  */
 
 using System;
@@ -251,6 +252,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser1User31;
         static double[,] impostorScoresUser1User32;
         static double[,] impostorScoresUser1User33;
+
+        // The impostor score 2D double arrays with user 1 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser1User34;
+        static double[,] impostorScoresUser1User35;
+        static double[,] impostorScoresUser1User36;
+        static double[,] impostorScoresUser1User37;
+        static double[,] impostorScoresUser1User38;
+        static double[,] impostorScoresUser1User39;
+        static double[,] impostorScoresUser1User40;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 2 as the template
@@ -286,6 +296,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser2User31;
         static double[,] impostorScoresUser2User32;
         static double[,] impostorScoresUser2User33;
+
+        // The impostor score 2D double arrays with user 1 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser2User34;
+        static double[,] impostorScoresUser2User35;
+        static double[,] impostorScoresUser2User36;
+        static double[,] impostorScoresUser2User37;
+        static double[,] impostorScoresUser2User38;
+        static double[,] impostorScoresUser2User39;
+        static double[,] impostorScoresUser2User40;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 3 as the template
@@ -321,6 +340,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser3User31;
         static double[,] impostorScoresUser3User32;
         static double[,] impostorScoresUser3User33;
+
+        // The impostor score 2D double arrays with user 3 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser3User34;
+        static double[,] impostorScoresUser3User35;
+        static double[,] impostorScoresUser3User36;
+        static double[,] impostorScoresUser3User37;
+        static double[,] impostorScoresUser3User38;
+        static double[,] impostorScoresUser3User39;
+        static double[,] impostorScoresUser3User40;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 4 as the template
@@ -356,6 +384,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser4User31;
         static double[,] impostorScoresUser4User32;
         static double[,] impostorScoresUser4User33;
+
+        // The impostor score 2D double arrays with user 4 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser4User34;
+        static double[,] impostorScoresUser4User35;
+        static double[,] impostorScoresUser4User36;
+        static double[,] impostorScoresUser4User37;
+        static double[,] impostorScoresUser4User38;
+        static double[,] impostorScoresUser4User39;
+        static double[,] impostorScoresUser4User40;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 5 as the template
@@ -391,6 +428,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser5User31;
         static double[,] impostorScoresUser5User32;
         static double[,] impostorScoresUser5User33;
+
+        // The impostor score 2D double arrays with user 5 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser5User34;
+        static double[,] impostorScoresUser5User35;
+        static double[,] impostorScoresUser5User36;
+        static double[,] impostorScoresUser5User37;
+        static double[,] impostorScoresUser5User38;
+        static double[,] impostorScoresUser5User39;
+        static double[,] impostorScoresUser5User40;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 6 as the template
@@ -426,6 +472,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser6User31;
         static double[,] impostorScoresUser6User32;
         static double[,] impostorScoresUser6User33;
+
+        // The impostor score 2D double arrays with user 6 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser6User34;
+        static double[,] impostorScoresUser6User35;
+        static double[,] impostorScoresUser6User36;
+        static double[,] impostorScoresUser6User37;
+        static double[,] impostorScoresUser6User38;
+        static double[,] impostorScoresUser6User39;
+        static double[,] impostorScoresUser6User40;
         #endregion
         #endregion
         #endregion
@@ -489,6 +544,15 @@ namespace QUML_Keystrokes
             s031 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user31.csv");
             s032 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user32.csv");
             s033 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user33.csv");
+
+            // Inserting the CSV files to be parsed for users 34 through 40 - 13th June 2015
+            s034 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user34.csv");
+            s035 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user35.csv");
+            s036 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user36.csv");
+            s037 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user37.csv");
+            s038 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user38.csv");
+            s039 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user39.csv");
+            s040 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user40.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -645,6 +709,15 @@ namespace QUML_Keystrokes
             s031Mean = ManhDist.CalculateMeanVector(s031);
             s032Mean = ManhDist.CalculateMeanVector(s032);
             s033Mean = ManhDist.CalculateMeanVector(s033);
+
+            // Adding the mean vectors for users 34 through 40 - 13th June 2015
+            s034Mean = ManhDist.CalculateMeanVector(s034);
+            s035Mean = ManhDist.CalculateMeanVector(s035);
+            s036Mean = ManhDist.CalculateMeanVector(s036);
+            s037Mean = ManhDist.CalculateMeanVector(s037);
+            s038Mean = ManhDist.CalculateMeanVector(s038);
+            s039Mean = ManhDist.CalculateMeanVector(s039);
+            s040Mean = ManhDist.CalculateMeanVector(s040);
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -689,6 +762,15 @@ namespace QUML_Keystrokes
             s031Gen = ManhDist.CalculateGenuineScores(s031, s031Mean);
             s032Gen = ManhDist.CalculateGenuineScores(s032, s032Mean);
             s033Gen = ManhDist.CalculateGenuineScores(s033, s033Mean); 
+
+            // Adding the genuine scores for users 34 through 40 - 14th June 2015
+            s034Gen = ManhDist.CalculateGenuineScores(s034, s034Mean);
+            s035Gen = ManhDist.CalculateGenuineScores(s035, s035Mean);
+            s036Gen = ManhDist.CalculateGenuineScores(s036, s036Mean);
+            s037Gen = ManhDist.CalculateGenuineScores(s037, s037Mean);
+            s038Gen = ManhDist.CalculateGenuineScores(s038, s038Mean);
+            s039Gen = ManhDist.CalculateGenuineScores(s039, s039Mean);
+            s040Gen = ManhDist.CalculateGenuineScores(s040, s040Mean);
             #endregion
 
             /*
@@ -732,6 +814,15 @@ namespace QUML_Keystrokes
             impostorScoresUser1User31 = ManhDist.CalculateImpostorScores(s001Mean, s031);
             impostorScoresUser1User32 = ManhDist.CalculateImpostorScores(s001Mean, s032);
             impostorScoresUser1User33 = ManhDist.CalculateImpostorScores(s001Mean, s033);
+
+            // Adding the impostor scores for users 34 through 40 using user 1 as the template vector - 14th June 2015
+            impostorScoresUser1User34 = ManhDist.CalculateImpostorScores(s001Mean, s034);
+            impostorScoresUser1User35 = ManhDist.CalculateImpostorScores(s001Mean, s035);
+            impostorScoresUser1User36 = ManhDist.CalculateImpostorScores(s001Mean, s036);
+            impostorScoresUser1User37 = ManhDist.CalculateImpostorScores(s001Mean, s037);
+            impostorScoresUser1User38 = ManhDist.CalculateImpostorScores(s001Mean, s038);
+            impostorScoresUser1User39 = ManhDist.CalculateImpostorScores(s001Mean, s039);
+            impostorScoresUser1User40 = ManhDist.CalculateImpostorScores(s001Mean, s040);
             #endregion
 
             #region User 2 Impostor Scores
@@ -767,6 +858,15 @@ namespace QUML_Keystrokes
             impostorScoresUser2User31 = ManhDist.CalculateImpostorScores(s002Mean, s031);
             impostorScoresUser2User32 = ManhDist.CalculateImpostorScores(s002Mean, s032);
             impostorScoresUser2User33 = ManhDist.CalculateImpostorScores(s002Mean, s033); 
+
+            // Adding the users 34 through 40, using the data from user 2 as the template vector
+            impostorScoresUser2User34 = ManhDist.CalculateImpostorScores(s002Mean, s034);
+            impostorScoresUser2User35 = ManhDist.CalculateImpostorScores(s002Mean, s035);
+            impostorScoresUser2User36 = ManhDist.CalculateImpostorScores(s002Mean, s036);
+            impostorScoresUser2User37 = ManhDist.CalculateImpostorScores(s002Mean, s037);
+            impostorScoresUser2User38 = ManhDist.CalculateImpostorScores(s002Mean, s038);
+            impostorScoresUser2User39 = ManhDist.CalculateImpostorScores(s002Mean, s039);
+            impostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040); 
             #endregion
             #endregion
         }
