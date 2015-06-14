@@ -101,3 +101,5 @@ and CalculateFalseRejectRate(params go here).
 * Have already added 40 users, need to add 60 more - I'll be spending most of my time on this task today
 * Then will have parse the CSV files and then will also have to declare and initialize their template vectors and genuine scores
 * After that will be the impostor scores that are generated and then will be the various rates
+* Also tidying up the code right now and making sure that I can use up the most whitespace possible for declarations and then leave some whitespace
+for comments where it is necessary. 

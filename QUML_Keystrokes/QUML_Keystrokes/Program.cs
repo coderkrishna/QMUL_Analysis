@@ -25,6 +25,7 @@
  * 1.4.10   13/06/2015  PKR     Having more users in this solution - users 34 through 40, updating the in-code documentation
  * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
  * 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to                                 be added soon
+ * 1.5.2    14/06/2015  PKR     Declaring more user variables: users 51 through 60, and then the mean templates and genuine scores later will be declared
  */
 
 using System;
@@ -116,118 +117,90 @@ namespace QUML_Keystrokes
         static double[,] s048;
         static double[,] s049;
         static double[,] s050; 
+
+        // Declaring variables for users 51 through 60 - 14th June 2015
+        static double[,] s051;
+        static double[,] s052;
+        static double[,] s053;
+        static double[,] s054;
+        static double[,] s055;
+        static double[,] s056;
+        static double[,] s057;
+        static double[,] s058;
+        static double[,] s059;
+        static double[,] s060;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
-        static double[] s001Mean;
-        static double[] s002Mean;
-        static double[] s003Mean;
-        static double[] s004Mean;
-        static double[] s005Mean;
-        static double[] s006Mean; 
+        static double[] s001Mean; static double[] s002Mean; static double[] s003Mean;
+        static double[] s004Mean; static double[] s005Mean; static double[] s006Mean; 
         
         // Added the new users 6 through 9 - 13th May 2015
-        static double[] s007Mean;
-        static double[] s008Mean;
-        static double[] s009Mean;
-        static double[] s010Mean; 
+        static double[] s007Mean; static double[] s008Mean;
+        static double[] s009Mean; static double[] s010Mean; 
         
         // Adding the mean vectors for users 10, 11, and 12 - 27th May 2015
-        static double[] s011Mean;
-        static double[] s012Mean;
-        static double[] s013Mean;
-        static double[] s014Mean;
-        static double[] s015Mean;
-        static double[] s016Mean;
-        static double[] s017Mean;
-        static double[] s018Mean;
-        static double[] s019Mean;
-        static double[] s020Mean;
+        static double[] s011Mean; static double[] s012Mean;
+        static double[] s013Mean; static double[] s014Mean;
+        static double[] s015Mean; static double[] s016Mean;
+        static double[] s017Mean; static double[] s018Mean;
+        static double[] s019Mean; static double[] s020Mean;
 
         // Adding the mean vectors for users 21 through 23 - 9th June 2015
-        static double[] s021Mean;
-        static double[] s022Mean;
-        static double[] s023Mean;
+        static double[] s021Mean; static double[] s022Mean; static double[] s023Mean;
 
         // Adding the mean vectors for users 24 through 26 - 12th June 2015
-        static double[] s024Mean;
-        static double[] s025Mean;
-        static double[] s026Mean; 
+        static double[] s024Mean; static double[] s025Mean; static double[] s026Mean; 
 
         // Adding the mean vectors for users 27 through 30 - 12th June 2015
-        static double[] s027Mean;
-        static double[] s028Mean;
-        static double[] s029Mean;
-        static double[] s030Mean;
+        static double[] s027Mean; static double[] s028Mean;
+        static double[] s029Mean; static double[] s030Mean;
 
         // Adding the mean vectors for users 31 and 32, and 33 - 13th June 2015
-        static double[] s031Mean;
-        static double[] s032Mean;
-        static double[] s033Mean;
+        static double[] s031Mean; static double[] s032Mean; static double[] s033Mean;
 
         // Adding the mean vectors for user 34 through 40 - 13th June 2015
-        static double[] s034Mean;
-        static double[] s035Mean;
-        static double[] s036Mean;
-        static double[] s037Mean;
-        static double[] s038Mean;
-        static double[] s039Mean;
+        static double[] s034Mean; static double[] s035Mean; static double[] s036Mean;
+        static double[] s037Mean; static double[] s038Mean; static double[] s039Mean;
         static double[] s040Mean;
+
+        // Declaring the mean vectors for users 41 through 60 - 14th June 2015
+        static double[] s041Mean; static double[] s042Mean; static double[] s043Mean;
+        static double[] s044Mean; static double[] s045Mean; static double[] s046Mean; 
+        static double[] s047Mean; static double[] s048Mean; static double[] s049Mean; 
+        static double[] s050Mean; static double[] s051Mean; static double[] s052Mean; 
+        static double[] s053Mean; static double[] s054Mean; static double[] s055Mean; 
+        static double[] s056Mean; static double[] s057Mean; static double[] s058Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
         // Adding the genuine scores for users 1 through 12 - 29th May 2015
-        static double[,] s001Gen;
-        static double[,] s002Gen;
-        static double[,] s003Gen;
-        static double[,] s004Gen;
-        static double[,] s005Gen;
-        static double[,] s006Gen;
-        static double[,] s007Gen;
-        static double[,] s008Gen;
-        static double[,] s009Gen;
-        static double[,] s010Gen;
-        static double[,] s011Gen;
-        static double[,] s012Gen;
+        static double[,] s001Gen; static double[,] s002Gen; static double[,] s003Gen;
+        static double[,] s004Gen; static double[,] s005Gen; static double[,] s006Gen;
+        static double[,] s007Gen; static double[,] s008Gen; static double[,] s009Gen;
+        static double[,] s010Gen; static double[,] s011Gen; static double[,] s012Gen;
 
         // Adding the genuine scores for users 13 through 20 - 29th May 2015 @ 5:34 pm
-        static double[,] s013Gen;
-        static double[,] s014Gen;
-        static double[,] s015Gen;
-        static double[,] s016Gen;
-        static double[,] s017Gen;
-        static double[,] s018Gen;
-        static double[,] s019Gen;
-        static double[,] s020Gen; 
+        static double[,] s013Gen; static double[,] s014Gen; static double[,] s015Gen;
+        static double[,] s016Gen; static double[,] s017Gen; static double[,] s018Gen;
+        static double[,] s019Gen; static double[,] s020Gen; 
 
         // Adding the genuine scores for users 21 through 23 - 9th June 2015
-        static double[,] s021Gen;
-        static double[,] s022Gen;
-        static double[,] s023Gen;
+        static double[,] s021Gen; static double[,] s022Gen; static double[,] s023Gen;
 
         // Adding the genuine scores for users 24 through 26 - 12th June 2015
-        static double[,] s024Gen;
-        static double[,] s025Gen;
-        static double[,] s026Gen;
+        static double[,] s024Gen; static double[,] s025Gen; static double[,] s026Gen;
 
         // Adding the genuine scores users 27 through 30 - 13th June 2015
-        static double[,] s027Gen;
-        static double[,] s028Gen;
-        static double[,] s029Gen;
-        static double[,] s030Gen;
+        static double[,] s027Gen; static double[,] s028Gen;
+        static double[,] s029Gen; static double[,] s030Gen;
 
         // Adding the genuine scores user 31 and 32 and 33 - 13th June 2015
-        static double[,] s031Gen;
-        static double[,] s032Gen;
-        static double[,] s033Gen;
+        static double[,] s031Gen; static double[,] s032Gen; static double[,] s033Gen;
 
         // Adding the genuine scores for users 34 through 40 here - 13th June 2015
-        static double[,] s034Gen;
-        static double[,] s035Gen;
-        static double[,] s036Gen;
-        static double[,] s037Gen;
-        static double[,] s038Gen;
-        static double[,] s039Gen;
+        static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
+        static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
         static double[,] s040Gen;
         #endregion
 
