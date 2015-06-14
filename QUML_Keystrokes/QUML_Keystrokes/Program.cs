@@ -720,7 +720,7 @@ namespace QUML_Keystrokes
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
 
-            // The input condition that will be the parameters for the switch statement that follows this. 
+            // The input condition that will be the parameters for the switch statement that follows this. - 14th June 2015
             string input = Console.ReadLine();
 
             /*
