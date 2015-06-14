@@ -24,6 +24,7 @@
  * 1.4.9    13/06/2015  PKR     Now adding more users to the solution and will be then referencing them in the code.  There is going to be a lot of code additions!
  * 1.4.10   13/06/2015  PKR     Having more users in this solution - users 34 through 40, updating the in-code documentation
  * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
+ * 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to                                 be added soon
  */
 
 using System;
@@ -103,6 +104,18 @@ namespace QUML_Keystrokes
         static double[,] s038;
         static double[,] s039;
         static double[,] s040;
+
+        // Declaring the variables for users 41 through 50 - 14th June 2015
+        static double[,] s041;
+        static double[,] s042;
+        static double[,] s043;
+        static double[,] s044;
+        static double[,] s045;
+        static double[,] s046;
+        static double[,] s047;
+        static double[,] s048;
+        static double[,] s049;
+        static double[,] s050; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -482,6 +495,183 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser6User39;
         static double[,] impostorScoresUser6User40;
         #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 7 as the template
+        static double[,] impostorScoresUser7User1;
+        static double[,] impostorScoresUser7User2;
+        static double[,] impostorScoresUser7User3;
+        static double[,] impostorScoresUser7User4;
+        static double[,] impostorScoresUser7User5;
+        static double[,] impostorScoresUser7User6;
+        static double[,] impostorScoresUser7User8;
+        static double[,] impostorScoresUser7User9;
+        static double[,] impostorScoresUser7User10;
+        static double[,] impostorScoresUser7User11;
+        static double[,] impostorScoresUser7User12;
+        static double[,] impostorScoresUser7User13;
+        static double[,] impostorScoresUser7User14;
+        static double[,] impostorScoresUser7User15;
+        static double[,] impostorScoresUser7User16;
+        static double[,] impostorScoresUser7User17;
+        static double[,] impostorScoresUser7User18;
+        static double[,] impostorScoresUser7User19;
+        static double[,] impostorScoresUser7User20;
+        static double[,] impostorScoresUser7User21;
+        static double[,] impostorScoresUser7User22;
+        static double[,] impostorScoresUser7User23;
+        static double[,] impostorScoresUser7User24;
+        static double[,] impostorScoresUser7User25;
+        static double[,] impostorScoresUser7User26;
+        static double[,] impostorScoresUser7User27;
+        static double[,] impostorScoresUser7User28;
+        static double[,] impostorScoresUser7User29;
+        static double[,] impostorScoresUser7User30;
+        static double[,] impostorScoresUser7User31;
+        static double[,] impostorScoresUser7User32;
+        static double[,] impostorScoresUser7User33;
+
+        // The impostor score 2D double arrays with user 7 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser7User34;
+        static double[,] impostorScoresUser7User35;
+        static double[,] impostorScoresUser7User36;
+        static double[,] impostorScoresUser7User37;
+        static double[,] impostorScoresUser7User38;
+        static double[,] impostorScoresUser7User39;
+        static double[,] impostorScoresUser7User40;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 8 as the template
+        static double[,] impostorScoresUser8User1;
+        static double[,] impostorScoresUser8User2;
+        static double[,] impostorScoresUser8User3;
+        static double[,] impostorScoresUser8User4;
+        static double[,] impostorScoresUser8User5;
+        static double[,] impostorScoresUser8User6;
+        static double[,] impostorScoresUser8User7;
+        static double[,] impostorScoresUser8User9;
+        static double[,] impostorScoresUser8User10;
+        static double[,] impostorScoresUser8User11;
+        static double[,] impostorScoresUser8User12;
+        static double[,] impostorScoresUser8User13;
+        static double[,] impostorScoresUser8User14;
+        static double[,] impostorScoresUser8User15;
+        static double[,] impostorScoresUser8User16;
+        static double[,] impostorScoresUser8User17;
+        static double[,] impostorScoresUser8User18;
+        static double[,] impostorScoresUser8User19;
+        static double[,] impostorScoresUser8User20;
+        static double[,] impostorScoresUser8User21;
+        static double[,] impostorScoresUser8User22;
+        static double[,] impostorScoresUser8User23;
+        static double[,] impostorScoresUser8User24;
+        static double[,] impostorScoresUser8User25;
+        static double[,] impostorScoresUser8User26;
+        static double[,] impostorScoresUser8User27;
+        static double[,] impostorScoresUser8User28;
+        static double[,] impostorScoresUser8User29;
+        static double[,] impostorScoresUser8User30;
+        static double[,] impostorScoresUser8User31;
+        static double[,] impostorScoresUser8User32;
+        static double[,] impostorScoresUser8User33;
+
+        // The impostor score 2D double arrays with user 8 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser8User34;
+        static double[,] impostorScoresUser8User35;
+        static double[,] impostorScoresUser8User36;
+        static double[,] impostorScoresUser8User37;
+        static double[,] impostorScoresUser8User38;
+        static double[,] impostorScoresUser8User39;
+        static double[,] impostorScoresUser8User40;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 9 as the template
+        static double[,] impostorScoresUser9User1;
+        static double[,] impostorScoresUser9User2;
+        static double[,] impostorScoresUser9User3;
+        static double[,] impostorScoresUser9User4;
+        static double[,] impostorScoresUser9User5;
+        static double[,] impostorScoresUser9User6;
+        static double[,] impostorScoresUser9User7;
+        static double[,] impostorScoresUser9User8;
+        static double[,] impostorScoresUser9User10;
+        static double[,] impostorScoresUser9User11;
+        static double[,] impostorScoresUser9User12;
+        static double[,] impostorScoresUser9User13;
+        static double[,] impostorScoresUser9User14;
+        static double[,] impostorScoresUser9User15;
+        static double[,] impostorScoresUser9User16;
+        static double[,] impostorScoresUser9User17;
+        static double[,] impostorScoresUser9User18;
+        static double[,] impostorScoresUser9User19;
+        static double[,] impostorScoresUser9User20;
+        static double[,] impostorScoresUser9User21;
+        static double[,] impostorScoresUser9User22;
+        static double[,] impostorScoresUser9User23;
+        static double[,] impostorScoresUser9User24;
+        static double[,] impostorScoresUser9User25;
+        static double[,] impostorScoresUser9User26;
+        static double[,] impostorScoresUser9User27;
+        static double[,] impostorScoresUser9User28;
+        static double[,] impostorScoresUser9User29;
+        static double[,] impostorScoresUser9User30;
+        static double[,] impostorScoresUser9User31;
+        static double[,] impostorScoresUser9User32;
+        static double[,] impostorScoresUser9User33;
+
+        // The impostor score 2D double arrays with user 9 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser9User34;
+        static double[,] impostorScoresUser9User35;
+        static double[,] impostorScoresUser9User36;
+        static double[,] impostorScoresUser9User37;
+        static double[,] impostorScoresUser9User38;
+        static double[,] impostorScoresUser9User39;
+        static double[,] impostorScoresUser9User40;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 10 as the template
+        static double[,] impostorScoresUser10User1;
+        static double[,] impostorScoresUser10User2;
+        static double[,] impostorScoresUser10User3;
+        static double[,] impostorScoresUser10User4;
+        static double[,] impostorScoresUser10User5;
+        static double[,] impostorScoresUser10User6;
+        static double[,] impostorScoresUser10User7;
+        static double[,] impostorScoresUser10User8;
+        static double[,] impostorScoresUser10User9;
+        static double[,] impostorScoresUser10User11;
+        static double[,] impostorScoresUser10User12;
+        static double[,] impostorScoresUser10User13;
+        static double[,] impostorScoresUser10User14;
+        static double[,] impostorScoresUser10User15;
+        static double[,] impostorScoresUser10User16;
+        static double[,] impostorScoresUser10User17;
+        static double[,] impostorScoresUser10User18;
+        static double[,] impostorScoresUser10User19;
+        static double[,] impostorScoresUser10User20;
+        static double[,] impostorScoresUser10User21;
+        static double[,] impostorScoresUser10User22;
+        static double[,] impostorScoresUser10User23;
+        static double[,] impostorScoresUser10User24;
+        static double[,] impostorScoresUser10User25;
+        static double[,] impostorScoresUser10User26;
+        static double[,] impostorScoresUser10User27;
+        static double[,] impostorScoresUser10User28;
+        static double[,] impostorScoresUser10User29;
+        static double[,] impostorScoresUser10User30;
+        static double[,] impostorScoresUser10User31;
+        static double[,] impostorScoresUser10User32;
+        static double[,] impostorScoresUser10User33;
+
+        // The impostor score 2D double arrays with user 10 as the template and looking at users 34 through 40 - 14th June 2015
+        static double[,] impostorScoresUser10User34;
+        static double[,] impostorScoresUser10User35;
+        static double[,] impostorScoresUser10User36;
+        static double[,] impostorScoresUser10User37;
+        static double[,] impostorScoresUser10User38;
+        static double[,] impostorScoresUser10User39;
+        static double[,] impostorScoresUser10User40;
+        #endregion
+
         #endregion
         #endregion
 

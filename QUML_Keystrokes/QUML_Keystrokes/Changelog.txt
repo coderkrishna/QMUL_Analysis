@@ -95,3 +95,9 @@ and CalculateFalseRejectRate(params go here).
 * Making additional calls for generating the template vectors etc...
 * Working with about 33 user data - generating their template vectors and genuine scores
 * Now also will be working on populating the impostor scores of approximately 6 users, and having the other users as the zero-effort impostors
+
+14th June 2015
+* Focusing mostly on the data, and having all of the users in the repository and in code
+* Have already added 40 users, need to add 60 more - I'll be spending most of my time on this task today
+* Then will have parse the CSV files and then will also have to declare and initialize their template vectors and genuine scores
+* After that will be the impostor scores that are generated and then will be the various rates
