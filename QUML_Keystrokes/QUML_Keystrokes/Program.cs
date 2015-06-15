@@ -26,7 +26,8 @@
  * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
  * 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to                                 be added soon
  * 1.5.2    14/06/2015  PKR     Declaring more user variables: users 51 through 60, and then the mean templates and genuine scores later will be declared
- * 1.5.3    14/06/2015  PKR     Fixing Git issues
+ * 1.5.3    14/06/2015  PKR     Fixing Git issues, and also making sure to add more users to the repository  (solution)
+ * 1.5.4    14/06/2015  PKR     Fixed Git issues, now initializing the 2D double arrays for users 41 through 50 and added data for 54 users so far (in solution/repo)
  */
 
 using System;
@@ -50,85 +51,50 @@ namespace QUML_Keystrokes
     {
         #region Static 2D double arrays that will be used/created
         #region Static 2D Double arrays for all of the users - using the DataFilter.ParseData(string filepath) method
-        static double[,] s001; 
-        static double[,] s002;
-        static double[,] s003;
-        static double[,] s004;
+        static double[,] s001; static double[,] s002;
+        static double[,] s003; static double[,] s004;
         static double[,] s005;
 
         // Added the new users 6 through 9 - 13th May 2015
-        static double[,] s006; 
-        static double[,] s007;
-        static double[,] s008;
-        static double[,] s009;
+        static double[,] s006; static double[,] s007;
+        static double[,] s008; static double[,] s009;
 
         // Adding the users 10, 11, and 12 - 27th May 2015
-        static double[,] s010; 
-        static double[,] s011;
-        static double[,] s012;
+        static double[,] s010;  static double[,] s011; static double[,] s012;
 
         // Adding the users 13 through 20 - 29th May 2015
-        static double[,] s013; 
-        static double[,] s014;
-        static double[,] s015;
-        static double[,] s016;
-        static double[,] s017;
-        static double[,] s018;
-        static double[,] s019;
-        static double[,] s020; 
+        static double[,] s013; static double[,] s014;  static double[,] s015;
+        static double[,] s016; static double[,] s017;  static double[,] s018;
+        static double[,] s019; static double[,] s020; 
 
         // Adding the users 21 through 23 - 9th June 2015
-        static double[,] s021;
-        static double[,] s022;
-        static double[,] s023; 
+        static double[,] s021; static double[,] s022; static double[,] s023; 
 
         // Adding users 24 through 26 - 12th June 2015
-        static double[,] s024;
-        static double[,] s025;
-        static double[,] s026; 
+        static double[,] s024; static double[,] s025; static double[,] s026; 
 
         // Adding users 27 through 30 - 12th June 2015
-        static double[,] s027;
-        static double[,] s028;
-        static double[,] s029;
-        static double[,] s030;
+        static double[,] s027; static double[,] s028;
+        static double[,] s029; static double[,] s030;
 
         // Adding users 31,32, and 33 - 13th June 2015
-        static double[,] s031;
-        static double[,] s032;
-        static double[,] s033;
+        static double[,] s031; static double[,] s032; static double[,] s033;
 
         // Adding users 34 through 40 here - 13th June 2015
-        static double[,] s034;
-        static double[,] s035;
-        static double[,] s036;
-        static double[,] s037;
-        static double[,] s038;
-        static double[,] s039;
+        static double[,] s034; static double[,] s035; static double[,] s036;
+        static double[,] s037; static double[,] s038; static double[,] s039;
         static double[,] s040;
 
         // Declaring the variables for users 41 through 50 - 14th June 2015
-        static double[,] s041;
-        static double[,] s042;
-        static double[,] s043;
-        static double[,] s044;
-        static double[,] s045;
-        static double[,] s046;
-        static double[,] s047;
-        static double[,] s048;
-        static double[,] s049;
+        static double[,] s041; static double[,] s042; static double[,] s043;
+        static double[,] s044; static double[,] s045; static double[,] s046;
+        static double[,] s047; static double[,] s048; static double[,] s049;
         static double[,] s050; 
 
         // Declaring variables for users 51 through 60 - 14th June 2015
-        static double[,] s051;
-        static double[,] s052;
-        static double[,] s053;
-        static double[,] s054;
-        static double[,] s055;
-        static double[,] s056;
-        static double[,] s057;
-        static double[,] s058;
-        static double[,] s059;
+        static double[,] s051; static double[,] s052; static double[,] s053;
+        static double[,] s054; static double[,] s055; static double[,] s056;
+        static double[,] s057; static double[,] s058; static double[,] s059;
         static double[,] s060;
         #endregion
 
@@ -172,6 +138,7 @@ namespace QUML_Keystrokes
         static double[] s050Mean; static double[] s051Mean; static double[] s052Mean; 
         static double[] s053Mean; static double[] s054Mean; static double[] s055Mean; 
         static double[] s056Mean; static double[] s057Mean; static double[] s058Mean;
+        static double[] s059Mean; static double[] s060Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -203,6 +170,15 @@ namespace QUML_Keystrokes
         static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
         static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
         static double[,] s040Gen;
+
+        // Adding the genuine scores for users 41 through 60 here - 14th June 2015
+        static double[,] s041Gen; static double[,] s042Gen; static double[,] s043Gen;
+        static double[,] s044Gen; static double[,] s045Gen; static double[,] s046Gen;
+        static double[,] s047Gen; static double[,] s048Gen; static double[,] s049Gen;
+        static double[,] s050Gen; static double[,] s051Gen; static double[,] s052Gen;
+        static double[,] s053Gen; static double[,] s054Gen; static double[,] s055Gen;
+        static double[,] s056Gen; static double[,] s057Gen; static double[,] s058Gen;
+        static double[,] s059Gen; static double[,] s060Gen;
         #endregion
 
         #region These are the impostor scores for each user combination
@@ -717,6 +693,18 @@ namespace QUML_Keystrokes
             s038 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user38.csv");
             s039 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user39.csv");
             s040 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user40.csv");
+
+            // Inserting the CSV files to be parsed for users 41 through 50 - 14th June 2015
+            s041 = DataFilter.ParseData(@"");
+            s042 = DataFilter.ParseData(@"");
+            s043 = DataFilter.ParseData(@"");
+            s044 = DataFilter.ParseData(@"");
+            s045 = DataFilter.ParseData(@"");
+            s046 = DataFilter.ParseData(@"");
+            s047 = DataFilter.ParseData(@"");
+            s048 = DataFilter.ParseData(@"");
+            s049 = DataFilter.ParseData(@"");
+            s050 = DataFilter.ParseData(@""); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
