@@ -7,27 +7,10 @@
  * 
  * Version  Date        Who     Description
  * -------  ----------  ------- ---------------
- * 1.0      03/05/2015  PKR     Original Version
- * 1.1      29/05/2015  PKR     Adding more users in-code and also calculating the Mean vectors under the Manhattan Distance class
- * 1.2      09/06/2015  PKR     Adding users in-code
- * 1.3      10/06/2015  PKR     More method calls from the ManhattanDistance.cs class file for calculation purposes
- * 1.2      11/06/2015  PKR     Adding more users - in the repository
- * 1.4      12/06/2015  PKR     Adding more users in-code, updating in-code documentation
- * 1.4.1    12/06/2015  PKR     Adding the static variables for more users, will have to populate all of them soon. 
- * 1.4.2    12/06/2015  PKR     Added users 24 through 26 in-code right now. 
- * 1.4.3    12/06/2015  PKR     Adding users 27 through 30 in the repository, declared and initialized the 2D double arrays for users 27-30
- * 1.4.4    13/06/2015  PKR     Now after initializing users 27-30, calculating their mean vectors and their genuine scores
- * 1.4.5    13/06/2015  PKR     Initializing the impostor scores for users 1 through 5, and will also be adding more user data users 31 and 32
- * 1.4.6    13/06/2015  PKR     Adding user 33 data and also now populating the impostor scores arrays. 
- * 1.4.7    13/06/2015  PKR     Now populating the impostor arrays for users 2 through 6 - A LOT OF CODE ADDED!
- * 1.4.8    13/06/2015  PKR     Finished up populating the impostor scores for user 2 (not with all the 100 users) but with 33 users so far. 
- * 1.4.9    13/06/2015  PKR     Now adding more users to the solution and will be then referencing them in the code.  There is going to be a lot of code additions!
- * 1.4.10   13/06/2015  PKR     Having more users in this solution - users 34 through 40, updating the in-code documentation
- * 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
- * 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to                                 be added soon
  * 1.5.2    14/06/2015  PKR     Declaring more user variables: users 51 through 60, and then the mean templates and genuine scores later will be declared
  * 1.5.3    14/06/2015  PKR     Fixing Git issues, and also making sure to add more users to the repository  (solution)
  * 1.5.4    14/06/2015  PKR     Fixed Git issues, now initializing the 2D double arrays for users 41 through 50 and added data for 54 users so far (in solution/repo)
+ * 1.5.5    15/06/2015  PKR     Git issues are fixed and right now will be adding more user data files, and also then initializing the variables (filling up the data)
  */
 
 using System;
