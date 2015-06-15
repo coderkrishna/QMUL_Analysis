@@ -11,6 +11,8 @@
  * 1.5.3    14/06/2015  PKR     Fixing Git issues, and also making sure to add more users to the repository  (solution)
  * 1.5.4    14/06/2015  PKR     Fixed Git issues, now initializing the 2D double arrays for users 41 through 50 and added data for 54 users so far (in solution/repo)
  * 1.5.5    15/06/2015  PKR     Git issues are fixed and right now will be adding more user data files, and also then initializing the variables (filling up the data)
+ * 1.5.6    15/06/2015  PKR     Now initialized 60 users, and will be initializing the data for the mean templates, and genuine scores for the 60 users 
+ * 1.5.7    15/06/2015  PKR     Right now, I will be initializing the genuine scores for users 41 through 60 before tackling the impostor scores
  */
 
 using System;
@@ -688,6 +690,18 @@ namespace QUML_Keystrokes
             s048 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user48.csv");
             s049 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user49.csv");
             s050 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv"); 
+
+            // Inserting the CSV files to be parsed for users 51 through 60 - 15th June 2015
+            s051 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user51.csv");
+            s052 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user52.csv");
+            s053 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user53.csv");
+            s054 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user54.csv");
+            s055 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user55.csv");
+            s056 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user56.csv");
+            s057 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user57.csv");
+            s058 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user58.csv");
+            s059 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
+            s060 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -853,6 +867,28 @@ namespace QUML_Keystrokes
             s038Mean = ManhDist.CalculateMeanVector(s038);
             s039Mean = ManhDist.CalculateMeanVector(s039);
             s040Mean = ManhDist.CalculateMeanVector(s040);
+
+            // Adding the mean vectors for user 41 through 60 - 15th June 2015
+            s041Mean = ManhDist.CalculateMeanVector(s041);
+            s042Mean = ManhDist.CalculateMeanVector(s042);
+            s043Mean = ManhDist.CalculateMeanVector(s043);
+            s044Mean = ManhDist.CalculateMeanVector(s044);
+            s045Mean = ManhDist.CalculateMeanVector(s045);
+            s046Mean = ManhDist.CalculateMeanVector(s046);
+            s047Mean = ManhDist.CalculateMeanVector(s047);
+            s048Mean = ManhDist.CalculateMeanVector(s048);
+            s049Mean = ManhDist.CalculateMeanVector(s049);
+            s050Mean = ManhDist.CalculateMeanVector(s050);
+            s051Mean = ManhDist.CalculateMeanVector(s051);
+            s052Mean = ManhDist.CalculateMeanVector(s052);
+            s053Mean = ManhDist.CalculateMeanVector(s053);
+            s054Mean = ManhDist.CalculateMeanVector(s054);
+            s055Mean = ManhDist.CalculateMeanVector(s055);
+            s056Mean = ManhDist.CalculateMeanVector(s056);
+            s057Mean = ManhDist.CalculateMeanVector(s057);
+            s058Mean = ManhDist.CalculateMeanVector(s058);
+            s059Mean = ManhDist.CalculateMeanVector(s059);
+            s060Mean = ManhDist.CalculateMeanVector(s060); 
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -906,6 +942,28 @@ namespace QUML_Keystrokes
             s038Gen = ManhDist.CalculateGenuineScores(s038, s038Mean);
             s039Gen = ManhDist.CalculateGenuineScores(s039, s039Mean);
             s040Gen = ManhDist.CalculateGenuineScores(s040, s040Mean);
+
+            // Adding the genuine scores for users 41 through 60 - 15th June 2015
+            s041Gen = ManhDist.CalculateGenuineScores(s041, s041Mean);
+            s042Gen = ManhDist.CalculateGenuineScores(s042, s042Mean);
+            s043Gen = ManhDist.CalculateGenuineScores(s043, s043Mean);
+            s044Gen = ManhDist.CalculateGenuineScores(s044, s044Mean);
+            s045Gen = ManhDist.CalculateGenuineScores(s045, s045Mean);
+            s046Gen = ManhDist.CalculateGenuineScores(s046, s046Mean);
+            s047Gen = ManhDist.CalculateGenuineScores(s047, s047Mean);
+            s048Gen = ManhDist.CalculateGenuineScores(s048, s048Mean);
+            s049Gen = ManhDist.CalculateGenuineScores(s049, s049Mean);
+            s050Gen = ManhDist.CalculateGenuineScores(s050, s050Mean);
+            s051Gen = ManhDist.CalculateGenuineScores(s051, s051Mean);
+            s052Gen = ManhDist.CalculateGenuineScores(s052, s052Mean);
+            s053Gen = ManhDist.CalculateGenuineScores(s053, s053Mean);
+            s054Gen = ManhDist.CalculateGenuineScores(s054, s054Mean);
+            s055Gen = ManhDist.CalculateGenuineScores(s055, s055Mean);
+            s056Gen = ManhDist.CalculateGenuineScores(s056, s056Mean);
+            s057Gen = ManhDist.CalculateGenuineScores(s057, s057Mean);
+            s058Gen = ManhDist.CalculateGenuineScores(s058, s058Mean);
+            s059Gen = ManhDist.CalculateGenuineScores(s059, s059Mean);
+            s060Gen = ManhDist.CalculateGenuineScores(s060, s060Mean); 
             #endregion
 
             /*
