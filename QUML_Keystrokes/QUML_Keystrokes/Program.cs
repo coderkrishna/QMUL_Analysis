@@ -1061,6 +1061,14 @@ namespace QUML_Keystrokes
             impostorScoresUser2User39 = ManhDist.CalculateImpostorScores(s002Mean, s039);
             impostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040); 
             #endregion
+
+            #region User 3 Impostor Scores
+            // Populating the impostor scores for user 3 - using user 3 mean vectors as template
+            impostorScoresUser3User1 = ManhDist.CalculateImpostorScores(s003Mean, s001);
+            impostorScoresUser3User2 = ManhDist.CalculateImpostorScores(s003Mean, s002);
+            impostorScoresUser3User4 = ManhDist.CalculateImpostorScores(s003Mean, s004); 
+            #endregion
+
             #endregion
         }
         #endregion
