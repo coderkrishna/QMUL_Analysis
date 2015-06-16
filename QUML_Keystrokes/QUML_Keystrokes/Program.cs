@@ -1059,7 +1059,7 @@ namespace QUML_Keystrokes
             impostorScoresUser2User37 = ManhDist.CalculateImpostorScores(s002Mean, s037);
             impostorScoresUser2User38 = ManhDist.CalculateImpostorScores(s002Mean, s038);
             impostorScoresUser2User39 = ManhDist.CalculateImpostorScores(s002Mean, s039);
-            impostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040); 
+            impostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040);
             #endregion
 
             #region User 3 Impostor Scores
