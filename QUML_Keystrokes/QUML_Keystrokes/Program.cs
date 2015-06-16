@@ -13,6 +13,7 @@
  * 1.5.5    15/06/2015  PKR     Git issues are fixed and right now will be adding more user data files, and also then initializing the variables (filling up the data)
  * 1.5.6    15/06/2015  PKR     Now initialized 60 users, and will be initializing the data for the mean templates, and genuine scores for the 60 users 
  * 1.5.7    15/06/2015  PKR     Right now, I will be initializing the genuine scores for users 41 through 60 before tackling the impostor scores
+ * 1.5.8    15/06/2015  PKR     Adding more code, and then will be adding more users
  */
 
 using System;
