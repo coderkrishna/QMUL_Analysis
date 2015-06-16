@@ -14,7 +14,7 @@
  * 1.5.6    15/06/2015  PKR     Now initialized 60 users, and will be initializing the data for the mean templates, and genuine scores for the 60 users 
  * 1.5.7    15/06/2015  PKR     Right now, I will be initializing the genuine scores for users 41 through 60 before tackling the impostor scores
  * 1.5.8    15/06/2015  PKR     Adding more code, and then will be adding more users.
- * 1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated
+ * 1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated, user 4 is completed.  User 5 is being worked on right now. 
  */
 
 using System;
@@ -1150,6 +1150,29 @@ namespace QUML_Keystrokes
             impostorScoresUser4User38 = ManhDist.CalculateImpostorScores(s004Mean, s038);
             impostorScoresUser4User39 = ManhDist.CalculateImpostorScores(s004Mean, s039);
             impostorScoresUser4User40 = ManhDist.CalculateImpostorScores(s004Mean, s040);
+            #endregion
+
+            #region User 5 Impostor Scores
+            // Adding in the impostorScores with user 5 as the training vector (using user 5 template vector)
+            impostorScoresUser5User1 = ManhDist.CalculateImpostorScores(s005Mean, s001);
+            impostorScoresUser5User2 = ManhDist.CalculateImpostorScores(s005Mean, s002);
+            impostorScoresUser5User3 = ManhDist.CalculateImpostorScores(s005Mean, s003);
+            impostorScoresUser5User4 = ManhDist.CalculateImpostorScores(s005Mean, s004);
+            impostorScoresUser5User6 = ManhDist.CalculateImpostorScores(s005Mean, s006);
+            impostorScoresUser5User7 = ManhDist.CalculateImpostorScores(s005Mean, s007);
+            impostorScoresUser5User8 = ManhDist.CalculateImpostorScores(s005Mean, s008);
+            impostorScoresUser5User9 = ManhDist.CalculateImpostorScores(s005Mean, s009);
+            impostorScoresUser5User10 = ManhDist.CalculateImpostorScores(s005Mean, s010);
+            impostorScoresUser5User11 = ManhDist.CalculateImpostorScores(s005Mean, s011);
+            impostorScoresUser5User12 = ManhDist.CalculateImpostorScores(s005Mean, s012);
+            impostorScoresUser5User13 = ManhDist.CalculateImpostorScores(s005Mean, s013);
+            impostorScoresUser5User14 = ManhDist.CalculateImpostorScores(s005Mean, s014);
+            impostorScoresUser5User15 = ManhDist.CalculateImpostorScores(s005Mean, s015);
+            impostorScoresUser5User16 = ManhDist.CalculateImpostorScores(s005Mean, s016);
+            impostorScoresUser5User17 = ManhDist.CalculateImpostorScores(s005Mean, s017);
+            impostorScoresUser5User18 = ManhDist.CalculateImpostorScores(s005Mean, s018);
+            impostorScoresUser5User19 = ManhDist.CalculateImpostorScores(s005Mean, s019);
+            impostorScoresUser5User20 = ManhDist.CalculateImpostorScores(s005Mean, s020);
             #endregion
 
             #endregion
