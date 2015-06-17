@@ -16,7 +16,7 @@
  * 1.5.8    15/06/2015  PKR     Adding more code, and then will be adding more users.
  * 1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated, user 4 is completed.  User 5 is being worked on right now.
  * 1.5.10   16/06/2015  PKR     Adding the impostor scores for user 6 and user 7
- * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64
+ * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64 (in-code just added them), and will initialize the mean vectors (templates) and the genuine                               score matrices as well
  */
 
 using System;
@@ -85,6 +85,10 @@ namespace QUML_Keystrokes
         static double[,] s054; static double[,] s055; static double[,] s056;
         static double[,] s057; static double[,] s058; static double[,] s059;
         static double[,] s060;
+
+        // Declaring variables for user 61 through 64 - 17th June 2015
+        static double[,] s061; static double[,] s062; static double[,] s063;
+        static double[,] s064;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -128,6 +132,10 @@ namespace QUML_Keystrokes
         static double[] s053Mean; static double[] s054Mean; static double[] s055Mean; 
         static double[] s056Mean; static double[] s057Mean; static double[] s058Mean;
         static double[] s059Mean; static double[] s060Mean;
+
+        // Declaring the mean vectors for users 61 through 64 - 17th June 2015
+        static double[] s061Mean; static double[] s062Mean; static double[] s063Mean;
+        static double[] s064Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -168,6 +176,10 @@ namespace QUML_Keystrokes
         static double[,] s053Gen; static double[,] s054Gen; static double[,] s055Gen;
         static double[,] s056Gen; static double[,] s057Gen; static double[,] s058Gen;
         static double[,] s059Gen; static double[,] s060Gen;
+
+        // Adding the genuine scores for users 61 through 64 - 17th June 2015
+        static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen;
+        static double[,] s064Gen;
         #endregion
 
         #region These are the impostor scores for each user combination
@@ -706,6 +718,12 @@ namespace QUML_Keystrokes
             s058 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user58.csv");
             s059 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
             s060 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv"); 
+
+            // Inserting the CSV files to be parsed for users 61 through 64 - 17th June 2015
+            s061 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
+            s062 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
+            s063 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user63.csv");
+            s064 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -893,6 +911,12 @@ namespace QUML_Keystrokes
             s058Mean = ManhDist.CalculateMeanVector(s058);
             s059Mean = ManhDist.CalculateMeanVector(s059);
             s060Mean = ManhDist.CalculateMeanVector(s060); 
+
+            // Adding the mean vectors for users 61 through 64 - 17th June 2015
+            s061Mean = ManhDist.CalculateMeanVector(s061);
+            s062Mean = ManhDist.CalculateMeanVector(s062);
+            s063Mean = ManhDist.CalculateMeanVector(s063);
+            s064Mean = ManhDist.CalculateMeanVector(s064); 
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -968,6 +992,12 @@ namespace QUML_Keystrokes
             s058Gen = ManhDist.CalculateGenuineScores(s058, s058Mean);
             s059Gen = ManhDist.CalculateGenuineScores(s059, s059Mean);
             s060Gen = ManhDist.CalculateGenuineScores(s060, s060Mean); 
+
+            // Adding the genuine scores for users 61 through 64 - 17th June 2015
+            s061Gen = ManhDist.CalculateGenuineScores(s061, s061Mean);
+            s062Gen = ManhDist.CalculateGenuineScores(s062, s062Mean);
+            s063Gen = ManhDist.CalculateGenuineScores(s063, s063Mean);
+            s064Gen = ManhDist.CalculateGenuineScores(s064, s064Mean); 
             #endregion
 
             /*

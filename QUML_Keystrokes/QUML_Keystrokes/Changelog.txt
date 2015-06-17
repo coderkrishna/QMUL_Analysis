@@ -104,6 +104,14 @@ and CalculateFalseRejectRate(params go here).
 * Also tidying up the code right now and making sure that I can use up the most whitespace possible for declarations and then leave some whitespace
 for comments where it is necessary. 
 
+17th June 2015
+* Adding more user data - raw data, users 61 through 64
+* Will be initializing their mean vectors (template vectors) and the genuine scores as well.  
+* Then will be adding more users and hopefully get to user 70
+
+
+AS A REMINDER - But will still be using the above format out of sanity!!
+
 -------New changelog format-------------------
 1.0      03/05/2015  PKR     Original Version
 1.1      29/05/2015  PKR     Adding more users in-code and also calculating the Mean vectors under the Manhattan Distance class
