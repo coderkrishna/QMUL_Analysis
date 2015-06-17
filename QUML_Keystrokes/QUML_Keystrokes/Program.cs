@@ -16,6 +16,7 @@
  * 1.5.8    15/06/2015  PKR     Adding more code, and then will be adding more users.
  * 1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated, user 4 is completed.  User 5 is being worked on right now.
  * 1.5.10   16/06/2015  PKR     Adding the impostor scores for user 6 and user 7
+ * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64
  */
 
 using System;
