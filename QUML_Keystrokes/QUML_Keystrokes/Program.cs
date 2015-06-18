@@ -18,6 +18,7 @@
  * 1.5.10   16/06/2015  PKR     Adding the impostor scores for user 6 and user 7
  * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64 (in-code just added them), and will initialize the mean vectors (templates) and the genuine                               score matrices as well
  * 1.6.1    18/06/2015  PKR     Having more raw user data added in the repository, and then later on in code as well, along with their mean vector and genuine scores
+ * 1.6.2    18/06/2015  PKR     Have populated the template vectors and the genuine scores for users 65 through 70
  */
 
 using System;
@@ -736,7 +737,15 @@ namespace QUML_Keystrokes
             s061 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
             s062 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
             s063 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user63.csv");
-            s064 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv"); 
+            s064 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv");
+
+            // Inserting the CSV files to be parsed for users 65 through 70
+            s065 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user65.csv");
+            s066 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user66.csv");
+            s067 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user67.csv");
+            s068 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user68.csv");
+            s069 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user69.csv");
+            s070 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user70.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -930,6 +939,14 @@ namespace QUML_Keystrokes
             s062Mean = ManhDist.CalculateMeanVector(s062);
             s063Mean = ManhDist.CalculateMeanVector(s063);
             s064Mean = ManhDist.CalculateMeanVector(s064); 
+
+            // Adding/populating the mean vectors for users 65 through 70 - 18th June 2015
+            s065Mean = ManhDist.CalculateMeanVector(s065);
+            s066Mean = ManhDist.CalculateMeanVector(s066);
+            s067Mean = ManhDist.CalculateMeanVector(s067);
+            s068Mean = ManhDist.CalculateMeanVector(s068);
+            s069Mean = ManhDist.CalculateMeanVector(s069);
+            s070Mean = ManhDist.CalculateMeanVector(s070); 
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -1011,6 +1028,14 @@ namespace QUML_Keystrokes
             s062Gen = ManhDist.CalculateGenuineScores(s062, s062Mean);
             s063Gen = ManhDist.CalculateGenuineScores(s063, s063Mean);
             s064Gen = ManhDist.CalculateGenuineScores(s064, s064Mean); 
+
+            // Adding the genuine scores for users 65 through 70 - 18th June 2015
+            s065Gen = ManhDist.CalculateGenuineScores(s065, s065Mean);
+            s066Gen = ManhDist.CalculateGenuineScores(s066, s066Mean);
+            s067Gen = ManhDist.CalculateGenuineScores(s067, s067Mean);
+            s068Gen = ManhDist.CalculateGenuineScores(s068, s068Mean);
+            s069Gen = ManhDist.CalculateGenuineScores(s069, s069Mean);
+            s070Gen = ManhDist.CalculateGenuineScores(s070, s070Mean); 
             #endregion
 
             /*
