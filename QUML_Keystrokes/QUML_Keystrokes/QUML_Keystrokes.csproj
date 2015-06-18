@@ -111,6 +111,12 @@
     <None Include="Latency Data\user62.csv" />
     <None Include="Latency Data\user63.csv" />
     <None Include="Latency Data\user64.csv" />
+    <None Include="Latency Data\user65.csv" />
+    <None Include="Latency Data\user66.csv" />
+    <None Include="Latency Data\user67.csv" />
+    <None Include="Latency Data\user68.csv" />
+    <None Include="Latency Data\user69.csv" />
+    <None Include="Latency Data\user70.csv" />
     <None Include="Latency Data\user8.csv" />
     <None Include="Latency Data\user9.csv" />
   </ItemGroup>

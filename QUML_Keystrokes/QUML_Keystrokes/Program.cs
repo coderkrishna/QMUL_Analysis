@@ -17,6 +17,7 @@
  * 1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated, user 4 is completed.  User 5 is being worked on right now.
  * 1.5.10   16/06/2015  PKR     Adding the impostor scores for user 6 and user 7
  * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64 (in-code just added them), and will initialize the mean vectors (templates) and the genuine                               score matrices as well
+ * 1.6.1    18/06/2015  PKR     Having more raw user data added in the repository, and then later on in code as well, along with their mean vector and genuine scores
  */
 
 using System;
@@ -89,6 +90,10 @@ namespace QUML_Keystrokes
         // Declaring variables for user 61 through 64 - 17th June 2015
         static double[,] s061; static double[,] s062; static double[,] s063;
         static double[,] s064;
+
+        // Declaring variables for users 65 through 70 - 18th June 2015
+        static double[,] s065; static double[,] s066; static double[,] s067;
+        static double[,] s068; static double[,] s069; static double[,] s070; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -136,6 +141,10 @@ namespace QUML_Keystrokes
         // Declaring the mean vectors for users 61 through 64 - 17th June 2015
         static double[] s061Mean; static double[] s062Mean; static double[] s063Mean;
         static double[] s064Mean;
+
+        // Declaring the mean vectors for users 65 through 70 - 18th June 2015
+        static double[] s065Mean; static double[] s066Mean; static double[] s067Mean;
+        static double[] s068Mean; static double[] s069Mean; static double[] s070Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -180,6 +189,10 @@ namespace QUML_Keystrokes
         // Adding the genuine scores for users 61 through 64 - 17th June 2015
         static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen;
         static double[,] s064Gen;
+
+        // Declaring the genuine scores for users 65 through 70 - 18th June 2015
+        static double[,] s065Gen; static double[,] s066Gen; static double[,] s067Gen;
+        static double[,] s068Gen; static double[,] s069Gen; static double[,] s070Gen; 
         #endregion
 
         #region These are the impostor scores for each user combination

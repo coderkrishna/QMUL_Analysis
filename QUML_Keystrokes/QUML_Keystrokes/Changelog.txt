@@ -109,6 +109,11 @@ for comments where it is necessary.
 * Will be initializing their mean vectors (template vectors) and the genuine scores as well.  
 * Then will be adding more users and hopefully get to user 70
 
+18th June 2015
+* Right now declaring more user variables (user data, mean vectors [template vectors], and genuine scores)
+* Will be adding the CSV files for users 65 through 70 in the solution. 
+* Later on will be adding these users in-code. 
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
