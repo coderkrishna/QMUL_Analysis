@@ -10,8 +10,8 @@
  * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64 (in-code just added them), and will initialize the mean vectors (templates) and the genuine                               score matrices as well
  * 1.6.1    18/06/2015  PKR     Having more raw user data added in the repository, and then later on in code as well, along with their mean vector and genuine scores
  * 1.6.2    18/06/2015  PKR     Have populated the template vectors and the genuine scores for users 65 through 70
- * 1.6.3    19/06/2015  PKR     Declaring the variables for users 71 through 74 (the raw data, template vectors, and genuine scores), and later will be populating the                                   variables, and will be populating the same variables until user 70 under the EuclideanVerifer method (as of right now, just the template
- *                              vector is only being populated). 
+ * 1.6.3    19/06/2015  PKR     Declaring the variables for users 71 through 74 (the raw data, template vectors, and genuine scores), and later will be populating the                                   variables, and will be populating the same variables until user 70 under the EuclideanVerifer method 
+ * 1.6.4    19/06/2015  PKR     Now finished under the EuclideanVerifier, was able to populate all of the user's template vectors, and template vectors and genuine scores                               for the all the of users under the ManhattanVerifier 
  */
 
 using System;
@@ -624,19 +624,14 @@ namespace QUML_Keystrokes
             s003 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             s004 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
             s005 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
-
-            // Parsing the csv files of users 6 through 9 - 13th May 2015
             s006 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv"); 
             s007 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
             s008 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
             s009 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
-
-            // Parsing the CSV files for users 10, 11, and 12 - 27th May 2015
             s010 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user10.csv");
+            
             s011 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user11.csv");
             s012 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv"); 
-
-            // Parsing the CSV files for users 13 through 20 - 29th May 2015
             s013 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
             s014 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
             s015 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
@@ -646,28 +641,20 @@ namespace QUML_Keystrokes
             s019 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
             s020 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
 
-            // Inserting the CSV files to be parsed for users 21 through 23 - 9th June 2015
             s021 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
             s022 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
             s023 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
-
-            // Inserting the CSV files to be parsed for users 24 through 26 - 12th June 2015
             s024 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user24.csv");
             s025 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
             s026 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
-
-            // Inserting the CSV files to be parsed for user 27 through 30 - 12th June 2015
             s027 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user27.csv");
             s028 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user28.csv");
             s029 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user29.csv");
             s030 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user30.csv");
 
-            // Inserting the CSV files to be parsed for users 31 and 32 and 33 - 13th June 2015
             s031 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user31.csv");
             s032 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user32.csv");
             s033 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user33.csv");
-
-            // Inserting the CSV files to be parsed for users 34 through 40 - 13th June 2015
             s034 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user34.csv");
             s035 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user35.csv");
             s036 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user36.csv");
@@ -676,7 +663,6 @@ namespace QUML_Keystrokes
             s039 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user39.csv");
             s040 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user40.csv");
 
-            // Inserting the CSV files to be parsed for users 41 through 50 - 14th June 2015
             s041 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user41.csv");
             s042 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user42.csv");
             s043 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user43.csv");
@@ -688,7 +674,6 @@ namespace QUML_Keystrokes
             s049 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user49.csv");
             s050 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv"); 
 
-            // Inserting the CSV files to be parsed for users 51 through 60 - 15th June 2015
             s051 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user51.csv");
             s052 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user52.csv");
             s053 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user53.csv");
@@ -700,19 +685,22 @@ namespace QUML_Keystrokes
             s059 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
             s060 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv"); 
 
-            // Inserting the CSV files to be parsed for users 61 through 64 - 17th June 2015
             s061 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
             s062 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
             s063 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user63.csv");
             s064 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv");
-
-            // Inserting the CSV files to be parsed for users 65 through 70
             s065 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user65.csv");
             s066 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user66.csv");
             s067 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user67.csv");
             s068 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user68.csv");
             s069 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user69.csv");
-            s070 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user70.csv"); 
+            s070 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user70.csv");
+
+            s071 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user71.csv");
+            s072 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user72.csv");
+            s073 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user73.csv");
+            s074 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user74.csv");
+            s075 = DataFilter.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user75.csv"); 
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -849,7 +837,13 @@ namespace QUML_Keystrokes
             s067Mean = EuclidDist.CalculateMeanVector(s067);
             s068Mean = EuclidDist.CalculateMeanVector(s068);
             s069Mean = EuclidDist.CalculateMeanVector(s069);
-            s070Mean = EuclidDist.CalculateMeanVector(s070); 
+            s070Mean = EuclidDist.CalculateMeanVector(s070);
+
+            s071Mean = EuclidDist.CalculateMeanVector(s071);
+            s072Mean = EuclidDist.CalculateMeanVector(s072);
+            s073Mean = EuclidDist.CalculateMeanVector(s073);
+            s074Mean = EuclidDist.CalculateMeanVector(s074);
+            s075Mean = EuclidDist.CalculateMeanVector(s075); 
             #endregion
         }
 
@@ -940,7 +934,13 @@ namespace QUML_Keystrokes
             s067Mean = ManhDist.CalculateMeanVector(s067);
             s068Mean = ManhDist.CalculateMeanVector(s068);
             s069Mean = ManhDist.CalculateMeanVector(s069);
-            s070Mean = ManhDist.CalculateMeanVector(s070); 
+            s070Mean = ManhDist.CalculateMeanVector(s070);
+
+            s071Mean = ManhDist.CalculateMeanVector(s071);
+            s072Mean = ManhDist.CalculateMeanVector(s072);
+            s073Mean = ManhDist.CalculateMeanVector(s073);
+            s074Mean = ManhDist.CalculateMeanVector(s074);
+            s075Mean = ManhDist.CalculateMeanVector(s075); 
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -1021,7 +1021,13 @@ namespace QUML_Keystrokes
             s067Gen = ManhDist.CalculateGenuineScores(s067, s067Mean);
             s068Gen = ManhDist.CalculateGenuineScores(s068, s068Mean);
             s069Gen = ManhDist.CalculateGenuineScores(s069, s069Mean);
-            s070Gen = ManhDist.CalculateGenuineScores(s070, s070Mean); 
+            s070Gen = ManhDist.CalculateGenuineScores(s070, s070Mean);
+
+            s071Gen = ManhDist.CalculateGenuineScores(s071, s071Mean);
+            s072Gen = ManhDist.CalculateGenuineScores(s072, s072Mean);
+            s073Gen = ManhDist.CalculateGenuineScores(s073, s073Mean);
+            s074Gen = ManhDist.CalculateGenuineScores(s074, s074Mean);
+            s075Gen = ManhDist.CalculateGenuineScores(s075, s075Mean); 
             #endregion
 
             /*
