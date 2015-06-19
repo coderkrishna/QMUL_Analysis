@@ -114,6 +114,11 @@ for comments where it is necessary.
 * Will be adding the CSV files for users 65 through 70 in the solution. 
 * Later on will be adding these users in-code. 
 
+19th June 2015
+* Having more variables declared, but not initialized
+* Right now be focusing on the variables for the raw data, template vectors and genuine scores
+* Users working on today - 71 through 75
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
@@ -136,3 +141,12 @@ AS A REMINDER - But will still be using the above format out of sanity!!
 1.4.10   13/06/2015  PKR     Having more users in this solution - users 34 through 40, updating the in-code documentation
 1.5      14/06/2015  PKR     Have added users 34 through 40 in-code and now dealing with the impostor scores for the same users
 1.5.1    14/06/2015  PKR     Declaring more user variables: users 41 through 50, and their mean (template) vectors and the genuine score (arrays).  Raw data files to be added soon
+1.5.2    14/06/2015  PKR     Declaring more user variables: users 51 through 60, and then the mean templates and genuine scores later will be declared
+1.5.3    14/06/2015  PKR     Fixing Git issues, and also making sure to add more users to the repository  (solution)
+1.5.4    14/06/2015  PKR     Fixed Git issues, now initializing the 2D double arrays for users 41 through 50 and added data for 54 users so far (in solution/repo)
+1.5.5    15/06/2015  PKR     Git issues are fixed and right now will be adding more user data files, and also then initializing the variables (filling up the data)
+1.5.6    15/06/2015  PKR     Now initialized 60 users, and will be initializing the data for the mean templates, and genuine scores for the 60 users 
+1.5.7    15/06/2015  PKR     Right now, I will be initializing the genuine scores for users 41 through 60 before tackling the impostor scores
+1.5.8    15/06/2015  PKR     Adding more code, and then will be adding more users.
+1.5.9    16/06/2015  PKR     Right now having more impostorScore 2D double arrays initialized/populated, user 4 is completed.  User 5 is being worked on right now.
+1.5.10   16/06/2015  PKR     Adding the impostor scores for user 6 and user 7

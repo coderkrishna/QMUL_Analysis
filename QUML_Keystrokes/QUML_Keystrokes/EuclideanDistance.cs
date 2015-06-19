@@ -1,5 +1,5 @@
 ﻿/*
- * Author: Pranav Krishnamurthy
+ * Author: Pranav S. Krishnamurthy
  * 
  * File Name: EuclideanDistance.cs
  * 
@@ -9,20 +9,17 @@
  * -------  ----------  ------- ---------------
  * 1.0      07/06/2015  PKR     Original Version
  * 1.1      12/06/2015  PKR     Updating various aspects with regards to in-code documentation
+ * 1.2      19/06/2015  PKR     Cleaning up the in-code documentation and applying most of the comments at the top of the file in the header. 
  */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO; // This is required for the I/O with regards to text files and all that. 
+using System.IO; 
 
 namespace QUML_Keystrokes
 {
-    /// <summary>
-    /// Purpose: To be able to calculate the Euclidean Distance with the raw data that has been
-    /// already processed
-    /// </summary>
     public class EuclideanDistance
     {
         /// <summary>
@@ -38,25 +35,19 @@ namespace QUML_Keystrokes
             double[] mean = new double[s001.GetLength(1)];
             #endregion
 
-            // Iterating over the 2D array in its entirety
             for (int i = 0; i < s001.GetLength(0); i++)
             {
-                // Iterate over the columns of the 2D array so that it can be able to properly calculate the sum and then the mean
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // Going from 2D to a 1D array, by doing a column-wise addition. 
                     sum[j] += s001[i, j];
                 }
             }
 
-            // Now to calculate the mean vector
             for (int z = 0; z < sum.Length; z++)
             {
-                // Each value of the mean array is divided by n = 10 [The number of features]
                 mean[z] = sum[z] / 10;
             }
 
-            // This is the return statement of the method. 
             return mean;
         }
     }
