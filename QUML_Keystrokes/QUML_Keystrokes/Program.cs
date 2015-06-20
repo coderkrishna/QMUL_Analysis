@@ -12,6 +12,7 @@
  * 1.6.2    18/06/2015  PKR     Have populated the template vectors and the genuine scores for users 65 through 70
  * 1.6.3    19/06/2015  PKR     Declaring the variables for users 71 through 74 (the raw data, template vectors, and genuine scores), and later will be populating the                                   variables, and will be populating the same variables until user 70 under the EuclideanVerifer method 
  * 1.6.4    19/06/2015  PKR     Now finished under the EuclideanVerifier, was able to populate all of the user's template vectors, and template vectors and genuine scores                               for the all the of users under the ManhattanVerifier 
+ * 1.6.5    20/06/2015  PKR     Adding more user data, and declaring their variables (for the raw data, template vectors and genuine scores). 
  */
 
 using System;

@@ -119,6 +119,11 @@ for comments where it is necessary.
 * Right now be focusing on the variables for the raw data, template vectors and genuine scores
 * Users working on today - 71 through 75
 
+20th June 2015
+* Adding in more user data to this repository, users 76 through 83
+* Will make their references in code later on today
+* Declare their raw data arrays, their templates, and genuine scores. 
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
