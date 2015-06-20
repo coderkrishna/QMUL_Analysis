@@ -122,7 +122,15 @@
     <None Include="Latency Data\user73.csv" />
     <None Include="Latency Data\user74.csv" />
     <None Include="Latency Data\user75.csv" />
+    <None Include="Latency Data\user76.csv" />
+    <None Include="Latency Data\user77.csv" />
+    <None Include="Latency Data\user78.csv" />
+    <None Include="Latency Data\user79.csv" />
     <None Include="Latency Data\user8.csv" />
+    <None Include="Latency Data\user80.csv" />
+    <None Include="Latency Data\user81.csv" />
+    <None Include="Latency Data\user82.csv" />
+    <None Include="Latency Data\user83.csv" />
     <None Include="Latency Data\user9.csv" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
