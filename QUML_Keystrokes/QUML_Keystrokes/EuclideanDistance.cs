@@ -10,13 +10,13 @@
  * 1.0      07/06/2015  PKR     Original Version
  * 1.1      12/06/2015  PKR     Updating various aspects with regards to in-code documentation
  * 1.2      19/06/2015  PKR     Cleaning up the in-code documentation and applying most of the comments at the top of the file in the header. 
+ * 1.2.1    21/06/2015  PKR     Renamed some variables in this class, and made sure all code compiled, removed any unused using statements
  */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO; 
 
 namespace QUML_Keystrokes
 {
@@ -31,24 +31,24 @@ namespace QUML_Keystrokes
         public double[] CalculateMeanVector(double[,] s001)
         {
             #region Creating two single dimension double arrays
-            double[] sum = new double[s001.GetLength(1)];
-            double[] mean = new double[s001.GetLength(1)];
+            double[] Sum = new double[s001.GetLength(1)];
+            double[] Mean = new double[s001.GetLength(1)];
             #endregion
 
             for (int i = 0; i < s001.GetLength(0); i++)
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    sum[j] += s001[i, j];
+                    Sum[j] += s001[i, j];
                 }
             }
 
-            for (int z = 0; z < sum.Length; z++)
+            for (int z = 0; z < Sum.Length; z++)
             {
-                mean[z] = sum[z] / 10;
+                Mean[z] = Sum[z] / 10;
             }
 
-            return mean;
+            return Mean;
         }
     }
 }
