@@ -16,6 +16,7 @@
  * 1.6.6    20/06/2015  PKR     Adding more user data, from users 84 to 90 - almost all the user data has been added.
  * 1.6.7    20/06/2015  PKR     Declaring the variables from users 76 through 90 (raw data, templates, and genuine scores). Initialization will come later on. 
  * 1.6.8    21/06/2015  PKR     Finished with data organization of all 100 users; now be declaring the rest of the 100 users; will initialize templates and gen scores.
+ * 1.6.9    21/06/2015  PKR     Finished declaring the 100 users data in code, cleaning up in-code documentation as well 
  */
 
 using System;
@@ -797,27 +798,16 @@ namespace QUML_Keystrokes
         }
 
         #region Verifier calls
-        /// <summary>
-        /// This is the method which will jump to the Scaled Euclidean Class and then 
-        /// the various methods associated with this class file will be executed.
-        /// </summary>
         private static void UseScaledEuclideanVerifier()
         {
             Console.WriteLine("Scaled Euclidean Verifer - TBC (To Be Coded)");
         }
 
-        /// <summary>
-        /// This is the method to be executed for which the Scaled Manhattan Verifier will be executed. 
-        /// </summary>
         private static void UseScaledManhattanVerifier()
         {
             Console.WriteLine("Scaled Manhattan Verifier - TBC");
         }
 
-        /// <summary>
-        /// This is the method that will be executed when calculating the Euclidean verifier, and 
-        /// will now be having this method be active. 
-        /// </summary>
         private static void UseEuclideanVerifier()
         {
             EuclideanDistance EuclidDist = new EuclideanDistance();
@@ -844,10 +834,10 @@ namespace QUML_Keystrokes
             s018Mean = EuclidDist.CalculateMeanVector(s018);
             s019Mean = EuclidDist.CalculateMeanVector(s019);
             s020Mean = EuclidDist.CalculateMeanVector(s020);
+
             s021Mean = EuclidDist.CalculateMeanVector(s021);
             s022Mean = EuclidDist.CalculateMeanVector(s022);
             s023Mean = EuclidDist.CalculateMeanVector(s023);
-
             s024Mean = EuclidDist.CalculateMeanVector(s024);
             s025Mean = EuclidDist.CalculateMeanVector(s025);
             s026Mean = EuclidDist.CalculateMeanVector(s026);
@@ -904,13 +894,37 @@ namespace QUML_Keystrokes
             s072Mean = EuclidDist.CalculateMeanVector(s072);
             s073Mean = EuclidDist.CalculateMeanVector(s073);
             s074Mean = EuclidDist.CalculateMeanVector(s074);
-            s075Mean = EuclidDist.CalculateMeanVector(s075); 
+            s075Mean = EuclidDist.CalculateMeanVector(s075);
+            s076Mean = EuclidDist.CalculateMeanVector(s076);
+            s077Mean = EuclidDist.CalculateMeanVector(s077);
+            s078Mean = EuclidDist.CalculateMeanVector(s078);
+            s079Mean = EuclidDist.CalculateMeanVector(s079);
+            s080Mean = EuclidDist.CalculateMeanVector(s080);
+
+            s081Mean = EuclidDist.CalculateMeanVector(s081);
+            s082Mean = EuclidDist.CalculateMeanVector(s082);
+            s083Mean = EuclidDist.CalculateMeanVector(s083);
+            s084Mean = EuclidDist.CalculateMeanVector(s084);
+            s085Mean = EuclidDist.CalculateMeanVector(s085);
+            s086Mean = EuclidDist.CalculateMeanVector(s086);
+            s087Mean = EuclidDist.CalculateMeanVector(s087);
+            s088Mean = EuclidDist.CalculateMeanVector(s088);
+            s089Mean = EuclidDist.CalculateMeanVector(s089);
+            s090Mean = EuclidDist.CalculateMeanVector(s090);
+
+            s091Mean = EuclidDist.CalculateMeanVector(s091);
+            s092Mean = EuclidDist.CalculateMeanVector(s092);
+            s093Mean = EuclidDist.CalculateMeanVector(s093);
+            s094Mean = EuclidDist.CalculateMeanVector(s094);
+            s095Mean = EuclidDist.CalculateMeanVector(s095);
+            s096Mean = EuclidDist.CalculateMeanVector(s096);
+            s097Mean = EuclidDist.CalculateMeanVector(s097);
+            s098Mean = EuclidDist.CalculateMeanVector(s098);
+            s099Mean = EuclidDist.CalculateMeanVector(s099);
+            s100Mean = EuclidDist.CalculateMeanVector(s100); 
             #endregion
         }
 
-        /// <summary>
-        /// This method will now jump to the ManhattanDistance class file and execute those methods.
-        /// </summary>
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
@@ -921,13 +935,12 @@ namespace QUML_Keystrokes
             s003Mean = ManhDist.CalculateMeanVector(s003);
             s004Mean = ManhDist.CalculateMeanVector(s004);
             s005Mean = ManhDist.CalculateMeanVector(s005); 
-
             s006Mean = ManhDist.CalculateMeanVector(s006);
             s007Mean = ManhDist.CalculateMeanVector(s007);
             s008Mean = ManhDist.CalculateMeanVector(s008);
             s009Mean = ManhDist.CalculateMeanVector(s009); 
-
             s010Mean = ManhDist.CalculateMeanVector(s010);
+
             s011Mean = ManhDist.CalculateMeanVector(s011);
             s012Mean = ManhDist.CalculateMeanVector(s012);
             s013Mean = ManhDist.CalculateMeanVector(s013);
@@ -942,11 +955,9 @@ namespace QUML_Keystrokes
             s021Mean = ManhDist.CalculateMeanVector(s021);
             s022Mean = ManhDist.CalculateMeanVector(s022);
             s023Mean = ManhDist.CalculateMeanVector(s023); 
-
             s024Mean = ManhDist.CalculateMeanVector(s024);
             s025Mean = ManhDist.CalculateMeanVector(s025);
             s026Mean = ManhDist.CalculateMeanVector(s026); 
-
             s027Mean = ManhDist.CalculateMeanVector(s027);
             s028Mean = ManhDist.CalculateMeanVector(s028);
             s029Mean = ManhDist.CalculateMeanVector(s029);
@@ -955,7 +966,6 @@ namespace QUML_Keystrokes
             s031Mean = ManhDist.CalculateMeanVector(s031);
             s032Mean = ManhDist.CalculateMeanVector(s032);
             s033Mean = ManhDist.CalculateMeanVector(s033);
-
             s034Mean = ManhDist.CalculateMeanVector(s034);
             s035Mean = ManhDist.CalculateMeanVector(s035);
             s036Mean = ManhDist.CalculateMeanVector(s036);
@@ -974,6 +984,7 @@ namespace QUML_Keystrokes
             s048Mean = ManhDist.CalculateMeanVector(s048);
             s049Mean = ManhDist.CalculateMeanVector(s049);
             s050Mean = ManhDist.CalculateMeanVector(s050);
+
             s051Mean = ManhDist.CalculateMeanVector(s051);
             s052Mean = ManhDist.CalculateMeanVector(s052);
             s053Mean = ManhDist.CalculateMeanVector(s053);
@@ -989,7 +1000,6 @@ namespace QUML_Keystrokes
             s062Mean = ManhDist.CalculateMeanVector(s062);
             s063Mean = ManhDist.CalculateMeanVector(s063);
             s064Mean = ManhDist.CalculateMeanVector(s064); 
-
             s065Mean = ManhDist.CalculateMeanVector(s065);
             s066Mean = ManhDist.CalculateMeanVector(s066);
             s067Mean = ManhDist.CalculateMeanVector(s067);
@@ -1001,7 +1011,34 @@ namespace QUML_Keystrokes
             s072Mean = ManhDist.CalculateMeanVector(s072);
             s073Mean = ManhDist.CalculateMeanVector(s073);
             s074Mean = ManhDist.CalculateMeanVector(s074);
-            s075Mean = ManhDist.CalculateMeanVector(s075); 
+            s075Mean = ManhDist.CalculateMeanVector(s075);
+            s076Mean = ManhDist.CalculateMeanVector(s076);
+            s077Mean = ManhDist.CalculateMeanVector(s077);
+            s078Mean = ManhDist.CalculateMeanVector(s078);
+            s079Mean = ManhDist.CalculateMeanVector(s079);
+            s080Mean = ManhDist.CalculateMeanVector(s080);
+
+            s081Mean = ManhDist.CalculateMeanVector(s081);
+            s082Mean = ManhDist.CalculateMeanVector(s082);
+            s083Mean = ManhDist.CalculateMeanVector(s083);
+            s084Mean = ManhDist.CalculateMeanVector(s084);
+            s085Mean = ManhDist.CalculateMeanVector(s085);
+            s086Mean = ManhDist.CalculateMeanVector(s086);
+            s087Mean = ManhDist.CalculateMeanVector(s087);
+            s088Mean = ManhDist.CalculateMeanVector(s088);
+            s089Mean = ManhDist.CalculateMeanVector(s089);
+            s090Mean = ManhDist.CalculateMeanVector(s090);
+
+            s091Mean = ManhDist.CalculateMeanVector(s091);
+            s092Mean = ManhDist.CalculateMeanVector(s092);
+            s093Mean = ManhDist.CalculateMeanVector(s093);
+            s094Mean = ManhDist.CalculateMeanVector(s094);
+            s095Mean = ManhDist.CalculateMeanVector(s095);
+            s096Mean = ManhDist.CalculateMeanVector(s096);
+            s097Mean = ManhDist.CalculateMeanVector(s097);
+            s098Mean = ManhDist.CalculateMeanVector(s098);
+            s099Mean = ManhDist.CalculateMeanVector(s099);
+            s100Mean = ManhDist.CalculateMeanVector(s100); 
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -1015,6 +1052,7 @@ namespace QUML_Keystrokes
             s008Gen = ManhDist.CalculateGenuineScores(s008, s008Mean);
             s009Gen = ManhDist.CalculateGenuineScores(s009, s009Mean);
             s010Gen = ManhDist.CalculateGenuineScores(s010, s010Mean);
+            
             s011Gen = ManhDist.CalculateGenuineScores(s011, s011Mean);
             s012Gen = ManhDist.CalculateGenuineScores(s012, s012Mean);
             s013Gen = ManhDist.CalculateGenuineScores(s013, s013Mean);
@@ -1029,11 +1067,9 @@ namespace QUML_Keystrokes
             s021Gen = ManhDist.CalculateGenuineScores(s021, s021Mean);
             s022Gen = ManhDist.CalculateGenuineScores(s022, s022Mean);
             s023Gen = ManhDist.CalculateGenuineScores(s023, s023Mean); 
-
             s024Gen = ManhDist.CalculateGenuineScores(s024, s024Mean);
             s025Gen = ManhDist.CalculateGenuineScores(s025, s025Mean);
             s026Gen = ManhDist.CalculateGenuineScores(s026, s026Mean); 
-
             s027Gen = ManhDist.CalculateGenuineScores(s027, s027Mean);
             s028Gen = ManhDist.CalculateGenuineScores(s028, s028Mean);
             s029Gen = ManhDist.CalculateGenuineScores(s029, s029Mean);
@@ -1042,7 +1078,6 @@ namespace QUML_Keystrokes
             s031Gen = ManhDist.CalculateGenuineScores(s031, s031Mean);
             s032Gen = ManhDist.CalculateGenuineScores(s032, s032Mean);
             s033Gen = ManhDist.CalculateGenuineScores(s033, s033Mean); 
-
             s034Gen = ManhDist.CalculateGenuineScores(s034, s034Mean);
             s035Gen = ManhDist.CalculateGenuineScores(s035, s035Mean);
             s036Gen = ManhDist.CalculateGenuineScores(s036, s036Mean);
@@ -1061,6 +1096,7 @@ namespace QUML_Keystrokes
             s048Gen = ManhDist.CalculateGenuineScores(s048, s048Mean);
             s049Gen = ManhDist.CalculateGenuineScores(s049, s049Mean);
             s050Gen = ManhDist.CalculateGenuineScores(s050, s050Mean);
+
             s051Gen = ManhDist.CalculateGenuineScores(s051, s051Mean);
             s052Gen = ManhDist.CalculateGenuineScores(s052, s052Mean);
             s053Gen = ManhDist.CalculateGenuineScores(s053, s053Mean);
@@ -1076,7 +1112,6 @@ namespace QUML_Keystrokes
             s062Gen = ManhDist.CalculateGenuineScores(s062, s062Mean);
             s063Gen = ManhDist.CalculateGenuineScores(s063, s063Mean);
             s064Gen = ManhDist.CalculateGenuineScores(s064, s064Mean); 
-
             s065Gen = ManhDist.CalculateGenuineScores(s065, s065Mean);
             s066Gen = ManhDist.CalculateGenuineScores(s066, s066Mean);
             s067Gen = ManhDist.CalculateGenuineScores(s067, s067Mean);
@@ -1088,16 +1123,36 @@ namespace QUML_Keystrokes
             s072Gen = ManhDist.CalculateGenuineScores(s072, s072Mean);
             s073Gen = ManhDist.CalculateGenuineScores(s073, s073Mean);
             s074Gen = ManhDist.CalculateGenuineScores(s074, s074Mean);
-            s075Gen = ManhDist.CalculateGenuineScores(s075, s075Mean); 
+            s075Gen = ManhDist.CalculateGenuineScores(s075, s075Mean);
+            s076Gen = ManhDist.CalculateGenuineScores(s076, s076Mean);
+            s077Gen = ManhDist.CalculateGenuineScores(s077, s077Mean);
+            s078Gen = ManhDist.CalculateGenuineScores(s078, s078Mean);
+            s079Gen = ManhDist.CalculateGenuineScores(s079, s079Mean);
+            s080Gen = ManhDist.CalculateGenuineScores(s080, s080Mean);
+
+            s081Gen = ManhDist.CalculateGenuineScores(s081, s081Mean);
+            s082Gen = ManhDist.CalculateGenuineScores(s082, s082Mean);
+            s083Gen = ManhDist.CalculateGenuineScores(s083, s083Mean);
+            s084Gen = ManhDist.CalculateGenuineScores(s084, s084Mean);
+            s085Gen = ManhDist.CalculateGenuineScores(s085, s085Mean);
+            s086Gen = ManhDist.CalculateGenuineScores(s086, s086Mean);
+            s087Gen = ManhDist.CalculateGenuineScores(s087, s087Mean);
+            s088Gen = ManhDist.CalculateGenuineScores(s088, s088Mean);
+            s089Gen = ManhDist.CalculateGenuineScores(s089, s089Mean);
+            s090Gen = ManhDist.CalculateGenuineScores(s090, s090Mean);
+
+            s091Gen = ManhDist.CalculateGenuineScores(s091, s091Mean);
+            s092Gen = ManhDist.CalculateGenuineScores(s092, s092Mean);
+            s093Gen = ManhDist.CalculateGenuineScores(s093, s093Mean);
+            s094Gen = ManhDist.CalculateGenuineScores(s094, s094Mean);
+            s095Gen = ManhDist.CalculateGenuineScores(s095, s095Mean);
+            s096Gen = ManhDist.CalculateGenuineScores(s096, s096Mean);
+            s097Gen = ManhDist.CalculateGenuineScores(s097, s097Mean);
+            s098Gen = ManhDist.CalculateGenuineScores(s098, s098Mean);
+            s099Gen = ManhDist.CalculateGenuineScores(s099, s099Mean);
+            s100Gen = ManhDist.CalculateGenuineScores(s100, s100Mean); 
             #endregion
 
-            /*
-             * Now this is where I will also calculate the impostor scores here.
-             * The parameters are the mean vector of the first user, and the 
-             * raw scores of the other users.  This is also known as a zero
-             * effort attack because all the training data and testing data are
-             * in the same place. 
-             */
             #region Calculating the impostor scores next - and populating them
             #region User 1 Impostor Scores
             impostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);

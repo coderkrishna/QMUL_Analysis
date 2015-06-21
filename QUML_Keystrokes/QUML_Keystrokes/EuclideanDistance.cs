@@ -11,6 +11,7 @@
  * 1.1      12/06/2015  PKR     Updating various aspects with regards to in-code documentation
  * 1.2      19/06/2015  PKR     Cleaning up the in-code documentation and applying most of the comments at the top of the file in the header. 
  * 1.2.1    21/06/2015  PKR     Renamed some variables in this class, and made sure all code compiled, removed any unused using statements
+ * 1.2.2    21/06/2015  PKR     Now writing the method to calculate the genuine scores for the EuclideanVerifier - that is done. 
  */
 
 using System;
@@ -49,6 +50,28 @@ namespace QUML_Keystrokes
             }
 
             return Mean;
+        }
+
+        /// <summary>
+        /// The method that calculates the genuine scores as defined by 
+        /// the normalized Euclidean Verifier
+        /// </summary>
+        /// <param name="s001">Raw 2D double array</param>
+        /// <param name="s001Mean">The template vector</param>
+        /// <returns>The genuine scores as calculated by the Euclidean Verifier</returns>
+        public double[,] CalculateGenuineScores(double[,] s001, double[] s001Mean)
+        {
+            double[,] Differences = new double[s001.GetLength(0), s001.GetLength(1)];
+
+            for (int i = 0; i < s001.GetLength(0); i++)
+            {
+                for (int j = 0; j < s001.GetLength(1); j++)
+                {
+                    Differences[i, j] += Math.Sqrt(Math.Pow((s001[i,j] - s001Mean[j]), 2)/ 10.0); 
+                }
+            }
+
+            return Differences; 
         }
     }
 }
