@@ -125,6 +125,11 @@ for comments where it is necessary.
 * Declare their raw data arrays, their templates, and genuine scores. 
 * Next added users 84 through 90 - in the repository, and started the declarations in code. 
 
+21st June 2015
+* Finished organization of all data
+* Will be adding the data files to the solution and also then 
+adding the files in-code
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 

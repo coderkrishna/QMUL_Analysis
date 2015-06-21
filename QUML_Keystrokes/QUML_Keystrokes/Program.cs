@@ -15,6 +15,7 @@
  * 1.6.5    20/06/2015  PKR     Adding more user data, and declaring their variables (for the raw data, template vectors and genuine scores). 
  * 1.6.6    20/06/2015  PKR     Adding more user data, from users 84 to 90 - almost all the user data has been added.
  * 1.6.7    20/06/2015  PKR     Declaring the variables from users 76 through 90 (raw data, templates, and genuine scores). Initialization will come later on. 
+ * 1.6.8    21/06/2015  PKR     Finished with data organization of all 100 users; now be declaring the rest of the 100 users; will initialize templates and gen scores.
  */
 
 using System;
@@ -29,9 +30,6 @@ using System.IO;
 
 namespace QUML_Keystrokes
 {
-    /// <summary>
-    /// This is the main class where all of the execution will be taking place. 
-    /// </summary>
     class Program
     {
         #region Static 2D double arrays that will be used/created
@@ -85,7 +83,12 @@ namespace QUML_Keystrokes
         static double[,] s079; static double[,] s080; static double[,] s081;
         static double[,] s082; static double[,] s083; static double[,] s084;
         static double[,] s085; static double[,] s086; static double[,] s087;
-        static double[,] s088; static double[,] s089; static double[,] s090; 
+        static double[,] s088; static double[,] s089; static double[,] s090;
+
+        static double[,] s091; static double[,] s092; static double[,] s093;
+        static double[,] s094; static double[,] s095; static double[,] s096;
+        static double[,] s097; static double[,] s098; static double[,] s099;
+        static double[,] s100; 
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -135,7 +138,12 @@ namespace QUML_Keystrokes
         static double[] s079Mean; static double[] s080Mean; static double[] s081Mean;
         static double[] s082Mean; static double[] s083Mean; static double[] s084Mean;
         static double[] s085Mean; static double[] s086Mean; static double[] s087Mean;
-        static double[] s088Mean; static double[] s089Mean; static double[] s090Mean; 
+        static double[] s088Mean; static double[] s089Mean; static double[] s090Mean;
+
+        static double[] s091Mean; static double[] s092Mean; static double[] s093Mean;
+        static double[] s094Mean; static double[] s095Mean; static double[] s096Mean;
+        static double[] s097Mean; static double[] s098Mean; static double[] s099Mean;
+        static double[] s100Mean; 
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -182,7 +190,12 @@ namespace QUML_Keystrokes
         static double[,] s079Gen; static double[,] s080Gen; static double[,] s081Gen;
         static double[,] s082Gen; static double[,] s083Gen; static double[,] s084Gen;
         static double[,] s085Gen; static double[,] s086Gen; static double[,] s087Gen;
-        static double[,] s088Gen; static double[,] s089Gen; static double[,] s090Gen; 
+        static double[,] s088Gen; static double[,] s089Gen; static double[,] s090Gen;
+
+        static double[,] s091Gen; static double[,] s092Gen; static double[,] s093Gen;
+        static double[,] s094Gen; static double[,] s095Gen; static double[,] s096Gen;
+        static double[,] s097Gen; static double[,] s098Gen; static double[,] s099Gen;
+        static double[,] s100Gen;
         #endregion
 
         #region These are the impostor scores for each user combination
