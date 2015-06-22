@@ -17,6 +17,7 @@
  * 1.6.7    20/06/2015  PKR     Declaring the variables from users 76 through 90 (raw data, templates, and genuine scores). Initialization will come later on. 
  * 1.6.8    21/06/2015  PKR     Finished with data organization of all 100 users; now be declaring the rest of the 100 users; will initialize templates and gen scores.
  * 1.6.9    21/06/2015  PKR     Finished declaring the 100 users data in code, cleaning up in-code documentation as well 
+ * 1.6.10   21/06/2015  PKR     Right now wrote the method that will calculate the genuine scores as prescribed by the Euclidean Verifier. 
  */
 
 using System;
@@ -922,6 +923,11 @@ namespace QUML_Keystrokes
             s098Mean = EuclidDist.CalculateMeanVector(s098);
             s099Mean = EuclidDist.CalculateMeanVector(s099);
             s100Mean = EuclidDist.CalculateMeanVector(s100); 
+            #endregion
+
+            #region Populating the genuine scores for each user as outlined by the Normalized Euclidean Distance
+            s001Gen = EuclidDist.CalculateGenuineScores(s001, s001Mean);
+            s002Gen = EuclidDist.CalculateGenuineScores(s002, s002Mean); 
             #endregion
         }
 
