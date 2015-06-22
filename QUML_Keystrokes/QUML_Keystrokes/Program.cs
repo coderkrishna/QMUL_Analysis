@@ -981,7 +981,21 @@ namespace QUML_Keystrokes
             s047Gen = EuclidDist.CalculateGenuineScores(s047, s047Mean);
             s048Gen = EuclidDist.CalculateGenuineScores(s048, s048Mean);
             s049Gen = EuclidDist.CalculateGenuineScores(s049, s049Mean);
-            s050Gen = EuclidDist.CalculateGenuineScores(s050, s050Mean); 
+            s050Gen = EuclidDist.CalculateGenuineScores(s050, s050Mean);
+
+            s051Gen = EuclidDist.CalculateGenuineScores(s051, s051Mean);
+            s052Gen = EuclidDist.CalculateGenuineScores(s052, s052Mean);
+            s053Gen = EuclidDist.CalculateGenuineScores(s053, s053Mean);
+            s054Gen = EuclidDist.CalculateGenuineScores(s054, s054Mean);
+            s055Gen = EuclidDist.CalculateGenuineScores(s055, s055Mean);
+            s056Gen = EuclidDist.CalculateGenuineScores(s056, s056Mean);
+            s057Gen = EuclidDist.CalculateGenuineScores(s057, s057Mean);
+            s058Gen = EuclidDist.CalculateGenuineScores(s058, s058Mean);
+            s059Gen = EuclidDist.CalculateGenuineScores(s059, s059Mean);
+            s060Gen = EuclidDist.CalculateGenuineScores(s060, s060Mean);
+
+            s061Gen = EuclidDist.CalculateGenuineScores(s061, s061Mean);
+            s062Gen = EuclidDist.CalculateGenuineScores(s062, s062Mean); 
             #endregion
         }
 
