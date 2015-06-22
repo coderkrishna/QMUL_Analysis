@@ -995,7 +995,8 @@ namespace QUML_Keystrokes
             s060Gen = EuclidDist.CalculateGenuineScores(s060, s060Mean);
 
             s061Gen = EuclidDist.CalculateGenuineScores(s061, s061Mean);
-            s062Gen = EuclidDist.CalculateGenuineScores(s062, s062Mean); 
+            s062Gen = EuclidDist.CalculateGenuineScores(s062, s062Mean);
+            s063Gen = EuclidDist.CalculateGenuineScores(s063, s063Mean); 
             #endregion
         }
 
