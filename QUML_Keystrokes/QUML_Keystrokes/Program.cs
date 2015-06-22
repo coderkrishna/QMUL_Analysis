@@ -927,7 +927,17 @@ namespace QUML_Keystrokes
 
             #region Populating the genuine scores for each user as outlined by the Normalized Euclidean Distance
             s001Gen = EuclidDist.CalculateGenuineScores(s001, s001Mean);
-            s002Gen = EuclidDist.CalculateGenuineScores(s002, s002Mean); 
+            s002Gen = EuclidDist.CalculateGenuineScores(s002, s002Mean);
+            s003Gen = EuclidDist.CalculateGenuineScores(s003, s003Mean);
+            s004Gen = EuclidDist.CalculateGenuineScores(s004, s004Mean);
+            s005Gen = EuclidDist.CalculateGenuineScores(s005, s005Mean);
+            s006Gen = EuclidDist.CalculateGenuineScores(s006, s006Mean);
+            s007Gen = EuclidDist.CalculateGenuineScores(s007, s007Mean);
+            s008Gen = EuclidDist.CalculateGenuineScores(s008, s008Mean);
+            s009Gen = EuclidDist.CalculateGenuineScores(s009, s009Mean);
+            s010Gen = EuclidDist.CalculateGenuineScores(s010, s010Mean);
+            s011Gen = EuclidDist.CalculateGenuineScores(s011, s011Mean);
+            s012Gen = EuclidDist.CalculateGenuineScores(s012, s012Mean); 
             #endregion
         }
 
