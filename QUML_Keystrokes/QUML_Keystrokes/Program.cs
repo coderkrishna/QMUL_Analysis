@@ -18,6 +18,8 @@
  * 1.6.8    21/06/2015  PKR     Finished with data organization of all 100 users; now be declaring the rest of the 100 users; will initialize templates and gen scores.
  * 1.6.9    21/06/2015  PKR     Finished declaring the 100 users data in code, cleaning up in-code documentation as well 
  * 1.6.10   21/06/2015  PKR     Right now wrote the method that will calculate the genuine scores as prescribed by the Euclidean Verifier. 
+ * 1.7      22/06/2015  PKR     Populating the mean vectors by making calls to the EuclideanVerifier class, CalculateMeanVector(s001) method and also populating the genuine                             scores by calling CalculateGenuineScores(double[,] s001, double[] s001Mean) method
+ * 1.7.1    22/06/2015  PKR     Populating additional users with their genuine scores - Users 41 through 60
  */
 
 using System;
@@ -936,8 +938,50 @@ namespace QUML_Keystrokes
             s008Gen = EuclidDist.CalculateGenuineScores(s008, s008Mean);
             s009Gen = EuclidDist.CalculateGenuineScores(s009, s009Mean);
             s010Gen = EuclidDist.CalculateGenuineScores(s010, s010Mean);
+            
             s011Gen = EuclidDist.CalculateGenuineScores(s011, s011Mean);
-            s012Gen = EuclidDist.CalculateGenuineScores(s012, s012Mean); 
+            s012Gen = EuclidDist.CalculateGenuineScores(s012, s012Mean);
+            s013Gen = EuclidDist.CalculateGenuineScores(s013, s013Mean);
+            s014Gen = EuclidDist.CalculateGenuineScores(s014, s014Mean);
+            s015Gen = EuclidDist.CalculateGenuineScores(s015, s015Mean);
+            s016Gen = EuclidDist.CalculateGenuineScores(s016, s016Mean);
+            s017Gen = EuclidDist.CalculateGenuineScores(s017, s017Mean);
+            s018Gen = EuclidDist.CalculateGenuineScores(s018, s018Mean);
+            s019Gen = EuclidDist.CalculateGenuineScores(s019, s019Mean);
+            s020Gen = EuclidDist.CalculateGenuineScores(s020, s020Mean);
+
+            s021Gen = EuclidDist.CalculateGenuineScores(s021, s021Mean);
+            s022Gen = EuclidDist.CalculateGenuineScores(s022, s022Mean);
+            s023Gen = EuclidDist.CalculateGenuineScores(s023, s023Mean);
+            s024Gen = EuclidDist.CalculateGenuineScores(s024, s024Mean);
+            s025Gen = EuclidDist.CalculateGenuineScores(s025, s025Mean);
+            s026Gen = EuclidDist.CalculateGenuineScores(s026, s026Mean);
+            s027Gen = EuclidDist.CalculateGenuineScores(s027, s027Mean);
+            s028Gen = EuclidDist.CalculateGenuineScores(s028, s028Mean);
+            s029Gen = EuclidDist.CalculateGenuineScores(s029, s029Mean);
+            s030Gen = EuclidDist.CalculateGenuineScores(s030, s030Mean);
+
+            s031Gen = EuclidDist.CalculateGenuineScores(s031, s031Mean);
+            s032Gen = EuclidDist.CalculateGenuineScores(s032, s032Mean);
+            s033Gen = EuclidDist.CalculateGenuineScores(s033, s033Mean);
+            s034Gen = EuclidDist.CalculateGenuineScores(s034, s034Mean);
+            s035Gen = EuclidDist.CalculateGenuineScores(s035, s035Mean);
+            s036Gen = EuclidDist.CalculateGenuineScores(s036, s036Mean);
+            s037Gen = EuclidDist.CalculateGenuineScores(s037, s037Mean);
+            s038Gen = EuclidDist.CalculateGenuineScores(s038, s038Mean);
+            s039Gen = EuclidDist.CalculateGenuineScores(s039, s039Mean);
+            s040Gen = EuclidDist.CalculateGenuineScores(s040, s040Mean);
+
+            s041Gen = EuclidDist.CalculateGenuineScores(s041, s041Mean);
+            s042Gen = EuclidDist.CalculateGenuineScores(s042, s042Mean);
+            s043Gen = EuclidDist.CalculateGenuineScores(s043, s043Mean);
+            s044Gen = EuclidDist.CalculateGenuineScores(s044, s044Mean);
+            s045Gen = EuclidDist.CalculateGenuineScores(s045, s045Mean);
+            s046Gen = EuclidDist.CalculateGenuineScores(s046, s046Mean);
+            s047Gen = EuclidDist.CalculateGenuineScores(s047, s047Mean);
+            s048Gen = EuclidDist.CalculateGenuineScores(s048, s048Mean);
+            s049Gen = EuclidDist.CalculateGenuineScores(s049, s049Mean);
+            s050Gen = EuclidDist.CalculateGenuineScores(s050, s050Mean); 
             #endregion
         }
 
