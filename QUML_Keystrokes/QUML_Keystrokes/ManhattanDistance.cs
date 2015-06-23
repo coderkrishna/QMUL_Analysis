@@ -10,6 +10,7 @@
  * 1.0      05/05/2015  PKR     Original Version
  * 1.2      11/06/2015  PKR     Calculated the genuine and impostor scores
  * 1.3      13/06/2015  PKR     Organizing the various using statements, and updating the in-code documentation
+ * 1.3.1    23/06/2015  PKR     Right now having the in-code documentation for this class being cleaned up
  */
 
 using System;
@@ -26,40 +27,6 @@ namespace QUML_Keystrokes
     public class ManhattanDistance
     {
         /// <summary>
-        /// This is simply a test method which will now become obsolete
-        /// aka deprecated
-        /// </summary>
-        [Obsolete("This method will now become deprecated")]
-        public void Test()
-        {
-            Console.WriteLine("You have now hit the Manhattan Distance Class"); 
-        }
-
-        /// <summary>
-        /// This is the method that will print out the original data. 
-        /// </summary>
-        /// <param name="s001">Original 2D double array (aka raw data)</param>
-        [Obsolete("This method will not be needed since there is a print code written in the main program itself.")]
-        public void Print(double[,] s001)
-        {
-            // This will now iterate through the 2D array.
- 
-            // Going through the rows
-            for (int i = 0; i < s001.GetLength(0); i++)
-            {
-                // Going through the columns
-                for (int j = 0; j < s001.GetLength(1); j++)
-                {
-                    // Printing out the contents
-                    Console.Write(string.Format("{0} ", s001[i, j]));
-                }
-
-                // New line after each line has been printed out
-                Console.Write(Environment.NewLine);
-            } 
-        }
-
-        /// <summary>
         /// This method will calculate the mean vector for the user file that I have already specified. 
         /// </summary>
         /// <param name="s001">This is the 2D double array that is already created from the user CSV file.</param>
@@ -67,33 +34,24 @@ namespace QUML_Keystrokes
         public double[] CalculateMeanVector(double[,] s001)
         {
             #region Creating two single dimension double arrays
-            // The length of this array is dependendent on the number of columns in the input array
-            double[] sum = new double[s001.GetLength(1)];
-
-            // The length of the mean array is also dependent on the number of columns in the input array
-            double[] mean = new double[s001.GetLength(1)];
+            double[] Sum = new double[s001.GetLength(1)];
+            double[] Mean = new double[s001.GetLength(1)];
             #endregion
 
-            // Iterating over the 2D array in its entirety
             for (int i = 0; i < s001.GetLength(0); i++)
             {
-                // Iterate over the columns of the 2D array so that it can be able to properly calculate the sum and then the mean
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // Going from 2D to a 1D array, by doing a column-wise addition. 
-                    sum[j] += s001[i, j]; 
+                    Sum[j] += s001[i, j]; 
                 }
             }
 
-            // Now to calculate the mean vector
-            for (int z = 0; z < sum.Length; z++)
+            for (int z = 0; z < Sum.Length; z++)
             {
-                // Each value of the mean array is divided by n = 10 [The number of features]
-                mean[z] = sum[z] / 10; 
+                Mean[z] = Sum[z] / 10; 
             }
 
-            // This is the return statement of the method. 
-            return mean;
+            return Mean;
         }
 
         /// <summary>
@@ -112,8 +70,6 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    // This is populating the 2D double array of genuine scores. - Make sure to that the mean's 
-                    // indeces are on the indeces of the inner most loop (31st May 2015)
                     genScoreMatrix[i, j] += (Math.Abs(s001[i, j] - s001Mean[j])) / 10.0;
                 }
             }
@@ -135,12 +91,6 @@ namespace QUML_Keystrokes
             // Creating the variable for the Impostor scores here (local variable). 
             double[,] impScoreMatrix = new double[s002.GetLength(0), s002.GetLength(1)]; 
 
-            /*
-             * Iterating over the test vector (s002 as the test vector), and going over
-             * each row and column, making sure that each and every element is accessed
-             * and that the correct mathematical operations are being performed and the
-             * results can be double-checked later on.  
-             */
             for (int i = 0; i < s002.GetLength(0); i++)
             {
                 for (int j = 0; j < s002.GetLength(1); j++)

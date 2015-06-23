@@ -137,6 +137,12 @@ adding the files in-code
 write the impostor scores method for the euclidean verifer.  
 * Each impostor score methods will have about 10,000 or so references.  
 
+23rd June 2015
+* Making changes to the method signature under the EuclideanVerifier class
+* Right now also having the method references be the same way, regarding the variable references
+and how the variables are being initialized by the respective methods.
+* Cleaned up the in-code documentation of the the ManhattanDistance.cs class file
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 

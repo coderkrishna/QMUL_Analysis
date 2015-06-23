@@ -12,7 +12,8 @@
  * 1.2      19/06/2015  PKR     Cleaning up the in-code documentation and applying most of the comments at the top of the file in the header. 
  * 1.2.1    21/06/2015  PKR     Renamed some variables in this class, and made sure all code compiled, removed any unused using statements
  * 1.2.2    21/06/2015  PKR     Now writing the method to calculate the genuine scores for the EuclideanVerifier - that is done.
- * 1.3      22/06/2015  PKR     Writing the method the to calculate the impostor scores for the users.  
+ * 1.3      22/06/2015  PKR     Writing the method the to calculate the impostor scores for the users.
+ * 1.4      23/06/2015  PKR     Changing the method signature (method parameters order) to be fitting with the way that variables are declared in Program.cs file. 
  */
 
 using System;
@@ -81,7 +82,7 @@ namespace QUML_Keystrokes
         /// <param name="s001Mean">The mean vector for the user</param>
         /// <param name="s002">The raw data of the user</param>
         /// <returns>The zero-effort impostor scores for a specific user</returns>
-        public double[,] CalculateImpostorScores(double[,] s002, double[] s001Mean)
+        public double[,] CalculateImpostorScores(double[] s001Mean, double[,] s002)
         {
             double[,] impostorScoresMatrix = new double[s002.GetLength(0), s002.GetLength(1)];
 
