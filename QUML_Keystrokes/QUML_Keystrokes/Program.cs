@@ -7,19 +7,11 @@
  * 
  * Version  Date        Who     Description
  * -------  ----------  ------- --------------
- * 1.6      17/06/2015  PKR     Adding more raw user data: users 61 through 64 (in-code just added them), and will initialize the mean vectors (templates) and the genuine                               score matrices as well
- * 1.6.1    18/06/2015  PKR     Having more raw user data added in the repository, and then later on in code as well, along with their mean vector and genuine scores
- * 1.6.2    18/06/2015  PKR     Have populated the template vectors and the genuine scores for users 65 through 70
- * 1.6.3    19/06/2015  PKR     Declaring the variables for users 71 through 74 (the raw data, template vectors, and genuine scores), and later will be populating the                                   variables, and will be populating the same variables until user 70 under the EuclideanVerifer method 
- * 1.6.4    19/06/2015  PKR     Now finished under the EuclideanVerifier, was able to populate all of the user's template vectors, and template vectors and genuine scores                               for the all the of users under the ManhattanVerifier 
- * 1.6.5    20/06/2015  PKR     Adding more user data, and declaring their variables (for the raw data, template vectors and genuine scores). 
- * 1.6.6    20/06/2015  PKR     Adding more user data, from users 84 to 90 - almost all the user data has been added.
- * 1.6.7    20/06/2015  PKR     Declaring the variables from users 76 through 90 (raw data, templates, and genuine scores). Initialization will come later on. 
- * 1.6.8    21/06/2015  PKR     Finished with data organization of all 100 users; now be declaring the rest of the 100 users; will initialize templates and gen scores.
- * 1.6.9    21/06/2015  PKR     Finished declaring the 100 users data in code, cleaning up in-code documentation as well 
- * 1.6.10   21/06/2015  PKR     Right now wrote the method that will calculate the genuine scores as prescribed by the Euclidean Verifier. 
  * 1.7      22/06/2015  PKR     Populating the mean vectors by making calls to the EuclideanVerifier class, CalculateMeanVector(s001) method and also populating the genuine                             scores by calling CalculateGenuineScores(double[,] s001, double[] s001Mean) method
  * 1.7.1    22/06/2015  PKR     Populating additional users with their genuine scores - Users 41 through 60
+ * 1.7.2    22/06/2015  PKR     Right now populating the genuine scores for the rest of the users under the EuclideanVerifier.
+ * 1.7.3    22/06/2015  PKR     Finishing up populating the genuine scores for all 100 users.  
+ * 1.7.4    22/06/2015  PKR     Right now beginning to populate the impostor scores for various users.  
  */
 
 using System;
@@ -996,7 +988,161 @@ namespace QUML_Keystrokes
 
             s061Gen = EuclidDist.CalculateGenuineScores(s061, s061Mean);
             s062Gen = EuclidDist.CalculateGenuineScores(s062, s062Mean);
-            s063Gen = EuclidDist.CalculateGenuineScores(s063, s063Mean); 
+            s063Gen = EuclidDist.CalculateGenuineScores(s063, s063Mean);
+            s064Gen = EuclidDist.CalculateGenuineScores(s064, s064Mean);
+            s065Gen = EuclidDist.CalculateGenuineScores(s065, s065Mean);
+            s066Gen = EuclidDist.CalculateGenuineScores(s066, s066Mean);
+            s067Gen = EuclidDist.CalculateGenuineScores(s067, s067Mean);
+            s068Gen = EuclidDist.CalculateGenuineScores(s068, s068Mean);
+            s069Gen = EuclidDist.CalculateGenuineScores(s069, s069Mean);
+            s070Gen = EuclidDist.CalculateGenuineScores(s070, s070Mean);
+
+            s071Gen = EuclidDist.CalculateGenuineScores(s071, s071Mean);
+            s072Gen = EuclidDist.CalculateGenuineScores(s072, s072Mean);
+            s073Gen = EuclidDist.CalculateGenuineScores(s073, s073Mean);
+            s074Gen = EuclidDist.CalculateGenuineScores(s075, s075Mean);
+            s076Gen = EuclidDist.CalculateGenuineScores(s076, s076Mean);
+            s077Gen = EuclidDist.CalculateGenuineScores(s077, s077Mean);
+            s078Gen = EuclidDist.CalculateGenuineScores(s078, s078Mean);
+            s079Gen = EuclidDist.CalculateGenuineScores(s079, s079Mean);
+            s080Gen = EuclidDist.CalculateGenuineScores(s080, s080Mean);
+
+            s081Gen = EuclidDist.CalculateGenuineScores(s081, s081Mean);
+            s082Gen = EuclidDist.CalculateGenuineScores(s082, s082Mean);
+            s083Gen = EuclidDist.CalculateGenuineScores(s083, s083Mean);
+            s084Gen = EuclidDist.CalculateGenuineScores(s084, s084Mean);
+            s085Gen = EuclidDist.CalculateGenuineScores(s085, s085Mean);
+            s086Gen = EuclidDist.CalculateGenuineScores(s086, s086Mean);
+            s087Gen = EuclidDist.CalculateGenuineScores(s087, s087Mean);
+            s088Gen = EuclidDist.CalculateGenuineScores(s088, s088Mean);
+            s089Gen = EuclidDist.CalculateGenuineScores(s089, s089Mean);
+            s090Gen = EuclidDist.CalculateGenuineScores(s090, s090Mean);
+
+            s091Gen = EuclidDist.CalculateGenuineScores(s091, s091Mean);
+            s092Gen = EuclidDist.CalculateGenuineScores(s092, s092Mean);
+            s093Gen = EuclidDist.CalculateGenuineScores(s093, s093Mean);
+            s094Gen = EuclidDist.CalculateGenuineScores(s093, s093Mean);
+            s094Gen = EuclidDist.CalculateGenuineScores(s094, s094Mean);
+            s095Gen = EuclidDist.CalculateGenuineScores(s095, s095Mean);
+            s096Gen = EuclidDist.CalculateGenuineScores(s096, s096Mean);
+            s097Gen = EuclidDist.CalculateGenuineScores(s097, s097Mean);
+            s098Gen = EuclidDist.CalculateGenuineScores(s098, s098Mean);
+            s099Gen = EuclidDist.CalculateGenuineScores(s099, s099Mean);
+            s100Gen = EuclidDist.CalculateGenuineScores(s100, s100Mean); 
+            #endregion
+
+            #region Populating the impostor score 2D double arrays
+
+            #region User 1 impostor scores
+            impostorScoresUser1User2 = EuclidDist.CalculateImpostorScores(s002, s001Mean);
+            impostorScoresUser1User3 = EuclidDist.CalculateImpostorScores(s003, s001Mean);
+            impostorScoresUser1User4 = EuclidDist.CalculateImpostorScores(s004, s001Mean);
+            impostorScoresUser1User5 = EuclidDist.CalculateImpostorScores(s005, s001Mean);
+            impostorScoresUser1User6 = EuclidDist.CalculateImpostorScores(s006, s001Mean);
+            impostorScoresUser1User7 = EuclidDist.CalculateImpostorScores(s007, s001Mean);
+            impostorScoresUser1User8 = EuclidDist.CalculateImpostorScores(s008, s001Mean);
+            impostorScoresUser1User9 = EuclidDist.CalculateImpostorScores(s009, s001Mean);
+            impostorScoresUser1User10 = EuclidDist.CalculateImpostorScores(s010, s001Mean);
+
+            impostorScoresUser1User11 = EuclidDist.CalculateImpostorScores(s011, s001Mean);
+            impostorScoresUser1User12 = EuclidDist.CalculateImpostorScores(s012, s001Mean);
+            impostorScoresUser1User13 = EuclidDist.CalculateImpostorScores(s013, s001Mean);
+            impostorScoresUser1User14 = EuclidDist.CalculateImpostorScores(s014, s001Mean);
+            impostorScoresUser1User15 = EuclidDist.CalculateImpostorScores(s015, s001Mean);
+            impostorScoresUser1User16 = EuclidDist.CalculateImpostorScores(s016, s001Mean);
+            impostorScoresUser1User17 = EuclidDist.CalculateImpostorScores(s017, s001Mean);
+            impostorScoresUser1User18 = EuclidDist.CalculateImpostorScores(s018, s001Mean);
+            impostorScoresUser1User19 = EuclidDist.CalculateImpostorScores(s019, s001Mean);
+            impostorScoresUser1User20 = EuclidDist.CalculateImpostorScores(s020, s001Mean);
+
+            impostorScoresUser1User21 = EuclidDist.CalculateImpostorScores(s021, s001Mean);
+            impostorScoresUser1User22 = EuclidDist.CalculateImpostorScores(s022, s001Mean);
+            impostorScoresUser1User23 = EuclidDist.CalculateImpostorScores(s023, s001Mean);
+            impostorScoresUser1User24 = EuclidDist.CalculateImpostorScores(s024, s001Mean);
+            impostorScoresUser1User25 = EuclidDist.CalculateImpostorScores(s025, s001Mean);
+            impostorScoresUser1User26 = EuclidDist.CalculateImpostorScores(s026, s001Mean);
+            impostorScoresUser1User27 = EuclidDist.CalculateImpostorScores(s027, s001Mean);
+            impostorScoresUser1User28 = EuclidDist.CalculateImpostorScores(s028, s001Mean);
+            impostorScoresUser1User29 = EuclidDist.CalculateImpostorScores(s029, s001Mean);
+            impostorScoresUser1User30 = EuclidDist.CalculateImpostorScores(s030, s001Mean);
+
+            impostorScoresUser1User31 = EuclidDist.CalculateImpostorScores(s031, s001Mean);
+            impostorScoresUser1User32 = EuclidDist.CalculateImpostorScores(s032, s001Mean);
+            impostorScoresUser1User33 = EuclidDist.CalculateImpostorScores(s033, s001Mean);
+            impostorScoresUser1User34 = EuclidDist.CalculateImpostorScores(s034, s001Mean);
+            impostorScoresUser1User35 = EuclidDist.CalculateImpostorScores(s035, s001Mean);
+            impostorScoresUser1User36 = EuclidDist.CalculateImpostorScores(s036, s001Mean);
+            impostorScoresUser1User37 = EuclidDist.CalculateImpostorScores(s037, s001Mean);
+            impostorScoresUser1User38 = EuclidDist.CalculateImpostorScores(s038, s001Mean);
+            impostorScoresUser1User39 = EuclidDist.CalculateImpostorScores(s039, s001Mean);
+            impostorScoresUser1User40 = EuclidDist.CalculateImpostorScores(s040, s001Mean);
+            #endregion
+
+            #region User 2 impostor scores
+            impostorScoresUser2User1 = EuclidDist.CalculateImpostorScores(s001, s002Mean);
+            impostorScoresUser2User3 = EuclidDist.CalculateImpostorScores(s003, s002Mean);
+            impostorScoresUser2User4 = EuclidDist.CalculateImpostorScores(s004, s002Mean);
+            impostorScoresUser2User5 = EuclidDist.CalculateImpostorScores(s005, s002Mean);
+            impostorScoresUser2User6 = EuclidDist.CalculateImpostorScores(s006, s002Mean);
+            impostorScoresUser2User7 = EuclidDist.CalculateImpostorScores(s007, s002Mean);
+            impostorScoresUser2User8 = EuclidDist.CalculateImpostorScores(s008, s002Mean);
+            impostorScoresUser2User9 = EuclidDist.CalculateImpostorScores(s009, s002Mean);
+            impostorScoresUser2User10 = EuclidDist.CalculateImpostorScores(s010, s002Mean);
+            
+            impostorScoresUser2User11 = EuclidDist.CalculateImpostorScores(s011, s002Mean);
+            impostorScoresUser2User12 = EuclidDist.CalculateImpostorScores(s012, s002Mean);
+            impostorScoresUser2User13 = EuclidDist.CalculateImpostorScores(s013, s002Mean);
+            impostorScoresUser2User14 = EuclidDist.CalculateImpostorScores(s014, s002Mean);
+            impostorScoresUser2User15 = EuclidDist.CalculateImpostorScores(s015, s002Mean);
+            impostorScoresUser2User16 = EuclidDist.CalculateImpostorScores(s016, s002Mean);
+            impostorScoresUser2User17 = EuclidDist.CalculateImpostorScores(s017, s002Mean);
+            impostorScoresUser2User18 = EuclidDist.CalculateImpostorScores(s018, s002Mean);
+            impostorScoresUser2User19 = EuclidDist.CalculateImpostorScores(s019, s002Mean);
+            impostorScoresUser2User20 = EuclidDist.CalculateImpostorScores(s020, s002Mean);
+
+            impostorScoresUser2User21 = EuclidDist.CalculateImpostorScores(s021, s002Mean);
+            impostorScoresUser2User22 = EuclidDist.CalculateImpostorScores(s022, s002Mean);
+            impostorScoresUser2User23 = EuclidDist.CalculateImpostorScores(s023, s002Mean);
+            impostorScoresUser2User24 = EuclidDist.CalculateImpostorScores(s024, s002Mean);
+            impostorScoresUser2User25 = EuclidDist.CalculateImpostorScores(s025, s002Mean);
+            impostorScoresUser2User26 = EuclidDist.CalculateImpostorScores(s026, s002Mean);
+            impostorScoresUser2User27 = EuclidDist.CalculateImpostorScores(s027, s002Mean);
+            impostorScoresUser2User28 = EuclidDist.CalculateImpostorScores(s028, s002Mean); 
+            #endregion
+
+            #region User 3 impostor scores
+            
+            #endregion
+
+            #region User 4 impostor scores
+            
+            #endregion
+
+            #region User 5 impostor scores
+            
+            #endregion
+
+            #region User 6 impostor scores
+            
+            #endregion
+
+            #region User 7 impostor scores
+            
+            #endregion
+
+            #region User 8 impostor scores
+            
+            #endregion
+
+            #region User 9 impostor scores
+            
+            #endregion
+
+            #region User 10 impostor scores
+            
+            #endregion
+
+
             #endregion
         }
 

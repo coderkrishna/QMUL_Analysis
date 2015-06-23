@@ -11,7 +11,8 @@
  * 1.1      12/06/2015  PKR     Updating various aspects with regards to in-code documentation
  * 1.2      19/06/2015  PKR     Cleaning up the in-code documentation and applying most of the comments at the top of the file in the header. 
  * 1.2.1    21/06/2015  PKR     Renamed some variables in this class, and made sure all code compiled, removed any unused using statements
- * 1.2.2    21/06/2015  PKR     Now writing the method to calculate the genuine scores for the EuclideanVerifier - that is done. 
+ * 1.2.2    21/06/2015  PKR     Now writing the method to calculate the genuine scores for the EuclideanVerifier - that is done.
+ * 1.3      22/06/2015  PKR     Writing the method the to calculate the impostor scores for the users.  
  */
 
 using System;
@@ -72,6 +73,28 @@ namespace QUML_Keystrokes
             }
 
             return Differences; 
+        }
+
+        /// <summary>
+        /// This method will calculate the impostor scores for each user
+        /// </summary>
+        /// <param name="s001Mean">The mean vector for the user</param>
+        /// <param name="s002">The raw data of the user</param>
+        /// <returns>The zero-effort impostor scores for a specific user</returns>
+        public double[,] CalculateImpostorScores(double[,] s002, double[] s001Mean)
+        {
+            double[,] impostorScoresMatrix = new double[s002.GetLength(0), s002.GetLength(1)];
+
+            for (int i = 0; i < s002.GetLength(0); i++)
+            {
+                for (int j = 0; j < s002.GetLength(1); j++)
+                {
+                    // This is populating the 2D array
+                    impostorScoresMatrix[i, j] += Math.Sqrt(Math.Pow((s002[i,j] - s001Mean[j]), 2) / 10.0); 
+                }
+            }
+
+            return impostorScoresMatrix; 
         }
     }
 }
