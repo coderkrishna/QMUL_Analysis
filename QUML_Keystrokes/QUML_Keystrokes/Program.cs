@@ -1205,7 +1205,6 @@ namespace QUML_Keystrokes
             
             #endregion
 
-
             #endregion
         }
 
