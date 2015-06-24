@@ -465,6 +465,17 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser5User38;
         static double[,] impostorScoresUser5User39;
         static double[,] impostorScoresUser5User40;
+
+        static double[,] impostorScoresUser5User41;
+        static double[,] impostorScoresUser5User42;
+        static double[,] impostorScoresUser5User43;
+        static double[,] impostorScoresUser5User44;
+        static double[,] impostorScoresUser5User45;
+        static double[,] impostorScoresUser5User46;
+        static double[,] impostorScoresUser5User47;
+        static double[,] impostorScoresUser5User48;
+        static double[,] impostorScoresUser5User49;
+        static double[,] impostorScoresUser5User50; 
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 6 as the template
