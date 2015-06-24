@@ -14,6 +14,7 @@
  * 1.7.4    22/06/2015  PKR     Right now beginning to populate the impostor scores for various users.
  * 1.7.5    23/06/2015  PKR     Making changes with the method signatures to be in line with the way the impostor score variables are declared. 
  * 1.7.6    24/06/2015  PKR     Additional impostor scores are being populated and more will be declared
+ * 1.7.7    24/06/2015  PKR     Declaring additional impostor score variables
  */
 
 using System;
