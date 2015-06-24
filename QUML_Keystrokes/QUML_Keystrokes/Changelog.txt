@@ -143,6 +143,10 @@ write the impostor scores method for the euclidean verifer.
 and how the variables are being initialized by the respective methods.
 * Cleaned up the in-code documentation of the the ManhattanDistance.cs class file
 
+24th June 2015
+* Right now declared more impostor score variables.
+* Also populating the impostor scores under both the Euclidean Distance and Manhattan Distance verifiers. 
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
