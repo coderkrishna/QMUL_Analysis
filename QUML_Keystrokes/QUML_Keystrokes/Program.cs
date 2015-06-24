@@ -1261,7 +1261,9 @@ namespace QUML_Keystrokes
 
             #region User 6 impostor scores
             impostorScoresUser6User1 = EuclidDist.CalculateImpostorScores(s006Mean, s001);
-            impostorScoresUser6User2 = EuclidDist.CalculateImpostorScores(s006Mean, s002);  
+            impostorScoresUser6User2 = EuclidDist.CalculateImpostorScores(s006Mean, s002);
+            impostorScoresUser6User3 = EuclidDist.CalculateImpostorScores(s006Mean, s003);
+            impostorScoresUser6User4 = EuclidDist.CalculateImpostorScores(s006Mean, s004); 
             #endregion
 
             #region User 7 impostor scores
