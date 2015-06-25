@@ -147,6 +147,10 @@ and how the variables are being initialized by the respective methods.
 * Right now declared more impostor score variables.
 * Also populating the impostor scores under both the Euclidean Distance and Manhattan Distance verifiers. 
 
+25th June 2015
+* Populating more impostor score variables, and also cleaning up in-code documentation
+* Also having the changelog.txt file updated with the list of tasks that needed to be done
+
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
