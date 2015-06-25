@@ -150,6 +150,8 @@ and how the variables are being initialized by the respective methods.
 25th June 2015
 * Populating more impostor score variables, and also cleaning up in-code documentation
 * Also having the changelog.txt file updated with the list of tasks that needed to be done
+* Making sure that I am able to finish off declaring all the impostor scores for user 1 under
+both the Manhattan and Euclidean Verifiers.  
 
 
 AS A REMINDER - But will still be using the above format out of sanity!!
