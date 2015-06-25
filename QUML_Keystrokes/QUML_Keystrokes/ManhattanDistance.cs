@@ -11,6 +11,7 @@
  * 1.2      11/06/2015  PKR     Calculated the genuine and impostor scores
  * 1.3      13/06/2015  PKR     Organizing the various using statements, and updating the in-code documentation
  * 1.3.1    23/06/2015  PKR     Right now having the in-code documentation for this class being cleaned up
+ * 1.3.2    25/06/2015  PKR     Cleaning up the in-code documentation
  */
 
 using System;
@@ -20,10 +21,6 @@ using System.Text;
 
 namespace QUML_Keystrokes
 {
-    /// <summary>
-    /// This class will be performing the calculations using the Manhattan Distance verifier, and 
-    /// then calculate the False Accept and False Reject rates.  
-    /// </summary>
     public class ManhattanDistance
     {
         /// <summary>
@@ -62,10 +59,8 @@ namespace QUML_Keystrokes
         /// <returns>The 2D double array of genuine scores</returns>
         public double[,] CalculateGenuineScores(double[,] s001, double[] s001Mean)
         {
-            // Creating the variable for the Genuine Scores here. (Local variable)
             double[,] genScoreMatrix = new double[s001.GetLength(0), s001.GetLength(1)];
 
-            // Iterating over the 2D double array.
             for (int i = 0; i < s001.GetLength(0); i++)
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
@@ -74,7 +69,6 @@ namespace QUML_Keystrokes
                 }
             }
 
-            // Returns the Genuine Scores that are being calculated by the Manhattan Distance class
             return genScoreMatrix; 
         }
 
@@ -88,19 +82,16 @@ namespace QUML_Keystrokes
         /// <returns>The impostor scores for a specific user will be returned</returns>
         public double[,] CalculateImpostorScores(double[] s001Mean, double[,] s002)
         {
-            // Creating the variable for the Impostor scores here (local variable). 
             double[,] impScoreMatrix = new double[s002.GetLength(0), s002.GetLength(1)]; 
 
             for (int i = 0; i < s002.GetLength(0); i++)
             {
                 for (int j = 0; j < s002.GetLength(1); j++)
                 {
-                    // Performing the calculations and populating the impScoreMatrix
                     impScoreMatrix[i, j] += (Math.Abs(s002[i, j] - s001Mean[j])) / 10.0; 
                 }
             }
 
-            // Returning the results of the impostor score matrix
             return impScoreMatrix; 
         }
     }
