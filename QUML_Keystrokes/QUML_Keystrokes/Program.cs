@@ -524,6 +524,14 @@ namespace QUML_Keystrokes
 
         static double[,] impostorScoresUser3User91;
         static double[,] impostorScoresUser3User92;
+        static double[,] impostorScoresUser3User93;
+        static double[,] impostorScoresUser3User94;
+        static double[,] impostorScoresUser3User95;
+        static double[,] impostorScoresUser3User96;
+        static double[,] impostorScoresUser3User97;
+        static double[,] impostorScoresUser3User98;
+        static double[,] impostorScoresUser3User99;
+        static double[,] impostorScoresUser3User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 4 as the training (using the mean vector for user 4 in calculating the impostor scores)
@@ -1642,6 +1650,14 @@ namespace QUML_Keystrokes
 
             impostorScoresUser3User91 = EuclidDist.CalculateImpostorScores(s003Mean, s091);
             impostorScoresUser3User92 = EuclidDist.CalculateImpostorScores(s003Mean, s092);
+            impostorScoresUser3User93 = EuclidDist.CalculateImpostorScores(s003Mean, s093);
+            impostorScoresUser3User94 = EuclidDist.CalculateImpostorScores(s003Mean, s094);
+            impostorScoresUser3User95 = EuclidDist.CalculateImpostorScores(s003Mean, s095);
+            impostorScoresUser3User96 = EuclidDist.CalculateImpostorScores(s003Mean, s096);
+            impostorScoresUser3User97 = EuclidDist.CalculateImpostorScores(s003Mean, s097);
+            impostorScoresUser3User98 = EuclidDist.CalculateImpostorScores(s003Mean, s098);
+            impostorScoresUser3User99 = EuclidDist.CalculateImpostorScores(s003Mean, s099);
+            impostorScoresUser3User100 = EuclidDist.CalculateImpostorScores(s003Mean, s100);
             #endregion
 
             #region User 4 impostor scores
