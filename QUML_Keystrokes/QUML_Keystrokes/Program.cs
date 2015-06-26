@@ -9,6 +9,7 @@
  * -------  ----------  ------- --------------
  * 1.8      26/06/2015  PKR     Finishing populating the impostor scores for user 3 under the Euclidean Verifier
  * 1.8.1    26/06/2015  PKR     Going to be populating the impostor scores for user 3 under the Manhattan Verifier
+ * 1.8.2    26/06/2015  PKR     Finished populating the impostor scores for user 3 under the Manhattan Verifier
  */
 
 using System;
@@ -585,6 +586,11 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser4User53;
         static double[,] impostorScoresUser4User54;
         static double[,] impostorScoresUser4User55;
+        static double[,] impostorScoresUser4User56;
+        static double[,] impostorScoresUser4User57;
+        static double[,] impostorScoresUser4User58;
+        static double[,] impostorScoresUser4User59;
+        static double[,] impostorScoresUser4User60;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 5 as the training (using the mean vector for user 5 in calculating the impostor scores)
@@ -2433,9 +2439,18 @@ namespace QUML_Keystrokes
             impostorScoresUser3User87 = ManhDist.CalculateImpostorScores(s003Mean, s087);
             impostorScoresUser3User88 = ManhDist.CalculateImpostorScores(s003Mean, s088);
             impostorScoresUser3User89 = ManhDist.CalculateImpostorScores(s003Mean, s089);
-            impostorScoresUser3User90 = ManhDist.CalculateImpostorScores(s003Mean, s090); 
+            impostorScoresUser3User90 = ManhDist.CalculateImpostorScores(s003Mean, s090);
 
-
+            impostorScoresUser3User91 = ManhDist.CalculateImpostorScores(s003Mean, s091);
+            impostorScoresUser3User92 = ManhDist.CalculateImpostorScores(s003Mean, s092);
+            impostorScoresUser3User93 = ManhDist.CalculateImpostorScores(s003Mean, s093);
+            impostorScoresUser3User94 = ManhDist.CalculateImpostorScores(s003Mean, s094);
+            impostorScoresUser3User95 = ManhDist.CalculateImpostorScores(s003Mean, s095);
+            impostorScoresUser3User96 = ManhDist.CalculateImpostorScores(s003Mean, s096);
+            impostorScoresUser3User97 = ManhDist.CalculateImpostorScores(s003Mean, s097);
+            impostorScoresUser3User98 = ManhDist.CalculateImpostorScores(s003Mean, s098);
+            impostorScoresUser3User99 = ManhDist.CalculateImpostorScores(s003Mean, s099);
+            impostorScoresUser3User100 = ManhDist.CalculateImpostorScores(s003Mean, s100);
             #endregion
 
             #region User 4 Impostor Scores
