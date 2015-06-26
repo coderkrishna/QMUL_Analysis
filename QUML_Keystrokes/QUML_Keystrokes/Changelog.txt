@@ -159,6 +159,8 @@ both the Manhattan and Euclidean Verifiers.
 both the Euclidean and Manhattan Verifiers.
 * I have yet to code the Scaled Verifiers (Euclidean and Manhattan) - Those are a little more
 involved since the standard deviation is coming into the picture now
+* Finished populating the impostor scores for user 4 under the Euclidean verifier
+* Finished populating the impostor scores for user 3 under both the Manhattan and Euclidean verifiers
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
