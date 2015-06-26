@@ -11,6 +11,7 @@
  * 1.8.1    26/06/2015  PKR     Going to be populating the impostor scores for user 3 under the Manhattan Verifier
  * 1.8.2    26/06/2015  PKR     Finished populating the impostor scores for user 3 under the Manhattan Verifier
  * 1.8.3    26/06/2015  PKR     Populated the impostor scores for user 4 under the Euclidean Verifier, the Manhattan Verifier is next. 
+ * 1.8.4    26/06/2015  PKR     Right now about to declare more impostor score variables for user 5.  
  */
 
 using System;
@@ -2606,7 +2607,18 @@ namespace QUML_Keystrokes
             impostorScoresUser4User47 = ManhDist.CalculateImpostorScores(s004Mean, s047);
             impostorScoresUser4User48 = ManhDist.CalculateImpostorScores(s004Mean, s048);
             impostorScoresUser4User49 = ManhDist.CalculateImpostorScores(s004Mean, s049);
-            impostorScoresUser4User50 = ManhDist.CalculateImpostorScores(s004Mean, s050); 
+            impostorScoresUser4User50 = ManhDist.CalculateImpostorScores(s004Mean, s050);
+
+            impostorScoresUser4User51 = ManhDist.CalculateImpostorScores(s004Mean, s051);
+            impostorScoresUser4User52 = ManhDist.CalculateImpostorScores(s004Mean, s052);
+            impostorScoresUser4User53 = ManhDist.CalculateImpostorScores(s004Mean, s053);
+            impostorScoresUser4User54 = ManhDist.CalculateImpostorScores(s004Mean, s054);
+            impostorScoresUser4User55 = ManhDist.CalculateImpostorScores(s004Mean, s055);
+            impostorScoresUser4User56 = ManhDist.CalculateImpostorScores(s004Mean, s056);
+            impostorScoresUser4User57 = ManhDist.CalculateImpostorScores(s004Mean, s057);
+            impostorScoresUser4User58 = ManhDist.CalculateImpostorScores(s004Mean, s058);
+            impostorScoresUser4User59 = ManhDist.CalculateImpostorScores(s004Mean, s059);
+            impostorScoresUser4User60 = ManhDist.CalculateImpostorScores(s004Mean, s060);
             #endregion
 
             #region User 5 Impostor Scores
