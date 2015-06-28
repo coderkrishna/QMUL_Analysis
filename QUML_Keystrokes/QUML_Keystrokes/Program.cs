@@ -14,6 +14,7 @@
  * 1.8.4    26/06/2015  PKR     Right now about to declare more impostor score variables for user 5.  
  * 1.8.5    27/06/2015  PKR     More impostor scores for user 4 being populated under the Manhattan verifier.
  * 1.8.6    27/06/2015  PKR     Impostor scores for user 5 being populated under the Manhattan verifier.
+ * 1.8.7    28/06/2015  PKR     More impostor scores for user 5 being declared and initialized under both Manhattan and Euclidean verifiers.
  */
 
 using System;
@@ -717,6 +718,39 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser5User68;
         static double[,] impostorScoresUser5User69;
         static double[,] impostorScoresUser5User70;
+
+        static double[,] impostorScoresUser5User71;
+        static double[,] impostorScoresUser5User72;
+        static double[,] impostorScoresUser5User73;
+        static double[,] impostorScoresUser5User74;
+        static double[,] impostorScoresUser5User75;
+        static double[,] impostorScoresUser5User76;
+        static double[,] impostorScoresUser5User77;
+        static double[,] impostorScoresUser5User78;
+        static double[,] impostorScoresUser5User79;
+        static double[,] impostorScoresUser5User80;
+
+        static double[,] impostorScoresUser5User81;
+        static double[,] impostorScoresUser5User82;
+        static double[,] impostorScoresUser5User83;
+        static double[,] impostorScoresUser5User84;
+        static double[,] impostorScoresUser5User85;
+        static double[,] impostorScoresUser5User86;
+        static double[,] impostorScoresUser5User87;
+        static double[,] impostorScoresUser5User88;
+        static double[,] impostorScoresUser5User89;
+        static double[,] impostorScoresUser5User90;
+
+        static double[,] impostorScoresUser5User91;
+        static double[,] impostorScoresUser5User92;
+        static double[,] impostorScoresUser5User93;
+        static double[,] impostorScoresUser5User94;
+        static double[,] impostorScoresUser5User95;
+        static double[,] impostorScoresUser5User96;
+        static double[,] impostorScoresUser5User97;
+        static double[,] impostorScoresUser5User98;
+        static double[,] impostorScoresUser5User99;
+        static double[,] impostorScoresUser5User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 6 as the training (using the mean vector for user 6 in calculating the impostor scores)
@@ -2765,6 +2799,16 @@ namespace QUML_Keystrokes
             impostorScoresUser5User68 = ManhDist.CalculateImpostorScores(s005Mean, s068);
             impostorScoresUser5User69 = ManhDist.CalculateImpostorScores(s005Mean, s069);
             impostorScoresUser5User70 = ManhDist.CalculateImpostorScores(s005Mean, s070);
+
+            impostorScoresUser5User71 = ManhDist.CalculateImpostorScores(s005Mean, s071);
+            impostorScoresUser5User72 = ManhDist.CalculateImpostorScores(s005Mean, s072);
+            impostorScoresUser5User73 = ManhDist.CalculateImpostorScores(s005Mean, s073);
+            impostorScoresUser5User74 = ManhDist.CalculateImpostorScores(s005Mean, s074);
+            impostorScoresUser5User75 = ManhDist.CalculateImpostorScores(s005Mean, s075);
+            impostorScoresUser5User76 = ManhDist.CalculateImpostorScores(s005Mean, s076);
+            impostorScoresUser5User77 = ManhDist.CalculateImpostorScores(s005Mean, s077);
+            impostorScoresUser5User78 = ManhDist.CalculateImpostorScores(s005Mean, s078);
+            impostorScoresUser5User79 = ManhDist.CalculateImpostorScores(s005Mean, s080); 
             #endregion
 
             #region User 6 Impostor Scores
