@@ -15,6 +15,7 @@
  * 1.8.5    27/06/2015  PKR     More impostor scores for user 4 being populated under the Manhattan verifier.
  * 1.8.6    27/06/2015  PKR     Impostor scores for user 5 being populated under the Manhattan verifier.
  * 1.8.7    28/06/2015  PKR     More impostor scores for user 5 being declared and initialized under both Manhattan and Euclidean verifiers.
+ * 1.8.8    28/06/2015  PKR     Finished populating the impostor scores for user 5 using the Manhattan verifier, the Euclidean verifier is next.
  */
 
 using System;
