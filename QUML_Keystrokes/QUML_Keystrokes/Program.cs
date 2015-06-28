@@ -693,7 +693,29 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser5User47;
         static double[,] impostorScoresUser5User48;
         static double[,] impostorScoresUser5User49;
-        static double[,] impostorScoresUser5User50; 
+        static double[,] impostorScoresUser5User50;
+
+        static double[,] impostorScoresUser5User51;
+        static double[,] impostorScoresUser5User52;
+        static double[,] impostorScoresUser5User53;
+        static double[,] impostorScoresUser5User54;
+        static double[,] impostorScoresUser5User55;
+        static double[,] impostorScoresUser5User56;
+        static double[,] impostorScoresUser5User57;
+        static double[,] impostorScoresUser5User58;
+        static double[,] impostorScoresUser5User59;
+        static double[,] impostorScoresUser5User60;
+
+        static double[,] impostorScoresUser5User61;
+        static double[,] impostorScoresUser5User62;
+        static double[,] impostorScoresUser5User63;
+        static double[,] impostorScoresUser5User64;
+        static double[,] impostorScoresUser5User65;
+        static double[,] impostorScoresUser5User66;
+        static double[,] impostorScoresUser5User67;
+        static double[,] impostorScoresUser5User68;
+        static double[,] impostorScoresUser5User69;
+        static double[,] impostorScoresUser5User70;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 6 as the training (using the mean vector for user 6 in calculating the impostor scores)
@@ -2667,7 +2689,6 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 5 Impostor Scores
-            // Adding in the impostorScores with user 5 as the training vector (using user 5 template vector)
             impostorScoresUser5User1 = ManhDist.CalculateImpostorScores(s005Mean, s001);
             impostorScoresUser5User2 = ManhDist.CalculateImpostorScores(s005Mean, s002);
             impostorScoresUser5User3 = ManhDist.CalculateImpostorScores(s005Mean, s003);
@@ -2720,7 +2741,29 @@ namespace QUML_Keystrokes
             impostorScoresUser5User47 = ManhDist.CalculateImpostorScores(s005Mean, s047);
             impostorScoresUser5User48 = ManhDist.CalculateImpostorScores(s005Mean, s048);
             impostorScoresUser5User49 = ManhDist.CalculateImpostorScores(s005Mean, s049);
-            impostorScoresUser5User50 = ManhDist.CalculateImpostorScores(s005Mean, s050); 
+            impostorScoresUser5User50 = ManhDist.CalculateImpostorScores(s005Mean, s050);
+
+            impostorScoresUser5User51 = ManhDist.CalculateImpostorScores(s005Mean, s051);
+            impostorScoresUser5User52 = ManhDist.CalculateImpostorScores(s005Mean, s052);
+            impostorScoresUser5User53 = ManhDist.CalculateImpostorScores(s005Mean, s053);
+            impostorScoresUser5User54 = ManhDist.CalculateImpostorScores(s005Mean, s054);
+            impostorScoresUser5User55 = ManhDist.CalculateImpostorScores(s005Mean, s055);
+            impostorScoresUser5User56 = ManhDist.CalculateImpostorScores(s005Mean, s056);
+            impostorScoresUser5User57 = ManhDist.CalculateImpostorScores(s005Mean, s057);
+            impostorScoresUser5User58 = ManhDist.CalculateImpostorScores(s005Mean, s058);
+            impostorScoresUser5User59 = ManhDist.CalculateImpostorScores(s005Mean, s059);
+            impostorScoresUser5User60 = ManhDist.CalculateImpostorScores(s005Mean, s060);
+
+            impostorScoresUser5User61 = ManhDist.CalculateImpostorScores(s005Mean, s061);
+            impostorScoresUser5User62 = ManhDist.CalculateImpostorScores(s005Mean, s062);
+            impostorScoresUser5User63 = ManhDist.CalculateImpostorScores(s005Mean, s063);
+            impostorScoresUser5User64 = ManhDist.CalculateImpostorScores(s005Mean, s064);
+            impostorScoresUser5User65 = ManhDist.CalculateImpostorScores(s005Mean, s065);
+            impostorScoresUser5User66 = ManhDist.CalculateImpostorScores(s005Mean, s066);
+            impostorScoresUser5User67 = ManhDist.CalculateImpostorScores(s005Mean, s067);
+            impostorScoresUser5User68 = ManhDist.CalculateImpostorScores(s005Mean, s068);
+            impostorScoresUser5User69 = ManhDist.CalculateImpostorScores(s005Mean, s069);
+            impostorScoresUser5User70 = ManhDist.CalculateImpostorScores(s005Mean, s070);
             #endregion
 
             #region User 6 Impostor Scores
