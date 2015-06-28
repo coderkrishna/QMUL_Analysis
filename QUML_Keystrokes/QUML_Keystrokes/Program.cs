@@ -2808,7 +2808,30 @@ namespace QUML_Keystrokes
             impostorScoresUser5User76 = ManhDist.CalculateImpostorScores(s005Mean, s076);
             impostorScoresUser5User77 = ManhDist.CalculateImpostorScores(s005Mean, s077);
             impostorScoresUser5User78 = ManhDist.CalculateImpostorScores(s005Mean, s078);
-            impostorScoresUser5User79 = ManhDist.CalculateImpostorScores(s005Mean, s080); 
+            impostorScoresUser5User79 = ManhDist.CalculateImpostorScores(s005Mean, s079);
+            impostorScoresUser5User80 = ManhDist.CalculateImpostorScores(s005Mean, s080);
+
+            impostorScoresUser5User81 = ManhDist.CalculateImpostorScores(s005Mean, s081);
+            impostorScoresUser5User82 = ManhDist.CalculateImpostorScores(s005Mean, s082);
+            impostorScoresUser5User83 = ManhDist.CalculateImpostorScores(s005Mean, s083);
+            impostorScoresUser5User84 = ManhDist.CalculateImpostorScores(s005Mean, s084);
+            impostorScoresUser5User85 = ManhDist.CalculateImpostorScores(s005Mean, s085);
+            impostorScoresUser5User86 = ManhDist.CalculateImpostorScores(s005Mean, s086);
+            impostorScoresUser5User87 = ManhDist.CalculateImpostorScores(s005Mean, s087);
+            impostorScoresUser5User88 = ManhDist.CalculateImpostorScores(s005Mean, s088);
+            impostorScoresUser5User89 = ManhDist.CalculateImpostorScores(s005Mean, s089);
+            impostorScoresUser5User90 = ManhDist.CalculateImpostorScores(s005Mean, s090);
+
+            impostorScoresUser5User91 = ManhDist.CalculateImpostorScores(s005Mean, s091);
+            impostorScoresUser5User92 = ManhDist.CalculateImpostorScores(s005Mean, s092);
+            impostorScoresUser5User93 = ManhDist.CalculateImpostorScores(s005Mean, s093);
+            impostorScoresUser5User94 = ManhDist.CalculateImpostorScores(s005Mean, s094);
+            impostorScoresUser5User95 = ManhDist.CalculateImpostorScores(s005Mean, s095);
+            impostorScoresUser5User96 = ManhDist.CalculateImpostorScores(s005Mean, s096);
+            impostorScoresUser5User97 = ManhDist.CalculateImpostorScores(s005Mean, s097);
+            impostorScoresUser5User98 = ManhDist.CalculateImpostorScores(s005Mean, s098);
+            impostorScoresUser5User99 = ManhDist.CalculateImpostorScores(s005Mean, s099);
+            impostorScoresUser5User100 = ManhDist.CalculateImpostorScores(s005Mean, s100); 
             #endregion
 
             #region User 6 Impostor Scores
