@@ -162,6 +162,11 @@ involved since the standard deviation is coming into the picture now
 * Finished populating the impostor scores for user 4 under the Euclidean verifier
 * Finished populating the impostor scores for user 3 under both the Manhattan and Euclidean verifiers
 
+27th June 2015
+* Finished populating the scores for user 4 (under both Euclidean and Manhattan verifiers)
+* Populating the scores for user 5 under the Manhattan verifier first, and declaring more impostor score
+variables for user 5. 
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
