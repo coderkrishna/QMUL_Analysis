@@ -17,7 +17,8 @@
  * 1.8.7    28/06/2015  PKR     More impostor scores for user 5 being declared and initialized under both Manhattan and Euclidean verifiers.
  * 1.8.8    28/06/2015  PKR     Finished populating the impostor scores for user 5 using the Manhattan verifier, the Euclidean verifier is next.
  * 1.8.9    29/06/2015  PKR     Finish populating impostor scres for user 5 under the Euclidean verifier. 
- * 1.8.10   29/06/2015  PKR     Finished declaring the impostor score variables for user 6, and will be populating them under the Euclidean verifier. 
+ * 1.8.10   29/06/2015  PKR     Finished declaring the impostor score variables for user 6, and will be populating them under the Euclidean verifier.
+ * 1.8.11   29/06/2015  PKR     Now pausing the population of the impostor scores, and will be focusing on getting the code for the Scaled Mahattan Verifier (being written                              so that there is no "gap" per say), declaring the method in the main class (making the reference to the ScaledManhattanDistance.cs class)
  */
 
 using System;
@@ -1254,7 +1255,20 @@ namespace QUML_Keystrokes
         #region Verifier calls
         private static void UseScaledEuclideanVerifier()
         {
-            Console.WriteLine("Scaled Euclidean Verifer - TBC (To Be Coded)");
+            ScaledManhattanDistance ScaledManhDist = new ScaledManhattanDistance();
+
+            #region Calculating the mean vectors for all 100 subjects
+            s001Mean = ScaledManhDist.CalculateMeanVector(s001);
+            s002Mean = ScaledManhDist.CalculateMeanVector(s002);
+            s003Mean = ScaledManhDist.CalculateMeanVector(s003);
+            s004Mean = ScaledManhDist.CalculateMeanVector(s004);
+            s005Mean = ScaledManhDist.CalculateMeanVector(s005);
+            s006Mean = ScaledManhDist.CalculateMeanVector(s006);
+            s007Mean = ScaledManhDist.CalculateMeanVector(s007);
+            s008Mean = ScaledManhDist.CalculateMeanVector(s008);
+            s009Mean = ScaledManhDist.CalculateMeanVector(s009);
+            s010Mean = ScaledManhDist.CalculateMeanVector(s010);
+            #endregion
         }
 
         private static void UseScaledManhattanVerifier()

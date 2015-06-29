@@ -46,6 +46,7 @@
     <Compile Include="ManhattanDistance.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScaledManhattanDistance.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Latency Data\user1.csv" />
