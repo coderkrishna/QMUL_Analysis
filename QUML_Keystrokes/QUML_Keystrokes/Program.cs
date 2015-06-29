@@ -16,6 +16,7 @@
  * 1.8.6    27/06/2015  PKR     Impostor scores for user 5 being populated under the Manhattan verifier.
  * 1.8.7    28/06/2015  PKR     More impostor scores for user 5 being declared and initialized under both Manhattan and Euclidean verifiers.
  * 1.8.8    28/06/2015  PKR     Finished populating the impostor scores for user 5 using the Manhattan verifier, the Euclidean verifier is next.
+ * 1.8.9    29/06/2015  PKR     Finish populating impostor scres for user 5 under the Euclidean verifier. 
  */
 
 using System;
@@ -1977,6 +1978,17 @@ namespace QUML_Keystrokes
             impostorScoresUser5User88 = EuclidDist.CalculateImpostorScores(s005Mean, s088);
             impostorScoresUser5User89 = EuclidDist.CalculateImpostorScores(s005Mean, s089);
             impostorScoresUser5User90 = EuclidDist.CalculateImpostorScores(s005Mean, s090);
+
+            impostorScoresUser5User91 = EuclidDist.CalculateImpostorScores(s005Mean, s091);
+            impostorScoresUser5User92 = EuclidDist.CalculateImpostorScores(s005Mean, s092);
+            impostorScoresUser5User93 = EuclidDist.CalculateImpostorScores(s005Mean, s093);
+            impostorScoresUser5User94 = EuclidDist.CalculateImpostorScores(s005Mean, s094);
+            impostorScoresUser5User95 = EuclidDist.CalculateImpostorScores(s005Mean, s095);
+            impostorScoresUser5User96 = EuclidDist.CalculateImpostorScores(s005Mean, s096);
+            impostorScoresUser5User97 = EuclidDist.CalculateImpostorScores(s005Mean, s097);
+            impostorScoresUser5User98 = EuclidDist.CalculateImpostorScores(s005Mean, s098);
+            impostorScoresUser5User99 = EuclidDist.CalculateImpostorScores(s005Mean, s099);
+            impostorScoresUser5User100 = EuclidDist.CalculateImpostorScores(s005Mean, s100);
             #endregion
 
             #region User 6 impostor scores
