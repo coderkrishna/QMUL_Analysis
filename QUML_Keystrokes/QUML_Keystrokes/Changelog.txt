@@ -171,6 +171,7 @@ variables for user 5.
 * Populating more impostor scores for user 5
 * Declaring all the remaining impostor score vars for user 5
 * Begin to initialize the impostor score vars for user 5 (all of them under both Euclidean and Manhattan verifiers)
+* Right now populating the impostor score variables for user 5 under the Euclidean verifier
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
