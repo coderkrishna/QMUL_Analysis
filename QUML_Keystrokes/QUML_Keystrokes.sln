@@ -6,9 +6,6 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QUML_Keystrokes", "QUML_Keystrokes\QUML_Keystrokes.csproj", "{D4D315C8-939B-457B-BE04-BA4CFA7C003C}"
 EndProject
 Global
-	GlobalSection(CodealikeProperties) = postSolution
-		SolutionGuid = 2e2088cc-7ca3-41af-bc8c-38fc03ca3b03
-	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -21,5 +18,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(CodealikeProperties) = postSolution
+		SolutionGuid = 2e2088cc-7ca3-41af-bc8c-38fc03ca3b03
 	EndGlobalSection
 EndGlobal

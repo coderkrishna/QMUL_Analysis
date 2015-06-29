@@ -809,6 +809,61 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser6User48;
         static double[,] impostorScoresUser6User49;
         static double[,] impostorScoresUser6User50;
+
+        static double[,] impostorScoresUser6User51;
+        static double[,] impostorScoresUser6User52;
+        static double[,] impostorScoresUser6User53;
+        static double[,] impostorScoresUser6User54;
+        static double[,] impostorScoresUser6User55;
+        static double[,] impostorScoresUser6User56;
+        static double[,] impostorScoresUser6User57;
+        static double[,] impostorScoresUser6User58;
+        static double[,] impostorScoresUser6User59;
+        static double[,] impostorScoresUser6User60;
+
+        static double[,] impostorScoresUser6User61;
+        static double[,] impostorScoresUser6User62;
+        static double[,] impostorScoresUser6User63;
+        static double[,] impostorScoresUser6User64;
+        static double[,] impostorScoresUser6User65;
+        static double[,] impostorScoresUser6User66;
+        static double[,] impostorScoresUser6User67;
+        static double[,] impostorScoresUser6User68;
+        static double[,] impostorScoresUser6User69;
+        static double[,] impostorScoresUser6User70;
+
+        static double[,] impostorScoresUser6User71;
+        static double[,] impostorScoresUser6User72;
+        static double[,] impostorScoresUser6User73;
+        static double[,] impostorScoresUser6User74;
+        static double[,] impostorScoresUser6User75;
+        static double[,] impostorScoresUser6User76;
+        static double[,] impostorScoresUser6User77;
+        static double[,] impostorScoresUser6User78;
+        static double[,] impostorScoresUser6User79;
+        static double[,] impostorScoresUser6User80;
+
+        static double[,] impostorScoresUser6User81;
+        static double[,] impostorScoresUser6User82;
+        static double[,] impostorScoresUser6User83;
+        static double[,] impostorScoresUser6User84;
+        static double[,] impostorScoresUser6User85;
+        static double[,] impostorScoresUser6User86;
+        static double[,] impostorScoresUser6User87;
+        static double[,] impostorScoresUser6User88;
+        static double[,] impostorScoresUser6User89;
+        static double[,] impostorScoresUser6User90;
+
+        static double[,] impostorScoresUser6User91;
+        static double[,] impostorScoresUser6User92;
+        static double[,] impostorScoresUser6User93;
+        static double[,] impostorScoresUser6User94;
+        static double[,] impostorScoresUser6User95;
+        static double[,] impostorScoresUser6User96;
+        static double[,] impostorScoresUser6User97;
+        static double[,] impostorScoresUser6User98;
+        static double[,] impostorScoresUser6User99;
+        static double[,] impostorScoresUser6User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 7 as the training (using the mean vector for user 7 in calculating the impostor scores)
