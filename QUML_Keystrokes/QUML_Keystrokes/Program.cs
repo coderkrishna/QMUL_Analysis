@@ -1268,6 +1268,39 @@ namespace QUML_Keystrokes
             s008Mean = ScaledManhDist.CalculateMeanVector(s008);
             s009Mean = ScaledManhDist.CalculateMeanVector(s009);
             s010Mean = ScaledManhDist.CalculateMeanVector(s010);
+
+            s011Mean = ScaledManhDist.CalculateMeanVector(s011);
+            s012Mean = ScaledManhDist.CalculateMeanVector(s012);
+            s013Mean = ScaledManhDist.CalculateMeanVector(s013);
+            s014Mean = ScaledManhDist.CalculateMeanVector(s014);
+            s015Mean = ScaledManhDist.CalculateMeanVector(s015);
+            s016Mean = ScaledManhDist.CalculateMeanVector(s016);
+            s017Mean = ScaledManhDist.CalculateMeanVector(s017);
+            s018Mean = ScaledManhDist.CalculateMeanVector(s018);
+            s019Mean = ScaledManhDist.CalculateMeanVector(s019);
+            s020Mean = ScaledManhDist.CalculateMeanVector(s020);
+
+            s021Mean = ScaledManhDist.CalculateMeanVector(s021);
+            s022Mean = ScaledManhDist.CalculateMeanVector(s022);
+            s023Mean = ScaledManhDist.CalculateMeanVector(s023);
+            s024Mean = ScaledManhDist.CalculateMeanVector(s024);
+            s025Mean = ScaledManhDist.CalculateMeanVector(s025);
+            s026Mean = ScaledManhDist.CalculateMeanVector(s026);
+            s027Mean = ScaledManhDist.CalculateMeanVector(s027);
+            s028Mean = ScaledManhDist.CalculateMeanVector(s028);
+            s029Mean = ScaledManhDist.CalculateMeanVector(s029);
+            s030Mean = ScaledManhDist.CalculateMeanVector(s030);
+
+            s031Mean = ScaledManhDist.CalculateMeanVector(s031);
+            s032Mean = ScaledManhDist.CalculateMeanVector(s032);
+            s033Mean = ScaledManhDist.CalculateMeanVector(s033);
+            s034Mean = ScaledManhDist.CalculateMeanVector(s034);
+            s035Mean = ScaledManhDist.CalculateMeanVector(s035);
+            s036Mean = ScaledManhDist.CalculateMeanVector(s036);
+            s037Mean = ScaledManhDist.CalculateMeanVector(s037);
+            s038Mean = ScaledManhDist.CalculateMeanVector(s038);
+            s039Mean = ScaledManhDist.CalculateMeanVector(s039);
+            s040Mean = ScaledManhDist.CalculateMeanVector(s040);
             #endregion
         }
 
