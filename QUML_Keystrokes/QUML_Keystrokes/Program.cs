@@ -19,6 +19,7 @@
  * 1.8.9    29/06/2015  PKR     Finish populating impostor scres for user 5 under the Euclidean verifier. 
  * 1.8.10   29/06/2015  PKR     Finished declaring the impostor score variables for user 6, and will be populating them under the Euclidean verifier.
  * 1.8.11   29/06/2015  PKR     Now pausing the population of the impostor scores, and will be focusing on getting the code for the Scaled Mahattan Verifier (being written                              so that there is no "gap" per say), declaring the method in the main class (making the reference to the ScaledManhattanDistance.cs class)
+ * 1.8.12   29/06/2015  PKR     Finished populating the mean templates of the 100 subjects under the Scaled Manhattan Verifier
  */
 
 using System;
@@ -1301,6 +1302,72 @@ namespace QUML_Keystrokes
             s038Mean = ScaledManhDist.CalculateMeanVector(s038);
             s039Mean = ScaledManhDist.CalculateMeanVector(s039);
             s040Mean = ScaledManhDist.CalculateMeanVector(s040);
+
+            s041Mean = ScaledManhDist.CalculateMeanVector(s041);
+            s042Mean = ScaledManhDist.CalculateMeanVector(s042);
+            s043Mean = ScaledManhDist.CalculateMeanVector(s043);
+            s044Mean = ScaledManhDist.CalculateMeanVector(s044);
+            s045Mean = ScaledManhDist.CalculateMeanVector(s045);
+            s046Mean = ScaledManhDist.CalculateMeanVector(s046);
+            s047Mean = ScaledManhDist.CalculateMeanVector(s047);
+            s048Mean = ScaledManhDist.CalculateMeanVector(s048);
+            s049Mean = ScaledManhDist.CalculateMeanVector(s049);
+            s050Mean = ScaledManhDist.CalculateMeanVector(s050);
+
+            s051Mean = ScaledManhDist.CalculateMeanVector(s051);
+            s052Mean = ScaledManhDist.CalculateMeanVector(s052);
+            s053Mean = ScaledManhDist.CalculateMeanVector(s053);
+            s054Mean = ScaledManhDist.CalculateMeanVector(s054);
+            s055Mean = ScaledManhDist.CalculateMeanVector(s055);
+            s056Mean = ScaledManhDist.CalculateMeanVector(s056);
+            s057Mean = ScaledManhDist.CalculateMeanVector(s057);
+            s058Mean = ScaledManhDist.CalculateMeanVector(s058);
+            s059Mean = ScaledManhDist.CalculateMeanVector(s059);
+            s060Mean = ScaledManhDist.CalculateMeanVector(s060);
+
+            s061Mean = ScaledManhDist.CalculateMeanVector(s061);
+            s062Mean = ScaledManhDist.CalculateMeanVector(s062);
+            s063Mean = ScaledManhDist.CalculateMeanVector(s063);
+            s064Mean = ScaledManhDist.CalculateMeanVector(s064);
+            s065Mean = ScaledManhDist.CalculateMeanVector(s065);
+            s066Mean = ScaledManhDist.CalculateMeanVector(s066);
+            s067Mean = ScaledManhDist.CalculateMeanVector(s067);
+            s068Mean = ScaledManhDist.CalculateMeanVector(s068);
+            s069Mean = ScaledManhDist.CalculateMeanVector(s069);
+            s070Mean = ScaledManhDist.CalculateMeanVector(s070);
+
+            s071Mean = ScaledManhDist.CalculateMeanVector(s071);
+            s072Mean = ScaledManhDist.CalculateMeanVector(s072);
+            s073Mean = ScaledManhDist.CalculateMeanVector(s073);
+            s074Mean = ScaledManhDist.CalculateMeanVector(s074);
+            s075Mean = ScaledManhDist.CalculateMeanVector(s075);
+            s076Mean = ScaledManhDist.CalculateMeanVector(s076);
+            s077Mean = ScaledManhDist.CalculateMeanVector(s077);
+            s078Mean = ScaledManhDist.CalculateMeanVector(s078);
+            s079Mean = ScaledManhDist.CalculateMeanVector(s079);
+            s080Mean = ScaledManhDist.CalculateMeanVector(s080);
+
+            s081Mean = ScaledManhDist.CalculateMeanVector(s081);
+            s082Mean = ScaledManhDist.CalculateMeanVector(s082);
+            s083Mean = ScaledManhDist.CalculateMeanVector(s083);
+            s084Mean = ScaledManhDist.CalculateMeanVector(s084);
+            s085Mean = ScaledManhDist.CalculateMeanVector(s085);
+            s086Mean = ScaledManhDist.CalculateMeanVector(s086);
+            s087Mean = ScaledManhDist.CalculateMeanVector(s087);
+            s088Mean = ScaledManhDist.CalculateMeanVector(s088);
+            s089Mean = ScaledManhDist.CalculateMeanVector(s089);
+            s090Mean = ScaledManhDist.CalculateMeanVector(s090);
+
+            s091Mean = ScaledManhDist.CalculateMeanVector(s091);
+            s092Mean = ScaledManhDist.CalculateMeanVector(s092);
+            s093Mean = ScaledManhDist.CalculateMeanVector(s093);
+            s094Mean = ScaledManhDist.CalculateMeanVector(s094);
+            s095Mean = ScaledManhDist.CalculateMeanVector(s095);
+            s096Mean = ScaledManhDist.CalculateMeanVector(s096);
+            s097Mean = ScaledManhDist.CalculateMeanVector(s097);
+            s098Mean = ScaledManhDist.CalculateMeanVector(s098);
+            s099Mean = ScaledManhDist.CalculateMeanVector(s099);
+            s100Mean = ScaledManhDist.CalculateMeanVector(s100);
             #endregion
         }
 
