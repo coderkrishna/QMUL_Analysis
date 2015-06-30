@@ -183,6 +183,7 @@ verifiers
 * Added a new class for Scaled Manhattan verifier
 * Declaring and populating the impostor scores for user 7 - under both the Euclidean and Manhattan verifiers
 * Next, declaring the impostor scores for user 8 - and then will populate them under the Euclidean and Manhattan verifiers
+* Finished populating the impostor scores for user 8 under the Manhattan Distance verifier
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 

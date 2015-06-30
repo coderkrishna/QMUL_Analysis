@@ -3500,7 +3500,62 @@ namespace QUML_Keystrokes
             impostorScoresUser8User47 = ManhDist.CalculateImpostorScores(s008Mean, s047);
             impostorScoresUser8User48 = ManhDist.CalculateImpostorScores(s008Mean, s048);
             impostorScoresUser8User49 = ManhDist.CalculateImpostorScores(s008Mean, s049);
-            impostorScoresUser8User50 = ManhDist.CalculateImpostorScores(s008Mean, s050); 
+            impostorScoresUser8User50 = ManhDist.CalculateImpostorScores(s008Mean, s050);
+
+            impostorScoresUser8User51 = ManhDist.CalculateImpostorScores(s008Mean, s051);
+            impostorScoresUser8User52 = ManhDist.CalculateImpostorScores(s008Mean, s052);
+            impostorScoresUser8User53 = ManhDist.CalculateImpostorScores(s008Mean, s053);
+            impostorScoresUser8User54 = ManhDist.CalculateImpostorScores(s008Mean, s054);
+            impostorScoresUser8User55 = ManhDist.CalculateImpostorScores(s008Mean, s055);
+            impostorScoresUser8User56 = ManhDist.CalculateImpostorScores(s008Mean, s056);
+            impostorScoresUser8User57 = ManhDist.CalculateImpostorScores(s008Mean, s057);
+            impostorScoresUser8User58 = ManhDist.CalculateImpostorScores(s008Mean, s058);
+            impostorScoresUser8User59 = ManhDist.CalculateImpostorScores(s008Mean, s059);
+            impostorScoresUser8User60 = ManhDist.CalculateImpostorScores(s008Mean, s060);
+
+            impostorScoresUser8User61 = ManhDist.CalculateImpostorScores(s008Mean, s061);
+            impostorScoresUser8User62 = ManhDist.CalculateImpostorScores(s008Mean, s062);
+            impostorScoresUser8User63 = ManhDist.CalculateImpostorScores(s008Mean, s063);
+            impostorScoresUser8User64 = ManhDist.CalculateImpostorScores(s008Mean, s064);
+            impostorScoresUser8User65 = ManhDist.CalculateImpostorScores(s008Mean, s065);
+            impostorScoresUser8User66 = ManhDist.CalculateImpostorScores(s008Mean, s066);
+            impostorScoresUser8User67 = ManhDist.CalculateImpostorScores(s008Mean, s067);
+            impostorScoresUser8User68 = ManhDist.CalculateImpostorScores(s008Mean, s068);
+            impostorScoresUser8User69 = ManhDist.CalculateImpostorScores(s008Mean, s069);
+            impostorScoresUser8User70 = ManhDist.CalculateImpostorScores(s008Mean, s070);
+
+            impostorScoresUser8User71 = ManhDist.CalculateImpostorScores(s008Mean, s071);
+            impostorScoresUser8User72 = ManhDist.CalculateImpostorScores(s008Mean, s072);
+            impostorScoresUser8User73 = ManhDist.CalculateImpostorScores(s008Mean, s073);
+            impostorScoresUser8User74 = ManhDist.CalculateImpostorScores(s008Mean, s074);
+            impostorScoresUser8User75 = ManhDist.CalculateImpostorScores(s008Mean, s075);
+            impostorScoresUser8User76 = ManhDist.CalculateImpostorScores(s008Mean, s076);
+            impostorScoresUser8User77 = ManhDist.CalculateImpostorScores(s008Mean, s077);
+            impostorScoresUser8User78 = ManhDist.CalculateImpostorScores(s008Mean, s078);
+            impostorScoresUser8User79 = ManhDist.CalculateImpostorScores(s008Mean, s079);
+            impostorScoresUser8User80 = ManhDist.CalculateImpostorScores(s008Mean, s080);
+
+            impostorScoresUser8User81 = ManhDist.CalculateImpostorScores(s008Mean, s081);
+            impostorScoresUser8User82 = ManhDist.CalculateImpostorScores(s008Mean, s082);
+            impostorScoresUser8User83 = ManhDist.CalculateImpostorScores(s008Mean, s083);
+            impostorScoresUser8User84 = ManhDist.CalculateImpostorScores(s008Mean, s084);
+            impostorScoresUser8User85 = ManhDist.CalculateImpostorScores(s008Mean, s085);
+            impostorScoresUser8User86 = ManhDist.CalculateImpostorScores(s008Mean, s086);
+            impostorScoresUser8User87 = ManhDist.CalculateImpostorScores(s008Mean, s087);
+            impostorScoresUser8User88 = ManhDist.CalculateImpostorScores(s008Mean, s088);
+            impostorScoresUser8User89 = ManhDist.CalculateImpostorScores(s008Mean, s089);
+            impostorScoresUser8User90 = ManhDist.CalculateImpostorScores(s008Mean, s090);
+
+            impostorScoresUser8User91 = ManhDist.CalculateImpostorScores(s008Mean, s091);
+            impostorScoresUser8User92 = ManhDist.CalculateImpostorScores(s008Mean, s092);
+            impostorScoresUser8User93 = ManhDist.CalculateImpostorScores(s008Mean, s093);
+            impostorScoresUser8User94 = ManhDist.CalculateImpostorScores(s008Mean, s094);
+            impostorScoresUser8User95 = ManhDist.CalculateImpostorScores(s008Mean, s095);
+            impostorScoresUser8User96 = ManhDist.CalculateImpostorScores(s008Mean, s096);
+            impostorScoresUser8User97 = ManhDist.CalculateImpostorScores(s008Mean, s097);
+            impostorScoresUser8User98 = ManhDist.CalculateImpostorScores(s008Mean, s098);
+            impostorScoresUser8User99 = ManhDist.CalculateImpostorScores(s008Mean, s099);
+            impostorScoresUser8User100 = ManhDist.CalculateImpostorScores(s008Mean, s100);
             #endregion
 
             #region User 9 Impostor Scores
