@@ -7,22 +7,7 @@
  * 
  * Version  Date        Who     Description
  * -------  ----------  ------- --------------
- * 1.8      26/06/2015  PKR     Finishing populating the impostor scores for user 3 under the Euclidean Verifier
- * 1.8.1    26/06/2015  PKR     Going to be populating the impostor scores for user 3 under the Manhattan Verifier
- * 1.8.2    26/06/2015  PKR     Finished populating the impostor scores for user 3 under the Manhattan Verifier
- * 1.8.3    26/06/2015  PKR     Populated the impostor scores for user 4 under the Euclidean Verifier, the Manhattan Verifier is next. 
- * 1.8.4    26/06/2015  PKR     Right now about to declare more impostor score variables for user 5.  
- * 1.8.5    27/06/2015  PKR     More impostor scores for user 4 being populated under the Manhattan verifier.
- * 1.8.6    27/06/2015  PKR     Impostor scores for user 5 being populated under the Manhattan verifier.
- * 1.8.7    28/06/2015  PKR     More impostor scores for user 5 being declared and initialized under both Manhattan and Euclidean verifiers.
- * 1.8.8    28/06/2015  PKR     Finished populating the impostor scores for user 5 using the Manhattan verifier, the Euclidean verifier is next.
- * 1.8.9    29/06/2015  PKR     Finish populating impostor scres for user 5 under the Euclidean verifier. 
- * 1.8.10   29/06/2015  PKR     Finished declaring the impostor score variables for user 6, and will be populating them under the Euclidean verifier.
- * 1.8.11   29/06/2015  PKR     Now pausing the population of the impostor scores, and will be focusing on getting the code for the Scaled Mahattan Verifier (being written                              so that there is no "gap" per say), declaring the method in the main class (making the reference to the ScaledManhattanDistance.cs class)
- * 1.8.12   29/06/2015  PKR     Finished populating the mean templates of the 100 subjects under the Scaled Manhattan Verifier
- * 1.8.13   29/06/2015  PKR     Right now, I have finished the mean templates for the 100 subjects under the Scaled Manhattan Verifier
- * 1.8.14   30/06/2015  PKR     Finishing up declaring and populating all of the impostor scores for user 7 under the Euclidean verifier first, then Manhattan verifer.
- * 1.8.15   30/06/2015  PKR     Right now making sure all of the code is up-to-date, and method calls are going to the appropriate places, etc...
+ * 1.8.16   30/06/2015  PKR     Now declaring the variables for the impostor scores for user 8
  */
 
 using System;
@@ -1037,6 +1022,61 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser8User48;
         static double[,] impostorScoresUser8User49;
         static double[,] impostorScoresUser8User50;
+
+        static double[,] impostorScoresUser8User51;
+        static double[,] impostorScoresUser8User52;
+        static double[,] impostorScoresUser8User53;
+        static double[,] impostorScoresUser8User54;
+        static double[,] impostorScoresUser8User55;
+        static double[,] impostorScoresUser8User56;
+        static double[,] impostorScoresUser8User57;
+        static double[,] impostorScoresUser8User58;
+        static double[,] impostorScoresUser8User59;
+        static double[,] impostorScoresUser8User60;
+
+        static double[,] impostorScoresUser8User61;
+        static double[,] impostorScoresUser8User62;
+        static double[,] impostorScoresUser8User63;
+        static double[,] impostorScoresUser8User64;
+        static double[,] impostorScoresUser8User65;
+        static double[,] impostorScoresUser8User66;
+        static double[,] impostorScoresUser8User67;
+        static double[,] impostorScoresUser8User68;
+        static double[,] impostorScoresUser8User69;
+        static double[,] impostorScoresUser8User70;
+
+        static double[,] impostorScoresUser8User71;
+        static double[,] impostorScoresUser8User72;
+        static double[,] impostorScoresUser8User73;
+        static double[,] impostorScoresUser8User74;
+        static double[,] impostorScoresUser8User75;
+        static double[,] impostorScoresUser8User76;
+        static double[,] impostorScoresUser8User77;
+        static double[,] impostorScoresUser8User78;
+        static double[,] impostorScoresUser8User79;
+        static double[,] impostorScoresUser8User80;
+
+        static double[,] impostorScoresUser8User81;
+        static double[,] impostorScoresUser8User82;
+        static double[,] impostorScoresUser8User83;
+        static double[,] impostorScoresUser8User84;
+        static double[,] impostorScoresUser8User85;
+        static double[,] impostorScoresUser8User86;
+        static double[,] impostorScoresUser8User87;
+        static double[,] impostorScoresUser8User88;
+        static double[,] impostorScoresUser8User89;
+        static double[,] impostorScoresUser8User90;
+
+        static double[,] impostorScoresUser8User91;
+        static double[,] impostorScoresUser8User92;
+        static double[,] impostorScoresUser8User93;
+        static double[,] impostorScoresUser8User94;
+        static double[,] impostorScoresUser8User95;
+        static double[,] impostorScoresUser8User96;
+        static double[,] impostorScoresUser8User97;
+        static double[,] impostorScoresUser8User98;
+        static double[,] impostorScoresUser8User99;
+        static double[,] impostorScoresUser8User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 9 as the training (using the mean vector for user 9 in calculating the impostor scores)
