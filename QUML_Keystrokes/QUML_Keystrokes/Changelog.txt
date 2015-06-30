@@ -180,8 +180,8 @@ verifiers
 
 30th June 2015
 * Updating in-code documentation where necessary
-* Added a new class for Scaled Euclidean verifier
-* Declaring and populating the impostor scores for user 7
+* Added a new class for Scaled Manhattan verifier
+* Declaring and populating the impostor scores for user 7 - under both the Euclidean and Manhattan verifiers
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
