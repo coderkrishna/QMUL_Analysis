@@ -178,6 +178,11 @@ variables for user 5.
 * Then begin to declare the remaining impostor scores for user 6, and then populate them under both the Euclidean and Manhattan
 verifiers
 
+30th June 2015
+* Updating in-code documentation where necessary
+* Added a new class for Scaled Euclidean verifier
+* Declaring and populating the impostor scores for user 7
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
