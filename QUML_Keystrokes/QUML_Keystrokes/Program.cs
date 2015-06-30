@@ -969,6 +969,17 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser7User88;
         static double[,] impostorScoresUser7User89;
         static double[,] impostorScoresUser7User90;
+
+        static double[,] impostorScoresUser7User91;
+        static double[,] impostorScoresUser7User92;
+        static double[,] impostorScoresUser7User93;
+        static double[,] impostorScoresUser7User94;
+        static double[,] impostorScoresUser7User95;
+        static double[,] impostorScoresUser7User96;
+        static double[,] impostorScoresUser7User97;
+        static double[,] impostorScoresUser7User98;
+        static double[,] impostorScoresUser7User99;
+        static double[,] impostorScoresUser7User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 8 as the training (using the mean vector for user 8 in calculating the impostor scores)
@@ -2415,7 +2426,18 @@ namespace QUML_Keystrokes
             impostorScoresUser7User87 = EuclidDist.CalculateImpostorScores(s007Mean, s087);
             impostorScoresUser7User88 = EuclidDist.CalculateImpostorScores(s007Mean, s088);
             impostorScoresUser7User89 = EuclidDist.CalculateImpostorScores(s007Mean, s089);
-            impostorScoresUser7User90 = EuclidDist.CalculateImpostorScores(s007Mean, s090); 
+            impostorScoresUser7User90 = EuclidDist.CalculateImpostorScores(s007Mean, s090);
+
+            impostorScoresUser7User91 = EuclidDist.CalculateImpostorScores(s007Mean, s091);
+            impostorScoresUser7User92 = EuclidDist.CalculateImpostorScores(s007Mean, s092);
+            impostorScoresUser7User93 = EuclidDist.CalculateImpostorScores(s007Mean, s093);
+            impostorScoresUser7User94 = EuclidDist.CalculateImpostorScores(s007Mean, s094);
+            impostorScoresUser7User95 = EuclidDist.CalculateImpostorScores(s007Mean, s095);
+            impostorScoresUser7User96 = EuclidDist.CalculateImpostorScores(s007Mean, s096);
+            impostorScoresUser7User97 = EuclidDist.CalculateImpostorScores(s007Mean, s097);
+            impostorScoresUser7User98 = EuclidDist.CalculateImpostorScores(s007Mean, s098);
+            impostorScoresUser7User99 = EuclidDist.CalculateImpostorScores(s007Mean, s099);
+            impostorScoresUser7User100 = EuclidDist.CalculateImpostorScores(s007Mean, s100);
             #endregion
 
             #region User 8 impostor scores
