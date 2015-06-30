@@ -8,6 +8,7 @@
  * Version  Date        Who     Description
  * -------  ----------  ------- --------------
  * 1.8.16   30/06/2015  PKR     Now declaring the variables for the impostor scores for user 8
+ * 1.8.17   30/06/2015  PKR     Finished declaring and populating the impostor scores for user 8 under both Manhattan and Euclidean verifiers
  */
 
 using System;
@@ -1133,6 +1134,21 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser9User48;
         static double[,] impostorScoresUser9User49;
         static double[,] impostorScoresUser9User50;
+
+        static double[,] impostorScoresUser9User51;
+        static double[,] impostorScoresUser9User52;
+        static double[,] impostorScoresUser9User53;
+        static double[,] impostorScoresUser9User54;
+        static double[,] impostorScoresUser9User55;
+        static double[,] impostorScoresUser9User56;
+        static double[,] impostorScoresUser9User57;
+        static double[,] impostorScoresUser9User58;
+        static double[,] impostorScoresUser9User59;
+        static double[,] impostorScoresUser9User60;
+
+        static double[,] impostorScoresUser9User61;
+        static double[,] impostorScoresUser9User62;
+        static double[,] impostorScoresUser9User63;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 10 as the training (using the mean vector for user 10 in calculating the impostor scores)
