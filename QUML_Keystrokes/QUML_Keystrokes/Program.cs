@@ -22,6 +22,7 @@
  * 1.8.12   29/06/2015  PKR     Finished populating the mean templates of the 100 subjects under the Scaled Manhattan Verifier
  * 1.8.13   29/06/2015  PKR     Right now, I have finished the mean templates for the 100 subjects under the Scaled Manhattan Verifier
  * 1.8.14   30/06/2015  PKR     Finishing up declaring and populating all of the impostor scores for user 7 under the Euclidean verifier first, then Manhattan verifer.
+ * 1.8.15   30/06/2015  PKR     Right now making sure all of the code is up-to-date, and method calls are going to the appropriate places, etc...
  */
 
 using System;
@@ -1313,6 +1314,11 @@ namespace QUML_Keystrokes
         #region Verifier calls
         private static void UseScaledEuclideanVerifier()
         {
+            Console.WriteLine("The Scaled Euclidean Verifier is to be coded - TBC"); 
+        }
+
+        private static void UseScaledManhattanVerifier()
+        {
             ScaledManhattanDistance ScaledManhDist = new ScaledManhattanDistance();
 
             #region Calculating the mean vectors for all 100 subjects
@@ -1426,11 +1432,6 @@ namespace QUML_Keystrokes
             s099Mean = ScaledManhDist.CalculateMeanVector(s099);
             s100Mean = ScaledManhDist.CalculateMeanVector(s100);
             #endregion
-        }
-
-        private static void UseScaledManhattanVerifier()
-        {
-            Console.WriteLine("Scaled Manhattan Verifier - TBC");
         }
 
         private static void UseEuclideanVerifier()
@@ -3348,7 +3349,16 @@ namespace QUML_Keystrokes
             impostorScoresUser7User47 = ManhDist.CalculateImpostorScores(s007Mean, s047);
             impostorScoresUser7User48 = ManhDist.CalculateImpostorScores(s007Mean, s048);
             impostorScoresUser7User49 = ManhDist.CalculateImpostorScores(s007Mean, s049);
-            impostorScoresUser7User50 = ManhDist.CalculateImpostorScores(s007Mean, s050); 
+            impostorScoresUser7User50 = ManhDist.CalculateImpostorScores(s007Mean, s050);
+
+            impostorScoresUser7User51 = ManhDist.CalculateImpostorScores(s007Mean, s051);
+            impostorScoresUser7User52 = ManhDist.CalculateImpostorScores(s007Mean, s052);
+            impostorScoresUser7User53 = ManhDist.CalculateImpostorScores(s007Mean, s053);
+            impostorScoresUser7User54 = ManhDist.CalculateImpostorScores(s007Mean, s054);
+            impostorScoresUser7User55 = ManhDist.CalculateImpostorScores(s007Mean, s055);
+            impostorScoresUser7User56 = ManhDist.CalculateImpostorScores(s007Mean, s056);
+            impostorScoresUser7User57 = ManhDist.CalculateImpostorScores(s007Mean, s057);
+            impostorScoresUser7User58 = ManhDist.CalculateImpostorScores(s007Mean, s058);
             #endregion
 
             #region User 8 Impostor Scores
