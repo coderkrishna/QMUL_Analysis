@@ -13,6 +13,7 @@
  * 1.8.19   01/07/2015  PKR     Continuing to populate the impostor scores for user 9 under the Euclidean verifier
  * 1.8.20   01/07/2015  PKR     Now populating the impostor scores for user 9 under the Manhattan verifier
  * 1.8.21   01/07/2015  PKR     Will be declaring the remaining impostor scores for user 10.  
+ * 1.8.22   01/072015   PKR     Right now finished populating the impostor scores for user 10
  */
 
 using System;
