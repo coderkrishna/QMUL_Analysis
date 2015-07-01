@@ -189,6 +189,8 @@ verifiers
 1st July 2015
 * Right now will continue populating the impostor scores for user 9
 * Updating all in-code documentation where it is necessary
+* Finished populating the impostor scores for user 9 under the Euclidean verifier
+* Now populating the impostor scores for user 9 under the Mahattan verifier
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
