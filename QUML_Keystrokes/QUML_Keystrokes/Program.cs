@@ -9,6 +9,7 @@
  * -------  ----------  ------- --------------
  * 1.8.16   30/06/2015  PKR     Now declaring the variables for the impostor scores for user 8
  * 1.8.17   30/06/2015  PKR     Finished declaring and populating the impostor scores for user 8 under both Manhattan and Euclidean verifiers
+ * 1.8.18   30/06/2015  PKR     Right now finished declaring the impostor scores for user 9, and now populating them under the Euclidean verifier.
  */
 
 using System;
