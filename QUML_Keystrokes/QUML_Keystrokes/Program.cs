@@ -12,6 +12,7 @@
  * 1.8.18   30/06/2015  PKR     Right now finished declaring the impostor scores for user 9, and now populating them under the Euclidean verifier.
  * 1.8.19   01/07/2015  PKR     Continuing to populate the impostor scores for user 9 under the Euclidean verifier
  * 1.8.20   01/07/2015  PKR     Now populating the impostor scores for user 9 under the Manhattan verifier
+ * 1.8.21   01/07/2015  PKR     Will be declaring the remaining impostor scores for user 10.  
  */
 
 using System;
@@ -1248,6 +1249,61 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser10User48;
         static double[,] impostorScoresUser10User49;
         static double[,] impostorScoresUser10User50;
+
+        static double[,] impostorScoresUser10User51;
+        static double[,] impostorScoresUser10User52;
+        static double[,] impostorScoresUser10User53;
+        static double[,] impostorScoresUser10User54;
+        static double[,] impostorScoresUser10User55;
+        static double[,] impostorScoresUser10User56;
+        static double[,] impostorScoresUser10User57;
+        static double[,] impostorScoresUser10User58;
+        static double[,] impostorScoresUser10User59;
+        static double[,] impostorScoresUser10User60;
+
+        static double[,] impostorScoresUser10User61;
+        static double[,] impostorScoresUser10User62;
+        static double[,] impostorScoresUser10User63;
+        static double[,] impostorScoresUser10User64;
+        static double[,] impostorScoresUser10User65;
+        static double[,] impostorScoresUser10User66;
+        static double[,] impostorScoresUser10User67;
+        static double[,] impostorScoresUser10User68;
+        static double[,] impostorScoresUser10User69;
+        static double[,] impostorScoresUser10User70;
+
+        static double[,] impostorScoresUser10User71;
+        static double[,] impostorScoresUser10User72;
+        static double[,] impostorScoresUser10User73;
+        static double[,] impostorScoresUser10User74;
+        static double[,] impostorScoresUser10User75;
+        static double[,] impostorScoresUser10User76;
+        static double[,] impostorScoresUser10User77;
+        static double[,] impostorScoresUser10User78;
+        static double[,] impostorScoresUser10User79;
+        static double[,] impostorScoresUser10User80;
+
+        static double[,] impostorScoresUser10User81;
+        static double[,] impostorScoresUser10User82;
+        static double[,] impostorScoresUser10User83;
+        static double[,] impostorScoresUser10User84;
+        static double[,] impostorScoresUser10User85;
+        static double[,] impostorScoresUser10User86;
+        static double[,] impostorScoresUser10User87;
+        static double[,] impostorScoresUser10User88;
+        static double[,] impostorScoresUser10User89;
+        static double[,] impostorScoresUser10User90;
+
+        static double[,] impostorScoresUser10User91;
+        static double[,] impostorScoresUser10User92;
+        static double[,] impostorScoresUser10User93;
+        static double[,] impostorScoresUser10User94;
+        static double[,] impostorScoresUser10User95;
+        static double[,] impostorScoresUser10User96;
+        static double[,] impostorScoresUser10User97;
+        static double[,] impostorScoresUser10User98;
+        static double[,] impostorScoresUser10User99;
+        static double[,] impostorScoresUser10User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 11 as the training (using the mean vector for user 11 in calculating the impostor scores)
