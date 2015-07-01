@@ -10,6 +10,7 @@
  * 1.8.16   30/06/2015  PKR     Now declaring the variables for the impostor scores for user 8
  * 1.8.17   30/06/2015  PKR     Finished declaring and populating the impostor scores for user 8 under both Manhattan and Euclidean verifiers
  * 1.8.18   30/06/2015  PKR     Right now finished declaring the impostor scores for user 9, and now populating them under the Euclidean verifier.
+ * 1.8.19   01/07/2015  PKR     Continuing to populate the impostor scores for user 9 under the Euclidean verifier
  */
 
 using System;
@@ -2669,7 +2670,18 @@ namespace QUML_Keystrokes
             impostorScoresUser9User17 = EuclidDist.CalculateImpostorScores(s009Mean, s017);
             impostorScoresUser9User18 = EuclidDist.CalculateImpostorScores(s009Mean, s018);
             impostorScoresUser9User19 = EuclidDist.CalculateImpostorScores(s009Mean, s019);
-            impostorScoresUser9User20 = EuclidDist.CalculateImpostorScores(s020Mean, s020);
+            impostorScoresUser9User20 = EuclidDist.CalculateImpostorScores(s009Mean, s020);
+
+            impostorScoresUser9User21 = EuclidDist.CalculateImpostorScores(s009Mean, s021);
+            impostorScoresUser9User22 = EuclidDist.CalculateImpostorScores(s009Mean, s022);
+            impostorScoresUser9User23 = EuclidDist.CalculateImpostorScores(s009Mean, s023);
+            impostorScoresUser9User24 = EuclidDist.CalculateImpostorScores(s009Mean, s024);
+            impostorScoresUser9User25 = EuclidDist.CalculateImpostorScores(s009Mean, s025);
+            impostorScoresUser9User26 = EuclidDist.CalculateImpostorScores(s009Mean, s026);
+            impostorScoresUser9User27 = EuclidDist.CalculateImpostorScores(s009Mean, s027);
+            impostorScoresUser9User28 = EuclidDist.CalculateImpostorScores(s009Mean, s028);
+            impostorScoresUser9User29 = EuclidDist.CalculateImpostorScores(s009Mean, s029);
+            impostorScoresUser9User30 = EuclidDist.CalculateImpostorScores(s009Mean, s030);
             #endregion
 
             #region User 10 impostor scores

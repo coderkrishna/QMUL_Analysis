@@ -186,6 +186,10 @@ verifiers
 * Finished populating the impostor scores for user 8 under the Manhattan Distance verifier
 * Now populating the impostor scores for user 8 under the Euclidean Distance verifier
 
+1st July 2015
+* Right now will continue populating the impostor scores for user 9
+* Updating all in-code documentation where it is necessary
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
