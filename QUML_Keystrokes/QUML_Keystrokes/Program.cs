@@ -2649,7 +2649,26 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 9 impostor scores
-            
+            impostorScoresUser9User1 = EuclidDist.CalculateImpostorScores(s009Mean, s001);
+            impostorScoresUser9User2 = EuclidDist.CalculateImpostorScores(s009Mean, s002);
+            impostorScoresUser9User3 = EuclidDist.CalculateImpostorScores(s009Mean, s003);
+            impostorScoresUser9User4 = EuclidDist.CalculateImpostorScores(s009Mean, s004);
+            impostorScoresUser9User5 = EuclidDist.CalculateImpostorScores(s009Mean, s005);
+            impostorScoresUser9User6 = EuclidDist.CalculateImpostorScores(s009Mean, s006);
+            impostorScoresUser9User7 = EuclidDist.CalculateImpostorScores(s009Mean, s007);
+            impostorScoresUser9User8 = EuclidDist.CalculateImpostorScores(s009Mean, s008);
+            impostorScoresUser9User10 = EuclidDist.CalculateImpostorScores(s009Mean, s010);
+
+            impostorScoresUser9User11 = EuclidDist.CalculateImpostorScores(s009Mean, s011);
+            impostorScoresUser9User12 = EuclidDist.CalculateImpostorScores(s009Mean, s012);
+            impostorScoresUser9User13 = EuclidDist.CalculateImpostorScores(s009Mean, s013);
+            impostorScoresUser9User14 = EuclidDist.CalculateImpostorScores(s009Mean, s014);
+            impostorScoresUser9User15 = EuclidDist.CalculateImpostorScores(s009Mean, s015);
+            impostorScoresUser9User16 = EuclidDist.CalculateImpostorScores(s009Mean, s016);
+            impostorScoresUser9User17 = EuclidDist.CalculateImpostorScores(s009Mean, s017);
+            impostorScoresUser9User18 = EuclidDist.CalculateImpostorScores(s009Mean, s018);
+            impostorScoresUser9User19 = EuclidDist.CalculateImpostorScores(s009Mean, s019);
+            impostorScoresUser9User20 = EuclidDist.CalculateImpostorScores(s020Mean, s020);
             #endregion
 
             #region User 10 impostor scores
