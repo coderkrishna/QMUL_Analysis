@@ -2840,6 +2840,10 @@ namespace QUML_Keystrokes
             impostorScoresUser10User18 = EuclidDist.CalculateImpostorScores(s010Mean, s018);
             impostorScoresUser10User19 = EuclidDist.CalculateImpostorScores(s010Mean, s019);
             impostorScoresUser10User20 = EuclidDist.CalculateImpostorScores(s010Mean, s020);
+
+            impostorScoresUser10User21 = EuclidDist.CalculateImpostorScores(s010Mean, s021);
+            impostorScoresUser10User22 = EuclidDist.CalculateImpostorScores(s010Mean, s022);
+            impostorScoresUser10User23 = EuclidDist.CalculateImpostorScores(s010Mean, s023);
             #endregion
 
             #endregion
