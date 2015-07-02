@@ -196,7 +196,8 @@ verifiers
 
 2nd July 2015
 * Making progress on this code project
-* Going to initialize the impostor score variables for user 11.  
+* Going to declare the impostor score variables for user 11.  
+* Beginning to declare the impostor score variables for user 12
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
