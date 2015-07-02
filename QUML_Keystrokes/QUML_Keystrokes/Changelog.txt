@@ -196,7 +196,7 @@ verifiers
 
 2nd July 2015
 * Making progress on this code project
-* Going to declare the impostor score variables for user 11.  
+* Going to declare the impostor score variables for user 11 - Now these have been populated under the Euclidean and Manhattan verifiers
 * Beginning to declare the impostor score variables for user 12
 * Right now progressing with declaring the impostor score variables for user
 12
