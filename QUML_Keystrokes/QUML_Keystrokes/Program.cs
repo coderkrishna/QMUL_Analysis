@@ -1330,6 +1330,94 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser11User18;
         static double[,] impostorScoresUser11User19;
         static double[,] impostorScoresUser11User20;
+
+        static double[,] impostorScoresUser11User21;
+        static double[,] impostorScoresUser11User22;
+        static double[,] impostorScoresUser11User23;
+        static double[,] impostorScoresUser11User24;
+        static double[,] impostorScoresUser11User25;
+        static double[,] impostorScoresUser11User26;
+        static double[,] impostorScoresUser11User27;
+        static double[,] impostorScoresUser11User28;
+        static double[,] impostorScoresUser11User29;
+        static double[,] impostorScoresUser11User30;
+
+        static double[,] impostorScoresUser11User31;
+        static double[,] impostorScoresUser11User32;
+        static double[,] impostorScoresUser11User33;
+        static double[,] impostorScoresUser11User34;
+        static double[,] impostorScoresUser11User35;
+        static double[,] impostorScoresUser11User36;
+        static double[,] impostorScoresUser11User37;
+        static double[,] impostorScoresUser11User38;
+        static double[,] impostorScoresUser11User39;
+        static double[,] impostorScoresUser11User40;
+
+        static double[,] impostorScoresUser11User41;
+        static double[,] impostorScoresUser11User42;
+        static double[,] impostorScoresUser11User43;
+        static double[,] impostorScoresUser11User44;
+        static double[,] impostorScoresUser11User45;
+        static double[,] impostorScoresUser11User46;
+        static double[,] impostorScoresUser11User47;
+        static double[,] impostorScoresUser11User48;
+        static double[,] impostorScoresUser11User49;
+        static double[,] impostorScoresUser11User50;
+
+        static double[,] impostorScoresUser11User51;
+        static double[,] impostorScoresUser11User52;
+        static double[,] impostorScoresUser11User53;
+        static double[,] impostorScoresUser11User54;
+        static double[,] impostorScoresUser11User55;
+        static double[,] impostorScoresUser11User56;
+        static double[,] impostorScoresUser11User57;
+        static double[,] impostorScoresUser11User58;
+        static double[,] impostorScoresUser11User59;
+        static double[,] impostorScoresUser11User60;
+
+        static double[,] impostorScoresUser11User61;
+        static double[,] impostorScoresUser11User62;
+        static double[,] impostorScoresUser11User63;
+        static double[,] impostorScoresUser11User64;
+        static double[,] impostorScoresUser11User65;
+        static double[,] impostorScoresUser11User66;
+        static double[,] impostorScoresUser11User67;
+        static double[,] impostorScoresUser11User68;
+        static double[,] impostorScoresUser11User69;
+        static double[,] impostorScoresUser11User70;
+
+        static double[,] impostorScoresUser11User71;
+        static double[,] impostorScoresUser11User72;
+        static double[,] impostorScoresUser11User73;
+        static double[,] impostorScoresUser11User74;
+        static double[,] impostorScoresUser11User75;
+        static double[,] impostorScoresUser11User76;
+        static double[,] impostorScoresUser11User77;
+        static double[,] impostorScoresUser11User78;
+        static double[,] impostorScoresUser11User79;
+        static double[,] impostorScoresUser11User80;
+
+        static double[,] impostorScoresUser11User81;
+        static double[,] impostorScoresUser11User82;
+        static double[,] impostorScoresUser11User83;
+        static double[,] impostorScoresUser11User84;
+        static double[,] impostorScoresUser11User85;
+        static double[,] impostorScoresUser11User86;
+        static double[,] impostorScoresUser11User87;
+        static double[,] impostorScoresUser11User88;
+        static double[,] impostorScoresUser11User89;
+        static double[,] impostorScoresUser11User90;
+
+        static double[,] impostorScoresUser11User91;
+        static double[,] impostorScoresUser11User92;
+        static double[,] impostorScoresUser11User93;
+        static double[,] impostorScoresUser11User94;
+        static double[,] impostorScoresUser11User95;
+        static double[,] impostorScoresUser11User96;
+        static double[,] impostorScoresUser11User97;
+        static double[,] impostorScoresUser11User98;
+        static double[,] impostorScoresUser11User99;
+        static double[,] impostorScoresUser11User100;
         #endregion
 
         #endregion
