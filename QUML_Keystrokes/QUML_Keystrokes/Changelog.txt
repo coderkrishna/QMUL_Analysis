@@ -194,6 +194,10 @@ verifiers
 * Finished declaring the remaining impostor scores for user 10, and populated the impostor scores for user 10 under the Manhattan verifier
 * Now populating the impostor scores for user 10 under the Euclidean verifier
 
+2nd July 2015
+* Making progress on this code project
+* Going to initialize the impostor score variables for user 11.  
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
