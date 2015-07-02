@@ -192,6 +192,7 @@ verifiers
 * Finished populating the impostor scores for user 9 under the Euclidean verifier
 * Now populating the impostor scores for user 9 under the Mahattan verifier
 * Finished declaring the remaining impostor scores for user 10, and populated the impostor scores for user 10 under the Manhattan verifier
+* Now populating the impostor scores for user 10 under the Euclidean verifier
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
