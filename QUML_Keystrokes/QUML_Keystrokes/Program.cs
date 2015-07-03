@@ -16,6 +16,7 @@
  * 1.8.22   01/07/2015  PKR     Right now finished populating the impostor scores for user 10 under the Manhattan verifier
  * 1.8.23   01/07/2015  PKR     Finished up populating the impostor scores for user 10 under the Euclidean Verifer
  * 1.8.24   02/07/2015  PKR     Declaring the impostor score variables for user 11, and beginning to declare the impostor scores for user 12
+ * 1.8.25   03/07/2015  PKR     Declaring the impostor score variables for user 13, and the standard deviation variables for all 100 users
  */
 
 using System;
@@ -196,6 +197,68 @@ namespace QUML_Keystrokes
         static double[,] s094Gen; static double[,] s095Gen; static double[,] s096Gen;
         static double[,] s097Gen; static double[,] s098Gen; static double[,] s099Gen;
         static double[,] s100Gen;
+        #endregion
+
+        #region The standard deviation of each user - declared as double arrays (one dimensional arrays)
+        static double[] stdDevUser1;  static double[] stdDevUser2;  
+        static double[] stdDevUser3;  static double[] stdDevUser4;
+        static double[] stdDevUser5;  static double[] stdDevUser6;  
+        static double[] stdDevUser7;  static double[] stdDevUser8;
+        static double[] stdDevUser9;  static double[] stdDevUser10; 
+        
+        static double[] stdDevUser11; static double[] stdDevUser12;
+        static double[] stdDevUser13; static double[] stdDevUser14; 
+        static double[] stdDevUser15; static double[] stdDevUser16;
+        static double[] stdDevUser17; static double[] stdDevUser18; 
+        static double[] stdDevUser19; static double[] stdDevUser20;
+
+        static double[] stdDevUser21; static double[] stdDevUser22;
+        static double[] stdDevUser23; static double[] stdDevUser24;
+        static double[] stdDevUser25; static double[] stdDevUser26;
+        static double[] stdDevUser27; static double[] stdDevUser28;
+        static double[] stdDevUser29; static double[] stdDevUser30;
+
+        static double[] stdDevUser31; static double[] stdDevUser32;
+        static double[] stdDevUser33; static double[] stdDevUser34;
+        static double[] stdDevUser35; static double[] stdDevUser36;
+        static double[] stdDevUser37; static double[] stdDevUser38;
+        static double[] stdDevUser39; static double[] stdDevUser40;
+
+        static double[] stdDevUser41; static double[] stdDevUser42;
+        static double[] stdDevUser43; static double[] stdDevUser44;
+        static double[] stdDevUser45; static double[] stdDevUser46;
+        static double[] stdDevUser47; static double[] stdDevUser48;
+        static double[] stdDevUser49; static double[] stdDevUser50;
+
+        static double[] stdDevUser51; static double[] stdDevUser52;
+        static double[] stdDevUser53; static double[] stdDevUser54;
+        static double[] stdDevUser55; static double[] stdDevUser56;
+        static double[] stdDevUser57; static double[] stdDevUser58;
+        static double[] stdDevUser59; static double[] stdDevUser60;
+
+        static double[] stdDevUser61; static double[] stdDevUser62;
+        static double[] stdDevUser63; static double[] stdDevUser64;
+        static double[] stdDevUser65; static double[] stdDevUser66;
+        static double[] stdDevUser67; static double[] stdDevUser68;
+        static double[] stdDevUser69; static double[] stdDevUser70;
+
+        static double[] stdDevUser71; static double[] stdDevUser72;
+        static double[] stdDevUser73; static double[] stdDevUser74;
+        static double[] stdDevUser75; static double[] stdDevUser76;
+        static double[] stdDevUser77; static double[] stdDevUser78;
+        static double[] stdDevUser79; static double[] stdDevUser80;
+
+        static double[] stdDevUser81; static double[] stdDevUser82;
+        static double[] stdDevUser83; static double[] stdDevUser84;
+        static double[] stdDevUser85; static double[] stdDevUser86;
+        static double[] stdDevUser87; static double[] stdDevUser88;
+        static double[] stdDevUser89; static double[] stdDevUser90;
+
+        static double[] stdDevUser91; static double[] stdDevUser92;
+        static double[] stdDevUser93; static double[] stdDevUser94;
+        static double[] stdDevUser95; static double[] stdDevUser96;
+        static double[] stdDevUser97; static double[] stdDevUser98;
+        static double[] stdDevUser99; static double[] stdDevUser100; 
         #endregion
 
         #region These are the impostor scores for each user combination
@@ -1529,6 +1592,13 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser12User98;
         static double[,] impostorScoresUser12User99;
         static double[,] impostorScoresUser12User100;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 13 as the training (using the mean vector for user 13 in calculating the impostor scores)
+        static double[,] impostorScoresUser13User1;
+        static double[,] impostorScoresUser13User2;
+        static double[,] impostorScoresUser13User3;
+        static double[,] impostorScoresUser13User4;
         #endregion
 
         #endregion

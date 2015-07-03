@@ -10,6 +10,7 @@
  * 1.0      29/06/2015  PKR     The creation of the Scaled Manhattan Distance class file - Used for calculating the scaled manhattan distance for this solution.
  * 1.0.1    29/06/2015  PKR     Now updating the in-code documentation, and also writing the CalculateMeanVectors(double[,] s001); method
  * 1.0.2    29/06/2015  PKR     Updating the in-code documentation
+ * 1.1      03/07/2015  PKR     Writing the method to calculate the standard deviation of the user data.
  */
 
 using System;
@@ -46,6 +47,19 @@ namespace QUML_Keystrokes
             }
 
             return Mean;
+        }
+
+        /// <summary>
+        /// This is the method that will be calculating the standard deviation
+        /// given the mean vector the the raw user data extracted from the csv
+        /// files
+        /// </summary>
+        /// <param name="s001Mean"></param>
+        /// <param name="s001Mean"></param>
+        /// <returns></returns>
+        public double[] CalculateStandardDeviation(double[,] s001, double[] s001Mean)
+        {
+
         }
     }
 }
