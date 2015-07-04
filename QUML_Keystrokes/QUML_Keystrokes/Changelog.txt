@@ -205,7 +205,7 @@ verifiers
 * Declaring the impostor score variables for user 13
 * Will later be populating the impostor scores for user 13 under both the Manhattan and Euclidean verifiers.
 * Will attempt to write the CalculateGenuineScore methods for the Scaled Manhattan Distance
-	* Have to write the CalculateStandDev methods as well. 
+	* Have to write the CalculateStandDev methods as well - That is completed: 03/07/2015, 17:34 
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 

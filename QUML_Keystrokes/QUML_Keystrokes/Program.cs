@@ -17,6 +17,7 @@
  * 1.8.23   01/07/2015  PKR     Finished up populating the impostor scores for user 10 under the Euclidean Verifer
  * 1.8.24   02/07/2015  PKR     Declaring the impostor score variables for user 11, and beginning to declare the impostor scores for user 12
  * 1.8.25   03/07/2015  PKR     Declaring the impostor score variables for user 13, and the standard deviation variables for all 100 users
+ * 1.8.26   03/07/2015  PKR     Populating all of the standard deviation vectors for the 100 users under the Scaled Manhattan verifier
  */
 
 using System;
@@ -1878,6 +1879,74 @@ namespace QUML_Keystrokes
             s098Mean = ScaledManhDist.CalculateMeanVector(s098);
             s099Mean = ScaledManhDist.CalculateMeanVector(s099);
             s100Mean = ScaledManhDist.CalculateMeanVector(s100);
+            #endregion
+
+            #region Calculating the standard deviation vectors for all 100 subjects
+            stdDevUser1 = ScaledManhDist.CalculateStandardDeviation(s001Mean, s001);
+            stdDevUser2 = ScaledManhDist.CalculateStandardDeviation(s002Mean, s002);
+            stdDevUser3 = ScaledManhDist.CalculateStandardDeviation(s003Mean, s003);
+            stdDevUser4 = ScaledManhDist.CalculateStandardDeviation(s004Mean, s004);
+            stdDevUser5 = ScaledManhDist.CalculateStandardDeviation(s005Mean, s005);
+            stdDevUser6 = ScaledManhDist.CalculateStandardDeviation(s006Mean, s006);
+            stdDevUser7 = ScaledManhDist.CalculateStandardDeviation(s007Mean, s007);
+            stdDevUser8 = ScaledManhDist.CalculateStandardDeviation(s008Mean, s008);
+            stdDevUser9 = ScaledManhDist.CalculateStandardDeviation(s009Mean, s009);
+            stdDevUser10 = ScaledManhDist.CalculateStandardDeviation(s010Mean, s010);
+
+            stdDevUser11 = ScaledManhDist.CalculateStandardDeviation(s011Mean, s011);
+            stdDevUser12 = ScaledManhDist.CalculateStandardDeviation(s012Mean, s012);
+            stdDevUser13 = ScaledManhDist.CalculateStandardDeviation(s013Mean, s013);
+            stdDevUser14 = ScaledManhDist.CalculateStandardDeviation(s014Mean, s014);
+            stdDevUser15 = ScaledManhDist.CalculateStandardDeviation(s015Mean, s015);
+            stdDevUser16 = ScaledManhDist.CalculateStandardDeviation(s016Mean, s016);
+            stdDevUser17 = ScaledManhDist.CalculateStandardDeviation(s017Mean, s017);
+            stdDevUser18 = ScaledManhDist.CalculateStandardDeviation(s018Mean, s018);
+            stdDevUser19 = ScaledManhDist.CalculateStandardDeviation(s019Mean, s019);
+            stdDevUser20 = ScaledManhDist.CalculateStandardDeviation(s020Mean, s020);
+
+            stdDevUser21 = ScaledManhDist.CalculateStandardDeviation(s021Mean, s021);
+            stdDevUser22 = ScaledManhDist.CalculateStandardDeviation(s022Mean, s022);
+            stdDevUser23 = ScaledManhDist.CalculateStandardDeviation(s023Mean, s023);
+            stdDevUser24 = ScaledManhDist.CalculateStandardDeviation(s024Mean, s024);
+            stdDevUser25 = ScaledManhDist.CalculateStandardDeviation(s025Mean, s025);
+            stdDevUser26 = ScaledManhDist.CalculateStandardDeviation(s026Mean, s026);
+            stdDevUser27 = ScaledManhDist.CalculateStandardDeviation(s027Mean, s027);
+            stdDevUser28 = ScaledManhDist.CalculateStandardDeviation(s028Mean, s028);
+            stdDevUser29 = ScaledManhDist.CalculateStandardDeviation(s029Mean, s029);
+            stdDevUser30 = ScaledManhDist.CalculateStandardDeviation(s030Mean, s030);
+
+            stdDevUser31 = ScaledManhDist.CalculateStandardDeviation(s031Mean, s031);
+            stdDevUser32 = ScaledManhDist.CalculateStandardDeviation(s032Mean, s032);
+            stdDevUser33 = ScaledManhDist.CalculateStandardDeviation(s033Mean, s033);
+            stdDevUser34 = ScaledManhDist.CalculateStandardDeviation(s034Mean, s034);
+            stdDevUser35 = ScaledManhDist.CalculateStandardDeviation(s035Mean, s035);
+            stdDevUser36 = ScaledManhDist.CalculateStandardDeviation(s036Mean, s036);
+            stdDevUser37 = ScaledManhDist.CalculateStandardDeviation(s037Mean, s037);
+            stdDevUser38 = ScaledManhDist.CalculateStandardDeviation(s038Mean, s038);
+            stdDevUser39 = ScaledManhDist.CalculateStandardDeviation(s039Mean, s039);
+            stdDevUser40 = ScaledManhDist.CalculateStandardDeviation(s040Mean, s040);
+
+            stdDevUser41 = ScaledManhDist.CalculateStandardDeviation(s041Mean, s041);
+            stdDevUser42 = ScaledManhDist.CalculateStandardDeviation(s042Mean, s042);
+            stdDevUser43 = ScaledManhDist.CalculateStandardDeviation(s043Mean, s043);
+            stdDevUser44 = ScaledManhDist.CalculateStandardDeviation(s044Mean, s044);
+            stdDevUser45 = ScaledManhDist.CalculateStandardDeviation(s045Mean, s045);
+            stdDevUser46 = ScaledManhDist.CalculateStandardDeviation(s046Mean, s046);
+            stdDevUser47 = ScaledManhDist.CalculateStandardDeviation(s047Mean, s047);
+            stdDevUser48 = ScaledManhDist.CalculateStandardDeviation(s048Mean, s048);
+            stdDevUser49 = ScaledManhDist.CalculateStandardDeviation(s049Mean, s049);
+            stdDevUser50 = ScaledManhDist.CalculateStandardDeviation(s050Mean, s050);
+
+            stdDevUser51 = ScaledManhDist.CalculateStandardDeviation(s051Mean, s051);
+            stdDevUser52 = ScaledManhDist.CalculateStandardDeviation(s052Mean, s052);
+            stdDevUser53 = ScaledManhDist.CalculateStandardDeviation(s053Mean, s053);
+            stdDevUser54 = ScaledManhDist.CalculateStandardDeviation(s054Mean, s054);
+            stdDevUser55 = ScaledManhDist.CalculateStandardDeviation(s055Mean, s055);
+            stdDevUser56 = ScaledManhDist.CalculateStandardDeviation(s056Mean, s056);
+            stdDevUser57 = ScaledManhDist.CalculateStandardDeviation(s057Mean, s057);
+            stdDevUser58 = ScaledManhDist.CalculateStandardDeviation(s058Mean, s058);
+            stdDevUser59 = ScaledManhDist.CalculateStandardDeviation(s059Mean, s059);
+            stdDevUser60 = ScaledManhDist.CalculateStandardDeviation(s060Mean, s060);
             #endregion
         }
 
