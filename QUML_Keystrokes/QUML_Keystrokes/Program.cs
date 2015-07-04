@@ -1947,6 +1947,50 @@ namespace QUML_Keystrokes
             stdDevUser58 = ScaledManhDist.CalculateStandardDeviation(s058Mean, s058);
             stdDevUser59 = ScaledManhDist.CalculateStandardDeviation(s059Mean, s059);
             stdDevUser60 = ScaledManhDist.CalculateStandardDeviation(s060Mean, s060);
+
+            stdDevUser61 = ScaledManhDist.CalculateStandardDeviation(s061Mean, s061);
+            stdDevUser62 = ScaledManhDist.CalculateStandardDeviation(s062Mean, s062);
+            stdDevUser63 = ScaledManhDist.CalculateStandardDeviation(s063Mean, s063);
+            stdDevUser64 = ScaledManhDist.CalculateStandardDeviation(s064Mean, s064);
+            stdDevUser65 = ScaledManhDist.CalculateStandardDeviation(s065Mean, s065);
+            stdDevUser66 = ScaledManhDist.CalculateStandardDeviation(s066Mean, s066);
+            stdDevUser67 = ScaledManhDist.CalculateStandardDeviation(s067Mean, s067);
+            stdDevUser68 = ScaledManhDist.CalculateStandardDeviation(s068Mean, s068);
+            stdDevUser69 = ScaledManhDist.CalculateStandardDeviation(s069Mean, s069);
+            stdDevUser70 = ScaledManhDist.CalculateStandardDeviation(s070Mean, s070);
+
+            stdDevUser71 = ScaledManhDist.CalculateStandardDeviation(s071Mean, s071);
+            stdDevUser72 = ScaledManhDist.CalculateStandardDeviation(s072Mean, s072);
+            stdDevUser73 = ScaledManhDist.CalculateStandardDeviation(s073Mean, s073);
+            stdDevUser74 = ScaledManhDist.CalculateStandardDeviation(s074Mean, s074);
+            stdDevUser75 = ScaledManhDist.CalculateStandardDeviation(s075Mean, s075);
+            stdDevUser76 = ScaledManhDist.CalculateStandardDeviation(s076Mean, s076);
+            stdDevUser77 = ScaledManhDist.CalculateStandardDeviation(s077Mean, s077);
+            stdDevUser78 = ScaledManhDist.CalculateStandardDeviation(s078Mean, s078);
+            stdDevUser79 = ScaledManhDist.CalculateStandardDeviation(s079Mean, s079);
+            stdDevUser80 = ScaledManhDist.CalculateStandardDeviation(s080Mean, s080);
+
+            stdDevUser81 = ScaledManhDist.CalculateStandardDeviation(s081Mean, s081);
+            stdDevUser82 = ScaledManhDist.CalculateStandardDeviation(s082Mean, s082);
+            stdDevUser83 = ScaledManhDist.CalculateStandardDeviation(s083Mean, s083);
+            stdDevUser84 = ScaledManhDist.CalculateStandardDeviation(s084Mean, s084);
+            stdDevUser85 = ScaledManhDist.CalculateStandardDeviation(s085Mean, s085);
+            stdDevUser86 = ScaledManhDist.CalculateStandardDeviation(s086Mean, s086);
+            stdDevUser87 = ScaledManhDist.CalculateStandardDeviation(s087Mean, s087);
+            stdDevUser88 = ScaledManhDist.CalculateStandardDeviation(s088Mean, s088);
+            stdDevUser89 = ScaledManhDist.CalculateStandardDeviation(s089Mean, s089);
+            stdDevUser90 = ScaledManhDist.CalculateStandardDeviation(s090Mean, s090);
+
+            stdDevUser91 = ScaledManhDist.CalculateStandardDeviation(s091Mean, s091);
+            stdDevUser92 = ScaledManhDist.CalculateStandardDeviation(s092Mean, s092);
+            stdDevUser93 = ScaledManhDist.CalculateStandardDeviation(s093Mean, s093);
+            stdDevUser94 = ScaledManhDist.CalculateStandardDeviation(s094Mean, s094);
+            stdDevUser95 = ScaledManhDist.CalculateStandardDeviation(s095Mean, s095);
+            stdDevUser96 = ScaledManhDist.CalculateStandardDeviation(s096Mean, s096);
+            stdDevUser97 = ScaledManhDist.CalculateStandardDeviation(s097Mean, s097);
+            stdDevUser98 = ScaledManhDist.CalculateStandardDeviation(s098Mean, s098);
+            stdDevUser99 = ScaledManhDist.CalculateStandardDeviation(s099Mean, s099);
+            stdDevUser100 = ScaledManhDist.CalculateStandardDeviation(s100Mean, s100);
             #endregion
         }
 
