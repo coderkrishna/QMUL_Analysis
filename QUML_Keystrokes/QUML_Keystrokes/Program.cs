@@ -18,6 +18,7 @@
  * 1.8.24   02/07/2015  PKR     Declaring the impostor score variables for user 11, and beginning to declare the impostor scores for user 12
  * 1.8.25   03/07/2015  PKR     Declaring the impostor score variables for user 13, and the standard deviation variables for all 100 users
  * 1.8.26   03/07/2015  PKR     Populating all of the standard deviation vectors for the 100 users under the Scaled Manhattan verifier
+ * 1.8.27   05/07/2015  PKR     Finishing declaring all of the impostor scores for user 13 and will be populating them under the Manhattan and Euclidean verifiers
  */
 
 using System;
@@ -1671,6 +1672,39 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser13User68;
         static double[,] impostorScoresUser13User69;
         static double[,] impostorScoresUser13User70;
+
+        static double[,] impostorScoresUser13User71;
+        static double[,] impostorScoresUser13User72;
+        static double[,] impostorScoresUser13User73;
+        static double[,] impostorScoresUser13User74;
+        static double[,] impostorScoresUser13User75;
+        static double[,] impostorScoresUser13User76;
+        static double[,] impostorScoresUser13User77;
+        static double[,] impostorScoresUser13User78;
+        static double[,] impostorScoresUser13User79;
+        static double[,] impostorScoresUser13User80;
+
+        static double[,] impostorScoresUser13User81;
+        static double[,] impostorScoresuser13User82;
+        static double[,] impostorScoresUser13User83;
+        static double[,] impostorScoresUser13User84;
+        static double[,] impostorScoresUser13User85;
+        static double[,] impostorScoresUser13User86;
+        static double[,] impostorScoresUser13User87;
+        static double[,] impostorScoresUser13User88;
+        static double[,] impostorScoresUser13User89;
+        static double[,] impostorScoresUser13User90;
+
+        static double[,] impostorScoresUser13User91;
+        static double[,] impostorScoresUser13User92;
+        static double[,] impostorScoresUser13User93;
+        static double[,] impostorScoresUser13User94;
+        static double[,] impostorScoresUser13User95;
+        static double[,] impostorScoresUser13User96;
+        static double[,] impostorScoresUser13User97;
+        static double[,] impostorScoresUser13User98;
+        static double[,] impostorScoresUser13User99;
+        static double[,] impostorScoresUser13User100;
         #endregion
 
         #endregion
@@ -3625,6 +3659,16 @@ namespace QUML_Keystrokes
             impostorScoresUser12User98 = EuclidDist.CalculateImpostorScores(s012Mean, s098);
             impostorScoresUser12User99 = EuclidDist.CalculateImpostorScores(s012Mean, s099);
             impostorScoresUser12User100 = EuclidDist.CalculateImpostorScores(s012Mean, s100);
+            #endregion
+
+            #region User 13 Impostor Scores
+            impostorScoresUser13User1 = EuclidDist.CalculateImpostorScores(s013Mean, s001);
+            impostorScoresUser13User2 = EuclidDist.CalculateImpostorScores(s013Mean, s002);
+            impostorScoresUser13User3 = EuclidDist.CalculateImpostorScores(s013Mean, s003);
+            impostorScoresUser13User4 = EuclidDist.CalculateImpostorScores(s013Mean, s004);
+            impostorScoresUser13User5 = EuclidDist.CalculateImpostorScores(s013Mean, s005);
+            impostorScoresUser13User6 = EuclidDist.CalculateImpostorScores(s013Mean, s006);
+            impostorScoresUser13User7 = EuclidDist.CalculateImpostorScores(s013Mean, s007);
             #endregion
 
             #endregion

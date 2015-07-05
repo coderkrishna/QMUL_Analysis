@@ -207,6 +207,10 @@ verifiers
 * Will attempt to write the CalculateGenuineScore methods for the Scaled Manhattan Distance
 	* Have to write the CalculateStandDev methods as well - That is completed: 03/07/2015, 17:34 
 
+5th July 2015
+* Right now populating the impostor score variables for user 13
+* Finished declaring them
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
