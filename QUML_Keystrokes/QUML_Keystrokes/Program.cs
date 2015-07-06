@@ -1709,6 +1709,40 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser13User100;
         #endregion
 
+        #region Having static 2D double arrays for the impostor scores wiht user 14 as the training (using the mean vector for user 14 in calculating the impostor scores)
+        static double[,] impostorScoresUser14User1;
+        static double[,] impostorScoresUser14User2;
+        static double[,] impostorScoresUser14User3;
+        static double[,] impostorScoresUser14User4;
+        static double[,] impostorScoresUser14User5;
+        static double[,] impostorScoresUser14User6;
+        static double[,] impostorScoresUser14User7;
+        static double[,] impostorScoresUser14User8;
+        static double[,] impostorScoresUser14User9;
+        static double[,] impostorScoresUser14User10;
+
+        static double[,] impostorScoresUser14User11;
+        static double[,] impostorScoresUser14User12;
+        static double[,] impostorScoresUser14User13;
+        static double[,] impostorScoresUser14User15;
+        static double[,] impostorScoresUser14User16;
+        static double[,] impostorScoresUser14User17;
+        static double[,] impostorScoresUser14User18;
+        static double[,] impostorScoresUser14User19;
+        static double[,] impostorScoresUser14User20;
+
+        static double[,] impostorScoresUser14User21;
+        static double[,] impostorScoresUser14User22;
+        static double[,] impostorScoresUser14User23;
+        static double[,] impostorScoresUser14User24;
+        static double[,] impostorScoresUser14User25;
+        static double[,] impostorScoresUser14User26;
+        static double[,] impostorScoresUser14User27;
+        static double[,] impostorScoresUser14User28;
+        static double[,] impostorScoresUser14User29;
+        static double[,] impostorScoresUser14User30;
+        #endregion
+
         #endregion
         #endregion
 
@@ -3774,6 +3808,10 @@ namespace QUML_Keystrokes
             impostorScoresUser13User100 = EuclidDist.CalculateImpostorScores(s013Mean, s100);
             #endregion
 
+            #region User 14 Impostor scores
+            
+            #endregion
+
             #endregion
         }
 
@@ -5392,6 +5430,10 @@ namespace QUML_Keystrokes
             impostorScoresUser13User98 = ManhDist.CalculateImpostorScores(s013Mean, s098);
             impostorScoresUser13User99 = ManhDist.CalculateImpostorScores(s013Mean, s099);
             impostorScoresUser13User100 = ManhDist.CalculateImpostorScores(s013Mean, s100);
+            #endregion
+
+            #region User 14 Impostor scores
+            
             #endregion
 
             #endregion
