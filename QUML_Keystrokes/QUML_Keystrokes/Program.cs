@@ -21,7 +21,7 @@
  * 1.8.27   05/07/2015  PKR     Finishing declaring all of the impostor scores for user 13 and will be populating them under the Manhattan and Euclidean verifiers
  * 1.8.28   06/07/2015  PKR     Making progress on populating the impostor scores for user 13 under the Euclidean verifier
  * 1.8.29   06/07/2015  PKR     Now, will be populating the impostor scores for user 13 under the Manhattan verifier
- * 1.8.30   06/07/2015  PKR     Declaring the impostor score variables for user 14
+ * 1.8.30   06/07/2015  PKR     Declaring the impostor score variables for user 14, and right now populating those variables - reached halfway
  */
 
 using System;
@@ -3922,6 +3922,28 @@ namespace QUML_Keystrokes
             impostorScoresUser14User28 = EuclidDist.CalculateImpostorScores(s014Mean, s028);
             impostorScoresUser14User29 = EuclidDist.CalculateImpostorScores(s014Mean, s029);
             impostorScoresUser14User30 = EuclidDist.CalculateImpostorScores(s014Mean, s030);
+
+            impostorScoresUser14User31 = EuclidDist.CalculateImpostorScores(s014Mean, s031);
+            impostorScoresUser14User32 = EuclidDist.CalculateImpostorScores(s014Mean, s032);
+            impostorScoresUser14User33 = EuclidDist.CalculateImpostorScores(s014Mean, s033);
+            impostorScoresUser14User34 = EuclidDist.CalculateImpostorScores(s014Mean, s034);
+            impostorScoresUser14User35 = EuclidDist.CalculateImpostorScores(s014Mean, s035);
+            impostorScoresUser14User36 = EuclidDist.CalculateImpostorScores(s014Mean, s036);
+            impostorScoresUser14User37 = EuclidDist.CalculateImpostorScores(s014Mean, s037);
+            impostorScoresUser14User38 = EuclidDist.CalculateImpostorScores(s014Mean, s038);
+            impostorScoresUser14User39 = EuclidDist.CalculateImpostorScores(s014Mean, s039);
+            impostorScoresUser14User40 = EuclidDist.CalculateImpostorScores(s014Mean, s040);
+
+            impostorScoresUser14User41 = EuclidDist.CalculateImpostorScores(s014Mean, s041);
+            impostorScoresUser14User42 = EuclidDist.CalculateImpostorScores(s014Mean, s042);
+            impostorScoresUser14User43 = EuclidDist.CalculateImpostorScores(s014Mean, s043);
+            impostorScoresUser14User44 = EuclidDist.CalculateImpostorScores(s014Mean, s044);
+            impostorScoresUser14User45 = EuclidDist.CalculateImpostorScores(s014Mean, s045);
+            impostorScoresUser14User46 = EuclidDist.CalculateImpostorScores(s014Mean, s046);
+            impostorScoresUser14User47 = EuclidDist.CalculateImpostorScores(s014Mean, s047);
+            impostorScoresUser14User48 = EuclidDist.CalculateImpostorScores(s014Mean, s048);
+            impostorScoresUser14User49 = EuclidDist.CalculateImpostorScores(s014Mean, s049);
+            impostorScoresUser14User50 = EuclidDist.CalculateImpostorScores(s014Mean, s050);
             #endregion
 
             #endregion

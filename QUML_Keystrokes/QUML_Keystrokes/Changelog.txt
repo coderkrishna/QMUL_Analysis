@@ -218,6 +218,11 @@ populating them under both euclidean and manhattan verifiers
 * Finished populating under the Euclidean verifier, now will be populating under the Manhattan verifer, the same impostor
 scores for user 13
 
+7th July 2015
+* Now declared the impostor score variables for user 14
+* Finished populating these variables halfway under the Euclidean verifier
+* Updating the in-code documentation with the appropriate regions etc...
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
