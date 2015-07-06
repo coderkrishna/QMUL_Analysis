@@ -212,6 +212,10 @@ verifiers
 * Finished declaring the impostor score variables for user 13 and will be 
 populating them under both euclidean and manhattan verifiers
 
+6th July 2015
+* Progress on populating the impostor scores for user 13
+* Will be tackling the Euclidean verifier
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------

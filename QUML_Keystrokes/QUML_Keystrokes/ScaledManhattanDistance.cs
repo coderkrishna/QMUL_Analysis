@@ -11,7 +11,7 @@
  * 1.0.1    29/06/2015  PKR     Now updating the in-code documentation, and also writing the CalculateMeanVectors(double[,] s001); method
  * 1.0.2    29/06/2015  PKR     Updating the in-code documentation
  * 1.1      03/07/2015  PKR     Writing the method to calculate the standard deviation of the user data.
- * 1.2      03/07/2015  PKR     Completed the method to calculate
+ * 1.2      03/07/2015  PKR     Completed the method to calculate the standard deviation given the inputs of the user data and the mean vector of the user
  */
 
 using System;
