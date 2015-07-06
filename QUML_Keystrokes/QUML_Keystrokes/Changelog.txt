@@ -214,7 +214,7 @@ populating them under both euclidean and manhattan verifiers
 
 6th July 2015
 * Progress on populating the impostor scores for user 13
-* Will be tackling the Euclidean verifier
+* Will be tackling the Euclidean verifier - this will be worked on for populating the impostor scores for user 13
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
