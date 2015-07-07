@@ -1884,6 +1884,39 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser15User68;
         static double[,] impostorScoresUser15User69;
         static double[,] impostorScoresUser15User70;
+
+        static double[,] impostorScoresUser15User71;
+        static double[,] impostorScoresUser15User72;
+        static double[,] impostorScoresUser15User73;
+        static double[,] impostorScoresUser15User74;
+        static double[,] impostorScoresUser15User75;
+        static double[,] impostorScoresUser15User76;
+        static double[,] impostorScoresUser15User77;
+        static double[,] impostorScoresUser15User78;
+        static double[,] impostorScoresUser15User79;
+        static double[,] impostorScoresUser15User80;
+
+        static double[,] impostorScoresUser15User81;
+        static double[,] impostorScoresUser15User82;
+        static double[,] impostorScoresUser15User83;
+        static double[,] impostorScoresUser15User84;
+        static double[,] impostorScoresUser15User85;
+        static double[,] impostorScoresUser15User86;
+        static double[,] impostorScoresUser15User87;
+        static double[,] impostorScoresUser15User88;
+        static double[,] impostorScoresUser15User89;
+        static double[,] impostorScoresUser15User90;
+
+        static double[,] impostorScoresUser15User91;
+        static double[,] impostorScoresUser15User92;
+        static double[,] impostorScoresUser15User93;
+        static double[,] impostorScoresUser15User94;
+        static double[,] impostorScoresUser15User95;
+        static double[,] impostorScoresUser15User96;
+        static double[,] impostorScoresUser15User97;
+        static double[,] impostorScoresUser15User98;
+        static double[,] impostorScoresUser15User99;
+        static double[,] impostorScoresUser15User100;
         #endregion
 
         #endregion
