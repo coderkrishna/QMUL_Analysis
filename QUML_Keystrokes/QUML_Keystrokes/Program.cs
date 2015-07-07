@@ -6,22 +6,8 @@
  * Version History
  * 
  * Version  Date        Who     Description
- * -------  ----------  ------- --------------
- * 1.8.16   30/06/2015  PKR     Now declaring the variables for the impostor scores for user 8
- * 1.8.17   30/06/2015  PKR     Finished declaring and populating the impostor scores for user 8 under both Manhattan and Euclidean verifiers
- * 1.8.18   30/06/2015  PKR     Right now finished declaring the impostor scores for user 9, and now populating them under the Euclidean verifier.
- * 1.8.19   01/07/2015  PKR     Continuing to populate the impostor scores for user 9 under the Euclidean verifier
- * 1.8.20   01/07/2015  PKR     Now populating the impostor scores for user 9 under the Manhattan verifier
- * 1.8.21   01/07/2015  PKR     Will be declaring the remaining impostor scores for user 10.  
- * 1.8.22   01/07/2015  PKR     Right now finished populating the impostor scores for user 10 under the Manhattan verifier
- * 1.8.23   01/07/2015  PKR     Finished up populating the impostor scores for user 10 under the Euclidean Verifer
- * 1.8.24   02/07/2015  PKR     Declaring the impostor score variables for user 11, and beginning to declare the impostor scores for user 12
- * 1.8.25   03/07/2015  PKR     Declaring the impostor score variables for user 13, and the standard deviation variables for all 100 users
- * 1.8.26   03/07/2015  PKR     Populating all of the standard deviation vectors for the 100 users under the Scaled Manhattan verifier
- * 1.8.27   05/07/2015  PKR     Finishing declaring all of the impostor scores for user 13 and will be populating them under the Manhattan and Euclidean verifiers
- * 1.8.28   06/07/2015  PKR     Making progress on populating the impostor scores for user 13 under the Euclidean verifier
- * 1.8.29   06/07/2015  PKR     Now, will be populating the impostor scores for user 13 under the Manhattan verifier
- * 1.8.30   06/07/2015  PKR     Declaring the impostor score variables for user 14, and right now populating those variables - reached halfway
+ * -------  ----------  ------- -------------- 
+ * 1.9      06/07/2015  PKR     Finished populating the variables for user 14 under the Euclidean verifier, and declaring the impostor score variables for user 15.
  */
 
 using System;
