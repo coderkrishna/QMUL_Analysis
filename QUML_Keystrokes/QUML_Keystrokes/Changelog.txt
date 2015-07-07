@@ -225,7 +225,7 @@ scores for user 13
 7th July 2015
 * Finished populating the impostor score variables for user 14 under the Euclidean verifier
 * Declaring the impostor score variables for user 15
-* Will be populating the impostor score variables for user 14 under the Manhattan verifier - In progress at 12:56 
+* Will be populating the impostor score variables for user 14 under the Manhattan verifier - This is already finished
 * Plan to make some progress with the Scaled Manhattan verifier, plan to write the method to calculate the genuine scores
 
 AS A REMINDER - But will still be using the above format out of sanity!!
