@@ -217,12 +217,16 @@ populating them under both euclidean and manhattan verifiers
 * Will be tackling the Euclidean verifier - this will be worked on for populating the impostor scores for user 13
 * Finished populating under the Euclidean verifier, now will be populating under the Manhattan verifer, the same impostor
 scores for user 13
-
-7th July 2015
 * Now declared the impostor score variables for user 14
 * Finished populating these variables halfway under the Euclidean verifier
 * Updating the in-code documentation with the appropriate regions etc...
 * Declaring the impostor score variables for user 15
+
+7th July 2015
+* Finished populating the impostor score variables for user 14 under the Euclidean verifier
+* Declaring the impostor score variables for user 15
+* Will be populating the impostor score variables for user 14 under the Manhattan verifier
+* Plan to make some progress with the Scaled Manhattan verifier, plan to write the method to calculate the genuine scores
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
