@@ -222,6 +222,7 @@ scores for user 13
 * Now declared the impostor score variables for user 14
 * Finished populating these variables halfway under the Euclidean verifier
 * Updating the in-code documentation with the appropriate regions etc...
+* Declaring the impostor score variables for user 15
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
