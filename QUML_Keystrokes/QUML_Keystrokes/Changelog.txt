@@ -227,6 +227,11 @@ scores for user 13
 * Declaring the impostor score variables for user 15
 * Will be populating the impostor score variables for user 14 under the Manhattan verifier - This is already finished
 * Plan to make some progress with the Scaled Manhattan verifier, plan to write the method to calculate the genuine scores
+* Finished populating the impostor score variables for user 15
+
+8th July 2015
+* Today plan to write the method to calculate the genuine scores under the Scaled Manhattan verifier
+* Will also be planning to populate the genuine scores as well.  
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 

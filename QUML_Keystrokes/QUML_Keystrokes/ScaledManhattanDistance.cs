@@ -12,6 +12,7 @@
  * 1.0.2    29/06/2015  PKR     Updating the in-code documentation
  * 1.1      03/07/2015  PKR     Writing the method to calculate the standard deviation of the user data.
  * 1.2      03/07/2015  PKR     Completed the method to calculate the standard deviation given the inputs of the user data and the mean vector of the user
+ * 1.3      08/07/2015  PKR     Right now will be writing the method to calculate the genuine scores under the Scaled Manhattan Verifier
  */
 
 using System;
@@ -77,6 +78,30 @@ namespace QUML_Keystrokes
             }
 
             return stdDev; 
+        }
+
+
+        /// <summary>
+        /// This method will now be calculating the genuine scores
+        /// under the Scaled Manhattan Verifier
+        /// </summary>
+        /// <param name="s001Mean">The mean vector</param>
+        /// <param name="stdDevUser1">The standard deviation vector</param>
+        /// <param name="s001">User data</param>
+        /// <returns>The genuine scores</returns>
+        public double[,] CalculateGenuineScores(double[] s001Mean, double[] stdDevUser1, double[,] s001)
+        {
+            double[,] genuineScores = new double[s001.GetLength(0), s001.GetLength(1)];
+
+            for (int i = 0; i < s001.GetLength(0); i++)
+            {
+                for (int j = 0; j < s001.GetLength(1); j++)
+                {
+                    // TODO: Fill in the inner loop logic here
+                }
+            }
+
+            return genuineScores; 
         }
     }
 }
