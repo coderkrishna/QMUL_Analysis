@@ -12,6 +12,7 @@
  * 1.9.2    07/07/2015  PKR     Just finished populating the impostor scores for user 15 under the Euclidean verifier, Manhattan verifier is next - This is completed
  * 1.9.3    08/07/2015  PKR     Declaring the impostor score variables for user 16 - going to begin that; also finishing up the CalculateGenuineScores(params) method.
  * 1.9.4    08/07/2015  PKR     Finished writing the method to calculate the Genuine Scores under the Scaled Manhattan verifier
+ * 1.9.5    08/07/2015  PKR     
  */
 
 using System;
@@ -2468,6 +2469,72 @@ namespace QUML_Keystrokes
             s038Gen = ScaledManhDist.CalculateGenuineScores(s038Mean, stdDevUser38, s038);
             s039Gen = ScaledManhDist.CalculateGenuineScores(s039Mean, stdDevUser39, s039);
             s040Gen = ScaledManhDist.CalculateGenuineScores(s040Mean, stdDevUser40, s040);
+
+            s041Gen = ScaledManhDist.CalculateGenuineScores(s041Mean, stdDevUser41, s041);
+            s042Gen = ScaledManhDist.CalculateGenuineScores(s042Mean, stdDevUser42, s042);
+            s043Gen = ScaledManhDist.CalculateGenuineScores(s043Mean, stdDevUser43, s043);
+            s044Gen = ScaledManhDist.CalculateGenuineScores(s044Mean, stdDevUser44, s044);
+            s045Gen = ScaledManhDist.CalculateGenuineScores(s045Mean, stdDevUser45, s045);
+            s046Gen = ScaledManhDist.CalculateGenuineScores(s046Mean, stdDevUser46, s046);
+            s047Gen = ScaledManhDist.CalculateGenuineScores(s047Mean, stdDevUser47, s047);
+            s048Gen = ScaledManhDist.CalculateGenuineScores(s048Mean, stdDevUser48, s048);
+            s049Gen = ScaledManhDist.CalculateGenuineScores(s049Mean, stdDevUser49, s049);
+            s050Gen = ScaledManhDist.CalculateGenuineScores(s050Mean, stdDevUser50, s050);
+
+            s051Gen = ScaledManhDist.CalculateGenuineScores(s051Mean, stdDevUser51, s051);
+            s052Gen = ScaledManhDist.CalculateGenuineScores(s052Mean, stdDevUser52, s052);
+            s053Gen = ScaledManhDist.CalculateGenuineScores(s053Mean, stdDevUser53, s053);
+            s054Gen = ScaledManhDist.CalculateGenuineScores(s054Mean, stdDevUser54, s054);
+            s055Gen = ScaledManhDist.CalculateGenuineScores(s055Mean, stdDevUser55, s055);
+            s056Gen = ScaledManhDist.CalculateGenuineScores(s056Mean, stdDevUser56, s056);
+            s057Gen = ScaledManhDist.CalculateGenuineScores(s057Mean, stdDevUser57, s057);
+            s058Gen = ScaledManhDist.CalculateGenuineScores(s058Mean, stdDevUser58, s058);
+            s059Gen = ScaledManhDist.CalculateGenuineScores(s059Mean, stdDevUser59, s059);
+            s060Gen = ScaledManhDist.CalculateGenuineScores(s060Mean, stdDevUser60, s060);
+
+            s061Gen = ScaledManhDist.CalculateGenuineScores(s061Mean, stdDevUser61, s061);
+            s062Gen = ScaledManhDist.CalculateGenuineScores(s062Mean, stdDevUser62, s062);
+            s063Gen = ScaledManhDist.CalculateGenuineScores(s063Mean, stdDevUser63, s063);
+            s064Gen = ScaledManhDist.CalculateGenuineScores(s064Mean, stdDevUser64, s064);
+            s065Gen = ScaledManhDist.CalculateGenuineScores(s065Mean, stdDevUser65, s065);
+            s066Gen = ScaledManhDist.CalculateGenuineScores(s066Mean, stdDevUser66, s066);
+            s067Gen = ScaledManhDist.CalculateGenuineScores(s067Mean, stdDevUser67, s067);
+            s068Gen = ScaledManhDist.CalculateGenuineScores(s068Mean, stdDevUser68, s068);
+            s069Gen = ScaledManhDist.CalculateGenuineScores(s069Mean, stdDevUser69, s069);
+            s070Gen = ScaledManhDist.CalculateGenuineScores(s070Mean, stdDevUser70, s070);
+
+            s071Gen = ScaledManhDist.CalculateGenuineScores(s071Mean, stdDevUser71, s071);
+            s072Gen = ScaledManhDist.CalculateGenuineScores(s072Mean, stdDevUser72, s072);
+            s073Gen = ScaledManhDist.CalculateGenuineScores(s073Mean, stdDevUser73, s073);
+            s074Gen = ScaledManhDist.CalculateGenuineScores(s074Mean, stdDevUser74, s074);
+            s075Gen = ScaledManhDist.CalculateGenuineScores(s075Mean, stdDevUser75, s075);
+            s076Gen = ScaledManhDist.CalculateGenuineScores(s076Mean, stdDevUser76, s076);
+            s077Gen = ScaledManhDist.CalculateGenuineScores(s077Mean, stdDevUser77, s077);
+            s078Gen = ScaledManhDist.CalculateGenuineScores(s078Mean, stdDevUser78, s078);
+            s079Gen = ScaledManhDist.CalculateGenuineScores(s079Mean, stdDevUser79, s079);
+            s080Gen = ScaledManhDist.CalculateGenuineScores(s080Mean, stdDevUser80, s080);
+
+            s081Gen = ScaledManhDist.CalculateGenuineScores(s081Mean, stdDevUser81, s081);
+            s082Gen = ScaledManhDist.CalculateGenuineScores(s082Mean, stdDevUser82, s082);
+            s083Gen = ScaledManhDist.CalculateGenuineScores(s083Mean, stdDevUser83, s083);
+            s084Gen = ScaledManhDist.CalculateGenuineScores(s084Mean, stdDevUser84, s084);
+            s085Gen = ScaledManhDist.CalculateGenuineScores(s085Mean, stdDevUser85, s085);
+            s086Gen = ScaledManhDist.CalculateGenuineScores(s086Mean, stdDevUser86, s086);
+            s087Gen = ScaledManhDist.CalculateGenuineScores(s087Mean, stdDevUser87, s087);
+            s088Gen = ScaledManhDist.CalculateGenuineScores(s088Mean, stdDevUser88, s088);
+            s089Gen = ScaledManhDist.CalculateGenuineScores(s089Mean, stdDevUser89, s089);
+            s090Gen = ScaledManhDist.CalculateGenuineScores(s090Mean, stdDevUser90, s090);
+
+            s091Gen = ScaledManhDist.CalculateGenuineScores(s091Mean, stdDevUser91, s091);
+            s092Gen = ScaledManhDist.CalculateGenuineScores(s092Mean, stdDevUser92, s092);
+            s093Gen = ScaledManhDist.CalculateGenuineScores(s093Mean, stdDevUser93, s093);
+            s094Gen = ScaledManhDist.CalculateGenuineScores(s094Mean, stdDevUser94, s094);
+            s095Gen = ScaledManhDist.CalculateGenuineScores(s095Mean, stdDevUser95, s095);
+            s096Gen = ScaledManhDist.CalculateGenuineScores(s096Mean, stdDevUser96, s096);
+            s097Gen = ScaledManhDist.CalculateGenuineScores(s097Mean, stdDevUser97, s097);
+            s098Gen = ScaledManhDist.CalculateGenuineScores(s098Mean, stdDevUser98, s098);
+            s099Gen = ScaledManhDist.CalculateGenuineScores(s099Mean, stdDevUser99, s099);
+            s100Gen = ScaledManhDist.CalculateGenuineScores(s100Mean, stdDevUser100, s100);
             #endregion
         }
 
