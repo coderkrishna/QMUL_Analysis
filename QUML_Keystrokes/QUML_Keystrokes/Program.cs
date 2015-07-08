@@ -2383,6 +2383,25 @@ namespace QUML_Keystrokes
             #region Populating the genuine score variables for the 100 subjects
             s001Gen = ScaledManhDist.CalculateGenuineScores(s001Mean, stdDevUser1, s001);
             s002Gen = ScaledManhDist.CalculateGenuineScores(s002Mean, stdDevUser2, s002);
+            s003Gen = ScaledManhDist.CalculateGenuineScores(s003Mean, stdDevUser3, s003);
+            s004Gen = ScaledManhDist.CalculateGenuineScores(s004Mean, stdDevUser4, s004);
+            s005Gen = ScaledManhDist.CalculateGenuineScores(s005Mean, stdDevUser5, s005);
+            s006Gen = ScaledManhDist.CalculateGenuineScores(s006Mean, stdDevUser6, s006);
+            s007Gen = ScaledManhDist.CalculateGenuineScores(s007Mean, stdDevUser7, s007);
+            s008Gen = ScaledManhDist.CalculateGenuineScores(s008Mean, stdDevUser8, s008);
+            s009Gen = ScaledManhDist.CalculateGenuineScores(s009Mean, stdDevUser9, s009);
+            s010Gen = ScaledManhDist.CalculateGenuineScores(s010Mean, stdDevUser10, s010);
+
+            s011Gen = ScaledManhDist.CalculateGenuineScores(s011Mean, stdDevUser11, s011);
+            s012Gen = ScaledManhDist.CalculateGenuineScores(s012Mean, stdDevUser12, s012);
+            s013Gen = ScaledManhDist.CalculateGenuineScores(s013Mean, stdDevUser13, s013);
+            s014Gen = ScaledManhDist.CalculateGenuineScores(s014Mean, stdDevUser14, s014);
+            s015Gen = ScaledManhDist.CalculateGenuineScores(s015Mean, stdDevUser15, s015);
+            s016Gen = ScaledManhDist.CalculateGenuineScores(s016Mean, stdDevUser16, s016);
+            s017Gen = ScaledManhDist.CalculateGenuineScores(s017Mean, stdDevUser17, s017);
+            s018Gen = ScaledManhDist.CalculateGenuineScores(s018Mean, stdDevUser18, s018);
+            s019Gen = ScaledManhDist.CalculateGenuineScores(s019Mean, stdDevUser19, s019);
+            s020Gen = ScaledManhDist.CalculateGenuineScores(s020Mean, stdDevUser20, s020);
             #endregion
         }
 
