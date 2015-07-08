@@ -1965,6 +1965,28 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser16User38;
         static double[,] impostorScoresUser16User39;
         static double[,] impostorScoresUser16User40;
+
+        static double[,] impostorScoresUser16User41;
+        static double[,] impostorScoresUser16User42;
+        static double[,] impostorScoresUser16User43;
+        static double[,] impostorScoresUser16User44;
+        static double[,] impostorScoresUser16User45;
+        static double[,] impostorScoresUser16User46;
+        static double[,] impostorScoresUser16User47;
+        static double[,] impostorScoresUser16User48;
+        static double[,] impostorScoresUser16User49;
+        static double[,] impostorScoresUser16User50;
+
+        static double[,] impostorScoresUser16User51;
+        static double[,] impostorScoresUser16User52;
+        static double[,] impostorScoresUser16User53;
+        static double[,] impostorScoresUser16User54;
+        static double[,] impostorScoresUser16User55;
+        static double[,] impostorScoresUser16User56;
+        static double[,] impostorScoresUser16User57;
+        static double[,] impostorScoresUser16User58;
+        static double[,] impostorScoresUser16User59;
+        static double[,] impostorScoresUser16User60;
         #endregion
 
         #endregion
@@ -2359,7 +2381,8 @@ namespace QUML_Keystrokes
             #endregion
 
             #region Populating the genuine score variables for the 100 subjects
-            
+            s001Gen = ScaledManhDist.CalculateGenuineScores(s001Mean, stdDevUser1, s001);
+            s002Gen = ScaledManhDist.CalculateGenuineScores(s002Mean, stdDevUser2, s002);
             #endregion
         }
 
