@@ -12,7 +12,7 @@
  * 1.9.2    07/07/2015  PKR     Just finished populating the impostor scores for user 15 under the Euclidean verifier, Manhattan verifier is next - This is completed
  * 1.9.3    08/07/2015  PKR     Declaring the impostor score variables for user 16 - going to begin that; also finishing up the CalculateGenuineScores(params) method.
  * 1.9.4    08/07/2015  PKR     Finished writing the method to calculate the Genuine Scores under the Scaled Manhattan verifier
- * 1.9.5    08/07/2015  PKR     
+ * 1.9.5    08/07/2015  PKR     Making various changes, updating in-code documentation
  */
 
 using System;
@@ -4434,7 +4434,7 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 16 Impostor scores
-            
+            impostorScoresUser16User1 = EuclidDist.CalculateImpostorScores(s016Mean, s001);
             #endregion
 
             #endregion
