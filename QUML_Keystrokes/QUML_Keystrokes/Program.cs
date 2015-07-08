@@ -2402,6 +2402,17 @@ namespace QUML_Keystrokes
             s018Gen = ScaledManhDist.CalculateGenuineScores(s018Mean, stdDevUser18, s018);
             s019Gen = ScaledManhDist.CalculateGenuineScores(s019Mean, stdDevUser19, s019);
             s020Gen = ScaledManhDist.CalculateGenuineScores(s020Mean, stdDevUser20, s020);
+
+            s012Gen = ScaledManhDist.CalculateGenuineScores(s021Mean, stdDevUser21, s021);
+            s022Gen = ScaledManhDist.CalculateGenuineScores(s022Mean, stdDevUser22, s022);
+            s023Gen = ScaledManhDist.CalculateGenuineScores(s023Mean, stdDevUser23, s023);
+            s024Gen = ScaledManhDist.CalculateGenuineScores(s024Mean, stdDevUser24, s024);
+            s025Gen = ScaledManhDist.CalculateGenuineScores(s025Mean, stdDevUser25, s025);
+            s026Gen = ScaledManhDist.CalculateGenuineScores(s026Mean, stdDevUser26, s026);
+            s027Gen = ScaledManhDist.CalculateGenuineScores(s027Mean, stdDevUser27, s027);
+            s028Gen = ScaledManhDist.CalculateGenuineScores(s028Mean, stdDevUser28, s028);
+            s029Gen = ScaledManhDist.CalculateGenuineScores(s029Mean, stdDevUser29, s029);
+            s030Gen = ScaledManhDist.CalculateGenuineScores(s030Mean, stdDevUser30, s030);
             #endregion
         }
 
