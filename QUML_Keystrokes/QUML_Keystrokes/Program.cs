@@ -10,6 +10,8 @@
  * 1.9      06/07/2015  PKR     Finished populating the variables for user 14 under the Euclidean verifier, and declaring the impostor score variables for user 15.
  * 1.9.1    07/07/2015  PKR     Populating the impostor score variables for user 14 under the Manhattan verifier, and finish declaring the impostor scores for user 15.
  * 1.9.2    07/07/2015  PKR     Just finished populating the impostor scores for user 15 under the Euclidean verifier, Manhattan verifier is next - This is completed
+ * 1.9.3    08/07/2015  PKR     Declaring the impostor score variables for user 16 - going to begin that; also finishing up the CalculateGenuineScores(params) method.
+ * 1.9.4    08/07/2015  PKR     Finished writing the method to calculate the Genuine Scores under the Scaled Manhattan verifier
  */
 
 using System;
@@ -1918,6 +1920,40 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser15User98;
         static double[,] impostorScoresUser15User99;
         static double[,] impostorScoresUser15User100;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 16 as the training (using the mean vector for user 16 in calculating the impostor scores)
+        static double[,] impostorScoresUser16User1;
+        static double[,] impostorScoresUser16User2;
+        static double[,] impostorScoresUser16User3;
+        static double[,] impostorScoresUser16User4;
+        static double[,] impostorScoresUser16User5;
+        static double[,] impostorScoresUser16User6;
+        static double[,] impostorScoresUser16User7;
+        static double[,] impostorScoresUser16User8;
+        static double[,] impostorScoresUser16User9;
+        static double[,] impostorScoresUser16User10;
+
+        static double[,] impostorScoresUser16User11;
+        static double[,] impostorScoresUser16User12;
+        static double[,] impostorScoresUser16User13;
+        static double[,] impostorScoresUser16User14;
+        static double[,] impostorScoresUser16User15;
+        static double[,] impostorScoresUser16User17;
+        static double[,] impostorScoresUser16User18;
+        static double[,] impostorScoresUser16User19;
+        static double[,] impostorScoresUser16User20;
+
+        static double[,] impostorScoresUser16User21;
+        static double[,] impostorScoresUser16User22;
+        static double[,] impostorScoresUser16User23;
+        static double[,] impostorScoresUser16User24;
+        static double[,] impostorScoresUser16User25;
+        static double[,] impostorScoresUser16User26;
+        static double[,] impostorScoresUser16User27;
+        static double[,] impostorScoresUser16User28;
+        static double[,] impostorScoresUser16User29;
+        static double[,] impostorScoresUser16User30;
         #endregion
 
         #endregion
