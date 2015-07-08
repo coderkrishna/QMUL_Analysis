@@ -1954,6 +1954,17 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser16User28;
         static double[,] impostorScoresUser16User29;
         static double[,] impostorScoresUser16User30;
+
+        static double[,] impostorScoresUser16User31;
+        static double[,] impostorScoresUser16User32;
+        static double[,] impostorScoresUser16User33;
+        static double[,] impostorScoresUser16User34;
+        static double[,] impostorScoresUser16User35;
+        static double[,] impostorScoresUser16User36;
+        static double[,] impostorScoresUser16User37;
+        static double[,] impostorScoresUser16User38;
+        static double[,] impostorScoresUser16User39;
+        static double[,] impostorScoresUser16User40;
         #endregion
 
         #endregion
@@ -2345,6 +2356,10 @@ namespace QUML_Keystrokes
             stdDevUser98 = ScaledManhDist.CalculateStandardDeviation(s098Mean, s098);
             stdDevUser99 = ScaledManhDist.CalculateStandardDeviation(s099Mean, s099);
             stdDevUser100 = ScaledManhDist.CalculateStandardDeviation(s100Mean, s100);
+            #endregion
+
+            #region Populating the genuine score variables for the 100 subjects
+            
             #endregion
         }
 
@@ -4243,6 +4258,10 @@ namespace QUML_Keystrokes
             impostorScoresUser15User100 = EuclidDist.CalculateImpostorScores(s015Mean, s100); 
             #endregion
 
+            #region User 16 Impostor scores
+            
+            #endregion
+
             #endregion
         }
 
@@ -6083,6 +6102,10 @@ namespace QUML_Keystrokes
             impostorScoresUser15User98 = ManhDist.CalculateImpostorScores(s015Mean, s098);
             impostorScoresUser15User99 = ManhDist.CalculateImpostorScores(s015Mean, s099);
             impostorScoresUser15User100 = ManhDist.CalculateImpostorScores(s015Mean, s100); 
+            #endregion
+
+            #region User 16 Impostor scores
+            
             #endregion
 
             #endregion
