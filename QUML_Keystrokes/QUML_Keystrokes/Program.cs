@@ -1987,6 +1987,17 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser16User58;
         static double[,] impostorScoresUser16User59;
         static double[,] impostorScoresUser16User60;
+
+        static double[,] impostorScoresUser16User61;
+        static double[,] impostorScoresUser16User62;
+        static double[,] impostorScoresUser16User63;
+        static double[,] impostorScoresUser16User64;
+        static double[,] impostorScoresUser16User65;
+        static double[,] impostorScoresUser16User66;
+        static double[,] impostorScoresUser16User67;
+        static double[,] impostorScoresUser16User68;
+        static double[,] impostorScoresUser16User69;
+        static double[,] impostorScoresUser16User70;
         #endregion
 
         #endregion
@@ -2413,6 +2424,17 @@ namespace QUML_Keystrokes
             s028Gen = ScaledManhDist.CalculateGenuineScores(s028Mean, stdDevUser28, s028);
             s029Gen = ScaledManhDist.CalculateGenuineScores(s029Mean, stdDevUser29, s029);
             s030Gen = ScaledManhDist.CalculateGenuineScores(s030Mean, stdDevUser30, s030);
+
+            s031Gen = ScaledManhDist.CalculateGenuineScores(s031Mean, stdDevUser31, s031);
+            s032Gen = ScaledManhDist.CalculateGenuineScores(s032Mean, stdDevUser32, s032);
+            s033Gen = ScaledManhDist.CalculateGenuineScores(s033Mean, stdDevUser33, s033);
+            s034Gen = ScaledManhDist.CalculateGenuineScores(s034Mean, stdDevUser34, s034);
+            s035Gen = ScaledManhDist.CalculateGenuineScores(s035Mean, stdDevUser35, s035);
+            s036Gen = ScaledManhDist.CalculateGenuineScores(s036Mean, stdDevUser36, s036);
+            s037Gen = ScaledManhDist.CalculateGenuineScores(s037Mean, stdDevUser37, s037);
+            s038Gen = ScaledManhDist.CalculateGenuineScores(s038Mean, stdDevUser38, s038);
+            s039Gen = ScaledManhDist.CalculateGenuineScores(s039Mean, stdDevUser39, s039);
+            s040Gen = ScaledManhDist.CalculateGenuineScores(s040Mean, stdDevUser40, s040);
             #endregion
         }
 
