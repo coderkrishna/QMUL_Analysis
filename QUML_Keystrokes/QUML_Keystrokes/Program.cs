@@ -15,6 +15,7 @@
  * 1.9.5    08/07/2015  PKR     Making various changes, updating in-code documentation
  * 1.9.6    08/07/2015  PKR     Right now resuming the population of impostor score variables for user 16
  * 1.9.7    09/07/2015  PKR     Finished populating the impostor score variables for user 16, and also will make sure to keep up-to-date with other tasks as well, and will be populating the impostor scores for user 16 under the Manhattan Verifier
+ * 1.9.8    09/07/2015  PKR     Declaring the impostor score variables for user 17 now, updating the in-code documentation
  */
 
 using System;
@@ -259,7 +260,7 @@ namespace QUML_Keystrokes
         static double[] stdDevUser99; static double[] stdDevUser100; 
         #endregion
 
-        #region These are the impostor scores for each user combination
+        #region These are the impostor scores for each user
         #region Having static 2D double arrays for the impostor scores with user 1 as the training (using the mean vector for user 1 in calculating the impostor scores)
         static double[,] impostorScoresUser1User2;
         static double[,] impostorScoresUser1User3;
@@ -2034,6 +2035,19 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser16User98;
         static double[,] impostorScoresUser16User99;
         static double[,] impostorScoresUser16User100;
+        #endregion
+
+        #region Having static 2D double arrays for the impostor scores with user 17 as the training (using the mean vector for user 17 in calculating the impostor scores)
+        static double[,] impostorScoresUser17User1;
+        static double[,] impostorScoresUser17User2;
+        static double[,] impostorScoresUser17User3;
+        static double[,] impostorScoresUser17User4;
+        static double[,] impostorScoresUser17User5;
+        static double[,] impostorScoresUser17User6;
+        static double[,] impostorScoresUser17User7;
+        static double[,] impostorScoresUser17User8;
+        static double[,] impostorScoresUser17User9;
+        static double[,] impostorScoresUser17User10;
         #endregion
 
         #endregion

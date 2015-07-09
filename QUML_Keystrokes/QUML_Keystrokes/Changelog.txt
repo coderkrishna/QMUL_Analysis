@@ -240,6 +240,7 @@ scores for user 13
 9th July 2015
 * Finishing populating the impostor score variables for user 16 under the Manhattan verifier
 * Will be declaring the impostor score variables for user 17
+* Now will have to make more progress with the Scaled Manhattan verifier and then populate all of the impostor score variables again
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
