@@ -237,6 +237,10 @@ scores for user 13
 * Now finished declaring the impostor scores for user 16, finished populating the genuine scores under the Scaled Manhattan verifier
 * For today, will be populating the impostor scores for user 16
 
+9th July 2015
+* Finishing populating the impostor score variables for user 16 under the Manhattan verifier
+* Will be declaring the impostor score variables for user 17
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
