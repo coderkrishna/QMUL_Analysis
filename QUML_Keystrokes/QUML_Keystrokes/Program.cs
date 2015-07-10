@@ -16,6 +16,7 @@
  * 1.9.6    08/07/2015  PKR     Right now resuming the population of impostor score variables for user 16
  * 1.9.7    09/07/2015  PKR     Finished populating the impostor score variables for user 16, and also will make sure to keep up-to-date with other tasks as well, and will be populating the impostor scores for user 16 under the Manhattan Verifier
  * 1.9.8    09/07/2015  PKR     Declaring the impostor score variables for user 17 now, updating the in-code documentation
+ * 1.9.9    10/07/2015  PKR     Right now declaring more impostor score variables for user 17
  */
 
 using System;
@@ -2058,6 +2059,28 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser17User18;
         static double[,] impostorScoresUser17User19;
         static double[,] impostorScoresUser17User20;
+
+        static double[,] impostorScoresUser17User21;
+        static double[,] impostorScoresUser17User22;
+        static double[,] impostorScoresUser17User23;
+        static double[,] impostorScoresUser17User24;
+        static double[,] impostorScoresUser17User25;
+        static double[,] impostorScoresUser17User26;
+        static double[,] impostorScoresUser17User27;
+        static double[,] impostorScoresUser17User28;
+        static double[,] impostorScoresUser17User29;
+        static double[,] impostorScoresUser17User30;
+
+        static double[,] impostorScoresUser17User31;
+        static double[,] impostorScoresUser17User32;
+        static double[,] impostorScoresUser17User33;
+        static double[,] impostorScoresUser17User34;
+        static double[,] impostorScoresUser17User35;
+        static double[,] impostorScoresUser17User36;
+        static double[,] impostorScoresUser17User37;
+        static double[,] impostorScoresUser17User38;
+        static double[,] impostorScoresUser17User39;
+        static double[,] impostorScoresUser17User40;
         #endregion
 
         #endregion
