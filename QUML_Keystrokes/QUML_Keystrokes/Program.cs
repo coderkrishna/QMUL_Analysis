@@ -2048,6 +2048,16 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser17User8;
         static double[,] impostorScoresUser17User9;
         static double[,] impostorScoresUser17User10;
+
+        static double[,] impostorScoresUser17User11;
+        static double[,] impostorScoresUser17User12;
+        static double[,] impostorScoresUser17User13;
+        static double[,] impostorScoresUser17User14;
+        static double[,] impostorScoresUser17User15;
+        static double[,] impostorScoresUser17User16;
+        static double[,] impostorScoresUser17User18;
+        static double[,] impostorScoresUser17User19;
+        static double[,] impostorScoresUser17User20;
         #endregion
 
         #endregion
