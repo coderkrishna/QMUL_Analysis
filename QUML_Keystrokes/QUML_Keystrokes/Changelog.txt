@@ -246,6 +246,15 @@ scores for user 13
 * Declaring more impostor score variables for user 17
 * Updating the in-code documentation appropriately
 
+11th July 2015
+* Declaring the impostor score variables for user 18
+* Will plan to change the architecture of the project soon, and will
+plan to incorporate some class library projects as well!
+
+12th July 2015
+* Declaring more impostor scores variables for user 18
+* Will be populating them under both the Euclidean and Manhattan verifiers
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
