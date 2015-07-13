@@ -19,6 +19,7 @@
  * 1.9.9    10/07/2015  PKR     Right now declaring more impostor score variables for user 17
  * 1.9.10   11/07/2015  PKR     Declaring the impostor score variables for user 18, and also then will be updating the in-code documentation
  * 1.9.11   12/07/2015  PKR     Now declaring more impostor score variables for user 18, and will begin to populate them under the Euclidean and Manhattan verifiers
+ * 1.9.11   13/07/2015  PKR     Populating the impostor scores for user 17 and user 18 under both the Manhattan and Euclidean verifiers, update in-code documentation
  */
 
 using System;
@@ -4771,6 +4772,17 @@ namespace QUML_Keystrokes
             impostorScoresUser17User68 = EuclidDist.CalculateImpostorScores(s017Mean, s068);
             impostorScoresUser17User69 = EuclidDist.CalculateImpostorScores(s017Mean, s069);
             impostorScoresUser17User70 = EuclidDist.CalculateImpostorScores(s017Mean, s070);
+
+            impostorScoresUser17User71 = EuclidDist.CalculateImpostorScores(s017Mean, s071);
+            impostorScoresUser17User72 = EuclidDist.CalculateImpostorScores(s017Mean, s072);
+            impostorScoresUser17User73 = EuclidDist.CalculateImpostorScores(s017Mean, s073);
+            impostorScoresUser17User74 = EuclidDist.CalculateImpostorScores(s017Mean, s074);
+            impostorScoresUser17User75 = EuclidDist.CalculateImpostorScores(s017Mean, s075);
+            impostorScoresUser17User76 = EuclidDist.CalculateImpostorScores(s017Mean, s076);
+            impostorScoresUser17User77 = EuclidDist.CalculateImpostorScores(s017Mean, s077);
+            impostorScoresUser17User78 = EuclidDist.CalculateImpostorScores(s017Mean, s078);
+            impostorScoresUser17User79 = EuclidDist.CalculateImpostorScores(s017Mean, s079);
+            impostorScoresUser17User80 = EuclidDist.CalculateImpostorScores(s017Mean, s080);
             #endregion
 
             #region User 18 Impostor scores
