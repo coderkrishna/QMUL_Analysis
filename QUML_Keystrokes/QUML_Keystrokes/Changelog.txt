@@ -255,6 +255,11 @@ plan to incorporate some class library projects as well!
 * Declaring more impostor scores variables for user 18
 * Will be populating them under both the Euclidean and Manhattan verifiers
 
+13th July 2015
+* Populating the impostor score variables for user 17 and user 18
+* Completed populating user 17 under the Euclidean verifier
+* Working on populating user 17 under the Manhattan verifier
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
