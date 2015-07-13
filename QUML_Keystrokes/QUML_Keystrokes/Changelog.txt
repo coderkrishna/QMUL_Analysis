@@ -258,7 +258,7 @@ plan to incorporate some class library projects as well!
 13th July 2015
 * Populating the impostor score variables for user 17 and user 18
 * Completed populating user 17 under the Euclidean verifier
-* Working on populating user 17 under the Manhattan verifier
+* Working on populating user 17 under the Manhattan verifier - that's completed
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
