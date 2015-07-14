@@ -12,7 +12,8 @@
  * 1.0.2    29/06/2015  PKR     Updating the in-code documentation
  * 1.1      03/07/2015  PKR     Writing the method to calculate the standard deviation of the user data.
  * 1.2      03/07/2015  PKR     Completed the method to calculate the standard deviation given the inputs of the user data and the mean vector of the user
- * 1.3      08/07/2015  PKR     Right now will be writing the method to calculate the genuine scores under the Scaled Manhattan Verifier - Finished filling this out
+ * 1.3      08/07/2015  PKR     Right now will be writing the method to calculate the genuine scores under the Scaled Manhattan Verifier
+ * 1.4      14/07/2015  PKR     Will be writing the CalculateImpostorScores method to be able to return the calculations properly
  */
 
 using System;
@@ -101,6 +102,28 @@ namespace QUML_Keystrokes
             }
 
             return genuineScores; 
+        }
+
+        /// <summary>
+        /// This method will be now calculating the impostor scores
+        /// </summary>
+        /// <param name="s001Mean">The mean vector for the user</param>
+        /// <param name="stdDevUser1">The standard deviation vector for the user</param>
+        /// <param name="s002">User 2, so this is going with another user (not the same)</param>
+        /// <returns>The 2D double array of impostor scores</returns>
+        public double[,] CalculateImpostorScores(double[] s001Mean, double[] stdDevUser1, double[,] s002)
+        {
+            double[,] impostorScores = new double[s002.GetLength(0), s002.GetLength(1)];
+
+            for (int i = 0; i < s002.GetLength(0); i++)
+            {
+                for (int j = 0; j < s002.GetLength(1); j++)
+                {
+                    impostorScores[i, j] += 0.1 * (Math.Abs(s002[i, j] - s001Mean[j]) / stdDevUser1[j]); 
+                }
+            }
+
+            return impostorScores;
         }
     }
 }

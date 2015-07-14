@@ -261,7 +261,9 @@ plan to incorporate some class library projects as well!
 * Working on populating user 17 under the Manhattan verifier
 
 14th July 2015
-* Working on populating the impostor score variables for user 18 under the 
+* Working on populating the impostor score variables for user 18 under both Euclidean and Manhattan verifiers
+* Will make progress on the ScaledManhattanDistance.cs to add in the CalculateImpostorScores(double[] s001Mean, double[] stdDevUser1, double[,] s002)
+and will then print out a sample - Method as been written
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
