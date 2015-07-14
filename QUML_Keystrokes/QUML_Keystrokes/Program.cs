@@ -2800,6 +2800,22 @@ namespace QUML_Keystrokes
             s099Gen = ScaledManhDist.CalculateGenuineScores(s099Mean, stdDevUser99, s099);
             s100Gen = ScaledManhDist.CalculateGenuineScores(s100Mean, stdDevUser100, s100);
             #endregion
+
+            #region Populating the impostor scores for each user in the following users
+
+            #region Impostor scores for user 1
+            impostorScoresUser1User2 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s002);
+            impostorScoresUser1User3 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s003);
+            impostorScoresUser1User4 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s004);
+            impostorScoresUser1User5 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s005);
+            impostorScoresUser1User6 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s006);
+            impostorScoresUser1User7 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s007);
+            impostorScoresUser1User8 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s008);
+            impostorScoresUser1User9 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s009);
+            impostorScoresUser1User10 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s010);
+            #endregion
+
+            #endregion
         }
 
         private static void UseEuclideanVerifier()
