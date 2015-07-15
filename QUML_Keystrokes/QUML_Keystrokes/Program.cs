@@ -22,6 +22,7 @@
  * 1.9.11   13/07/2015  PKR     Populating the impostor scores for user 17 and user 18 under both the Manhattan and Euclidean verifiers, update in-code documentation
  * 1.9.12   14/07/2015  PKR     Populating the impostor scores for user 18 under the Manhattan verifier, beginning to populate impostor score variables under the Scaled Manhattan verifier
  * 1.8.13   15/07/2015  PKR     Declaring more impostor score variables for user 19, and populating the impostor score variables for user 1 under the Scaled Manhattan verifier
+ * 1.8.13.1 15/07/2015  PKR     Updating the code for the sake of readability
  */
 
 using System;
@@ -267,6 +268,7 @@ namespace QUML_Keystrokes
         #endregion
 
         #region These are the impostor scores for each user
+
         #region Having static 2D double arrays for the impostor scores with user 1 as the training (using the mean vector for user 1 in calculating the impostor scores)
         static double[,] impostorScoresUser1User2;
         static double[,] impostorScoresUser1User3;
@@ -2935,6 +2937,20 @@ namespace QUML_Keystrokes
             impostorScoresUser1User48 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s048);
             impostorScoresUser1User49 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s049);
             impostorScoresUser1User50 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s050);
+
+            impostorScoresUser1User51 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s051);
+            impostorScoresUser1User52 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s052);
+            impostorScoresUser1User53 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s053);
+            impostorScoresUser1User54 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s054);
+            impostorScoresUser1User55 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s055);
+            impostorScoresUser1User56 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s056);
+            impostorScoresUser1User57 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s057);
+            impostorScoresUser1User58 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s058);
+            impostorScoresUser1User59 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s059);
+            impostorScoresUser1User60 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s060);
+
+            impostorScoresUser1User61 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s061);
+            impostorScoresUser1User62 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s062);
             #endregion
 
             #region User 2 Impostor scores
@@ -5412,6 +5428,7 @@ namespace QUML_Keystrokes
             #endregion
 
             #region Calculating the impostor scores next - and populating them
+
             #region User 1 Impostor scores
             impostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);
             impostorScoresUser1User3 = ManhDist.CalculateImpostorScores(s001Mean, s003);
