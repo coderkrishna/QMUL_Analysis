@@ -266,6 +266,10 @@ plan to incorporate some class library projects as well!
 and will then print out a sample - Method as been written!
 * Populating the impostor score variables under the ScaledManhattanDistance verifier - in progress with user 1
 
+15th July 2015
+* Progressing with declaring more impostor score variables for user 19
+* Progressing with populating more impostor score variables for user 1 under the Scaled Manhattan verifier
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
