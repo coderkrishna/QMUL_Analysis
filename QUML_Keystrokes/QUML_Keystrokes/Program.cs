@@ -20,7 +20,7 @@
  * 1.9.10   11/07/2015  PKR     Declaring the impostor score variables for user 18, and also then will be updating the in-code documentation
  * 1.9.11   12/07/2015  PKR     Now declaring more impostor score variables for user 18, and will begin to populate them under the Euclidean and Manhattan verifiers
  * 1.9.11   13/07/2015  PKR     Populating the impostor scores for user 17 and user 18 under both the Manhattan and Euclidean verifiers, update in-code documentation
- * 1.9.12   14/07/2015  PKR     Populating the impostor scores for user 18 under the Manhattan verifier
+ * 1.9.12   14/07/2015  PKR     Populating the impostor scores for user 18 under the Manhattan verifier, beginning to populate impostor score variables under the Scaled Manhattan verifier
  */
 
 using System;
@@ -2296,6 +2296,17 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser19User28;
         static double[,] impostorScoresUser19User29;
         static double[,] impostorScoresUser19User30;
+
+        static double[,] impostorScoresUser19User31;
+        static double[,] impostorScoresUser19User32;
+        static double[,] impostorScoresUser19User33;
+        static double[,] impostorScoresUser19User34;
+        static double[,] impostorScoresUser19User35;
+        static double[,] impostorScoresUser19User36;
+        static double[,] impostorScoresUser19User37;
+        static double[,] impostorScoresUser19User38;
+        static double[,] impostorScoresUser19User39;
+        static double[,] impostorScoresUser19User40;
         #endregion
 
         #endregion
