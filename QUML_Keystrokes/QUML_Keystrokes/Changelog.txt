@@ -270,6 +270,10 @@ and will then print out a sample - Method as been written!
 * Progressing with declaring more impostor score variables for user 19
 * Progressing with populating more impostor score variables for user 1 under the Scaled Manhattan verifier
 
+16th July 2015
+* Making more progress with populating the impostor scores
+* Updating the in-code documentation where it is necessary
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
