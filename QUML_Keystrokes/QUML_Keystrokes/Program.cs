@@ -7413,6 +7413,17 @@ namespace QUML_Keystrokes
             impostorScoresUser19User28 = ManhDist.CalculateImpostorScores(s019Mean, s028);
             impostorScoresUser19User29 = ManhDist.CalculateImpostorScores(s019Mean, s029);
             impostorScoresUser19User30 = ManhDist.CalculateImpostorScores(s019Mean, s030);
+
+            impostorScoresUser19User31 = ManhDist.CalculateImpostorScores(s019Mean, s031);
+            impostorScoresUser19User32 = ManhDist.CalculateImpostorScores(s019Mean, s032);
+            impostorScoresUser19User33 = ManhDist.CalculateImpostorScores(s019Mean, s033);
+            impostorScoresUser19User34 = ManhDist.CalculateImpostorScores(s019Mean, s034);
+            impostorScoresUser19User35 = ManhDist.CalculateImpostorScores(s019Mean, s035);
+            impostorScoresUser19User36 = ManhDist.CalculateImpostorScores(s019Mean, s036);
+            impostorScoresUser19User37 = ManhDist.CalculateImpostorScores(s019Mean, s037);
+            impostorScoresUser19User38 = ManhDist.CalculateImpostorScores(s019Mean, s038);
+            impostorScoresUser19User39 = ManhDist.CalculateImpostorScores(s019Mean, s039);
+            impostorScoresUser19User40 = ManhDist.CalculateImpostorScores(s019Mean, s040);
             #endregion
 
             #endregion
