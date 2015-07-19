@@ -274,6 +274,11 @@ and will then print out a sample - Method as been written!
 * Making more progress with populating the impostor scores
 * Updating the in-code documentation where it is necessary
 
+18th July 2015
+* More populating of the impostor score variables
+* Also will be updating the in-code documentation wherever it is appropriate
+
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
