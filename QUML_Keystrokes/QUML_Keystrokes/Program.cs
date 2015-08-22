@@ -162,46 +162,39 @@ namespace QUML_Keystrokes
 
         static double[,] s013Gen; static double[,] s014Gen; static double[,] s015Gen;
         static double[,] s016Gen; static double[,] s017Gen; static double[,] s018Gen;
-        static double[,] s019Gen; static double[,] s020Gen; 
-
-        static double[,] s021Gen; static double[,] s022Gen; static double[,] s023Gen;
-
-        static double[,] s024Gen; static double[,] s025Gen; static double[,] s026Gen;
-
-        static double[,] s027Gen; static double[,] s028Gen;
-        static double[,] s029Gen; static double[,] s030Gen;
-
+        static double[,] s019Gen; static double[,] s020Gen; static double[,] s021Gen; 
+        static double[,] s022Gen; static double[,] s023Gen; static double[,] s024Gen;
+ 
+        static double[,] s025Gen; static double[,] s026Gen; static double[,] s027Gen; 
+        static double[,] s028Gen; static double[,] s029Gen; static double[,] s030Gen;
         static double[,] s031Gen; static double[,] s032Gen; static double[,] s033Gen;
-
         static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
-        static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
-        static double[,] s040Gen;
 
-        static double[,] s041Gen; static double[,] s042Gen; static double[,] s043Gen;
-        static double[,] s044Gen; static double[,] s045Gen; static double[,] s046Gen;
-        static double[,] s047Gen; static double[,] s048Gen; static double[,] s049Gen;
-        static double[,] s050Gen; static double[,] s051Gen; static double[,] s052Gen;
-        static double[,] s053Gen; static double[,] s054Gen; static double[,] s055Gen;
-        static double[,] s056Gen; static double[,] s057Gen; static double[,] s058Gen;
-        static double[,] s059Gen; static double[,] s060Gen;
+        static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
+        static double[,] s040Gen; static double[,] s041Gen; static double[,] s042Gen; 
+        static double[,] s043Gen; static double[,] s044Gen; static double[,] s045Gen; 
+        static double[,] s046Gen; static double[,] s047Gen; static double[,] s048Gen; 
+        
+        static double[,] s049Gen; static double[,] s050Gen; static double[,] s051Gen; 
+        static double[,] s052Gen; static double[,] s053Gen; static double[,] s054Gen; 
+        static double[,] s055Gen; static double[,] s056Gen; static double[,] s057Gen; 
+        static double[,] s058Gen; static double[,] s059Gen; static double[,] s060Gen;
 
         static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen;
-        static double[,] s064Gen;
+        static double[,] s064Gen; static double[,] s065Gen; static double[,] s066Gen; 
+        static double[,] s067Gen; static double[,] s068Gen; static double[,] s069Gen; 
+        static double[,] s070Gen; static double[,] s071Gen; static double[,] s072Gen; 
 
-        static double[,] s065Gen; static double[,] s066Gen; static double[,] s067Gen;
-        static double[,] s068Gen; static double[,] s069Gen; static double[,] s070Gen;
-
-        static double[,] s071Gen; static double[,] s072Gen; static double[,] s073Gen;
-        static double[,] s074Gen; static double[,] s075Gen;
-
+        static double[,] s073Gen; static double[,] s074Gen; static double[,] s075Gen;
         static double[,] s076Gen; static double[,] s077Gen; static double[,] s078Gen;
         static double[,] s079Gen; static double[,] s080Gen; static double[,] s081Gen;
         static double[,] s082Gen; static double[,] s083Gen; static double[,] s084Gen;
+
         static double[,] s085Gen; static double[,] s086Gen; static double[,] s087Gen;
         static double[,] s088Gen; static double[,] s089Gen; static double[,] s090Gen;
-
         static double[,] s091Gen; static double[,] s092Gen; static double[,] s093Gen;
         static double[,] s094Gen; static double[,] s095Gen; static double[,] s096Gen;
+
         static double[,] s097Gen; static double[,] s098Gen; static double[,] s099Gen;
         static double[,] s100Gen;
         #endregion
@@ -7457,6 +7450,39 @@ namespace QUML_Keystrokes
             impostorScoresUser19User68 = ManhDist.CalculateImpostorScores(s019Mean, s068);
             impostorScoresUser19User69 = ManhDist.CalculateImpostorScores(s019Mean, s069);
             impostorScoresUser19User70 = ManhDist.CalculateImpostorScores(s019Mean, s070);
+
+            impostorScoresUser19User71 = ManhDist.CalculateImpostorScores(s019Mean, s071);
+            impostorScoresUser19User72 = ManhDist.CalculateImpostorScores(s019Mean, s072);
+            impostorScoresUser19User73 = ManhDist.CalculateImpostorScores(s019Mean, s073);
+            impostorScoresUser19User74 = ManhDist.CalculateImpostorScores(s019Mean, s074);
+            impostorScoresUser19User75 = ManhDist.CalculateImpostorScores(s019Mean, s075);
+            impostorScoresUser19User76 = ManhDist.CalculateImpostorScores(s019Mean, s076);
+            impostorScoresUser19User77 = ManhDist.CalculateImpostorScores(s019Mean, s077);
+            impostorScoresUser19User78 = ManhDist.CalculateImpostorScores(s019Mean, s078);
+            impostorScoresUser19User79 = ManhDist.CalculateImpostorScores(s019Mean, s079);
+            impostorScoresUser19User80 = ManhDist.CalculateImpostorScores(s019Mean, s080);
+
+            impostorScoresUser19User81 = ManhDist.CalculateImpostorScores(s019Mean, s081);
+            impostorScoresUser19User82 = ManhDist.CalculateImpostorScores(s019Mean, s082);
+            impostorScoresUser19User83 = ManhDist.CalculateImpostorScores(s019Mean, s083);
+            impostorScoresUser19User84 = ManhDist.CalculateImpostorScores(s019Mean, s084);
+            impostorScoresUser19User85 = ManhDist.CalculateImpostorScores(s019Mean, s085);
+            impostorScoresUser19User86 = ManhDist.CalculateImpostorScores(s019Mean, s086);
+            impostorScoresUser19User87 = ManhDist.CalculateImpostorScores(s019Mean, s087);
+            impostorScoresUser19User88 = ManhDist.CalculateImpostorScores(s019Mean, s088);
+            impostorScoresUser19User89 = ManhDist.CalculateImpostorScores(s019Mean, s089);
+            impostorScoresUser19User90 = ManhDist.CalculateImpostorScores(s019Mean, s090);
+
+            impostorScoresUser19User91 = ManhDist.CalculateImpostorScores(s019Mean, s091);
+            impostorScoresUser19User92 = ManhDist.CalculateImpostorScores(s019Mean, s092);
+            impostorScoresUser19User93 = ManhDist.CalculateImpostorScores(s019Mean, s093);
+            impostorScoresUser19User94 = ManhDist.CalculateImpostorScores(s019Mean, s094);
+            impostorScoresUser19User95 = ManhDist.CalculateImpostorScores(s019Mean, s095);
+            impostorScoresUser19User96 = ManhDist.CalculateImpostorScores(s019Mean, s096);
+            impostorScoresUser19User97 = ManhDist.CalculateImpostorScores(s019Mean, s097);
+            impostorScoresUser19User98 = ManhDist.CalculateImpostorScores(s019Mean, s098);
+            impostorScoresUser19User99 = ManhDist.CalculateImpostorScores(s019Mean, s099);
+            impostorScoresUser19User100 = ManhDist.CalculateImpostorScores(s019Mean, s100);
             #endregion
 
             #endregion

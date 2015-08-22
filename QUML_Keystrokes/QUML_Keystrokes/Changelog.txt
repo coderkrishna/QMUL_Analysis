@@ -278,6 +278,11 @@ and will then print out a sample - Method as been written!
 * More populating of the impostor score variables
 * Also will be updating the in-code documentation wherever it is appropriate
 
+22nd August 2015
+* Just resuming the daily coding to keep up with my programming skills
+* Have to finish populating the scores for user 19 under the Manhattan Distance verifier. 
+* Today will finish coding the results of the user 19 using both the Manhattan Distance and
+Euclidean Distance verifiers
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
