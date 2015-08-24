@@ -284,6 +284,10 @@ and will then print out a sample - Method as been written!
 * Today will finish coding the results of the user 19 using both the Manhattan Distance and
 Euclidean Distance verifiers
 
+23rd August 2015
+* Resuming the coding and will be finishing up the user data for user 19
+* Plan to just end the coding for the weekend, and will make sure to update the in-code documentation
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
