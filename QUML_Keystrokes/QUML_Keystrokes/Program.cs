@@ -7,23 +7,7 @@
  * 
  * Version  Date        Who     Description
  * -------  ----------  ------- -------------- 
- * 1.9      06/07/2015  PKR     Finished populating the variables for user 14 under the Euclidean verifier, and declaring the impostor score variables for user 15.
- * 1.9.1    07/07/2015  PKR     Populating the impostor score variables for user 14 under the Manhattan verifier, and finish declaring the impostor scores for user 15.
- * 1.9.2    07/07/2015  PKR     Just finished populating the impostor scores for user 15 under the Euclidean verifier, Manhattan verifier is next - This is completed
- * 1.9.3    08/07/2015  PKR     Declaring the impostor score variables for user 16 - going to begin that; also finishing up the CalculateGenuineScores(params) method.
- * 1.9.4    08/07/2015  PKR     Finished writing the method to calculate the Genuine Scores under the Scaled Manhattan verifier
- * 1.9.5    08/07/2015  PKR     Making various changes, updating in-code documentation
- * 1.9.6    08/07/2015  PKR     Right now resuming the population of impostor score variables for user 16
- * 1.9.7    09/07/2015  PKR     Finished populating the impostor score variables for user 16, and also will make sure to keep up-to-date with other tasks as well, and will be populating the impostor scores for user 16 under the Manhattan Verifier
- * 1.9.8    09/07/2015  PKR     Declaring the impostor score variables for user 17 now, updating the in-code documentation
- * 1.9.9    10/07/2015  PKR     Right now declaring more impostor score variables for user 17
- * 1.9.10   11/07/2015  PKR     Declaring the impostor score variables for user 18, and also then will be updating the in-code documentation
- * 1.9.11   12/07/2015  PKR     Now declaring more impostor score variables for user 18, and will begin to populate them under the Euclidean and Manhattan verifiers
- * 1.9.11   13/07/2015  PKR     Populating the impostor scores for user 17 and user 18 under both the Manhattan and Euclidean verifiers, update in-code documentation
- * 1.9.12   14/07/2015  PKR     Populating the impostor scores for user 18 under the Manhattan verifier, beginning to populate impostor score variables under the Scaled Manhattan verifier
- * 1.9.13   15/07/2015  PKR     Declaring more impostor score variables for user 19, and populating the impostor score variables for user 1 under the Scaled Manhattan verifier
- * 1.9.13.1 15/07/2015  PKR     Updating the code for the sake of readability
- * 1.9.13   16/07/2015  PKR     Making progress overall, all around, more impostor score variables are being populated, updating in-code documentation where appropriate
+ * 1.9.16   29/08/2015  PKR     Bulk changes - populating scores for user 19
  */
 
 using System;
