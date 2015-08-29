@@ -288,6 +288,10 @@ Euclidean Distance verifiers
 * Resuming the coding and will be finishing up the user data for user 19
 * Plan to just end the coding for the weekend, and will make sure to update the in-code documentation
 
+29th August 2015
+* Going to be making more progress with the EuclidDist - for user 19
+* Updating the in-code documentation as well
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
