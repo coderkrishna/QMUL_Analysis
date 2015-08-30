@@ -8,6 +8,7 @@
  * Version  Date        Who     Description
  * -------  ----------  ------- -------------- 
  * 1.9.16   29/08/2015  PKR     Bulk changes - populating scores for user 19
+ * 1.10     30/08/2015  PKR     Going to be making overall code changes (adding more code, etc...)
  */
 
 using System;
@@ -2937,6 +2938,28 @@ namespace QUML_Keystrokes
             impostorScoresUser1User68 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s068);
             impostorScoresUser1User69 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s069);
             impostorScoresUser1User70 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s070);
+
+            impostorScoresUser1User71 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s071);
+            impostorScoresUser1User72 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s072);
+            impostorScoresUser1User73 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s073);
+            impostorScoresUser1User74 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s074);
+            impostorScoresUser1User75 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s075);
+            impostorScoresUser1User76 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s076);
+            impostorScoresUser1User77 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s077);
+            impostorScoresUser1User78 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s078);
+            impostorScoresUser1User79 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s079);
+            impostorScoresUser1User80 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s080);
+
+            impostorScoresUser1User81 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s081);
+            impostorScoresUser1User82 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s082);
+            impostorScoresUser1User83 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s083);
+            impostorScoresUser1User84 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s084);
+            impostorScoresUser1User85 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s085);
+            impostorScoresUser1User86 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s086);
+            impostorScoresUser1User87 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s087);
+            impostorScoresUser1User88 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s088);
+            impostorScoresUser1User89 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s089);
+            impostorScoresUser1User90 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s090);
             #endregion
 
             #region User 2 Impostor scores

@@ -1,5 +1,5 @@
 ﻿/*
- * Author: Pranav Krishnamurthy
+ * Author: Pranav S. Krishnamurthy
  * 
  * File Name: ManhattanDistance.cs
  * 
@@ -12,6 +12,7 @@
  * 1.3      13/06/2015  PKR     Organizing the various using statements, and updating the in-code documentation
  * 1.3.1    23/06/2015  PKR     Right now having the in-code documentation for this class being cleaned up
  * 1.3.2    25/06/2015  PKR     Cleaning up the in-code documentation
+ * 1.3.3.   30/08/2015  PKR     Updating the code header (first line by Author:...)
  */
 
 using System;
