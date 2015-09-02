@@ -9,6 +9,7 @@
  * -------  ----------  ------- -------------- 
  * 1.9.16   29/08/2015  PKR     Bulk changes - populating scores for user 19
  * 1.10     30/08/2015  PKR     Going to be making overall code changes (adding more code, etc...)
+ * 1.11     01/09/2015  PKR     Bulk code changes - ScaledManhDist scores for user 2
  */
 
 using System;
@@ -2974,7 +2975,22 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 2 Impostor scores
-            
+            impostorScoresUser2User1 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s001);
+            impostorScoresUser2User3 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s003);
+            impostorScoresUser2User4 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s004);
+            impostorScoresUser2User5 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s005);
+            impostorScoresUser2User6 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s006);
+            impostorScoresUser2User7 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s007);
+            impostorScoresUser2User8 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s008);
+            impostorScoresUser2User9 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s009);
+            impostorScoresUser2User10 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s010);
+
+            impostorScoresUser2User11 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s011);
+            impostorScoresUser2User12 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s012);
+            impostorScoresUser2User13 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s013);
+            impostorScoresUser2User14 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s014);
+            impostorScoresUser2User15 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s015);
+            impostorScoresUser2User16 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s016);
             #endregion
 
             #region User 3 Impostor scores

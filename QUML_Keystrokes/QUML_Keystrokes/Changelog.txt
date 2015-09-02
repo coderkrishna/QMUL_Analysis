@@ -296,6 +296,11 @@ Euclidean Distance verifiers
 * Updating the in-code documentation
 * Going to be making progress on overall coding
 
+1st September 2015
+* Bulk code changes
+* Updating the in-code documentation
+
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
