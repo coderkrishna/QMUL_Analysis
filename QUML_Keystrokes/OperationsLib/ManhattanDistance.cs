@@ -13,6 +13,7 @@
  * 1.3.1    23/06/2015  PKR     Right now having the in-code documentation for this class being cleaned up
  * 1.3.2    25/06/2015  PKR     Cleaning up the in-code documentation
  * 1.3.3.   30/08/2015  PKR     Updating the code header (first line by Author:...)
+ * 2.0      05/09/2015  PKR     Adding the ManhattanDistance class file to the OperationsLib .dll project
  */
 
 using System;
@@ -20,7 +21,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace QUML_Keystrokes
+namespace OperationsLib
 {
     public class ManhattanDistance
     {

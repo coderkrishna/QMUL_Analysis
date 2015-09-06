@@ -22,7 +22,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace QUML_Keystrokes
+namespace OperationsLib
 {
     public class ScaledManhattanDistance
     {
@@ -36,7 +36,7 @@ namespace QUML_Keystrokes
         {
             double[] Sum = new double[s001.GetLength(1)];
             double[] Mean = new double[s001.GetLength(1)];
-            
+
             for (int i = 0; i < s001.GetLength(0); i++)
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
@@ -70,16 +70,16 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    variance[j] += Math.Pow((s001[i, j] - s001Mean[j]), 2); 
+                    variance[j] += Math.Pow((s001[i, j] - s001Mean[j]), 2);
                 }
             }
 
             for (int k = 0; k < stdDev.Length; k++)
             {
-                stdDev[k] += Math.Sqrt(variance[k]) / 10; 
+                stdDev[k] += Math.Sqrt(variance[k]) / 10;
             }
 
-            return stdDev; 
+            return stdDev;
         }
 
         /// <summary>
@@ -98,11 +98,11 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    genuineScores[i, j] += 0.1 * (Math.Abs(s001[i, j] - s001Mean[j]) / stdDevUser1[j]); 
+                    genuineScores[i, j] += 0.1 * (Math.Abs(s001[i, j] - s001Mean[j]) / stdDevUser1[j]);
                 }
             }
 
-            return genuineScores; 
+            return genuineScores;
         }
 
         /// <summary>
@@ -121,7 +121,7 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s002.GetLength(1); j++)
                 {
-                    impostorScores[i, j] += 0.1 * (Math.Abs(s002[i, j] - s001Mean[j]) / stdDevUser1[j]); 
+                    impostorScores[i, j] += 0.1 * (Math.Abs(s002[i, j] - s001Mean[j]) / stdDevUser1[j]);
                 }
             }
 

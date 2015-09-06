@@ -13,7 +13,8 @@
  * 1.2.1    21/06/2015  PKR     Renamed some variables in this class, and made sure all code compiled, removed any unused using statements
  * 1.2.2    21/06/2015  PKR     Now writing the method to calculate the genuine scores for the EuclideanVerifier - that is done.
  * 1.3      22/06/2015  PKR     Writing the method the to calculate the impostor scores for the users.
- * 1.4      23/06/2015  PKR     Changing the method signature (method parameters order) to be fitting with the way that variables are declared in Program.cs file. 
+ * 1.4      23/06/2015  PKR     Changing the method signature (method parameters order) to be fitting with the way that variables are declared in Program.cs file. \
+ * 2.0      05/09/2015  PKR     Adding the EuclideanDistance.cs class file to the OperationsLib .dll project
  */
 
 using System;
@@ -21,7 +22,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace QUML_Keystrokes
+namespace OperationsLib
 {
     public class EuclideanDistance
     {
@@ -69,11 +70,11 @@ namespace QUML_Keystrokes
             {
                 for (int j = 0; j < s001.GetLength(1); j++)
                 {
-                    Differences[i, j] += Math.Sqrt(Math.Pow((s001[i,j] - s001Mean[j]), 2)/ 10.0); 
+                    Differences[i, j] += Math.Sqrt(Math.Pow((s001[i, j] - s001Mean[j]), 2) / 10.0);
                 }
             }
 
-            return Differences; 
+            return Differences;
         }
 
         /// <summary>
@@ -91,11 +92,11 @@ namespace QUML_Keystrokes
                 for (int j = 0; j < s002.GetLength(1); j++)
                 {
                     // This is populating the 2D array
-                    impostorScoresMatrix[i, j] += Math.Sqrt(Math.Pow((s002[i,j] - s001Mean[j]), 2) / 10.0); 
+                    impostorScoresMatrix[i, j] += Math.Sqrt(Math.Pow((s002[i, j] - s001Mean[j]), 2) / 10.0);
                 }
             }
 
-            return impostorScoresMatrix; 
+            return impostorScoresMatrix;
         }
     }
 }
