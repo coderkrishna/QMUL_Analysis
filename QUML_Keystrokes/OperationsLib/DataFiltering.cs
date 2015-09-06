@@ -11,15 +11,16 @@
  * 1.1      12/06/2015  PKR     Updating in-code documentation
  * 1.2      13/06/2015  PKR     Editing the number of lines of code that were written, and updating the in-code documentation
  * 1.2.1    25/06/2105  PKR     Cleaning up the in-code documentation of the DataFiltering.cs class
+ * 2.0      05/09/2015  PKR     Creating a new .dll library for the operations - all the mathematical calculations will be done. 
  */
 
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
-using System.IO; 
+using System.IO;
 
-namespace QUML_Keystrokes
+namespace OperationsLib
 {
     public class DataFiltering
     {
@@ -44,7 +45,7 @@ namespace QUML_Keystrokes
                 foreach (var col in row.Trim().Split(','))
                 {
                     dataVals[i, j] = double.Parse(col.Trim());
-                    j++; 
+                    j++;
                 }
                 i++;
             }

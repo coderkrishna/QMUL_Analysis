@@ -41,7 +41,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="DataFiltering.cs" />
     <Compile Include="EuclideanDistance.cs" />
     <Compile Include="ManhattanDistance.cs" />
     <Compile Include="Program.cs" />
@@ -150,6 +149,12 @@
     <None Include="Latency Data\user97.csv" />
     <None Include="Latency Data\user98.csv" />
     <None Include="Latency Data\user99.csv" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\OperationsLib\OperationsLib.csproj">
+      <Project>{318a16ae-c364-4f94-af37-36712739061b}</Project>
+      <Name>OperationsLib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

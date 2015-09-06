@@ -300,6 +300,10 @@ Euclidean Distance verifiers
 * Bulk code changes
 * Updating the in-code documentation
 
+5th September 2015
+* Bulk code changes again
+* Having all of the in-code documentation up-to-date
+* Slowly but surely will be having an operations class library project going now. 
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
