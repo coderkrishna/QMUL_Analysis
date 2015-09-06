@@ -1,0 +1,4 @@
+C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.dll
+C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.pdb
+C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
+C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
