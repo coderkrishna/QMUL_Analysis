@@ -305,6 +305,11 @@ Euclidean Distance verifiers
 * Having all of the in-code documentation up-to-date
 * Slowly but surely will be having an operations class library project going now. - This is done!
 
+7th September 2015
+* Making more bulk code changes again
+* All the method calls being updated, and also the in-code documentation
+* Declaring more impostor score variables and also making sure they are populated
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
