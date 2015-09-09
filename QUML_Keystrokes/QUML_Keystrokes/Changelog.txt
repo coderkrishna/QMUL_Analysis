@@ -310,6 +310,10 @@ Euclidean Distance verifiers
 * All the method calls being updated, and also the in-code documentation
 * Declaring more impostor score variables and also making sure they are populated
 
+8th September 2015
+* Making more bulk code changes right now
+* Declaring and populating more impostor scores for user 20. 
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
