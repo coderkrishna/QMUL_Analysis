@@ -314,6 +314,11 @@ Euclidean Distance verifiers
 * Making more bulk code changes right now
 * Declaring and populating more impostor scores for user 20. 
 
+10th September 2015
+* Right now making even more bulk code changes
+* Populating the impostor scores for user 20 under the Manhattan Distance verifier
+* Will be updating various documentation as well
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------

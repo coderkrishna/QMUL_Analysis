@@ -7800,6 +7800,10 @@ namespace QUML_Keystrokes
             impostorScoresUser19User100 = ManhDist.CalculateImpostorScores(s019Mean, s100);
             #endregion
 
+            #region User 20 Impostor scores
+            
+            #endregion
+
             #endregion
         }
 
