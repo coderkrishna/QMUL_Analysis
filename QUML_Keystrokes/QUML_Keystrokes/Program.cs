@@ -7801,7 +7801,11 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 20 Impostor scores
-            
+            impostorScoresUser20User1 = ManhDist.CalculateImpostorScores(s020Mean, s001);
+            impostorScoresUser20User2 = ManhDist.CalculateImpostorScores(s020Mean, s002);
+            impostorScoresUser20User3 = ManhDist.CalculateImpostorScores(s020Mean, s003);
+            impostorScoresUser20User4 = ManhDist.CalculateImpostorScores(s020Mean, s004);
+            impostorScoresUser20User5 = ManhDist.CalculateImpostorScores(s020Mean, s005); 
             #endregion
 
             #endregion
