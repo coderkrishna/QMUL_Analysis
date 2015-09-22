@@ -330,6 +330,10 @@ Euclidean Distance verifiers
 20th September 2015
 * Bulk code changes are being made. 
 
+21st September 2015
+* Bulk code changes being made
+* More of the in-code documentation being done
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
