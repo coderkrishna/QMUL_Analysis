@@ -334,6 +334,14 @@ Euclidean Distance verifiers
 * Bulk code changes being made
 * More of the in-code documentation being done
 
+25th September 2015
+* Having more bulk code changes being done
+* More variables going to have their values being populated.  
+
+1st October 2015
+* Having more bulk code changes being done
+* A lot more variables being populated
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
