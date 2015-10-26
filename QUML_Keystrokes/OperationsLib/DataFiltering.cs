@@ -12,6 +12,7 @@
  * 1.2      13/06/2015  PKR     Editing the number of lines of code that were written, and updating the in-code documentation
  * 1.2.1    25/06/2105  PKR     Cleaning up the in-code documentation of the DataFiltering.cs class
  * 2.0      05/09/2015  PKR     Creating a new .dll library for the operations - all the mathematical calculations will be done. 
+ * 2.1      26/10/2015  PKR     Reviewing this code, and updating the in-code documentation accordingly
  */
 
 using System;
@@ -50,6 +51,7 @@ namespace OperationsLib
                 i++;
             }
 
+            // Spitting back to the variable that was created
             return dataVals;
         }
     }
