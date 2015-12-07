@@ -358,6 +358,9 @@ Euclidean Distance verifiers
 * Further populating the impostor score variables for user 21
 * Finished declaring the impostor score variables for user 21 - earlier today
 
+6th December 2015
+* More changes, and practicing all the coding, for the sake of everything
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
