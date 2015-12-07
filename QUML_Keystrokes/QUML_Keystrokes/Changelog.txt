@@ -360,6 +360,7 @@ Euclidean Distance verifiers
 
 6th December 2015
 * More changes, and practicing all the coding, for the sake of everything
+* Always making sure that the code builds correctly! 
 
 AS A REMINDER - But will still be using the above format out of sanity!!
 
