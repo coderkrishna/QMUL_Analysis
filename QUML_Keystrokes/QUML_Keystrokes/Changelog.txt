@@ -362,6 +362,13 @@ Euclidean Distance verifiers
 * More changes, and practicing all the coding, for the sake of everything
 * Always making sure that the code builds correctly! 
 
+17th January 2016
+* Making various bulk code changes
+* Going to be making sure that all of the changes are being documented
+
+11th April 2016
+* Making additional bulk changes
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
