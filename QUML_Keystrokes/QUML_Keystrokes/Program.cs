@@ -7,10 +7,7 @@
  * 
  * Version  Date        Who     Description
  * -------  ----------  ------- -------------- 
- * 1.9.16   29/08/2015  PKR     Bulk changes - populating scores for user 19
- * 1.10     30/08/2015  PKR     Going to be making overall code changes (adding more code, etc...)
- * 1.11     01/09/2015  PKR     Bulk code changes - ScaledManhDist scores for user 2
- * 1.12     08/09/2015  PKR     More bulk code changes are being made
+ * 1.12.1   2016-08-10  PKR     Making further bulk changes with the use of the GIT tools right now
  */
 
 using System;
@@ -20,7 +17,7 @@ using System.Text;
 using System.IO;
 
 // Making use of the new 
-using OperationsLib; 
+using OperationsLib;
 
 ///<summary>
 /// Source of the Data: http://www.eecs.qmul.ac.uk/~ccloy/downloads_keystroke100.html
@@ -33,37 +30,37 @@ namespace QUML_Keystrokes
         #region Static 2D double arrays that will be initialized and used
 
         #region Static 2D Double arrays for all of the users
-        static double[,] s001; static double[,] s002; static double[,] s003; 
-        static double[,] s004; static double[,] s005; static double[,] s006; 
+        static double[,] s001; static double[,] s002; static double[,] s003;
+        static double[,] s004; static double[,] s005; static double[,] s006;
         static double[,] s007; static double[,] s008; static double[,] s009;
 
-        static double[,] s010;  static double[,] s011; static double[,] s012;
-        static double[,] s013; static double[,] s014;  static double[,] s015;
-        static double[,] s016; static double[,] s017;  static double[,] s018;
-        static double[,] s019; static double[,] s020;  static double[,] s021; 
-        
-        static double[,] s022; static double[,] s023; static double[,] s024; 
-        static double[,] s025; static double[,] s026; static double[,] s027; 
+        static double[,] s010; static double[,] s011; static double[,] s012;
+        static double[,] s013; static double[,] s014; static double[,] s015;
+        static double[,] s016; static double[,] s017; static double[,] s018;
+        static double[,] s019; static double[,] s020; static double[,] s021;
+
+        static double[,] s022; static double[,] s023; static double[,] s024;
+        static double[,] s025; static double[,] s026; static double[,] s027;
         static double[,] s028; static double[,] s029; static double[,] s030;
 
         static double[,] s031; static double[,] s032; static double[,] s033;
         static double[,] s034; static double[,] s035; static double[,] s036;
         static double[,] s037; static double[,] s038; static double[,] s039;
 
-        static double[,] s040; static double[,] s041; static double[,] s042; 
-        static double[,] s043; static double[,] s044; static double[,] s045; 
-        static double[,] s046; static double[,] s047; static double[,] s048; 
-        
-        static double[,] s049; static double[,] s050; static double[,] s051; 
-        static double[,] s052; static double[,] s053; static double[,] s054; 
-        static double[,] s055; static double[,] s056; static double[,] s057; 
-        
+        static double[,] s040; static double[,] s041; static double[,] s042;
+        static double[,] s043; static double[,] s044; static double[,] s045;
+        static double[,] s046; static double[,] s047; static double[,] s048;
+
+        static double[,] s049; static double[,] s050; static double[,] s051;
+        static double[,] s052; static double[,] s053; static double[,] s054;
+        static double[,] s055; static double[,] s056; static double[,] s057;
+
         static double[,] s058; static double[,] s059; static double[,] s060;
         static double[,] s061; static double[,] s062; static double[,] s063;
-        static double[,] s064; static double[,] s065; static double[,] s066; 
-        
-        static double[,] s067; static double[,] s068; static double[,] s069; 
-        static double[,] s070; static double[,] s071; static double[,] s072; 
+        static double[,] s064; static double[,] s065; static double[,] s066;
+
+        static double[,] s067; static double[,] s068; static double[,] s069;
+        static double[,] s070; static double[,] s071; static double[,] s072;
         static double[,] s073; static double[,] s074; static double[,] s075;
 
         static double[,] s076; static double[,] s077; static double[,] s078;
@@ -76,16 +73,16 @@ namespace QUML_Keystrokes
 
         static double[,] s094; static double[,] s095; static double[,] s096;
         static double[,] s097; static double[,] s098; static double[,] s099;
-        static double[,] s100; 
+        static double[,] s100;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
         static double[] s001Mean; static double[] s002Mean; static double[] s003Mean;
-        static double[] s004Mean; static double[] s005Mean; static double[] s006Mean; 
-        
+        static double[] s004Mean; static double[] s005Mean; static double[] s006Mean;
+
         static double[] s007Mean; static double[] s008Mean;
-        static double[] s009Mean; static double[] s010Mean; 
-        
+        static double[] s009Mean; static double[] s010Mean;
+
         static double[] s011Mean; static double[] s012Mean;
         static double[] s013Mean; static double[] s014Mean;
         static double[] s015Mean; static double[] s016Mean;
@@ -94,7 +91,7 @@ namespace QUML_Keystrokes
 
         static double[] s021Mean; static double[] s022Mean; static double[] s023Mean;
 
-        static double[] s024Mean; static double[] s025Mean; static double[] s026Mean; 
+        static double[] s024Mean; static double[] s025Mean; static double[] s026Mean;
 
         static double[] s027Mean; static double[] s028Mean;
         static double[] s029Mean; static double[] s030Mean;
@@ -106,10 +103,10 @@ namespace QUML_Keystrokes
         static double[] s040Mean;
 
         static double[] s041Mean; static double[] s042Mean; static double[] s043Mean;
-        static double[] s044Mean; static double[] s045Mean; static double[] s046Mean; 
-        static double[] s047Mean; static double[] s048Mean; static double[] s049Mean; 
-        static double[] s050Mean; static double[] s051Mean; static double[] s052Mean; 
-        static double[] s053Mean; static double[] s054Mean; static double[] s055Mean; 
+        static double[] s044Mean; static double[] s045Mean; static double[] s046Mean;
+        static double[] s047Mean; static double[] s048Mean; static double[] s049Mean;
+        static double[] s050Mean; static double[] s051Mean; static double[] s052Mean;
+        static double[] s053Mean; static double[] s054Mean; static double[] s055Mean;
         static double[] s056Mean; static double[] s057Mean; static double[] s058Mean;
         static double[] s059Mean; static double[] s060Mean;
 
@@ -131,7 +128,7 @@ namespace QUML_Keystrokes
         static double[] s091Mean; static double[] s092Mean; static double[] s093Mean;
         static double[] s094Mean; static double[] s095Mean; static double[] s096Mean;
         static double[] s097Mean; static double[] s098Mean; static double[] s099Mean;
-        static double[] s100Mean; 
+        static double[] s100Mean;
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
@@ -142,28 +139,28 @@ namespace QUML_Keystrokes
 
         static double[,] s013Gen; static double[,] s014Gen; static double[,] s015Gen;
         static double[,] s016Gen; static double[,] s017Gen; static double[,] s018Gen;
-        static double[,] s019Gen; static double[,] s020Gen; static double[,] s021Gen; 
+        static double[,] s019Gen; static double[,] s020Gen; static double[,] s021Gen;
         static double[,] s022Gen; static double[,] s023Gen; static double[,] s024Gen;
- 
-        static double[,] s025Gen; static double[,] s026Gen; static double[,] s027Gen; 
+
+        static double[,] s025Gen; static double[,] s026Gen; static double[,] s027Gen;
         static double[,] s028Gen; static double[,] s029Gen; static double[,] s030Gen;
         static double[,] s031Gen; static double[,] s032Gen; static double[,] s033Gen;
         static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
 
         static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
-        static double[,] s040Gen; static double[,] s041Gen; static double[,] s042Gen; 
-        static double[,] s043Gen; static double[,] s044Gen; static double[,] s045Gen; 
-        static double[,] s046Gen; static double[,] s047Gen; static double[,] s048Gen; 
-        
-        static double[,] s049Gen; static double[,] s050Gen; static double[,] s051Gen; 
-        static double[,] s052Gen; static double[,] s053Gen; static double[,] s054Gen; 
-        static double[,] s055Gen; static double[,] s056Gen; static double[,] s057Gen; 
+        static double[,] s040Gen; static double[,] s041Gen; static double[,] s042Gen;
+        static double[,] s043Gen; static double[,] s044Gen; static double[,] s045Gen;
+        static double[,] s046Gen; static double[,] s047Gen; static double[,] s048Gen;
+
+        static double[,] s049Gen; static double[,] s050Gen; static double[,] s051Gen;
+        static double[,] s052Gen; static double[,] s053Gen; static double[,] s054Gen;
+        static double[,] s055Gen; static double[,] s056Gen; static double[,] s057Gen;
         static double[,] s058Gen; static double[,] s059Gen; static double[,] s060Gen;
 
         static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen;
-        static double[,] s064Gen; static double[,] s065Gen; static double[,] s066Gen; 
-        static double[,] s067Gen; static double[,] s068Gen; static double[,] s069Gen; 
-        static double[,] s070Gen; static double[,] s071Gen; static double[,] s072Gen; 
+        static double[,] s064Gen; static double[,] s065Gen; static double[,] s066Gen;
+        static double[,] s067Gen; static double[,] s068Gen; static double[,] s069Gen;
+        static double[,] s070Gen; static double[,] s071Gen; static double[,] s072Gen;
 
         static double[,] s073Gen; static double[,] s074Gen; static double[,] s075Gen;
         static double[,] s076Gen; static double[,] s077Gen; static double[,] s078Gen;
@@ -180,16 +177,16 @@ namespace QUML_Keystrokes
         #endregion
 
         #region The standard deviation of each user - declared as double arrays (one dimensional arrays)
-        static double[] stdDevUser1;  static double[] stdDevUser2;  
-        static double[] stdDevUser3;  static double[] stdDevUser4;
-        static double[] stdDevUser5;  static double[] stdDevUser6;  
-        static double[] stdDevUser7;  static double[] stdDevUser8;
-        static double[] stdDevUser9;  static double[] stdDevUser10; 
-        
+        static double[] stdDevUser1; static double[] stdDevUser2;
+        static double[] stdDevUser3; static double[] stdDevUser4;
+        static double[] stdDevUser5; static double[] stdDevUser6;
+        static double[] stdDevUser7; static double[] stdDevUser8;
+        static double[] stdDevUser9; static double[] stdDevUser10;
+
         static double[] stdDevUser11; static double[] stdDevUser12;
-        static double[] stdDevUser13; static double[] stdDevUser14; 
+        static double[] stdDevUser13; static double[] stdDevUser14;
         static double[] stdDevUser15; static double[] stdDevUser16;
-        static double[] stdDevUser17; static double[] stdDevUser18; 
+        static double[] stdDevUser17; static double[] stdDevUser18;
         static double[] stdDevUser19; static double[] stdDevUser20;
 
         static double[] stdDevUser21; static double[] stdDevUser22;
@@ -238,12 +235,12 @@ namespace QUML_Keystrokes
         static double[] stdDevUser93; static double[] stdDevUser94;
         static double[] stdDevUser95; static double[] stdDevUser96;
         static double[] stdDevUser97; static double[] stdDevUser98;
-        static double[] stdDevUser99; static double[] stdDevUser100; 
+        static double[] stdDevUser99; static double[] stdDevUser100;
         #endregion
 
         #region These are the impostor scores for each user
 
-        #region Having static 2D double arrays for the impostor scores with user 1 as the training (using the mean vector for user 1 in calculating the impostor scores)
+        #region Having static 2D double arrays for impostor scores with user 1 as training (using the mean vector user 1 to calc the impostor scores)
         static double[,] impostorScoresUser1User2;
         static double[,] impostorScoresUser1User3;
         static double[,] impostorScoresUser1User4;
@@ -354,7 +351,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser1User100;
         #endregion
 
-        #region Having static 2D double arrays for the impostor scores with user 2 as the training (using the mean vector for user 2 in calculating the impostor scores)
+        #region Having static 2D double arrays for impostor scores with user 2 as training (using the mean vector for user 2 to calc the impostor scores)
         static double[,] impostorScoresUser2User1;
         static double[,] impostorScoresUser2User3;
         static double[,] impostorScoresUser2User4;
@@ -465,7 +462,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser2User100;
         #endregion
 
-        #region Having static 2D double arrays for the impostor scores with user 3 as the training (using the mean vector for user 3 in calculating the impostor scores)
+        #region Having static 2D double arrays for impostor scores with user 3 as training (using the mean vector for user 3 to calc the impostor scores)
         static double[,] impostorScoresUser3User1;
         static double[,] impostorScoresUser3User2;
         static double[,] impostorScoresUser3User4;
@@ -575,8 +572,8 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser3User99;
         static double[,] impostorScoresUser3User100;
         #endregion
-
-        #region Having static 2D double arrays for the impostor scores with user 4 as the training (using the mean vector for user 4 in calculating the impostor scores)
+        
+        #region Having static 2D double arrays for impostor scores with user 4 as training (using the mean vector for user 4 to calc the impostor scores)
         static double[,] impostorScoresUser4User1;
         static double[,] impostorScoresUser4User2;
         static double[,] impostorScoresUser4User3;
@@ -2438,7 +2435,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser21User89; static double[,] impostorScoresUser21User90; static double[,] impostorScoresUser21User91;
         static double[,] impostorScoresUser21User92; static double[,] impostorScoresUser21User93; static double[,] impostorScoresUser21User94;
         static double[,] impostorScoresUser21User95; static double[,] impostorScoresUser21User96; static double[,] impostorScoresUser21User97;
-        static double[,] impostorScoresUser21User98; static double[,] impostorScoresUser21User99; static double[,] impostorScoresUser21User100; 
+        static double[,] impostorScoresUser21User98; static double[,] impostorScoresUser21User99; static double[,] impostorScoresUser21User100;
         #endregion
 
         #region Having static 2D double arrays for the impostor scores with user 22 as the training (using the mean vector for user 22 in calculating the impostor scores)
@@ -2489,14 +2486,14 @@ namespace QUML_Keystrokes
             s003 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
             s004 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
             s005 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
-            s006 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv"); 
+            s006 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv");
             s007 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
             s008 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
             s009 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
             s010 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user10.csv");
-            
+
             s011 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user11.csv");
-            s012 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv"); 
+            s012 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv");
             s013 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
             s014 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
             s015 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
@@ -2504,7 +2501,7 @@ namespace QUML_Keystrokes
             s017 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user17.csv");
             s018 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
             s019 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
-            s020 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv"); 
+            s020 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv");
 
             s021 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
             s022 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
@@ -2537,7 +2534,7 @@ namespace QUML_Keystrokes
             s047 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user47.csv");
             s048 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user48.csv");
             s049 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user49.csv");
-            s050 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv"); 
+            s050 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv");
 
             s051 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user51.csv");
             s052 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user52.csv");
@@ -2548,7 +2545,7 @@ namespace QUML_Keystrokes
             s057 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user57.csv");
             s058 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user58.csv");
             s059 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
-            s060 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv"); 
+            s060 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv");
 
             s061 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
             s062 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
@@ -2592,7 +2589,7 @@ namespace QUML_Keystrokes
             s097 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user97.csv");
             s098 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user98.csv");
             s099 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user99.csv");
-            s100 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user100.csv"); 
+            s100 = dataFiltr.ParseData(@"C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user100.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine + "1 for Euclidean" + Environment.NewLine + "2 for Scaled Manhattan" + Environment.NewLine + "3 for Scaled Euclidean, or" + Environment.NewLine + "4 to Quit.");
@@ -2607,30 +2604,30 @@ namespace QUML_Keystrokes
                     break;
                 case "1":
                     UseEuclideanVerifier();
-                    break; 
+                    break;
                 case "2":
                     UseScaledManhattanVerifier();
                     break;
                 case "3":
                     UseScaledEuclideanVerifier();
-                    break; 
+                    break;
                 case "4":
                     Console.WriteLine("The program will now quit. Good Bye!");
                     Console.ReadKey();
                     break;
                 default:
-                    Console.WriteLine("No option selected, or input is not one of the options. Program will now quit."); 
+                    Console.WriteLine("No option selected, or input is not one of the options. Program will now quit.");
                     break;
             }
 
             // Default exiting of the program
-            Console.ReadKey(); 
+            Console.ReadKey();
         }
 
         #region Verifier calls
         private static void UseScaledEuclideanVerifier()
         {
-            Console.WriteLine("The Scaled Euclidean Verifier is to be coded - TBC"); 
+            Console.WriteLine("The Scaled Euclidean Verifier is to be coded - TBC");
         }
 
         private static void UseScaledManhattanVerifier()
@@ -3129,15 +3126,15 @@ namespace QUML_Keystrokes
             impostorScoresUser2User37 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s037);
             impostorScoresUser2User38 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s038);
             impostorScoresUser2User39 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s039);
-            impostorScoresUser2User40 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s040); 
+            impostorScoresUser2User40 = ScaledManhDist.CalculateImpostorScores(s002Mean, stdDevUser2, s040);
             #endregion
 
             #region User 3 Impostor scores
-            
+
             #endregion
 
             #region User 4 Impostor scores 
-            
+
             #endregion
 
             #endregion
@@ -3157,7 +3154,7 @@ namespace QUML_Keystrokes
             s007Mean = EuclidDist.CalculateMeanVector(s007);
             s008Mean = EuclidDist.CalculateMeanVector(s008);
             s009Mean = EuclidDist.CalculateMeanVector(s009);
-            s010Mean = EuclidDist.CalculateMeanVector(s010); 
+            s010Mean = EuclidDist.CalculateMeanVector(s010);
 
             s011Mean = EuclidDist.CalculateMeanVector(s011);
             s012Mean = EuclidDist.CalculateMeanVector(s012);
@@ -3213,7 +3210,7 @@ namespace QUML_Keystrokes
             s058Mean = EuclidDist.CalculateMeanVector(s058);
             s059Mean = EuclidDist.CalculateMeanVector(s059);
             s060Mean = EuclidDist.CalculateMeanVector(s060);
-            
+
             s061Mean = EuclidDist.CalculateMeanVector(s061);
             s062Mean = EuclidDist.CalculateMeanVector(s062);
             s063Mean = EuclidDist.CalculateMeanVector(s063);
@@ -3256,7 +3253,7 @@ namespace QUML_Keystrokes
             s097Mean = EuclidDist.CalculateMeanVector(s097);
             s098Mean = EuclidDist.CalculateMeanVector(s098);
             s099Mean = EuclidDist.CalculateMeanVector(s099);
-            s100Mean = EuclidDist.CalculateMeanVector(s100); 
+            s100Mean = EuclidDist.CalculateMeanVector(s100);
             #endregion
 
             #region Populating the genuine scores for each user as outlined by the Normalized Euclidean Distance
@@ -3270,7 +3267,7 @@ namespace QUML_Keystrokes
             s008Gen = EuclidDist.CalculateGenuineScores(s008, s008Mean);
             s009Gen = EuclidDist.CalculateGenuineScores(s009, s009Mean);
             s010Gen = EuclidDist.CalculateGenuineScores(s010, s010Mean);
-            
+
             s011Gen = EuclidDist.CalculateGenuineScores(s011, s011Mean);
             s012Gen = EuclidDist.CalculateGenuineScores(s012, s012Mean);
             s013Gen = EuclidDist.CalculateGenuineScores(s013, s013Mean);
@@ -3368,7 +3365,7 @@ namespace QUML_Keystrokes
             s097Gen = EuclidDist.CalculateGenuineScores(s097, s097Mean);
             s098Gen = EuclidDist.CalculateGenuineScores(s098, s098Mean);
             s099Gen = EuclidDist.CalculateGenuineScores(s099, s099Mean);
-            s100Gen = EuclidDist.CalculateGenuineScores(s100, s100Mean); 
+            s100Gen = EuclidDist.CalculateGenuineScores(s100, s100Mean);
             #endregion
 
             #region Populating the impostor score 2D double arrays
@@ -3481,7 +3478,7 @@ namespace QUML_Keystrokes
             impostorScoresUser1User97 = EuclidDist.CalculateImpostorScores(s001Mean, s097);
             impostorScoresUser1User98 = EuclidDist.CalculateImpostorScores(s001Mean, s098);
             impostorScoresUser1User99 = EuclidDist.CalculateImpostorScores(s001Mean, s099);
-            impostorScoresUser1User100 = EuclidDist.CalculateImpostorScores(s001Mean, s100); 
+            impostorScoresUser1User100 = EuclidDist.CalculateImpostorScores(s001Mean, s100);
             #endregion
 
             #region User 2 Impostor scores
@@ -3494,7 +3491,7 @@ namespace QUML_Keystrokes
             impostorScoresUser2User8 = EuclidDist.CalculateImpostorScores(s002Mean, s008);
             impostorScoresUser2User9 = EuclidDist.CalculateImpostorScores(s002Mean, s009);
             impostorScoresUser2User10 = EuclidDist.CalculateImpostorScores(s002Mean, s010);
-            
+
             impostorScoresUser2User11 = EuclidDist.CalculateImpostorScores(s002Mean, s011);
             impostorScoresUser2User12 = EuclidDist.CalculateImpostorScores(s002Mean, s012);
             impostorScoresUser2User13 = EuclidDist.CalculateImpostorScores(s002Mean, s013);
@@ -3596,7 +3593,7 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 3 Impostor scores
-            impostorScoresUser3User1 = EuclidDist.CalculateImpostorScores(s003Mean, s001); 
+            impostorScoresUser3User1 = EuclidDist.CalculateImpostorScores(s003Mean, s001);
             impostorScoresUser3User2 = EuclidDist.CalculateImpostorScores(s003Mean, s002);
             impostorScoresUser3User4 = EuclidDist.CalculateImpostorScores(s003Mean, s004);
             impostorScoresUser3User5 = EuclidDist.CalculateImpostorScores(s003Mean, s005);
@@ -3814,7 +3811,7 @@ namespace QUML_Keystrokes
             impostorScoresUser4User97 = EuclidDist.CalculateImpostorScores(s004Mean, s097);
             impostorScoresUser4User98 = EuclidDist.CalculateImpostorScores(s004Mean, s098);
             impostorScoresUser4User99 = EuclidDist.CalculateImpostorScores(s004Mean, s099);
-            impostorScoresUser4User100 = EuclidDist.CalculateImpostorScores(s004Mean, s100); 
+            impostorScoresUser4User100 = EuclidDist.CalculateImpostorScores(s004Mean, s100);
             #endregion
 
             #region User 5 Impostor scores
@@ -4480,7 +4477,7 @@ namespace QUML_Keystrokes
             impostorScoresUser10User97 = EuclidDist.CalculateImpostorScores(s010Mean, s097);
             impostorScoresUser10User98 = EuclidDist.CalculateImpostorScores(s010Mean, s098);
             impostorScoresUser10User99 = EuclidDist.CalculateImpostorScores(s010Mean, s099);
-            impostorScoresUser10User100 = EuclidDist.CalculateImpostorScores(s010Mean, s100); 
+            impostorScoresUser10User100 = EuclidDist.CalculateImpostorScores(s010Mean, s100);
             #endregion
 
             #region User 11 Impostor scores
@@ -5035,7 +5032,7 @@ namespace QUML_Keystrokes
             impostorScoresUser15User97 = EuclidDist.CalculateImpostorScores(s015Mean, s097);
             impostorScoresUser15User98 = EuclidDist.CalculateImpostorScores(s015Mean, s098);
             impostorScoresUser15User99 = EuclidDist.CalculateImpostorScores(s015Mean, s099);
-            impostorScoresUser15User100 = EuclidDist.CalculateImpostorScores(s015Mean, s100); 
+            impostorScoresUser15User100 = EuclidDist.CalculateImpostorScores(s015Mean, s100);
             #endregion
 
             #region User 16 Impostor scores
@@ -5661,11 +5658,11 @@ namespace QUML_Keystrokes
             s002Mean = ManhDist.CalculateMeanVector(s002);
             s003Mean = ManhDist.CalculateMeanVector(s003);
             s004Mean = ManhDist.CalculateMeanVector(s004);
-            s005Mean = ManhDist.CalculateMeanVector(s005); 
+            s005Mean = ManhDist.CalculateMeanVector(s005);
             s006Mean = ManhDist.CalculateMeanVector(s006);
             s007Mean = ManhDist.CalculateMeanVector(s007);
             s008Mean = ManhDist.CalculateMeanVector(s008);
-            s009Mean = ManhDist.CalculateMeanVector(s009); 
+            s009Mean = ManhDist.CalculateMeanVector(s009);
             s010Mean = ManhDist.CalculateMeanVector(s010);
 
             s011Mean = ManhDist.CalculateMeanVector(s011);
@@ -5678,17 +5675,17 @@ namespace QUML_Keystrokes
             s018Mean = ManhDist.CalculateMeanVector(s018);
             s019Mean = ManhDist.CalculateMeanVector(s019);
             s020Mean = ManhDist.CalculateMeanVector(s020);
- 
+
             s021Mean = ManhDist.CalculateMeanVector(s021);
             s022Mean = ManhDist.CalculateMeanVector(s022);
-            s023Mean = ManhDist.CalculateMeanVector(s023); 
+            s023Mean = ManhDist.CalculateMeanVector(s023);
             s024Mean = ManhDist.CalculateMeanVector(s024);
             s025Mean = ManhDist.CalculateMeanVector(s025);
-            s026Mean = ManhDist.CalculateMeanVector(s026); 
+            s026Mean = ManhDist.CalculateMeanVector(s026);
             s027Mean = ManhDist.CalculateMeanVector(s027);
             s028Mean = ManhDist.CalculateMeanVector(s028);
             s029Mean = ManhDist.CalculateMeanVector(s029);
-            s030Mean = ManhDist.CalculateMeanVector(s030); 
+            s030Mean = ManhDist.CalculateMeanVector(s030);
 
             s031Mean = ManhDist.CalculateMeanVector(s031);
             s032Mean = ManhDist.CalculateMeanVector(s032);
@@ -5721,12 +5718,12 @@ namespace QUML_Keystrokes
             s057Mean = ManhDist.CalculateMeanVector(s057);
             s058Mean = ManhDist.CalculateMeanVector(s058);
             s059Mean = ManhDist.CalculateMeanVector(s059);
-            s060Mean = ManhDist.CalculateMeanVector(s060); 
+            s060Mean = ManhDist.CalculateMeanVector(s060);
 
             s061Mean = ManhDist.CalculateMeanVector(s061);
             s062Mean = ManhDist.CalculateMeanVector(s062);
             s063Mean = ManhDist.CalculateMeanVector(s063);
-            s064Mean = ManhDist.CalculateMeanVector(s064); 
+            s064Mean = ManhDist.CalculateMeanVector(s064);
             s065Mean = ManhDist.CalculateMeanVector(s065);
             s066Mean = ManhDist.CalculateMeanVector(s066);
             s067Mean = ManhDist.CalculateMeanVector(s067);
@@ -5765,7 +5762,7 @@ namespace QUML_Keystrokes
             s097Mean = ManhDist.CalculateMeanVector(s097);
             s098Mean = ManhDist.CalculateMeanVector(s098);
             s099Mean = ManhDist.CalculateMeanVector(s099);
-            s100Mean = ManhDist.CalculateMeanVector(s100); 
+            s100Mean = ManhDist.CalculateMeanVector(s100);
             #endregion
 
             #region Calculating the genuine scores for each user
@@ -5779,7 +5776,7 @@ namespace QUML_Keystrokes
             s008Gen = ManhDist.CalculateGenuineScores(s008, s008Mean);
             s009Gen = ManhDist.CalculateGenuineScores(s009, s009Mean);
             s010Gen = ManhDist.CalculateGenuineScores(s010, s010Mean);
-            
+
             s011Gen = ManhDist.CalculateGenuineScores(s011, s011Mean);
             s012Gen = ManhDist.CalculateGenuineScores(s012, s012Mean);
             s013Gen = ManhDist.CalculateGenuineScores(s013, s013Mean);
@@ -5793,18 +5790,18 @@ namespace QUML_Keystrokes
 
             s021Gen = ManhDist.CalculateGenuineScores(s021, s021Mean);
             s022Gen = ManhDist.CalculateGenuineScores(s022, s022Mean);
-            s023Gen = ManhDist.CalculateGenuineScores(s023, s023Mean); 
+            s023Gen = ManhDist.CalculateGenuineScores(s023, s023Mean);
             s024Gen = ManhDist.CalculateGenuineScores(s024, s024Mean);
             s025Gen = ManhDist.CalculateGenuineScores(s025, s025Mean);
-            s026Gen = ManhDist.CalculateGenuineScores(s026, s026Mean); 
+            s026Gen = ManhDist.CalculateGenuineScores(s026, s026Mean);
             s027Gen = ManhDist.CalculateGenuineScores(s027, s027Mean);
             s028Gen = ManhDist.CalculateGenuineScores(s028, s028Mean);
             s029Gen = ManhDist.CalculateGenuineScores(s029, s029Mean);
-            s030Gen = ManhDist.CalculateGenuineScores(s030, s030Mean); 
+            s030Gen = ManhDist.CalculateGenuineScores(s030, s030Mean);
 
             s031Gen = ManhDist.CalculateGenuineScores(s031, s031Mean);
             s032Gen = ManhDist.CalculateGenuineScores(s032, s032Mean);
-            s033Gen = ManhDist.CalculateGenuineScores(s033, s033Mean); 
+            s033Gen = ManhDist.CalculateGenuineScores(s033, s033Mean);
             s034Gen = ManhDist.CalculateGenuineScores(s034, s034Mean);
             s035Gen = ManhDist.CalculateGenuineScores(s035, s035Mean);
             s036Gen = ManhDist.CalculateGenuineScores(s036, s036Mean);
@@ -5833,12 +5830,12 @@ namespace QUML_Keystrokes
             s057Gen = ManhDist.CalculateGenuineScores(s057, s057Mean);
             s058Gen = ManhDist.CalculateGenuineScores(s058, s058Mean);
             s059Gen = ManhDist.CalculateGenuineScores(s059, s059Mean);
-            s060Gen = ManhDist.CalculateGenuineScores(s060, s060Mean); 
+            s060Gen = ManhDist.CalculateGenuineScores(s060, s060Mean);
 
             s061Gen = ManhDist.CalculateGenuineScores(s061, s061Mean);
             s062Gen = ManhDist.CalculateGenuineScores(s062, s062Mean);
             s063Gen = ManhDist.CalculateGenuineScores(s063, s063Mean);
-            s064Gen = ManhDist.CalculateGenuineScores(s064, s064Mean); 
+            s064Gen = ManhDist.CalculateGenuineScores(s064, s064Mean);
             s065Gen = ManhDist.CalculateGenuineScores(s065, s065Mean);
             s066Gen = ManhDist.CalculateGenuineScores(s066, s066Mean);
             s067Gen = ManhDist.CalculateGenuineScores(s067, s067Mean);
@@ -5877,7 +5874,7 @@ namespace QUML_Keystrokes
             s097Gen = ManhDist.CalculateGenuineScores(s097, s097Mean);
             s098Gen = ManhDist.CalculateGenuineScores(s098, s098Mean);
             s099Gen = ManhDist.CalculateGenuineScores(s099, s099Mean);
-            s100Gen = ManhDist.CalculateGenuineScores(s100, s100Mean); 
+            s100Gen = ManhDist.CalculateGenuineScores(s100, s100Mean);
             #endregion
 
             #region Calculating the impostor scores next - and populating them
@@ -5990,7 +5987,7 @@ namespace QUML_Keystrokes
             impostorScoresUser1User97 = ManhDist.CalculateImpostorScores(s001Mean, s097);
             impostorScoresUser1User98 = ManhDist.CalculateImpostorScores(s001Mean, s098);
             impostorScoresUser1User99 = ManhDist.CalculateImpostorScores(s001Mean, s099);
-            impostorScoresUser1User100 = ManhDist.CalculateImpostorScores(s001Mean, s100); 
+            impostorScoresUser1User100 = ManhDist.CalculateImpostorScores(s001Mean, s100);
             #endregion
 
             #region User 2 Impostor scores
@@ -6028,7 +6025,7 @@ namespace QUML_Keystrokes
 
             impostorScoresUser2User31 = ManhDist.CalculateImpostorScores(s002Mean, s031);
             impostorScoresUser2User32 = ManhDist.CalculateImpostorScores(s002Mean, s032);
-            impostorScoresUser2User33 = ManhDist.CalculateImpostorScores(s002Mean, s033); 
+            impostorScoresUser2User33 = ManhDist.CalculateImpostorScores(s002Mean, s033);
             impostorScoresUser2User34 = ManhDist.CalculateImpostorScores(s002Mean, s034);
             impostorScoresUser2User35 = ManhDist.CalculateImpostorScores(s002Mean, s035);
             impostorScoresUser2User36 = ManhDist.CalculateImpostorScores(s002Mean, s036);
@@ -6101,7 +6098,7 @@ namespace QUML_Keystrokes
             impostorScoresUser2User97 = ManhDist.CalculateImpostorScores(s002Mean, s097);
             impostorScoresUser2User98 = ManhDist.CalculateImpostorScores(s002Mean, s098);
             impostorScoresUser2User99 = ManhDist.CalculateImpostorScores(s002Mean, s099);
-            impostorScoresUser2User100 = ManhDist.CalculateImpostorScores(s002Mean, s100); 
+            impostorScoresUser2User100 = ManhDist.CalculateImpostorScores(s002Mean, s100);
             #endregion
 
             #region User 3 Impostor scores
@@ -6135,7 +6132,7 @@ namespace QUML_Keystrokes
             impostorScoresUser3User27 = ManhDist.CalculateImpostorScores(s003Mean, s027);
             impostorScoresUser3User28 = ManhDist.CalculateImpostorScores(s003Mean, s028);
             impostorScoresUser3User29 = ManhDist.CalculateImpostorScores(s003Mean, s029);
-            impostorScoresUser3User30 = ManhDist.CalculateImpostorScores(s003Mean, s030); 
+            impostorScoresUser3User30 = ManhDist.CalculateImpostorScores(s003Mean, s030);
 
             impostorScoresUser3User31 = ManhDist.CalculateImpostorScores(s003Mean, s031);
             impostorScoresUser3User32 = ManhDist.CalculateImpostorScores(s003Mean, s032);
@@ -6434,7 +6431,7 @@ namespace QUML_Keystrokes
             impostorScoresUser5User97 = ManhDist.CalculateImpostorScores(s005Mean, s097);
             impostorScoresUser5User98 = ManhDist.CalculateImpostorScores(s005Mean, s098);
             impostorScoresUser5User99 = ManhDist.CalculateImpostorScores(s005Mean, s099);
-            impostorScoresUser5User100 = ManhDist.CalculateImpostorScores(s005Mean, s100); 
+            impostorScoresUser5User100 = ManhDist.CalculateImpostorScores(s005Mean, s100);
             #endregion
 
             #region User 6 Impostor scores
@@ -6490,7 +6487,7 @@ namespace QUML_Keystrokes
             impostorScoresUser6User47 = ManhDist.CalculateImpostorScores(s005Mean, s047);
             impostorScoresUser6User48 = ManhDist.CalculateImpostorScores(s005Mean, s048);
             impostorScoresUser6User49 = ManhDist.CalculateImpostorScores(s005Mean, s049);
-            impostorScoresUser6User50 = ManhDist.CalculateImpostorScores(s005Mean, s050); 
+            impostorScoresUser6User50 = ManhDist.CalculateImpostorScores(s005Mean, s050);
             #endregion
 
             #region User 7 Impostor scores
@@ -6601,7 +6598,7 @@ namespace QUML_Keystrokes
             impostorScoresUser7User97 = ManhDist.CalculateImpostorScores(s007Mean, s097);
             impostorScoresUser7User98 = ManhDist.CalculateImpostorScores(s007Mean, s098);
             impostorScoresUser7User99 = ManhDist.CalculateImpostorScores(s007Mean, s099);
-            impostorScoresUser7User100 = ManhDist.CalculateImpostorScores(s007Mean, s100); 
+            impostorScoresUser7User100 = ManhDist.CalculateImpostorScores(s007Mean, s100);
             #endregion
 
             #region User 8 Impostor scores
@@ -7489,7 +7486,7 @@ namespace QUML_Keystrokes
             impostorScoresUser15User97 = ManhDist.CalculateImpostorScores(s015Mean, s097);
             impostorScoresUser15User98 = ManhDist.CalculateImpostorScores(s015Mean, s098);
             impostorScoresUser15User99 = ManhDist.CalculateImpostorScores(s015Mean, s099);
-            impostorScoresUser15User100 = ManhDist.CalculateImpostorScores(s015Mean, s100); 
+            impostorScoresUser15User100 = ManhDist.CalculateImpostorScores(s015Mean, s100);
             #endregion
 
             #region User 16 Impostor scores
@@ -8044,7 +8041,7 @@ namespace QUML_Keystrokes
             impostorScoresUser20User97 = ManhDist.CalculateImpostorScores(s020Mean, s097);
             impostorScoresUser20User98 = ManhDist.CalculateImpostorScores(s020Mean, s098);
             impostorScoresUser20User99 = ManhDist.CalculateImpostorScores(s020Mean, s099);
-            impostorScoresUser20User100 = ManhDist.CalculateImpostorScores(s020Mean, s100); 
+            impostorScoresUser20User100 = ManhDist.CalculateImpostorScores(s020Mean, s100);
             #endregion
 
             #region User 21 Impostor scores
@@ -8155,7 +8152,7 @@ namespace QUML_Keystrokes
             impostorScoresUser21User97 = ManhDist.CalculateImpostorScores(s021Mean, s097);
             impostorScoresUser21User98 = ManhDist.CalculateImpostorScores(s021Mean, s098);
             impostorScoresUser21User99 = ManhDist.CalculateImpostorScores(s021Mean, s099);
-            impostorScoresUser21User100 = ManhDist.CalculateImpostorScores(s021Mean, s100); 
+            impostorScoresUser21User100 = ManhDist.CalculateImpostorScores(s021Mean, s100);
             #endregion
 
             #region User 22 Impostor scores
@@ -8221,8 +8218,13 @@ namespace QUML_Keystrokes
             impostorScoresUser22User56 = ManhDist.CalculateImpostorScores(s022Mean, s056);
             impostorScoresUser22User57 = ManhDist.CalculateImpostorScores(s022Mean, s057);
             impostorScoresUser22User58 = ManhDist.CalculateImpostorScores(s022Mean, s058);
+            impostorScoresUser22User59 = ManhDist.CalculateImpostorScores(s022Mean, s059);
+            impostorScoresUser22User60 = ManhDist.CalculateImpostorScores(s022Mean, s060);
+            impostorScoresUser22User61 = ManhDist.CalculateImpostorScores(s022Mean, s061);
+            impostorScoresUser22User62 = ManhDist.CalculateImpostorScores(s022Mean, s062);
+            impostorScoresUser22User63 = ManhDist.CalculateImpostorScores(s022Mean, s063);
             #endregion
-            
+
             #endregion
         }
 

@@ -5,3 +5,10 @@ C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\o
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojResolveAssemblyReference.cache
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.dll
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.pdb
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.exe
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.pdb
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.exe
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.pdb
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.dll
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.pdb
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojResolveAssemblyReference.cache

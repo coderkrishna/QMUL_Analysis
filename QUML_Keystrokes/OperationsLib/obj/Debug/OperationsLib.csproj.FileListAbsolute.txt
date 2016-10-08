@@ -3,3 +3,8 @@ C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
 C:\Users\Pranav\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojResolveAssemblyReference.cache
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.dll
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.pdb
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojResolveAssemblyReference.cache
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
+C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
