@@ -2438,7 +2438,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser21User98; static double[,] impostorScoresUser21User99; static double[,] impostorScoresUser21User100;
         #endregion
 
-        #region Having static 2D double arrays for the impostor scores with user 22 as the training (using the mean vector for user 22 in calculating the impostor scores)
+        #region Having static 2D double arrays for impostor scores with user 22 as training (using mean vector for user 22 calc the impostor scores)
         static double[,] impostorScoresUser22User1; static double[,] impostorScoresUser22User2; static double[,] impostorScoresUser22User3;
         static double[,] impostorScoresUser22User4; static double[,] impostorScoresUser22User5; static double[,] impostorScoresUser22User6;
         static double[,] impostorScoresUser22User7; static double[,] impostorScoresUser22User8; static double[,] impostorScoresUser22User9;
@@ -8223,6 +8223,15 @@ namespace QUML_Keystrokes
             impostorScoresUser22User61 = ManhDist.CalculateImpostorScores(s022Mean, s061);
             impostorScoresUser22User62 = ManhDist.CalculateImpostorScores(s022Mean, s062);
             impostorScoresUser22User63 = ManhDist.CalculateImpostorScores(s022Mean, s063);
+            impostorScoresUser22User64 = ManhDist.CalculateImpostorScores(s022Mean, s064);
+            impostorScoresUser22User65 = ManhDist.CalculateImpostorScores(s022Mean, s065);
+            impostorScoresUser22User66 = ManhDist.CalculateImpostorScores(s022Mean, s066);
+            impostorScoresUser22User67 = ManhDist.CalculateImpostorScores(s022Mean, s067);
+            impostorScoresUser22User68 = ManhDist.CalculateImpostorScores(s022Mean, s068);
+            impostorScoresUser22User69 = ManhDist.CalculateImpostorScores(s022Mean, s069);
+            impostorScoresUser22User70 = ManhDist.CalculateImpostorScores(s022Mean, s070);
+
+            impostorScoresUser22User71 = ManhDist.CalculateImpostorScores(s022Mean, s071); 
             #endregion
 
             #endregion
