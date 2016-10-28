@@ -2431,7 +2431,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser23User32; static double[,] impostorScoresUser23User33; static double[,] impostorScoresUser23User34;
         static double[,] impostorScoresUser23User35; static double[,] impostorScoresUser23User36; static double[,] impostorScoresUser23User37;
         static double[,] impostorScoresUser23User38; static double[,] impostorScoresUser23User39; static double[,] impostorScoresUser23User40;
-        static double[,] impostorScoresUser23User41; static double[,] impostorScoresUser23User42;
+        static double[,] impostorScoresUser23User41; static double[,] impostorScoresUser23User42; static double[,] impostorScoresUser23User43; 
         #endregion
 
         #endregion
@@ -8292,6 +8292,7 @@ namespace QUML_Keystrokes
             impostorScoresUser23User40 = ManhDist.CalculateImpostorScores(s023Mean, s040);
             impostorScoresUser23User41 = ManhDist.CalculateImpostorScores(s023Mean, s041);
             impostorScoresUser23User42 = ManhDist.CalculateImpostorScores(s023Mean, s042);
+            impostorScoresUser23User43 = ManhDist.CalculateImpostorScores(s023Mean, s043);
             #endregion
 
             #endregion
