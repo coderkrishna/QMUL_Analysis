@@ -2436,6 +2436,9 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser23User44; static double[,] impostorScoresUser23User45; static double[,] impostorScoresUser23User46;
         static double[,] impostorScoresUser23User47; static double[,] impostorScoresUser23User48; static double[,] impostorScoresUser23User49;
         static double[,] impostorScoresUser23User50; static double[,] impostorScoresUser23User51; static double[,] impostorScoresUser23User52;
+        static double[,] impostorScoresUser23User53; static double[,] impostorScoresUser23User54; static double[,] impostorScoresUser23User55;
+        static double[,] impostorScoresUser23User56; static double[,] impostorScoresUser23User57; static double[,] impostorScoresUser23User58;
+        static double[,] impostorScoresUser23User59; static double[,] impostorScoresUser23User60;
         #endregion
 
         #endregion
@@ -2594,12 +2597,14 @@ namespace QUML_Keystrokes
             Console.ReadKey();
         }
 
-        #region Verifier calls
+        #region Scaled Euclidean Verifier
         private static void UseScaledEuclideanVerifier()
         {
             Console.WriteLine("The Scaled Euclidean Verifier is to be coded - TBC");
         }
+        #endregion
 
+        #region Scaled Manhattan Verifier
         private static void UseScaledManhattanVerifier()
         {
             // Making reference to the ScaledManhattanDistance class
@@ -3126,7 +3131,9 @@ namespace QUML_Keystrokes
 
             #endregion
         }
+        #endregion
 
+        #region Euclidean Verifier
         private static void UseEuclideanVerifier()
         {
             EuclideanDistance EuclidDist = new EuclideanDistance();
@@ -5635,7 +5642,9 @@ namespace QUML_Keystrokes
 
             #endregion
         }
+        #endregion
 
+        #region Manhattan Verifier
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
@@ -8306,12 +8315,12 @@ namespace QUML_Keystrokes
             impostorScoresUser23User49 = ManhDist.CalculateImpostorScores(s023Mean, s049);
             impostorScoresUser23User50 = ManhDist.CalculateImpostorScores(s023Mean, s050);
             impostorScoresUser23User51 = ManhDist.CalculateImpostorScores(s023Mean, s051);
-            impostorScoresUser23User52 = ManhDist.CalculateImpostorScores(s023Mean, s052); 
+            impostorScoresUser23User52 = ManhDist.CalculateImpostorScores(s023Mean, s052);
+            impostorScoresUser23User53 = ManhDist.CalculateImpostorScores(s023Mean, s053);
             #endregion
 
             #endregion
         }
-
         #endregion
     }
 }
