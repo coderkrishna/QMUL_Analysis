@@ -14,3 +14,8 @@ C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bi
 C:\Users\pkris\Documents\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojResolveAssemblyReference.cache
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.exe
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.pdb
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.exe
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.pdb
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.dll
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.pdb
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojResolveAssemblyReference.cache
