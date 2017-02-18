@@ -9,6 +9,7 @@
  * -------  ----------  ------- -------------- 
  * 1.12.1   2016-08-10  PKR     Making further bulk changes with the use of the GIT tools right now
  * 1.12.2   2016-10-21  PKR     Futher bulk changes with more variables to be added and populated
+ * 2.0.0    2017-02-17  PKR     Ensuring to have a printer class to take the double 2D arrays and convert them into 2D string arrays
  */
 
 using System;
@@ -2442,6 +2443,18 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser23User62; static double[,] impostorScoresUser23User63; static double[,] impostorScoresUser23User64;
         static double[,] impostorScoresUser23User65; static double[,] impostorScoresUser23User66; static double[,] impostorScoresUser23User67;
         static double[,] impostorScoresUser23User68; static double[,] impostorScoresUser23User69; static double[,] impostorScoresUser23User70;
+
+        static double[,] impostorScoresUser23User71; static double[,] impostorScoresUser23User72; static double[,] impostorScoresUser23User73;
+        static double[,] impostorScoresUser23User74; static double[,] impostorScoresUser23User75; static double[,] impostorScoresUser23User76;
+        static double[,] impostorScoresUser23User77; static double[,] impostorScoresUser23User78; static double[,] impostorScoresUser23User79;
+        static double[,] impostorScoresUser23User80; static double[,] impostorScoresUser23User81; static double[,] impostorScoresUser23User82;
+        static double[,] impostorScoresUser23user83; static double[,] impostorScoresUser23User84; static double[,] impostorScoresUser23User85;
+
+        static double[,] impostorScoresUser23User86; static double[,] impostorScoresUser23User87; static double[,] impostorScoresUser23User88;
+        static double[,] impostorScoresUser23User89; static double[,] impostorScoresUser23User90; static double[,] impostorScoresUser23User91;
+        static double[,] impostorScoresUser23User92; static double[,] impostorScoresUser23User93; static double[,] impostorScoresUser23User94;
+        static double[,] impostorScoresUser23User95; static double[,] impostorScoresUser23User96; static double[,] impostorScoresUser23User97;
+        static double[,] impostorScoresUser23User98; static double[,] impostorScoresUser23User99; static double[,] impostorScoresUser23User100;
         #endregion
 
         #endregion
@@ -5651,6 +5664,7 @@ namespace QUML_Keystrokes
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
+            Printer outpt = new Printer();
 
             #region Populating the mean arrays for each user
             s001Mean = ManhDist.CalculateMeanVector(s001);
@@ -8341,8 +8355,60 @@ namespace QUML_Keystrokes
             impostorScoresUser23User68 = ManhDist.CalculateImpostorScores(s023Mean, s068);
             impostorScoresUser23User69 = ManhDist.CalculateImpostorScores(s023Mean, s069);
             impostorScoresUser23User70 = ManhDist.CalculateImpostorScores(s023Mean, s070);
+
+            impostorScoresUser23User71 = ManhDist.CalculateImpostorScores(s023Mean, s071);
+            impostorScoresUser23User72 = ManhDist.CalculateImpostorScores(s023Mean, s072);
+            impostorScoresUser23User73 = ManhDist.CalculateImpostorScores(s023Mean, s073);
+            impostorScoresUser23User74 = ManhDist.CalculateImpostorScores(s023Mean, s074);
+            impostorScoresUser23User75 = ManhDist.CalculateImpostorScores(s023Mean, s075);
+            impostorScoresUser23User76 = ManhDist.CalculateImpostorScores(s023Mean, s076);
+            impostorScoresUser23User77 = ManhDist.CalculateImpostorScores(s023Mean, s077);
+            impostorScoresUser23User78 = ManhDist.CalculateImpostorScores(s023Mean, s078);
+            impostorScoresUser23User79 = ManhDist.CalculateImpostorScores(s023Mean, s079);
+            impostorScoresUser23User80 = ManhDist.CalculateImpostorScores(s023Mean, s080);
             #endregion
 
+            #endregion
+
+            #region Showing the output of the genuine scores
+            Console.WriteLine("Enter a number between 1 and 100 to view the genuine scores:");
+
+            int user = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("User chosen: " + user);
+            switch (user)
+            {
+                case 1:
+                    string[,] res1 = outpt.Output(s001Gen);
+
+                    for (int i = 0; i < res1.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < res1.GetLength(1); j++)
+                        {
+                            Console.Write(res1[i, j] + " ");
+                        }
+
+                        Console.WriteLine();
+                    }
+
+                    Console.ReadKey();
+                    break;
+                case 2:
+                    string[,] res2 = outpt.Output(s002Gen);
+
+                    for (int i = 0; i < res2.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < res2.GetLength(1); j++)
+                        {
+                            Console.Write(res2[i, j] + " ");
+                        }
+
+                        Console.WriteLine();
+                    }
+                    break;
+                default:
+                    break;
+            }
             #endregion
         }
         #endregion

@@ -43,6 +43,7 @@
     <Compile Include="DataFiltering.cs" />
     <Compile Include="EuclideanDistance.cs" />
     <Compile Include="ManhattanDistance.cs" />
+    <Compile Include="Printer.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ScaledManhattanDistance.cs" />
   </ItemGroup>
