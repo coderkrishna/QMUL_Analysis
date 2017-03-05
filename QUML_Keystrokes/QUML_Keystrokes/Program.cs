@@ -28,50 +28,26 @@ namespace QUML_Keystrokes
         #region Static 2D double arrays that will be initialized and used
 
         #region Static 2D Double arrays for all of the users
-        static double[,] s001; static double[,] s002; static double[,] s003;
-        static double[,] s004; static double[,] s005; static double[,] s006;
-        static double[,] s007; static double[,] s008; static double[,] s009;
+        static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
+        static double[,] s007; static double[,] s008; static double[,] s009; static double[,] s010; static double[,] s011; static double[,] s012;
+        static double[,] s013; static double[,] s014; static double[,] s015; static double[,] s016; static double[,] s017; static double[,] s018;
+        static double[,] s019; static double[,] s020; static double[,] s021; static double[,] s022; static double[,] s023; static double[,] s024;
+        static double[,] s025; static double[,] s026; static double[,] s027; static double[,] s028; static double[,] s029; static double[,] s030;
 
-        static double[,] s010; static double[,] s011; static double[,] s012;
-        static double[,] s013; static double[,] s014; static double[,] s015;
-        static double[,] s016; static double[,] s017; static double[,] s018;
-        static double[,] s019; static double[,] s020; static double[,] s021;
+        static double[,] s031; static double[,] s032; static double[,] s033; static double[,] s034; static double[,] s035; static double[,] s036;
+        static double[,] s037; static double[,] s038; static double[,] s039; static double[,] s040; static double[,] s041; static double[,] s042;
+        static double[,] s043; static double[,] s044; static double[,] s045; static double[,] s046; static double[,] s047; static double[,] s048;
+        static double[,] s049; static double[,] s050; static double[,] s051; static double[,] s052; static double[,] s053; static double[,] s054;
+        static double[,] s055; static double[,] s056; static double[,] s057; static double[,] s058; static double[,] s059; static double[,] s060;
 
-        static double[,] s022; static double[,] s023; static double[,] s024;
-        static double[,] s025; static double[,] s026; static double[,] s027;
-        static double[,] s028; static double[,] s029; static double[,] s030;
+        static double[,] s061; static double[,] s062; static double[,] s063; static double[,] s064; static double[,] s065; static double[,] s066;
+        static double[,] s067; static double[,] s068; static double[,] s069; static double[,] s070; static double[,] s071; static double[,] s072;
+        static double[,] s073; static double[,] s074; static double[,] s075; static double[,] s076; static double[,] s077; static double[,] s078;
+        static double[,] s079; static double[,] s080; static double[,] s081; static double[,] s082; static double[,] s083; static double[,] s084;
 
-        static double[,] s031; static double[,] s032; static double[,] s033;
-        static double[,] s034; static double[,] s035; static double[,] s036;
-        static double[,] s037; static double[,] s038; static double[,] s039;
-
-        static double[,] s040; static double[,] s041; static double[,] s042;
-        static double[,] s043; static double[,] s044; static double[,] s045;
-        static double[,] s046; static double[,] s047; static double[,] s048;
-
-        static double[,] s049; static double[,] s050; static double[,] s051;
-        static double[,] s052; static double[,] s053; static double[,] s054;
-        static double[,] s055; static double[,] s056; static double[,] s057;
-
-        static double[,] s058; static double[,] s059; static double[,] s060;
-        static double[,] s061; static double[,] s062; static double[,] s063;
-        static double[,] s064; static double[,] s065; static double[,] s066;
-
-        static double[,] s067; static double[,] s068; static double[,] s069;
-        static double[,] s070; static double[,] s071; static double[,] s072;
-        static double[,] s073; static double[,] s074; static double[,] s075;
-
-        static double[,] s076; static double[,] s077; static double[,] s078;
-        static double[,] s079; static double[,] s080; static double[,] s081;
-        static double[,] s082; static double[,] s083; static double[,] s084;
-
-        static double[,] s085; static double[,] s086; static double[,] s087;
-        static double[,] s088; static double[,] s089; static double[,] s090;
-        static double[,] s091; static double[,] s092; static double[,] s093;
-
-        static double[,] s094; static double[,] s095; static double[,] s096;
-        static double[,] s097; static double[,] s098; static double[,] s099;
-        static double[,] s100;
+        static double[,] s085; static double[,] s086; static double[,] s087; static double[,] s088; static double[,] s089; static double[,] s090;
+        static double[,] s091; static double[,] s092; static double[,] s093; static double[,] s094; static double[,] s095; static double[,] s096;
+        static double[,] s097; static double[,] s098; static double[,] s099; static double[,] s100;
         #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
@@ -2448,13 +2424,18 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser23User74; static double[,] impostorScoresUser23User75; static double[,] impostorScoresUser23User76;
         static double[,] impostorScoresUser23User77; static double[,] impostorScoresUser23User78; static double[,] impostorScoresUser23User79;
         static double[,] impostorScoresUser23User80; static double[,] impostorScoresUser23User81; static double[,] impostorScoresUser23User82;
-        static double[,] impostorScoresUser23user83; static double[,] impostorScoresUser23User84; static double[,] impostorScoresUser23User85;
+        static double[,] impostorScoresUser23User83; static double[,] impostorScoresUser23User84; static double[,] impostorScoresUser23User85;
 
         static double[,] impostorScoresUser23User86; static double[,] impostorScoresUser23User87; static double[,] impostorScoresUser23User88;
         static double[,] impostorScoresUser23User89; static double[,] impostorScoresUser23User90; static double[,] impostorScoresUser23User91;
         static double[,] impostorScoresUser23User92; static double[,] impostorScoresUser23User93; static double[,] impostorScoresUser23User94;
         static double[,] impostorScoresUser23User95; static double[,] impostorScoresUser23User96; static double[,] impostorScoresUser23User97;
         static double[,] impostorScoresUser23User98; static double[,] impostorScoresUser23User99; static double[,] impostorScoresUser23User100;
+        #endregion
+
+        #region Having static 2D double arrays for impostor scores with user 24 as training (using the mean vector user 24 to calc the impostor scores)
+        static double[,] impostorScoresUser24User1; static double[,] impostorScoresUser24User2; static double[,] impostorScoresUser24User3;
+        static double[,] impostorScoresUser24User4; static double[,] impostorScoresUser24User5; static double[,] impostorScoresUser24User6;
         #endregion
 
         #endregion
@@ -8366,6 +8347,37 @@ namespace QUML_Keystrokes
             impostorScoresUser23User78 = ManhDist.CalculateImpostorScores(s023Mean, s078);
             impostorScoresUser23User79 = ManhDist.CalculateImpostorScores(s023Mean, s079);
             impostorScoresUser23User80 = ManhDist.CalculateImpostorScores(s023Mean, s080);
+
+            impostorScoresUser23User81 = ManhDist.CalculateImpostorScores(s023Mean, s081);
+            impostorScoresUser23User82 = ManhDist.CalculateImpostorScores(s023Mean, s082);
+            impostorScoresUser23User83 = ManhDist.CalculateImpostorScores(s023Mean, s083);
+            impostorScoresUser23User84 = ManhDist.CalculateImpostorScores(s023Mean, s084);
+            impostorScoresUser23User85 = ManhDist.CalculateImpostorScores(s023Mean, s085);
+            impostorScoresUser23User86 = ManhDist.CalculateImpostorScores(s023Mean, s086);
+            impostorScoresUser23User87 = ManhDist.CalculateImpostorScores(s023Mean, s087);
+            impostorScoresUser23User88 = ManhDist.CalculateImpostorScores(s023Mean, s088);
+            impostorScoresUser23User89 = ManhDist.CalculateImpostorScores(s023Mean, s089);
+            impostorScoresUser23User90 = ManhDist.CalculateImpostorScores(s023Mean, s090);
+
+            impostorScoresUser23User91 = ManhDist.CalculateImpostorScores(s023Mean, s091);
+            impostorScoresUser23User92 = ManhDist.CalculateImpostorScores(s023Mean, s092);
+            impostorScoresUser23User93 = ManhDist.CalculateImpostorScores(s023Mean, s093);
+            impostorScoresUser23User94 = ManhDist.CalculateImpostorScores(s023Mean, s094);
+            impostorScoresUser23User95 = ManhDist.CalculateImpostorScores(s023Mean, s095);
+            impostorScoresUser23User96 = ManhDist.CalculateImpostorScores(s023Mean, s096);
+            impostorScoresUser23User97 = ManhDist.CalculateImpostorScores(s023Mean, s097);
+            impostorScoresUser23User98 = ManhDist.CalculateImpostorScores(s023Mean, s098);
+            impostorScoresUser23User99 = ManhDist.CalculateImpostorScores(s023Mean, s099);
+            impostorScoresUser23User100 = ManhDist.CalculateImpostorScores(s023Mean, s100);
+            #endregion
+
+            #region User 24 Impostor scores
+            impostorScoresUser24User1 = ManhDist.CalculateImpostorScores(s024Mean, s001);
+            impostorScoresUser24User2 = ManhDist.CalculateImpostorScores(s024Mean, s002);
+            impostorScoresUser24User3 = ManhDist.CalculateImpostorScores(s024Mean, s003);
+            impostorScoresUser24User4 = ManhDist.CalculateImpostorScores(s024Mean, s004);
+            impostorScoresUser24User5 = ManhDist.CalculateImpostorScores(s024Mean, s005);
+            impostorScoresUser24User6 = ManhDist.CalculateImpostorScores(s024Mean, s006);
             #endregion
 
             #endregion
@@ -8379,13 +8391,11 @@ namespace QUML_Keystrokes
             switch (user)
             {
                 case 1:
-                    string[,] res1 = outpt.Output(s001Gen);
-
-                    for (int i = 0; i < res1.GetLength(0); i++)
+                    for (int i = 0; i < s001Gen.GetLength(0); i++)
                     {
-                        for (int j = 0; j < res1.GetLength(1); j++)
+                        for (int j = 0; j < s001Gen.GetLength(1); j++)
                         {
-                            Console.Write(res1[i, j] + " ");
+                            Console.Write(s001Gen[i, j] + " ");
                         }
 
                         Console.WriteLine();
@@ -8394,19 +8404,30 @@ namespace QUML_Keystrokes
                     Console.ReadKey();
                     break;
                 case 2:
-                    string[,] res2 = outpt.Output(s002Gen);
-
-                    for (int i = 0; i < res2.GetLength(0); i++)
+                    for (int i = 0; i < s002Gen.GetLength(0); i++)
                     {
-                        for (int j = 0; j < res2.GetLength(1); j++)
+                        for (int j = 0; j < s002Gen.GetLength(1); j++)
                         {
-                            Console.Write(res2[i, j] + " ");
+                            Console.Write(s002Gen[i, j] + " ");
+                        }
+
+                        Console.WriteLine();
+                    }
+                    break;
+                case 3:
+                    for (int i = 0; i < s003Gen.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < s003Gen.GetLength(1); j++)
+                        {
+                            Console.Write(s003Gen[i, j] + " ");
                         }
 
                         Console.WriteLine();
                     }
                     break;
                 default:
+                    Console.WriteLine("There was no choice made...the program will now exit!");
+                    Console.ReadKey();
                     break;
             }
             #endregion
