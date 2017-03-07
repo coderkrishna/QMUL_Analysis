@@ -275,70 +275,41 @@ namespace QUML_Keystrokes
         #endregion
 
         #region Having static 2D double arrays for impostor scores with user 2 as training (using the mean vector user 2 to calc the impostor scores)
-        static double[,] impostorScoresUser2User1;
-        static double[,] impostorScoresUser2User3;
-        static double[,] impostorScoresUser2User4;
-        static double[,] impostorScoresUser2User5;
-        static double[,] impostorScoresUser2User6;
-        static double[,] impostorScoresUser2User7;
-        static double[,] impostorScoresUser2User8;
-        static double[,] impostorScoresUser2User9;
+        static double[,] impostorScoresUser2User1; static double[,] impostorScoresUser2User3;
+        static double[,] impostorScoresUser2User4; static double[,] impostorScoresUser2User5;
+        static double[,] impostorScoresUser2User6; static double[,] impostorScoresUser2User7;
+        static double[,] impostorScoresUser2User8; static double[,] impostorScoresUser2User9;
         static double[,] impostorScoresUser2User10;
 
-        static double[,] impostorScoresUser2User11;
-        static double[,] impostorScoresUser2User12;
-        static double[,] impostorScoresUser2User13;
-        static double[,] impostorScoresUser2User14;
-        static double[,] impostorScoresUser2User15;
-        static double[,] impostorScoresUser2User16;
-        static double[,] impostorScoresUser2User17;
-        static double[,] impostorScoresUser2User18;
-        static double[,] impostorScoresUser2User19;
-        static double[,] impostorScoresUser2User20;
+        static double[,] impostorScoresUser2User11; static double[,] impostorScoresUser2User12;
+        static double[,] impostorScoresUser2User13; static double[,] impostorScoresUser2User14;
+        static double[,] impostorScoresUser2User15; static double[,] impostorScoresUser2User16;
+        static double[,] impostorScoresUser2User17; static double[,] impostorScoresUser2User18;
+        static double[,] impostorScoresUser2User19; static double[,] impostorScoresUser2User20;
 
-        static double[,] impostorScoresUser2User21;
-        static double[,] impostorScoresUser2User22;
-        static double[,] impostorScoresUser2User23;
-        static double[,] impostorScoresUser2User24;
-        static double[,] impostorScoresUser2User25;
-        static double[,] impostorScoresUser2User26;
-        static double[,] impostorScoresUser2User27;
-        static double[,] impostorScoresUser2User28;
-        static double[,] impostorScoresUser2User29;
-        static double[,] impostorScoresUser2User30;
+        static double[,] impostorScoresUser2User21; static double[,] impostorScoresUser2User22;
+        static double[,] impostorScoresUser2User23; static double[,] impostorScoresUser2User24;
+        static double[,] impostorScoresUser2User25; static double[,] impostorScoresUser2User26;
+        static double[,] impostorScoresUser2User27; static double[,] impostorScoresUser2User28;
+        static double[,] impostorScoresUser2User29; static double[,] impostorScoresUser2User30;
 
-        static double[,] impostorScoresUser2User31;
-        static double[,] impostorScoresUser2User32;
-        static double[,] impostorScoresUser2User33;
-        static double[,] impostorScoresUser2User34;
-        static double[,] impostorScoresUser2User35;
-        static double[,] impostorScoresUser2User36;
-        static double[,] impostorScoresUser2User37;
-        static double[,] impostorScoresUser2User38;
-        static double[,] impostorScoresUser2User39;
-        static double[,] impostorScoresUser2User40;
+        static double[,] impostorScoresUser2User31; static double[,] impostorScoresUser2User32;
+        static double[,] impostorScoresUser2User33; static double[,] impostorScoresUser2User34;
+        static double[,] impostorScoresUser2User35; static double[,] impostorScoresUser2User36;
+        static double[,] impostorScoresUser2User37; static double[,] impostorScoresUser2User38;
+        static double[,] impostorScoresUser2User39; static double[,] impostorScoresUser2User40;
 
-        static double[,] impostorScoresUser2User41;
-        static double[,] impostorScoresUser2User42;
-        static double[,] impostorScoresUser2User43;
-        static double[,] impostorScoresUser2User44;
-        static double[,] impostorScoresUser2User45;
-        static double[,] impostorScoresUser2User46;
-        static double[,] impostorScoresUser2User47;
-        static double[,] impostorScoresUser2User48;
-        static double[,] impostorScoresUser2User49;
-        static double[,] impostorScoresUser2User50;
+        static double[,] impostorScoresUser2User41; static double[,] impostorScoresUser2User42;
+        static double[,] impostorScoresUser2User43; static double[,] impostorScoresUser2User44;
+        static double[,] impostorScoresUser2User45; static double[,] impostorScoresUser2User46;
+        static double[,] impostorScoresUser2User47; static double[,] impostorScoresUser2User48;
+        static double[,] impostorScoresUser2User49; static double[,] impostorScoresUser2User50;
 
-        static double[,] impostorScoresUser2User51;
-        static double[,] impostorScoresUser2User52;
-        static double[,] impostorScoresUser2User53;
-        static double[,] impostorScoresUser2User54;
-        static double[,] impostorScoresUser2User55;
-        static double[,] impostorScoresUser2User56;
-        static double[,] impostorScoresUser2User57;
-        static double[,] impostorScoresUser2User58;
-        static double[,] impostorScoresUser2User59;
-        static double[,] impostorScoresUser2User60;
+        static double[,] impostorScoresUser2User51; static double[,] impostorScoresUser2User52;
+        static double[,] impostorScoresUser2User53; static double[,] impostorScoresUser2User54;
+        static double[,] impostorScoresUser2User55; static double[,] impostorScoresUser2User56;
+        static double[,] impostorScoresUser2User57; static double[,] impostorScoresUser2User58;
+        static double[,] impostorScoresUser2User59; static double[,] impostorScoresUser2User60;
 
         static double[,] impostorScoresUser2User61;
         static double[,] impostorScoresUser2User62;
@@ -2436,6 +2407,8 @@ namespace QUML_Keystrokes
         #region Having static 2D double arrays for impostor scores with user 24 as training (using the mean vector user 24 to calc the impostor scores)
         static double[,] impostorScoresUser24User1; static double[,] impostorScoresUser24User2; static double[,] impostorScoresUser24User3;
         static double[,] impostorScoresUser24User4; static double[,] impostorScoresUser24User5; static double[,] impostorScoresUser24User6;
+        static double[,] impostorScoresUser24User7; static double[,] impostorScoresUser24User8; static double[,] impostorScoresUser24User9;
+        static double[,] impostorScoresUser24User10;
         #endregion
 
         #endregion
@@ -5645,7 +5618,6 @@ namespace QUML_Keystrokes
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
-            Printer outpt = new Printer();
 
             #region Populating the mean arrays for each user
             s001Mean = ManhDist.CalculateMeanVector(s001);
@@ -8378,6 +8350,10 @@ namespace QUML_Keystrokes
             impostorScoresUser24User4 = ManhDist.CalculateImpostorScores(s024Mean, s004);
             impostorScoresUser24User5 = ManhDist.CalculateImpostorScores(s024Mean, s005);
             impostorScoresUser24User6 = ManhDist.CalculateImpostorScores(s024Mean, s006);
+            impostorScoresUser24User7 = ManhDist.CalculateImpostorScores(s024Mean, s007);
+            impostorScoresUser24User8 = ManhDist.CalculateImpostorScores(s024Mean, s008);
+            impostorScoresUser24User9 = ManhDist.CalculateImpostorScores(s024Mean, s009);
+            impostorScoresUser24User10 = ManhDist.CalculateImpostorScores(s024Mean, s010); 
             #endregion
 
             #endregion
@@ -8420,6 +8396,39 @@ namespace QUML_Keystrokes
                         for (int j = 0; j < s003Gen.GetLength(1); j++)
                         {
                             Console.Write(s003Gen[i, j] + " ");
+                        }
+
+                        Console.WriteLine();
+                    }
+                    break;
+                case 4:
+                    for (int i = 0; i < s004Gen.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < s004Gen.GetLength(1); j++)
+                        {
+                            Console.Write(s004Gen[i, j] + " ");
+                        }
+                        
+                        Console.WriteLine();
+                    }
+                    break;
+                case 5:
+                    for (int i = 0; i < s005Gen.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < s005Gen.GetLength(1); j++)
+                        {
+                            Console.Write(s005Gen[i, j] + " ");
+                        }
+
+                        Console.WriteLine();
+                    }
+                    break;
+                case 6:
+                    for (int i = 0; i < s006Gen.GetLength(0); i++)
+                    {
+                        for (int j = 0; j < s006Gen.GetLength(1); j++)
+                        {
+                            Console.Write(s006Gen[i, j] + " ");
                         }
 
                         Console.WriteLine();

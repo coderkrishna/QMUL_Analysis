@@ -12,3 +12,4 @@ D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.dl
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.pdb
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojResolveAssemblyReference.cache
