@@ -311,49 +311,29 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser2User57; static double[,] impostorScoresUser2User58;
         static double[,] impostorScoresUser2User59; static double[,] impostorScoresUser2User60;
 
-        static double[,] impostorScoresUser2User61;
-        static double[,] impostorScoresUser2User62;
-        static double[,] impostorScoresUser2User63;
-        static double[,] impostorScoresUser2User64;
-        static double[,] impostorScoresUser2User65;
-        static double[,] impostorScoresUser2User66;
-        static double[,] impostorScoresUser2User67;
-        static double[,] impostorScoresUser2User68;
-        static double[,] impostorScoresUser2User69;
-        static double[,] impostorScoresUser2User70;
+        static double[,] impostorScoresUser2User61; static double[,] impostorScoresUser2User62;
+        static double[,] impostorScoresUser2User63; static double[,] impostorScoresUser2User64;
+        static double[,] impostorScoresUser2User65; static double[,] impostorScoresUser2User66;
+        static double[,] impostorScoresUser2User67; static double[,] impostorScoresUser2User68;
+        static double[,] impostorScoresUser2User69; static double[,] impostorScoresUser2User70;
 
-        static double[,] impostorScoresUser2User71;
-        static double[,] impostorScoresUser2User72;
-        static double[,] impostorScoresUser2User73;
-        static double[,] impostorScoresUser2User74;
-        static double[,] impostorScoresUser2User75;
-        static double[,] impostorScoresUser2User76;
-        static double[,] impostorScoresUser2User77;
-        static double[,] impostorScoresUser2User78;
-        static double[,] impostorScoresUser2User79;
-        static double[,] impostorScoresUser2User80;
+        static double[,] impostorScoresUser2User71; static double[,] impostorScoresUser2User72;
+        static double[,] impostorScoresUser2User73; static double[,] impostorScoresUser2User74;
+        static double[,] impostorScoresUser2User75; static double[,] impostorScoresUser2User76;
+        static double[,] impostorScoresUser2User77; static double[,] impostorScoresUser2User78;
+        static double[,] impostorScoresUser2User79; static double[,] impostorScoresUser2User80;
 
-        static double[,] impostorScoresUser2User81;
-        static double[,] impostorScoresUser2User82;
-        static double[,] impostorScoresUser2User83;
-        static double[,] impostorScoresUser2User84;
-        static double[,] impostorScoresUser2User85;
-        static double[,] impostorScoresUser2User86;
-        static double[,] impostorScoresUser2User87;
-        static double[,] impostorScoresUser2User88;
-        static double[,] impostorScoresUser2User89;
-        static double[,] impostorScoresUser2User90;
+        static double[,] impostorScoresUser2User81; static double[,] impostorScoresUser2User82;
+        static double[,] impostorScoresUser2User83; static double[,] impostorScoresUser2User84;
+        static double[,] impostorScoresUser2User85; static double[,] impostorScoresUser2User86;
+        static double[,] impostorScoresUser2User87; static double[,] impostorScoresUser2User88;
+        static double[,] impostorScoresUser2User89; static double[,] impostorScoresUser2User90;
 
-        static double[,] impostorScoresUser2User91;
-        static double[,] impostorScoresUser2User92;
-        static double[,] impostorScoresUser2User93;
-        static double[,] impostorScoresUser2User94;
-        static double[,] impostorScoresUser2User95;
-        static double[,] impostorScoresUser2User96;
-        static double[,] impostorScoresUser2User97;
-        static double[,] impostorScoresUser2User98;
-        static double[,] impostorScoresUser2User99;
-        static double[,] impostorScoresUser2User100;
+        static double[,] impostorScoresUser2User91; static double[,] impostorScoresUser2User92;
+        static double[,] impostorScoresUser2User93; static double[,] impostorScoresUser2User94;
+        static double[,] impostorScoresUser2User95; static double[,] impostorScoresUser2User96;
+        static double[,] impostorScoresUser2User97; static double[,] impostorScoresUser2User98;
+        static double[,] impostorScoresUser2User99; static double[,] impostorScoresUser2User100;
         #endregion
 
         #region Having static 2D double arrays for impostor scores with user 3 as training (using the mean vector user 3 to calc the impostor scores)
@@ -2409,6 +2389,11 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser24User4; static double[,] impostorScoresUser24User5; static double[,] impostorScoresUser24User6;
         static double[,] impostorScoresUser24User7; static double[,] impostorScoresUser24User8; static double[,] impostorScoresUser24User9;
         static double[,] impostorScoresUser24User10;
+
+        static double[,] impostorScoresUser24User11; static double[,] impostorScoresUser24User12; static double[,] impostorScoresUser24User13;
+        static double[,] impostorScoresUser24User14; static double[,] impostorScoresUser24User15; static double[,] impostorScoresUser24User16;
+        static double[,] impostorScoresUser24User17; static double[,] impostorScoresUser24User18; static double[,] impostorScoresUser24User19;
+        static double[,] impostorScoresUser24User20;
         #endregion
 
         #endregion
@@ -8353,7 +8338,18 @@ namespace QUML_Keystrokes
             impostorScoresUser24User7 = ManhDist.CalculateImpostorScores(s024Mean, s007);
             impostorScoresUser24User8 = ManhDist.CalculateImpostorScores(s024Mean, s008);
             impostorScoresUser24User9 = ManhDist.CalculateImpostorScores(s024Mean, s009);
-            impostorScoresUser24User10 = ManhDist.CalculateImpostorScores(s024Mean, s010); 
+            impostorScoresUser24User10 = ManhDist.CalculateImpostorScores(s024Mean, s010);
+
+            impostorScoresUser24User11 = ManhDist.CalculateImpostorScores(s024Mean, s011);
+            impostorScoresUser24User12 = ManhDist.CalculateImpostorScores(s024Mean, s012);
+            impostorScoresUser24User13 = ManhDist.CalculateImpostorScores(s024Mean, s013);
+            impostorScoresUser24User14 = ManhDist.CalculateImpostorScores(s024Mean, s014);
+            impostorScoresUser24User15 = ManhDist.CalculateImpostorScores(s024Mean, s015);
+            impostorScoresUser24User16 = ManhDist.CalculateImpostorScores(s024Mean, s016);
+            impostorScoresUser24User17 = ManhDist.CalculateImpostorScores(s024Mean, s017);
+            impostorScoresUser24User18 = ManhDist.CalculateImpostorScores(s024Mean, s018);
+            impostorScoresUser24User19 = ManhDist.CalculateImpostorScores(s024Mean, s019);
+            impostorScoresUser24User20 = ManhDist.CalculateImpostorScores(s024Mean, s020); 
             #endregion
 
             #endregion
@@ -8408,7 +8404,7 @@ namespace QUML_Keystrokes
                         {
                             Console.Write(s004Gen[i, j] + " ");
                         }
-                        
+
                         Console.WriteLine();
                     }
                     break;
