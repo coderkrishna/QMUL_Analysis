@@ -369,6 +369,10 @@ Euclidean Distance verifiers
 11th April 2016
 * Making additional bulk changes
 
+13th Marc 2017
+* Bulk changes - creating additional variables
+* Having more impostor scores being populated and continuing to have the display correctly done.
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
