@@ -8419,6 +8419,10 @@ namespace QUML_Keystrokes
             impostorScoresUser24User46 = ManhDist.CalculateImpostorScores(s024Mean, s046);
             impostorScoresUser24User47 = ManhDist.CalculateImpostorScores(s024Mean, s047);
             impostorScoresUser24User48 = ManhDist.CalculateImpostorScores(s024Mean, s048);
+            impostorScoresUser24User49 = ManhDist.CalculateImpostorScores(s024Mean, s049);
+            impostorScoresUser24User50 = ManhDist.CalculateImpostorScores(s024Mean, s050);
+            
+
             #endregion
 
             #endregion
