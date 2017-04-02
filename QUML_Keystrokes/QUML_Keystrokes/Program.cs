@@ -8443,6 +8443,11 @@ namespace QUML_Keystrokes
             impostorScoresUser24User68 = ManhDist.CalculateImpostorScores(s024Mean, s068);
             impostorScoresUser24User69 = ManhDist.CalculateImpostorScores(s024Mean, s069);
             impostorScoresUser24User70 = ManhDist.CalculateImpostorScores(s024Mean, s070);
+
+            impostorScoresUser24User71 = ManhDist.CalculateImpostorScores(s024Mean, s071);
+            impostorScoresUser24User72 = ManhDist.CalculateImpostorScores(s024Mean, s072);
+            impostorScoresUser24User73 = ManhDist.CalculateImpostorScores(s024Mean, s073);
+            impostorScoresUser24User74 = ManhDist.CalculateImpostorScores(s024Mean, s074);
             #endregion
 
             #endregion
