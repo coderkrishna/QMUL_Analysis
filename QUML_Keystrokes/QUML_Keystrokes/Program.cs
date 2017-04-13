@@ -23,8 +23,6 @@ namespace QUML_Keystrokes
 {
     class Program
     {
-        #region Static 2D double arrays that will be initialized and used
-
         #region Static 2D Double arrays for all of the users
         static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
         static double[,] s007; static double[,] s008; static double[,] s009; static double[,] s010; static double[,] s011; static double[,] s012;
@@ -204,8 +202,6 @@ namespace QUML_Keystrokes
         static double[] stdDevUser97; static double[] stdDevUser98;
         static double[] stdDevUser99; static double[] stdDevUser100;
         #endregion
-
-        #region These are the impostor scores for each user
 
         #region Having static 2D double arrays for impostor scores with user 1 as training (using the mean vector user 1 to calc the impostor scores)
         static double[,] impostorScoresUser1User2; static double[,] impostorScoresUser1User3;
@@ -2428,8 +2424,8 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser24User100;
         #endregion
 
-        #endregion
-
+        #region Impostor score variables for User 25
+        static double[,] impostorScoresUser25User1; static double[,] impostorScoresUser25User2; static double[,] impostorScoresUser25User3;
         #endregion
 
         static void Main(string[] args)
@@ -5860,8 +5856,6 @@ namespace QUML_Keystrokes
             s100Gen = ManhDist.CalculateGenuineScores(s100, s100Mean);
             #endregion
 
-            #region Calculating the impostor scores next - and populating them
-
             #region User 1 Impostor scores
             impostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);
             impostorScoresUser1User3 = ManhDist.CalculateImpostorScores(s001Mean, s003);
@@ -8471,6 +8465,10 @@ namespace QUML_Keystrokes
             impostorScoresUser24User100 = ManhDist.CalculateImpostorScores(s024Mean, s100);
             #endregion
 
+            #region User 25 Impostor scores
+            impostorScoresUser25User1 = ManhDist.CalculateImpostorScores(s025Mean, s001);
+            impostorScoresUser25User2 = ManhDist.CalculateImpostorScores(s025Mean, s002);
+            impostorScoresUser25User3 = ManhDist.CalculateImpostorScores(s025Mean, s003); 
             #endregion
 
             #region Showing the output of the genuine scores
@@ -8555,7 +8553,7 @@ namespace QUML_Keystrokes
                     break;
             }
             #endregion
-        }
+        } 
         #endregion
     }
 }
