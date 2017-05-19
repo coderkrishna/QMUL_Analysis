@@ -203,7 +203,7 @@ namespace QUML_Keystrokes
         static double[] stdDevUser99; static double[] stdDevUser100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 1 as training (using the mean vector user 1 to calc the impostor scores)
+        #region Impostor scores for user 1
         static double[,] impostorScoresUser1User2; static double[,] impostorScoresUser1User3;
         static double[,] impostorScoresUser1User4; static double[,] impostorScoresUser1User5;
         static double[,] impostorScoresUser1User6; static double[,] impostorScoresUser1User7;
@@ -263,7 +263,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser1User99; static double[,] impostorScoresUser1User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 2 as training (using the mean vector user 2 to calc the impostor scores)
+        #region Impostor scores for user 2
         static double[,] impostorScoresUser2User1; static double[,] impostorScoresUser2User3;
         static double[,] impostorScoresUser2User4; static double[,] impostorScoresUser2User5;
         static double[,] impostorScoresUser2User6; static double[,] impostorScoresUser2User7;
@@ -325,7 +325,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser2User99; static double[,] impostorScoresUser2User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 3 as training (using the mean vector user 3 to calc the impostor scores)
+        #region Impostor scores for user 3
         static double[,] impostorScoresUser3User1;
         static double[,] impostorScoresUser3User2;
         static double[,] impostorScoresUser3User4;
@@ -436,7 +436,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser3User100;
         #endregion
         
-        #region Having static 2D double arrays for impostor scores with user 4 as training (using the mean vector user 4 to calc the impostor scores)
+        #region Impostor scores for user 4
         static double[,] impostorScoresUser4User1;
         static double[,] impostorScoresUser4User2;
         static double[,] impostorScoresUser4User3;
@@ -547,7 +547,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser4User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 5 as training (using the mean vector user 5 to calc the impostor scores)
+        #region Impostor scores for user 5
         static double[,] impostorScoresUser5User1;
         static double[,] impostorScoresUser5User2;
         static double[,] impostorScoresUser5User3;
@@ -658,7 +658,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser5User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 6 as training (using the mean vector user 6 to calc the impostor scores)
+        #region Impostor scores for user 6
         static double[,] impostorScoresUser6User1;
         static double[,] impostorScoresUser6User2;
         static double[,] impostorScoresUser6User3;
@@ -769,7 +769,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser6User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 7 as training (using the mean vector user 7 to calc the impostor scores)
+        #region Impostor scores for user 7
         static double[,] impostorScoresUser7User1;
         static double[,] impostorScoresUser7User2;
         static double[,] impostorScoresUser7User3;
@@ -880,7 +880,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser7User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 8 as training (using the mean vector user 8 to calc the impostor scores)
+        #region Impostor scores for user 8
         static double[,] impostorScoresUser8User1;
         static double[,] impostorScoresUser8User2;
         static double[,] impostorScoresUser8User3;
@@ -991,7 +991,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser8User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 9 as training (using the mean vector user 9 to calc the impostor scores)
+        #region Impostor scores for user 9
         static double[,] impostorScoresUser9User1;
         static double[,] impostorScoresUser9User2;
         static double[,] impostorScoresUser9User3;
@@ -1102,27 +1102,15 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser9User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 10 as training (using the mean vector user 10 to calc the impostor scores)
-        static double[,] impostorScoresUser10User1;
-        static double[,] impostorScoresUser10User2;
-        static double[,] impostorScoresUser10User3;
-        static double[,] impostorScoresUser10User4;
-        static double[,] impostorScoresUser10User5;
-        static double[,] impostorScoresUser10User6;
-        static double[,] impostorScoresUser10User7;
-        static double[,] impostorScoresUser10User8;
-        static double[,] impostorScoresUser10User9;
+        #region Impostor scores for user 10
+        static double[,] impostorScoresUser10User1; static double[,] impostorScoresUser10User2; static double[,] impostorScoresUser10User3;
+        static double[,] impostorScoresUser10User4; static double[,] impostorScoresUser10User5; static double[,] impostorScoresUser10User6;
+        static double[,] impostorScoresUser10User7; static double[,] impostorScoresUser10User8; static double[,] impostorScoresUser10User9;
         static double[,] impostorScoresUser10User11;
 
-        static double[,] impostorScoresUser10User12;
-        static double[,] impostorScoresUser10User13;
-        static double[,] impostorScoresUser10User14;
-        static double[,] impostorScoresUser10User15;
-        static double[,] impostorScoresUser10User16;
-        static double[,] impostorScoresUser10User17;
-        static double[,] impostorScoresUser10User18;
-        static double[,] impostorScoresUser10User19;
-        static double[,] impostorScoresUser10User20;
+        static double[,] impostorScoresUser10User12; static double[,] impostorScoresUser10User13; static double[,] impostorScoresUser10User14;
+        static double[,] impostorScoresUser10User15; static double[,] impostorScoresUser10User16; static double[,] impostorScoresUser10User17;
+        static double[,] impostorScoresUser10User18; static double[,] impostorScoresUser10User19; static double[,] impostorScoresUser10User20;
 
         static double[,] impostorScoresUser10User21;
         static double[,] impostorScoresUser10User22;
@@ -1213,7 +1201,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser10User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 11 as training (using the mean vector user 11 to calc the impostor scores)
+        #region Impostor scores for user 11
         static double[,] impostorScoresUser11User1;
         static double[,] impostorScoresUser11User2;
         static double[,] impostorScoresUser11User3;
@@ -1324,7 +1312,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser11User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 12 as training (using the mean vector user 12 to calc the impostor scores)
+        #region Impostor scores for user 12
         static double[,] impostorScoresUser12User1;
         static double[,] impostorScoresUser12User2;
         static double[,] impostorScoresUser12User3;
@@ -1435,7 +1423,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser12User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 13 as training (using the mean vector user 13 to calc the impostor scores)
+        #region Impostor scores for user 13
         static double[,] impostorScoresUser13User1;
         static double[,] impostorScoresUser13User2;
         static double[,] impostorScoresUser13User3;
@@ -1546,7 +1534,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser13User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 14 as training (using the mean vector user 14 to calc the impostor scores)
+        #region Impostor scores for user 14
         static double[,] impostorScoresUser14User1;
         static double[,] impostorScoresUser14User2;
         static double[,] impostorScoresUser14User3;
@@ -1657,7 +1645,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser14User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 15 as training (using the mean vector user 15 to calc the impostor scores)
+        #region Impostor scores for user 15
         static double[,] impostorScoresUser15User1;
         static double[,] impostorScoresUser15User2;
         static double[,] impostorScoresUser15User3;
@@ -1768,7 +1756,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser15User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 16 as training (using the mean vector user 16 to calc the impostor scores)
+        #region Impostor scores for user 16
         static double[,] impostorScoresUser16User1;
         static double[,] impostorScoresUser16User2;
         static double[,] impostorScoresUser16User3;
@@ -1879,7 +1867,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser16User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 17 as training (using the mean vector user 17 to calc the impostor scores)
+        #region Impostor scores for user 17
         static double[,] impostorScoresUser17User1;
         static double[,] impostorScoresUser17User2;
         static double[,] impostorScoresUser17User3;
@@ -1990,7 +1978,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser17User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 18 as training (using the mean vector user 18 to calc the impostor scores)
+        #region Impostor scores for user 18
         static double[,] impostorScoresUser18User1;
         static double[,] impostorScoresUser18User2;
         static double[,] impostorScoresUser18User3;
@@ -2101,7 +2089,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser18User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 19 as training (using the mean vector user 19 to calc the impostor scores)
+        #region Impostor scores for user 19
         static double[,] impostorScoresUser19User1; static double[,] impostorScoresUser19User2; static double[,] impostorScoresUser19User3;
         static double[,] impostorScoresUser19User4; static double[,] impostorScoresUser19User5; static double[,] impostorScoresUser19User6;
         static double[,] impostorScoresUser19User7; static double[,] impostorScoresUser19User8; static double[,] impostorScoresUser19User9;
@@ -2206,7 +2194,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser19User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 20 as training (using the mean vector user 20 to calc the impostor scores)
+        #region Impostor scores for user 20
         static double[,] impostorScoresUser20User1; static double[,] impostorScoresUser20User2; static double[,] impostorScoresUser20User3;
         static double[,] impostorScoresUser20User4; static double[,] impostorScoresUser20User5; static double[,] impostorScoresUser20User6;
         static double[,] impostorScoresUser20User7; static double[,] impostorScoresUser20User8; static double[,] impostorScoresUser20User9;
@@ -2252,7 +2240,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser20User98; static double[,] impostorScoresUser20User99; static double[,] impostorScoresUser20User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 21 as training (using the mean vector user 21 to calc the impostor scores)
+        #region Impostor scores for user 21
         static double[,] impostorScoresUser21User1; static double[,] impostorScoresUser21User2; static double[,] impostorScoresUser21User3;
         static double[,] impostorScoresUser21User4; static double[,] impostorScoresUser21User5; static double[,] impostorScoresUser21User6;
         static double[,] impostorScoresUser21User7; static double[,] impostorScoresUser21User8; static double[,] impostorScoresUser21User9;
@@ -2295,7 +2283,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser21User98; static double[,] impostorScoresUser21User99; static double[,] impostorScoresUser21User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 22 as training (using the mean vector user 22 to calc the impostor scores)
+        #region Impostor scores for user 22
         static double[,] impostorScoresUser22User1; static double[,] impostorScoresUser22User2; static double[,] impostorScoresUser22User3;
         static double[,] impostorScoresUser22User4; static double[,] impostorScoresUser22User5; static double[,] impostorScoresUser22User6;
         static double[,] impostorScoresUser22User7; static double[,] impostorScoresUser22User8; static double[,] impostorScoresUser22User9;
@@ -2333,7 +2321,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser22User99; static double[,] impostorScoresUser22User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 23 as training (using the mean vector user 23 to calc the impostor scores)
+        #region Impostor scores for user 23
         static double[,] impostorScoresUser23User1; static double[,] impostorScoresUser23User2; static double[,] impostorScoresUser23User3;
         static double[,] impostorScoresUser23User4; static double[,] impostorScoresUser23User5; static double[,] impostorScoresUser23User6;
         static double[,] impostorScoresUser23User7; static double[,] impostorScoresUser23User8; static double[,] impostorScoresUser23User9;
@@ -2373,7 +2361,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser23User98; static double[,] impostorScoresUser23User99; static double[,] impostorScoresUser23User100;
         #endregion
 
-        #region Having static 2D double arrays for impostor scores with user 24 as training (using the mean vector user 24 to calc the impostor scores)
+        #region Impostor scores for user 24
         static double[,] impostorScoresUser24User1; static double[,] impostorScoresUser24User2; static double[,] impostorScoresUser24User3;
         static double[,] impostorScoresUser24User4; static double[,] impostorScoresUser24User5; static double[,] impostorScoresUser24User6;
         static double[,] impostorScoresUser24User7; static double[,] impostorScoresUser24User8; static double[,] impostorScoresUser24User9;
@@ -2424,7 +2412,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser24User100;
         #endregion
 
-        #region Impostor score variables for User 25
+        #region Impostor scores for user 25
         static double[,] impostorScoresUser25User1; static double[,] impostorScoresUser25User2; static double[,] impostorScoresUser25User3;
         static double[,] impostorScoresUser25User4; static double[,] impostorScoresUser25User5; static double[,] impostorScoresUser25User6;
         static double[,] impostorScoresUser25User7; static double[,] impostorScoresUser25User8; static double[,] impostorScoresUser25User9;
@@ -2473,7 +2461,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser25User100;
         #endregion
 
-        #region Impostor score variables for User 26
+        #region Impostor scores for user 26
         static double[,] impostorScoresUser26User1; static double[,] impostorScoresUser26User2; static double[,] impostorScoresUser26User3;
         static double[,] impostorScoresUser26User4; static double[,] impostorScoresUser26User5; static double[,] impostorScoresUser26User6;
         static double[,] impostorScoresUser26User7; static double[,] impostorScoresUser26User8; static double[,] impostorScoresUser26User9;
@@ -2522,6 +2510,18 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser26User94; static double[,] impostorScoresUser26User95; static double[,] impostorScoresUser26User96;
         static double[,] impostorScoresUser26User97; static double[,] impostorScoresUser26User98; static double[,] impostorScoresUser26User99;
         static double[,] impostorScoresUser26User100;
+        #endregion
+
+        #region All the Impostor score variables for user 27
+        static double[,] impostorScoresUser27User1; static double[,] impostorScoresUser27User2; static double[,] impostorScoresUser27User3;
+        static double[,] impostorScoresUser27User4; static double[,] impostorScoresUser27User5; static double[,] impostorScoresUser27User6;
+        static double[,] impostorScoresUser27User7; static double[,] impostorScoresUser27User8; static double[,] impostorScoresUser27User9;
+        static double[,] impostorScoresUser27User10;
+
+        static double[,] impostorScoresUser27User11; static double[,] impostorScoresUser27User12; static double[,] impostorScoresUser27User13;
+        static double[,] impostorScoresUser27User14; static double[,] impostorScoresUser27User15; static double[,] impostorScoresUser27User16;
+        static double[,] impostorScoresUser27User17; static double[,] impostorScoresUser27User18; static double[,] impostorScoresUser27User19;
+        static double[,] impostorScoresUser27User20;
         #endregion
 
         static void Main(string[] args)
@@ -8781,6 +8781,30 @@ namespace QUML_Keystrokes
             impostorScoresUser26User98 = ManhDist.CalculateImpostorScores(s026Mean, s098);
             impostorScoresUser26User99 = ManhDist.CalculateImpostorScores(s026Mean, s099);
             impostorScoresUser26User100 = ManhDist.CalculateImpostorScores(s026Mean, s100);
+            #endregion
+
+            #region Impostor scores for user 27
+            impostorScoresUser27User1 = ManhDist.CalculateImpostorScores(s027Mean, s001);
+            impostorScoresUser27User2 = ManhDist.CalculateImpostorScores(s027Mean, s002);
+            impostorScoresUser27User3 = ManhDist.CalculateImpostorScores(s027Mean, s003);
+            impostorScoresUser27User4 = ManhDist.CalculateImpostorScores(s027Mean, s004);
+            impostorScoresUser27User5 = ManhDist.CalculateImpostorScores(s027Mean, s005);
+            impostorScoresUser27User6 = ManhDist.CalculateImpostorScores(s027Mean, s006);
+            impostorScoresUser27User7 = ManhDist.CalculateImpostorScores(s027Mean, s007);
+            impostorScoresUser27User8 = ManhDist.CalculateImpostorScores(s027Mean, s008);
+            impostorScoresUser27User9 = ManhDist.CalculateImpostorScores(s027Mean, s009);
+            impostorScoresUser27User10 = ManhDist.CalculateImpostorScores(s027Mean, s010);
+
+            impostorScoresUser27User11 = ManhDist.CalculateImpostorScores(s027Mean, s011);
+            impostorScoresUser27User12 = ManhDist.CalculateImpostorScores(s027Mean, s012);
+            impostorScoresUser27User13 = ManhDist.CalculateImpostorScores(s027Mean, s013);
+            impostorScoresUser27User14 = ManhDist.CalculateImpostorScores(s027Mean, s014);
+            impostorScoresUser27User15 = ManhDist.CalculateImpostorScores(s027Mean, s015);
+            impostorScoresUser27User16 = ManhDist.CalculateImpostorScores(s027Mean, s016);
+            impostorScoresUser27User17 = ManhDist.CalculateImpostorScores(s027Mean, s017);
+            impostorScoresUser27User18 = ManhDist.CalculateImpostorScores(s027Mean, s018);
+            impostorScoresUser27User19 = ManhDist.CalculateImpostorScores(s027Mean, s019);
+            impostorScoresUser27User20 = ManhDist.CalculateImpostorScores(s027Mean, s020);
             #endregion
 
             #region Showing the output of the genuine scores
