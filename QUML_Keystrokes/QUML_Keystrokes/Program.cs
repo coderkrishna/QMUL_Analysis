@@ -2512,7 +2512,7 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser26User100;
         #endregion
 
-        #region All the Impostor score variables for user 27
+        #region Impostor scores for user 27
         static double[,] impostorScoresUser27User1; static double[,] impostorScoresUser27User2; static double[,] impostorScoresUser27User3;
         static double[,] impostorScoresUser27User4; static double[,] impostorScoresUser27User5; static double[,] impostorScoresUser27User6;
         static double[,] impostorScoresUser27User7; static double[,] impostorScoresUser27User8; static double[,] impostorScoresUser27User9;
@@ -2561,7 +2561,19 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser27User94; static double[,] impostorScoresUser27User95; static double[,] impostorScoresUser27User96;
         static double[,] impostorScoresUser27User97; static double[,] impostorScoresUser27User98; static double[,] impostorScoresUser27User99;
         static double[,] impostorScoresUser27User100;
-         #endregion
+        #endregion
+
+        #region Impostor scores for user 28
+        static double[,] impostorScoresUser28User1; static double[,] impostorScoresUser28User2; static double[,] impostorScoresUser28User3;
+        static double[,] impostorScoresUser28User4; static double[,] impostorScoresUser28User5; static double[,] impostorScoresUser28User6;
+        static double[,] impostorScoresUser28User7; static double[,] impostorScoresUser28User8; static double[,] impostorScoresUser28User9;
+        static double[,] impostorScoresUser28User10;
+
+        static double[,] impostorScoresUser28User11; static double[,] impostorScoresUser28User12; static double[,] impostorScoresUser28User13;
+        static double[,] impostorScoresUser28User14; static double[,] impostorScoresUser28User15; static double[,] impostorScoresUser28User16;
+        static double[,] impostorScoresUser28User17; static double[,] impostorScoresUser28User18; static double[,] impostorScoresUser28User19;
+        static double[,] impostorScoresUser28User20;
+        #endregion
 
         static void Main(string[] args)
         {
@@ -8711,7 +8723,7 @@ namespace QUML_Keystrokes
             impostorScoresUser25User100 = ManhDist.CalculateImpostorScores(s025Mean, s100);
             #endregion
 
-            #region Impostor scores for user 26
+            #region User 26 Impostor scores
             impostorScoresUser26User1 = ManhDist.CalculateImpostorScores(s026Mean, s001);
             impostorScoresUser26User2 = ManhDist.CalculateImpostorScores(s026Mean, s002);
             impostorScoresUser26User3 = ManhDist.CalculateImpostorScores(s026Mean, s003);
@@ -8822,7 +8834,7 @@ namespace QUML_Keystrokes
             impostorScoresUser26User100 = ManhDist.CalculateImpostorScores(s026Mean, s100);
             #endregion
 
-            #region Impostor scores for user 27
+            #region User 27 Impostor scores
             impostorScoresUser27User1 = ManhDist.CalculateImpostorScores(s027Mean, s001);
             impostorScoresUser27User2 = ManhDist.CalculateImpostorScores(s027Mean, s002);
             impostorScoresUser27User3 = ManhDist.CalculateImpostorScores(s027Mean, s003);
@@ -8931,6 +8943,30 @@ namespace QUML_Keystrokes
             impostorScoresUser27User98 = ManhDist.CalculateImpostorScores(s027Mean, s098);
             impostorScoresUser27User99 = ManhDist.CalculateImpostorScores(s027Mean, s099);
             impostorScoresUser27User100 = ManhDist.CalculateImpostorScores(s027Mean, s100);
+            #endregion
+
+            #region User 28 Impostor scores
+            impostorScoresUser28User1 = ManhDist.CalculateImpostorScores(s028Mean, s001);
+            impostorScoresUser28User2 = ManhDist.CalculateImpostorScores(s028Mean, s002);
+            impostorScoresUser28User3 = ManhDist.CalculateImpostorScores(s028Mean, s003);
+            impostorScoresUser28User4 = ManhDist.CalculateImpostorScores(s028Mean, s004);
+            impostorScoresUser28User5 = ManhDist.CalculateImpostorScores(s028Mean, s005);
+            impostorScoresUser28User6 = ManhDist.CalculateImpostorScores(s028Mean, s006);
+            impostorScoresUser28User7 = ManhDist.CalculateImpostorScores(s028Mean, s007);
+            impostorScoresUser28User8 = ManhDist.CalculateImpostorScores(s028Mean, s008);
+            impostorScoresUser28User9 = ManhDist.CalculateImpostorScores(s028Mean, s009);
+            impostorScoresUser28User10 = ManhDist.CalculateImpostorScores(s028Mean, s010);
+
+            impostorScoresUser28User11 = ManhDist.CalculateImpostorScores(s028Mean, s011);
+            impostorScoresUser28User12 = ManhDist.CalculateImpostorScores(s028Mean, s012);
+            impostorScoresUser28User13 = ManhDist.CalculateImpostorScores(s028Mean, s013);
+            impostorScoresUser28User14 = ManhDist.CalculateImpostorScores(s028Mean, s014);
+            impostorScoresUser28User15 = ManhDist.CalculateImpostorScores(s028Mean, s015);
+            impostorScoresUser28User16 = ManhDist.CalculateImpostorScores(s028Mean, s016);
+            impostorScoresUser28User17 = ManhDist.CalculateImpostorScores(s028Mean, s017);
+            impostorScoresUser28User18 = ManhDist.CalculateImpostorScores(s028Mean, s018);
+            impostorScoresUser28User19 = ManhDist.CalculateImpostorScores(s028Mean, s019);
+            impostorScoresUser28User20 = ManhDist.CalculateImpostorScores(s028Mean, s020);
             #endregion
 
             #region Showing the output of the genuine scores

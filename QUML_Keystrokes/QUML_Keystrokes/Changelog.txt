@@ -377,6 +377,10 @@ Euclidean Distance verifiers
 * Having further code changes being done
 * Will be making sure that further GitHub commits are being made.
 
+24th May 2017
+* Updating the changelog.txt file to be able to ensure that all of the changes are logged
+* Ensuring that all of the necessary comments are added to each commit
+
 AS A REMINDER - But will still be using the above format out of sanity!!
 
 -------New changelog format-------------------
