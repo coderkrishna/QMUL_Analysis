@@ -2638,6 +2638,11 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser29User44; static double[,] impostorScoresUser29User45; static double[,] impostorScoresUser29User46;
         static double[,] impostorScoresUser29User47; static double[,] impostorScoresUser29User48; static double[,] impostorScoresUser29User49;
         static double[,] impostorScoresUser29User50;
+
+        static double[,] impostorScoresUser29User51; static double[,] impostorScoresUser29User52; static double[,] impostorScoresUser29User53;
+        static double[,] impostorScoresUser29User54; static double[,] impostorScoresUser29User55; static double[,] impostorScoresUser29User56;
+        static double[,] impostorScoresUser29User57; static double[,] impostorScoresUser29User58; static double[,] impostorScoresUser29User59;
+        static double[,] impostorScoresUser29User60;
         #endregion
 
         static void Main(string[] args)
@@ -9175,6 +9180,17 @@ namespace QUML_Keystrokes
             impostorScoresUser29User48 = ManhDist.CalculateImpostorScores(s029Mean, s048);
             impostorScoresUser29User49 = ManhDist.CalculateImpostorScores(s029Mean, s049);
             impostorScoresUser29User50 = ManhDist.CalculateImpostorScores(s029Mean, s050);
+
+            impostorScoresUser29User51 = ManhDist.CalculateImpostorScores(s029Mean, s051);
+            impostorScoresUser29User52 = ManhDist.CalculateImpostorScores(s029Mean, s052);
+            impostorScoresUser29User53 = ManhDist.CalculateImpostorScores(s029Mean, s053);
+            impostorScoresUser29User54 = ManhDist.CalculateImpostorScores(s029Mean, s054);
+            impostorScoresUser29User55 = ManhDist.CalculateImpostorScores(s029Mean, s055);
+            impostorScoresUser29User56 = ManhDist.CalculateImpostorScores(s029Mean, s056);
+            impostorScoresUser29User57 = ManhDist.CalculateImpostorScores(s029Mean, s057);
+            impostorScoresUser29User58 = ManhDist.CalculateImpostorScores(s029Mean, s058);
+            impostorScoresUser29User59 = ManhDist.CalculateImpostorScores(s029Mean, s059);
+            impostorScoresUser29User60 = ManhDist.CalculateImpostorScores(s029Mean, s060);
             #endregion
 
             #region Showing the output of the genuine scores
