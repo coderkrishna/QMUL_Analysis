@@ -2675,6 +2675,10 @@ namespace QUML_Keystrokes
         static double[,] impostorScoresUser30User14; static double[,] impostorScoresUser30User15; static double[,] impostorScoresUser30User16;
         static double[,] impostorScoresUser30User17; static double[,] impostorScoresUser30User18; static double[,] impostorScoresUser30User19;
         static double[,] impostorScoresUser30User20;
+
+        static double[,] impostorScoresUser30User21; static double[,] impostorScoresUser30User22; static double[,] impostorScoresUser30User23;
+        static double[,] impostorScoresUser30User24; static double[,] impostorScoresUser30User25; static double[,] impostorScoresUser30User26;
+        static double[,] impostorScoresUser30User27; static double[,] impostorScoresUser30User28; static double[,] impostorScoresUser30User29;
         #endregion
 
         static void Main(string[] args)
@@ -9291,6 +9295,16 @@ namespace QUML_Keystrokes
             impostorScoresUser30User18 = ManhDist.CalculateImpostorScores(s030Mean, s018);
             impostorScoresUser30User19 = ManhDist.CalculateImpostorScores(s030Mean, s019);
             impostorScoresUser30User20 = ManhDist.CalculateImpostorScores(s030Mean, s020);
+
+            impostorScoresUser30User21 = ManhDist.CalculateImpostorScores(s030Mean, s021);
+            impostorScoresUser30User22 = ManhDist.CalculateImpostorScores(s030Mean, s022);
+            impostorScoresUser30User23 = ManhDist.CalculateImpostorScores(s030Mean, s023);
+            impostorScoresUser30User24 = ManhDist.CalculateImpostorScores(s030Mean, s024);
+            impostorScoresUser30User25 = ManhDist.CalculateImpostorScores(s030Mean, s025);
+            impostorScoresUser30User26 = ManhDist.CalculateImpostorScores(s030Mean, s026);
+            impostorScoresUser30User27 = ManhDist.CalculateImpostorScores(s030Mean, s027);
+            impostorScoresUser30User28 = ManhDist.CalculateImpostorScores(s030Mean, s028);
+            impostorScoresUser30User29 = ManhDist.CalculateImpostorScores(s030Mean, s029);
             #endregion
 
             #region Showing the output of the genuine scores
