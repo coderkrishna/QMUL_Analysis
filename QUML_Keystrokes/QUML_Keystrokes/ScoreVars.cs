@@ -4,7 +4,7 @@
     /// Having the internal keyword means that this class
     /// will belong to this assembly
     /// </summary>
-    internal class ScoreVars
+    public class ScoreVars
     {
         #region Impostor scores for user 1
         private double[,] _impostorScoresUser1User2;
@@ -823,7 +823,18 @@
         }
 
         private double[,] _impostorScoresUser2User19;
+        public double[,] ImpostorScoresUser2User19
+        {
+            get { return _impostorScoresUser2User19;}
+            set { _impostorScoresUser2User19 = value;}
+        }
+        
         private double[,] _impostorScoresUser2User20;
+        public double[,] ImpostorScoresUser2User20
+        {
+            get {return _impostorScoresUser2User20;}
+            set {_impostorScoresUser2User20 = value;}
+        }
 
         private double[,] impostorScoresUser2User21;
         private double[,] impostorScoresUser2User22;
