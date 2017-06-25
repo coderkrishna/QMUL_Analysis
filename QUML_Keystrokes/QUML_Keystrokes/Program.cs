@@ -21,7 +21,7 @@ using OperationsLib;
 
 namespace QUML_Keystrokes
 {
-    class Program
+    class Program : ScoreVars
     {
         #region Static 2D Double arrays for all of the users
         static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
@@ -203,2519 +203,6 @@ namespace QUML_Keystrokes
         static double[] stdDevUser99; static double[] stdDevUser100;
         #endregion
 
-        #region Impostor scores for user 1
-        static double[,] impostorScoresUser1User2; static double[,] impostorScoresUser1User3;
-        static double[,] impostorScoresUser1User4; static double[,] impostorScoresUser1User5;
-        static double[,] impostorScoresUser1User6; static double[,] impostorScoresUser1User7;
-        static double[,] impostorScoresUser1User8; static double[,] impostorScoresUser1User9;
-        static double[,] impostorScoresUser1User10; static double[,] impostorScoresUser1User11;
-        static double[,] impostorScoresUser1User12; static double[,] impostorScoresUser1User13;
-        static double[,] impostorScoresUser1User14; static double[,] impostorScoresUser1User15;
-        static double[,] impostorScoresUser1User16; static double[,] impostorScoresUser1User17;
-        static double[,] impostorScoresUser1User18; static double[,] impostorScoresUser1User19;
-        static double[,] impostorScoresUser1User20; static double[,] impostorScoresUser1User21;
-        static double[,] impostorScoresUser1User22; static double[,] impostorScoresUser1User23;
-        static double[,] impostorScoresUser1User24; static double[,] impostorScoresUser1User25;
-        static double[,] impostorScoresUser1User26; static double[,] impostorScoresUser1User27;
-        static double[,] impostorScoresUser1User28; static double[,] impostorScoresUser1User29;
-        static double[,] impostorScoresUser1User30;
-
-        static double[,] impostorScoresUser1User31; static double[,] impostorScoresUser1User32;
-        static double[,] impostorScoresUser1User33; static double[,] impostorScoresUser1User34;
-        static double[,] impostorScoresUser1User35; static double[,] impostorScoresUser1User36;
-        static double[,] impostorScoresUser1User37; static double[,] impostorScoresUser1User38;
-        static double[,] impostorScoresUser1User39; static double[,] impostorScoresUser1User40;
-
-        static double[,] impostorScoresUser1User41; static double[,] impostorScoresUser1User42;
-        static double[,] impostorScoresUser1User43; static double[,] impostorScoresUser1User44;
-        static double[,] impostorScoresUser1User45; static double[,] impostorScoresUser1User46;
-        static double[,] impostorScoresUser1User47; static double[,] impostorScoresUser1User48;
-        static double[,] impostorScoresUser1User49; static double[,] impostorScoresUser1User50;
-
-        static double[,] impostorScoresUser1User51; static double[,] impostorScoresUser1User52;
-        static double[,] impostorScoresUser1User53; static double[,] impostorScoresUser1User54;
-        static double[,] impostorScoresUser1User55; static double[,] impostorScoresUser1User56;
-        static double[,] impostorScoresUser1User57; static double[,] impostorScoresUser1User58;
-        static double[,] impostorScoresUser1User59; static double[,] impostorScoresUser1User60;
-
-        static double[,] impostorScoresUser1User61; static double[,] impostorScoresUser1User62;
-        static double[,] impostorScoresUser1User63; static double[,] impostorScoresUser1User64;
-        static double[,] impostorScoresUser1User65; static double[,] impostorScoresUser1User66;
-        static double[,] impostorScoresUser1User67; static double[,] impostorScoresUser1User68;
-        static double[,] impostorScoresUser1User69; static double[,] impostorScoresUser1User70;
-
-        static double[,] impostorScoresUser1User71; static double[,] impostorScoresUser1User72;
-        static double[,] impostorScoresUser1User73; static double[,] impostorScoresUser1User74;
-        static double[,] impostorScoresUser1User75; static double[,] impostorScoresUser1User76;
-        static double[,] impostorScoresUser1User77; static double[,] impostorScoresUser1User78;
-        static double[,] impostorScoresUser1User79; static double[,] impostorScoresUser1User80;
-
-        static double[,] impostorScoresUser1User81; static double[,] impostorScoresUser1User82;
-        static double[,] impostorScoresUser1User83; static double[,] impostorScoresUser1User84;
-        static double[,] impostorScoresUser1User85; static double[,] impostorScoresUser1User86;
-        static double[,] impostorScoresUser1User87; static double[,] impostorScoresUser1User88;
-        static double[,] impostorScoresUser1User89; static double[,] impostorScoresUser1User90;
-
-        static double[,] impostorScoresUser1User91; static double[,] impostorScoresUser1User92;
-        static double[,] impostorScoresUser1User93; static double[,] impostorScoresUser1User94;
-        static double[,] impostorScoresUser1User95; static double[,] impostorScoresUser1User96;
-        static double[,] impostorScoresUser1User97; static double[,] impostorScoresUser1User98;
-        static double[,] impostorScoresUser1User99; static double[,] impostorScoresUser1User100;
-        #endregion
-
-        #region Impostor scores for user 2
-        static double[,] impostorScoresUser2User1; static double[,] impostorScoresUser2User3;
-        static double[,] impostorScoresUser2User4; static double[,] impostorScoresUser2User5;
-        static double[,] impostorScoresUser2User6; static double[,] impostorScoresUser2User7;
-        static double[,] impostorScoresUser2User8; static double[,] impostorScoresUser2User9;
-        static double[,] impostorScoresUser2User10;
-
-        static double[,] impostorScoresUser2User11; static double[,] impostorScoresUser2User12;
-        static double[,] impostorScoresUser2User13; static double[,] impostorScoresUser2User14;
-        static double[,] impostorScoresUser2User15; static double[,] impostorScoresUser2User16;
-        static double[,] impostorScoresUser2User17; static double[,] impostorScoresUser2User18;
-        static double[,] impostorScoresUser2User19; static double[,] impostorScoresUser2User20;
-
-        static double[,] impostorScoresUser2User21; static double[,] impostorScoresUser2User22;
-        static double[,] impostorScoresUser2User23; static double[,] impostorScoresUser2User24;
-        static double[,] impostorScoresUser2User25; static double[,] impostorScoresUser2User26;
-        static double[,] impostorScoresUser2User27; static double[,] impostorScoresUser2User28;
-        static double[,] impostorScoresUser2User29; static double[,] impostorScoresUser2User30;
-
-        static double[,] impostorScoresUser2User31; static double[,] impostorScoresUser2User32;
-        static double[,] impostorScoresUser2User33; static double[,] impostorScoresUser2User34;
-        static double[,] impostorScoresUser2User35; static double[,] impostorScoresUser2User36;
-        static double[,] impostorScoresUser2User37; static double[,] impostorScoresUser2User38;
-        static double[,] impostorScoresUser2User39; static double[,] impostorScoresUser2User40;
-
-        static double[,] impostorScoresUser2User41; static double[,] impostorScoresUser2User42;
-        static double[,] impostorScoresUser2User43; static double[,] impostorScoresUser2User44;
-        static double[,] impostorScoresUser2User45; static double[,] impostorScoresUser2User46;
-        static double[,] impostorScoresUser2User47; static double[,] impostorScoresUser2User48;
-        static double[,] impostorScoresUser2User49; static double[,] impostorScoresUser2User50;
-
-        static double[,] impostorScoresUser2User51; static double[,] impostorScoresUser2User52;
-        static double[,] impostorScoresUser2User53; static double[,] impostorScoresUser2User54;
-        static double[,] impostorScoresUser2User55; static double[,] impostorScoresUser2User56;
-        static double[,] impostorScoresUser2User57; static double[,] impostorScoresUser2User58;
-        static double[,] impostorScoresUser2User59; static double[,] impostorScoresUser2User60;
-
-        static double[,] impostorScoresUser2User61; static double[,] impostorScoresUser2User62;
-        static double[,] impostorScoresUser2User63; static double[,] impostorScoresUser2User64;
-        static double[,] impostorScoresUser2User65; static double[,] impostorScoresUser2User66;
-        static double[,] impostorScoresUser2User67; static double[,] impostorScoresUser2User68;
-        static double[,] impostorScoresUser2User69; static double[,] impostorScoresUser2User70;
-
-        static double[,] impostorScoresUser2User71; static double[,] impostorScoresUser2User72;
-        static double[,] impostorScoresUser2User73; static double[,] impostorScoresUser2User74;
-        static double[,] impostorScoresUser2User75; static double[,] impostorScoresUser2User76;
-        static double[,] impostorScoresUser2User77; static double[,] impostorScoresUser2User78;
-        static double[,] impostorScoresUser2User79; static double[,] impostorScoresUser2User80;
-
-        static double[,] impostorScoresUser2User81; static double[,] impostorScoresUser2User82;
-        static double[,] impostorScoresUser2User83; static double[,] impostorScoresUser2User84;
-        static double[,] impostorScoresUser2User85; static double[,] impostorScoresUser2User86;
-        static double[,] impostorScoresUser2User87; static double[,] impostorScoresUser2User88;
-        static double[,] impostorScoresUser2User89; static double[,] impostorScoresUser2User90;
-
-        static double[,] impostorScoresUser2User91; static double[,] impostorScoresUser2User92;
-        static double[,] impostorScoresUser2User93; static double[,] impostorScoresUser2User94;
-        static double[,] impostorScoresUser2User95; static double[,] impostorScoresUser2User96;
-        static double[,] impostorScoresUser2User97; static double[,] impostorScoresUser2User98;
-        static double[,] impostorScoresUser2User99; static double[,] impostorScoresUser2User100;
-        #endregion
-
-        #region Impostor scores for user 3
-        static double[,] impostorScoresUser3User1;
-        static double[,] impostorScoresUser3User2;
-        static double[,] impostorScoresUser3User4;
-        static double[,] impostorScoresUser3User5;
-        static double[,] impostorScoresUser3User6;
-        static double[,] impostorScoresUser3User7;
-        static double[,] impostorScoresUser3User8;
-        static double[,] impostorScoresUser3User9;
-        static double[,] impostorScoresUser3User10;
-
-        static double[,] impostorScoresUser3User11;
-        static double[,] impostorScoresUser3User12;
-        static double[,] impostorScoresUser3User13;
-        static double[,] impostorScoresUser3User14;
-        static double[,] impostorScoresUser3User15;
-        static double[,] impostorScoresUser3User16;
-        static double[,] impostorScoresUser3User17;
-        static double[,] impostorScoresUser3User18;
-        static double[,] impostorScoresUser3User19;
-        static double[,] impostorScoresUser3User20;
-
-        static double[,] impostorScoresUser3User21;
-        static double[,] impostorScoresUser3User22;
-        static double[,] impostorScoresUser3User23;
-        static double[,] impostorScoresUser3User24;
-        static double[,] impostorScoresUser3User25;
-        static double[,] impostorScoresUser3User26;
-        static double[,] impostorScoresUser3User27;
-        static double[,] impostorScoresUser3User28;
-        static double[,] impostorScoresUser3User29;
-        static double[,] impostorScoresUser3User30;
-
-        static double[,] impostorScoresUser3User31;
-        static double[,] impostorScoresUser3User32;
-        static double[,] impostorScoresUser3User33;
-        static double[,] impostorScoresUser3User34;
-        static double[,] impostorScoresUser3User35;
-        static double[,] impostorScoresUser3User36;
-        static double[,] impostorScoresUser3User37;
-        static double[,] impostorScoresUser3User38;
-        static double[,] impostorScoresUser3User39;
-        static double[,] impostorScoresUser3User40;
-
-        static double[,] impostorScoresUser3User41;
-        static double[,] impostorScoresUser3User42;
-        static double[,] impostorScoresUser3User43;
-        static double[,] impostorScoresUser3User44;
-        static double[,] impostorScoresUser3User45;
-        static double[,] impostorScoresUser3User46;
-        static double[,] impostorScoresUser3User47;
-        static double[,] impostorScoresUser3User48;
-        static double[,] impostorScoresUser3User49;
-        static double[,] impostorScoresUser3User50;
-
-        static double[,] impostorScoresUser3User51;
-        static double[,] impostorScoresUser3User52;
-        static double[,] impostorScoresUser3User53;
-        static double[,] impostorScoresUser3User54;
-        static double[,] impostorScoresUser3User55;
-        static double[,] impostorScoresUser3User56;
-        static double[,] impostorScoresUser3User57;
-        static double[,] impostorScoresUser3User58;
-        static double[,] impostorScoresUser3User59;
-        static double[,] impostorScoresUser3User60;
-
-        static double[,] impostorScoresUser3User61;
-        static double[,] impostorScoresUser3User62;
-        static double[,] impostorScoresUser3User63;
-        static double[,] impostorScoresUser3User64;
-        static double[,] impostorScoresUser3User65;
-        static double[,] impostorScoresUser3User66;
-        static double[,] impostorScoresUser3User67;
-        static double[,] impostorScoresUser3User68;
-        static double[,] impostorScoresUser3User69;
-        static double[,] impostorScoresUser3User70;
-
-        static double[,] impostorScoresUser3User71;
-        static double[,] impostorScoresUser3User72;
-        static double[,] impostorScoresUser3User73;
-        static double[,] impostorScoresUser3User74;
-        static double[,] impostorScoresUser3User75;
-        static double[,] impostorScoresUser3User76;
-        static double[,] impostorScoresUser3User77;
-        static double[,] impostorScoresUser3User78;
-        static double[,] impostorScoresUser3User79;
-        static double[,] impostorScoresUser3User80;
-
-        static double[,] impostorScoresUser3User81;
-        static double[,] impostorScoresUser3User82;
-        static double[,] impostorScoresUser3User83;
-        static double[,] impostorScoresUser3User84;
-        static double[,] impostorScoresUser3User85;
-        static double[,] impostorScoresUser3User86;
-        static double[,] impostorScoresUser3User87;
-        static double[,] impostorScoresUser3User88;
-        static double[,] impostorScoresUser3User89;
-        static double[,] impostorScoresUser3User90;
-
-        static double[,] impostorScoresUser3User91;
-        static double[,] impostorScoresUser3User92;
-        static double[,] impostorScoresUser3User93;
-        static double[,] impostorScoresUser3User94;
-        static double[,] impostorScoresUser3User95;
-        static double[,] impostorScoresUser3User96;
-        static double[,] impostorScoresUser3User97;
-        static double[,] impostorScoresUser3User98;
-        static double[,] impostorScoresUser3User99;
-        static double[,] impostorScoresUser3User100;
-        #endregion
-        
-        #region Impostor scores for user 4
-        static double[,] impostorScoresUser4User1;
-        static double[,] impostorScoresUser4User2;
-        static double[,] impostorScoresUser4User3;
-        static double[,] impostorScoresUser4User5;
-        static double[,] impostorScoresUser4User6;
-        static double[,] impostorScoresUser4User7;
-        static double[,] impostorScoresUser4User8;
-        static double[,] impostorScoresUser4User9;
-        static double[,] impostorScoresUser4User10;
-
-        static double[,] impostorScoresUser4User11;
-        static double[,] impostorScoresUser4User12;
-        static double[,] impostorScoresUser4User13;
-        static double[,] impostorScoresUser4User14;
-        static double[,] impostorScoresUser4User15;
-        static double[,] impostorScoresUser4User16;
-        static double[,] impostorScoresUser4User17;
-        static double[,] impostorScoresUser4User18;
-        static double[,] impostorScoresUser4User19;
-        static double[,] impostorScoresUser4User20;
-
-        static double[,] impostorScoresUser4User21;
-        static double[,] impostorScoresUser4User22;
-        static double[,] impostorScoresUser4User23;
-        static double[,] impostorScoresUser4User24;
-        static double[,] impostorScoresUser4User25;
-        static double[,] impostorScoresUser4User26;
-        static double[,] impostorScoresUser4User27;
-        static double[,] impostorScoresUser4User28;
-        static double[,] impostorScoresUser4User29;
-        static double[,] impostorScoresUser4User30;
-
-        static double[,] impostorScoresUser4User31;
-        static double[,] impostorScoresUser4User32;
-        static double[,] impostorScoresUser4User33;
-        static double[,] impostorScoresUser4User34;
-        static double[,] impostorScoresUser4User35;
-        static double[,] impostorScoresUser4User36;
-        static double[,] impostorScoresUser4User37;
-        static double[,] impostorScoresUser4User38;
-        static double[,] impostorScoresUser4User39;
-        static double[,] impostorScoresUser4User40;
-
-        static double[,] impostorScoresUser4User41;
-        static double[,] impostorScoresUser4User42;
-        static double[,] impostorScoresUser4User43;
-        static double[,] impostorScoresUser4User44;
-        static double[,] impostorScoresUser4User45;
-        static double[,] impostorScoresUser4User46;
-        static double[,] impostorScoresUser4User47;
-        static double[,] impostorScoresUser4User48;
-        static double[,] impostorScoresUser4User49;
-        static double[,] impostorScoresUser4User50;
-
-        static double[,] impostorScoresUser4User51;
-        static double[,] impostorScoresUser4User52;
-        static double[,] impostorScoresUser4User53;
-        static double[,] impostorScoresUser4User54;
-        static double[,] impostorScoresUser4User55;
-        static double[,] impostorScoresUser4User56;
-        static double[,] impostorScoresUser4User57;
-        static double[,] impostorScoresUser4User58;
-        static double[,] impostorScoresUser4User59;
-        static double[,] impostorScoresUser4User60;
-
-        static double[,] impostorScoresUser4User61;
-        static double[,] impostorScoresUser4User62;
-        static double[,] impostorScoresUser4User63;
-        static double[,] impostorScoresUser4User64;
-        static double[,] impostorScoresUser4User65;
-        static double[,] impostorScoresUser4User66;
-        static double[,] impostorScoresUser4User67;
-        static double[,] impostorScoresUser4User68;
-        static double[,] impostorScoresUser4User69;
-        static double[,] impostorScoresUser4User70;
-
-        static double[,] impostorScoresUser4User71;
-        static double[,] impostorScoresUser4User72;
-        static double[,] impostorScoresUser4User73;
-        static double[,] impostorScoresUser4User74;
-        static double[,] impostorScoresUser4User75;
-        static double[,] impostorScoresUser4User76;
-        static double[,] impostorScoresUser4User77;
-        static double[,] impostorScoresUser4User78;
-        static double[,] impostorScoresUser4User79;
-        static double[,] impostorScoresUser4User80;
-
-        static double[,] impostorScoresUser4User81;
-        static double[,] impostorScoresUser4User82;
-        static double[,] impostorScoresUser4User83;
-        static double[,] impostorScoresUser4User84;
-        static double[,] impostorScoresUser4User85;
-        static double[,] impostorScoresUser4User86;
-        static double[,] impostorScoresUser4User87;
-        static double[,] impostorScoresUser4User88;
-        static double[,] impostorScoresUser4User89;
-        static double[,] impostorScoresUser4User90;
-
-        static double[,] impostorScoresUser4User91;
-        static double[,] impostorScoresUser4User92;
-        static double[,] impostorScoresUser4User93;
-        static double[,] impostorScoresUser4User94;
-        static double[,] impostorScoresUser4User95;
-        static double[,] impostorScoresUser4User96;
-        static double[,] impostorScoresUser4User97;
-        static double[,] impostorScoresUser4User98;
-        static double[,] impostorScoresUser4User99;
-        static double[,] impostorScoresUser4User100;
-        #endregion
-
-        #region Impostor scores for user 5
-        static double[,] impostorScoresUser5User1;
-        static double[,] impostorScoresUser5User2;
-        static double[,] impostorScoresUser5User3;
-        static double[,] impostorScoresUser5User4;
-        static double[,] impostorScoresUser5User6;
-        static double[,] impostorScoresUser5User7;
-        static double[,] impostorScoresUser5User8;
-        static double[,] impostorScoresUser5User9;
-        static double[,] impostorScoresUser5User10;
-
-        static double[,] impostorScoresUser5User11;
-        static double[,] impostorScoresUser5User12;
-        static double[,] impostorScoresUser5User13;
-        static double[,] impostorScoresUser5User14;
-        static double[,] impostorScoresUser5User15;
-        static double[,] impostorScoresUser5User16;
-        static double[,] impostorScoresUser5User17;
-        static double[,] impostorScoresUser5User18;
-        static double[,] impostorScoresUser5User19;
-        static double[,] impostorScoresUser5User20;
-
-        static double[,] impostorScoresUser5User21;
-        static double[,] impostorScoresUser5User22;
-        static double[,] impostorScoresUser5User23;
-        static double[,] impostorScoresUser5User24;
-        static double[,] impostorScoresUser5User25;
-        static double[,] impostorScoresUser5User26;
-        static double[,] impostorScoresUser5User27;
-        static double[,] impostorScoresUser5User28;
-        static double[,] impostorScoresUser5User29;
-        static double[,] impostorScoresUser5User30;
-
-        static double[,] impostorScoresUser5User31;
-        static double[,] impostorScoresUser5User32;
-        static double[,] impostorScoresUser5User33;
-        static double[,] impostorScoresUser5User34;
-        static double[,] impostorScoresUser5User35;
-        static double[,] impostorScoresUser5User36;
-        static double[,] impostorScoresUser5User37;
-        static double[,] impostorScoresUser5User38;
-        static double[,] impostorScoresUser5User39;
-        static double[,] impostorScoresUser5User40;
-
-        static double[,] impostorScoresUser5User41;
-        static double[,] impostorScoresUser5User42;
-        static double[,] impostorScoresUser5User43;
-        static double[,] impostorScoresUser5User44;
-        static double[,] impostorScoresUser5User45;
-        static double[,] impostorScoresUser5User46;
-        static double[,] impostorScoresUser5User47;
-        static double[,] impostorScoresUser5User48;
-        static double[,] impostorScoresUser5User49;
-        static double[,] impostorScoresUser5User50;
-
-        static double[,] impostorScoresUser5User51;
-        static double[,] impostorScoresUser5User52;
-        static double[,] impostorScoresUser5User53;
-        static double[,] impostorScoresUser5User54;
-        static double[,] impostorScoresUser5User55;
-        static double[,] impostorScoresUser5User56;
-        static double[,] impostorScoresUser5User57;
-        static double[,] impostorScoresUser5User58;
-        static double[,] impostorScoresUser5User59;
-        static double[,] impostorScoresUser5User60;
-
-        static double[,] impostorScoresUser5User61;
-        static double[,] impostorScoresUser5User62;
-        static double[,] impostorScoresUser5User63;
-        static double[,] impostorScoresUser5User64;
-        static double[,] impostorScoresUser5User65;
-        static double[,] impostorScoresUser5User66;
-        static double[,] impostorScoresUser5User67;
-        static double[,] impostorScoresUser5User68;
-        static double[,] impostorScoresUser5User69;
-        static double[,] impostorScoresUser5User70;
-
-        static double[,] impostorScoresUser5User71;
-        static double[,] impostorScoresUser5User72;
-        static double[,] impostorScoresUser5User73;
-        static double[,] impostorScoresUser5User74;
-        static double[,] impostorScoresUser5User75;
-        static double[,] impostorScoresUser5User76;
-        static double[,] impostorScoresUser5User77;
-        static double[,] impostorScoresUser5User78;
-        static double[,] impostorScoresUser5User79;
-        static double[,] impostorScoresUser5User80;
-
-        static double[,] impostorScoresUser5User81;
-        static double[,] impostorScoresUser5User82;
-        static double[,] impostorScoresUser5User83;
-        static double[,] impostorScoresUser5User84;
-        static double[,] impostorScoresUser5User85;
-        static double[,] impostorScoresUser5User86;
-        static double[,] impostorScoresUser5User87;
-        static double[,] impostorScoresUser5User88;
-        static double[,] impostorScoresUser5User89;
-        static double[,] impostorScoresUser5User90;
-
-        static double[,] impostorScoresUser5User91;
-        static double[,] impostorScoresUser5User92;
-        static double[,] impostorScoresUser5User93;
-        static double[,] impostorScoresUser5User94;
-        static double[,] impostorScoresUser5User95;
-        static double[,] impostorScoresUser5User96;
-        static double[,] impostorScoresUser5User97;
-        static double[,] impostorScoresUser5User98;
-        static double[,] impostorScoresUser5User99;
-        static double[,] impostorScoresUser5User100;
-        #endregion
-
-        #region Impostor scores for user 6
-        static double[,] impostorScoresUser6User1;
-        static double[,] impostorScoresUser6User2;
-        static double[,] impostorScoresUser6User3;
-        static double[,] impostorScoresUser6User4;
-        static double[,] impostorScoresUser6User5;
-        static double[,] impostorScoresUser6User7;
-        static double[,] impostorScoresUser6User8;
-        static double[,] impostorScoresUser6User9;
-        static double[,] impostorScoresUser6User10;
-
-        static double[,] impostorScoresUser6User11;
-        static double[,] impostorScoresUser6User12;
-        static double[,] impostorScoresUser6User13;
-        static double[,] impostorScoresUser6User14;
-        static double[,] impostorScoresUser6User15;
-        static double[,] impostorScoresUser6User16;
-        static double[,] impostorScoresUser6User17;
-        static double[,] impostorScoresUser6User18;
-        static double[,] impostorScoresUser6User19;
-        static double[,] impostorScoresUser6User20;
-
-        static double[,] impostorScoresUser6User21;
-        static double[,] impostorScoresUser6User22;
-        static double[,] impostorScoresUser6User23;
-        static double[,] impostorScoresUser6User24;
-        static double[,] impostorScoresUser6User25;
-        static double[,] impostorScoresUser6User26;
-        static double[,] impostorScoresUser6User27;
-        static double[,] impostorScoresUser6User28;
-        static double[,] impostorScoresUser6User29;
-        static double[,] impostorScoresUser6User30;
-
-        static double[,] impostorScoresUser6User31;
-        static double[,] impostorScoresUser6User32;
-        static double[,] impostorScoresUser6User33;
-        static double[,] impostorScoresUser6User34;
-        static double[,] impostorScoresUser6User35;
-        static double[,] impostorScoresUser6User36;
-        static double[,] impostorScoresUser6User37;
-        static double[,] impostorScoresUser6User38;
-        static double[,] impostorScoresUser6User39;
-        static double[,] impostorScoresUser6User40;
-
-        static double[,] impostorScoresUser6User41;
-        static double[,] impostorScoresUser6User42;
-        static double[,] impostorScoresUser6User43;
-        static double[,] impostorScoresUser6User44;
-        static double[,] impostorScoresUser6User45;
-        static double[,] impostorScoresUser6User46;
-        static double[,] impostorScoresUser6User47;
-        static double[,] impostorScoresUser6User48;
-        static double[,] impostorScoresUser6User49;
-        static double[,] impostorScoresUser6User50;
-
-        static double[,] impostorScoresUser6User51;
-        static double[,] impostorScoresUser6User52;
-        static double[,] impostorScoresUser6User53;
-        static double[,] impostorScoresUser6User54;
-        static double[,] impostorScoresUser6User55;
-        static double[,] impostorScoresUser6User56;
-        static double[,] impostorScoresUser6User57;
-        static double[,] impostorScoresUser6User58;
-        static double[,] impostorScoresUser6User59;
-        static double[,] impostorScoresUser6User60;
-
-        static double[,] impostorScoresUser6User61;
-        static double[,] impostorScoresUser6User62;
-        static double[,] impostorScoresUser6User63;
-        static double[,] impostorScoresUser6User64;
-        static double[,] impostorScoresUser6User65;
-        static double[,] impostorScoresUser6User66;
-        static double[,] impostorScoresUser6User67;
-        static double[,] impostorScoresUser6User68;
-        static double[,] impostorScoresUser6User69;
-        static double[,] impostorScoresUser6User70;
-
-        static double[,] impostorScoresUser6User71;
-        static double[,] impostorScoresUser6User72;
-        static double[,] impostorScoresUser6User73;
-        static double[,] impostorScoresUser6User74;
-        static double[,] impostorScoresUser6User75;
-        static double[,] impostorScoresUser6User76;
-        static double[,] impostorScoresUser6User77;
-        static double[,] impostorScoresUser6User78;
-        static double[,] impostorScoresUser6User79;
-        static double[,] impostorScoresUser6User80;
-
-        static double[,] impostorScoresUser6User81;
-        static double[,] impostorScoresUser6User82;
-        static double[,] impostorScoresUser6User83;
-        static double[,] impostorScoresUser6User84;
-        static double[,] impostorScoresUser6User85;
-        static double[,] impostorScoresUser6User86;
-        static double[,] impostorScoresUser6User87;
-        static double[,] impostorScoresUser6User88;
-        static double[,] impostorScoresUser6User89;
-        static double[,] impostorScoresUser6User90;
-
-        static double[,] impostorScoresUser6User91;
-        static double[,] impostorScoresUser6User92;
-        static double[,] impostorScoresUser6User93;
-        static double[,] impostorScoresUser6User94;
-        static double[,] impostorScoresUser6User95;
-        static double[,] impostorScoresUser6User96;
-        static double[,] impostorScoresUser6User97;
-        static double[,] impostorScoresUser6User98;
-        static double[,] impostorScoresUser6User99;
-        static double[,] impostorScoresUser6User100;
-        #endregion
-
-        #region Impostor scores for user 7
-        static double[,] impostorScoresUser7User1;
-        static double[,] impostorScoresUser7User2;
-        static double[,] impostorScoresUser7User3;
-        static double[,] impostorScoresUser7User4;
-        static double[,] impostorScoresUser7User5;
-        static double[,] impostorScoresUser7User6;
-        static double[,] impostorScoresUser7User8;
-        static double[,] impostorScoresUser7User9;
-        static double[,] impostorScoresUser7User10;
-
-        static double[,] impostorScoresUser7User11;
-        static double[,] impostorScoresUser7User12;
-        static double[,] impostorScoresUser7User13;
-        static double[,] impostorScoresUser7User14;
-        static double[,] impostorScoresUser7User15;
-        static double[,] impostorScoresUser7User16;
-        static double[,] impostorScoresUser7User17;
-        static double[,] impostorScoresUser7User18;
-        static double[,] impostorScoresUser7User19;
-        static double[,] impostorScoresUser7User20;
-
-        static double[,] impostorScoresUser7User21;
-        static double[,] impostorScoresUser7User22;
-        static double[,] impostorScoresUser7User23;
-        static double[,] impostorScoresUser7User24;
-        static double[,] impostorScoresUser7User25;
-        static double[,] impostorScoresUser7User26;
-        static double[,] impostorScoresUser7User27;
-        static double[,] impostorScoresUser7User28;
-        static double[,] impostorScoresUser7User29;
-        static double[,] impostorScoresUser7User30;
-
-        static double[,] impostorScoresUser7User31;
-        static double[,] impostorScoresUser7User32;
-        static double[,] impostorScoresUser7User33;
-        static double[,] impostorScoresUser7User34;
-        static double[,] impostorScoresUser7User35;
-        static double[,] impostorScoresUser7User36;
-        static double[,] impostorScoresUser7User37;
-        static double[,] impostorScoresUser7User38;
-        static double[,] impostorScoresUser7User39;
-        static double[,] impostorScoresUser7User40;
-
-        static double[,] impostorScoresUser7User41;
-        static double[,] impostorScoresUser7User42;
-        static double[,] impostorScoresUser7User43;
-        static double[,] impostorScoresUser7User44;
-        static double[,] impostorScoresUser7User45;
-        static double[,] impostorScoresUser7User46;
-        static double[,] impostorScoresUser7User47;
-        static double[,] impostorScoresUser7User48;
-        static double[,] impostorScoresUser7User49;
-        static double[,] impostorScoresUser7User50;
-
-        static double[,] impostorScoresUser7User51;
-        static double[,] impostorScoresUser7User52;
-        static double[,] impostorScoresUser7User53;
-        static double[,] impostorScoresUser7User54;
-        static double[,] impostorScoresUser7User55;
-        static double[,] impostorScoresUser7User56;
-        static double[,] impostorScoresUser7User57;
-        static double[,] impostorScoresUser7User58;
-        static double[,] impostorScoresUser7User59;
-        static double[,] impostorScoresUser7User60;
-
-        static double[,] impostorScoresUser7User61;
-        static double[,] impostorScoresUser7User62;
-        static double[,] impostorScoresUser7User63;
-        static double[,] impostorScoresUser7User64;
-        static double[,] impostorScoresUser7User65;
-        static double[,] impostorScoresUser7User66;
-        static double[,] impostorScoresUser7User67;
-        static double[,] impostorScoresUser7User68;
-        static double[,] impostorScoresUser7User69;
-        static double[,] impostorScoresUser7User70;
-
-        static double[,] impostorScoresUser7User71;
-        static double[,] impostorScoresUser7User72;
-        static double[,] impostorScoresUser7User73;
-        static double[,] impostorScoresUser7User74;
-        static double[,] impostorScoresUser7User75;
-        static double[,] impostorScoresUser7User76;
-        static double[,] impostorScoresUser7User77;
-        static double[,] impostorScoresUser7User78;
-        static double[,] impostorScoresUser7User79;
-        static double[,] impostorScoresUser7User80;
-
-        static double[,] impostorScoresUser7User81;
-        static double[,] impostorScoresUser7User82;
-        static double[,] impostorScoresUser7User83;
-        static double[,] impostorScoresUser7User84;
-        static double[,] impostorScoresUser7User85;
-        static double[,] impostorScoresUser7User86;
-        static double[,] impostorScoresUser7User87;
-        static double[,] impostorScoresUser7User88;
-        static double[,] impostorScoresUser7User89;
-        static double[,] impostorScoresUser7User90;
-
-        static double[,] impostorScoresUser7User91;
-        static double[,] impostorScoresUser7User92;
-        static double[,] impostorScoresUser7User93;
-        static double[,] impostorScoresUser7User94;
-        static double[,] impostorScoresUser7User95;
-        static double[,] impostorScoresUser7User96;
-        static double[,] impostorScoresUser7User97;
-        static double[,] impostorScoresUser7User98;
-        static double[,] impostorScoresUser7User99;
-        static double[,] impostorScoresUser7User100;
-        #endregion
-
-        #region Impostor scores for user 8
-        static double[,] impostorScoresUser8User1;
-        static double[,] impostorScoresUser8User2;
-        static double[,] impostorScoresUser8User3;
-        static double[,] impostorScoresUser8User4;
-        static double[,] impostorScoresUser8User5;
-        static double[,] impostorScoresUser8User6;
-        static double[,] impostorScoresUser8User7;
-        static double[,] impostorScoresUser8User9;
-        static double[,] impostorScoresUser8User10;
-
-        static double[,] impostorScoresUser8User11;
-        static double[,] impostorScoresUser8User12;
-        static double[,] impostorScoresUser8User13;
-        static double[,] impostorScoresUser8User14;
-        static double[,] impostorScoresUser8User15;
-        static double[,] impostorScoresUser8User16;
-        static double[,] impostorScoresUser8User17;
-        static double[,] impostorScoresUser8User18;
-        static double[,] impostorScoresUser8User19;
-        static double[,] impostorScoresUser8User20;
-
-        static double[,] impostorScoresUser8User21;
-        static double[,] impostorScoresUser8User22;
-        static double[,] impostorScoresUser8User23;
-        static double[,] impostorScoresUser8User24;
-        static double[,] impostorScoresUser8User25;
-        static double[,] impostorScoresUser8User26;
-        static double[,] impostorScoresUser8User27;
-        static double[,] impostorScoresUser8User28;
-        static double[,] impostorScoresUser8User29;
-        static double[,] impostorScoresUser8User30;
-
-        static double[,] impostorScoresUser8User31;
-        static double[,] impostorScoresUser8User32;
-        static double[,] impostorScoresUser8User33;
-        static double[,] impostorScoresUser8User34;
-        static double[,] impostorScoresUser8User35;
-        static double[,] impostorScoresUser8User36;
-        static double[,] impostorScoresUser8User37;
-        static double[,] impostorScoresUser8User38;
-        static double[,] impostorScoresUser8User39;
-        static double[,] impostorScoresUser8User40;
-
-        static double[,] impostorScoresUser8User41;
-        static double[,] impostorScoresUser8User42;
-        static double[,] impostorScoresUser8User43;
-        static double[,] impostorScoresUser8User44;
-        static double[,] impostorScoresUser8User45;
-        static double[,] impostorScoresUser8User46;
-        static double[,] impostorScoresUser8User47;
-        static double[,] impostorScoresUser8User48;
-        static double[,] impostorScoresUser8User49;
-        static double[,] impostorScoresUser8User50;
-
-        static double[,] impostorScoresUser8User51;
-        static double[,] impostorScoresUser8User52;
-        static double[,] impostorScoresUser8User53;
-        static double[,] impostorScoresUser8User54;
-        static double[,] impostorScoresUser8User55;
-        static double[,] impostorScoresUser8User56;
-        static double[,] impostorScoresUser8User57;
-        static double[,] impostorScoresUser8User58;
-        static double[,] impostorScoresUser8User59;
-        static double[,] impostorScoresUser8User60;
-
-        static double[,] impostorScoresUser8User61;
-        static double[,] impostorScoresUser8User62;
-        static double[,] impostorScoresUser8User63;
-        static double[,] impostorScoresUser8User64;
-        static double[,] impostorScoresUser8User65;
-        static double[,] impostorScoresUser8User66;
-        static double[,] impostorScoresUser8User67;
-        static double[,] impostorScoresUser8User68;
-        static double[,] impostorScoresUser8User69;
-        static double[,] impostorScoresUser8User70;
-
-        static double[,] impostorScoresUser8User71;
-        static double[,] impostorScoresUser8User72;
-        static double[,] impostorScoresUser8User73;
-        static double[,] impostorScoresUser8User74;
-        static double[,] impostorScoresUser8User75;
-        static double[,] impostorScoresUser8User76;
-        static double[,] impostorScoresUser8User77;
-        static double[,] impostorScoresUser8User78;
-        static double[,] impostorScoresUser8User79;
-        static double[,] impostorScoresUser8User80;
-
-        static double[,] impostorScoresUser8User81;
-        static double[,] impostorScoresUser8User82;
-        static double[,] impostorScoresUser8User83;
-        static double[,] impostorScoresUser8User84;
-        static double[,] impostorScoresUser8User85;
-        static double[,] impostorScoresUser8User86;
-        static double[,] impostorScoresUser8User87;
-        static double[,] impostorScoresUser8User88;
-        static double[,] impostorScoresUser8User89;
-        static double[,] impostorScoresUser8User90;
-
-        static double[,] impostorScoresUser8User91;
-        static double[,] impostorScoresUser8User92;
-        static double[,] impostorScoresUser8User93;
-        static double[,] impostorScoresUser8User94;
-        static double[,] impostorScoresUser8User95;
-        static double[,] impostorScoresUser8User96;
-        static double[,] impostorScoresUser8User97;
-        static double[,] impostorScoresUser8User98;
-        static double[,] impostorScoresUser8User99;
-        static double[,] impostorScoresUser8User100;
-        #endregion
-
-        #region Impostor scores for user 9
-        static double[,] impostorScoresUser9User1;
-        static double[,] impostorScoresUser9User2;
-        static double[,] impostorScoresUser9User3;
-        static double[,] impostorScoresUser9User4;
-        static double[,] impostorScoresUser9User5;
-        static double[,] impostorScoresUser9User6;
-        static double[,] impostorScoresUser9User7;
-        static double[,] impostorScoresUser9User8;
-        static double[,] impostorScoresUser9User10;
-
-        static double[,] impostorScoresUser9User11;
-        static double[,] impostorScoresUser9User12;
-        static double[,] impostorScoresUser9User13;
-        static double[,] impostorScoresUser9User14;
-        static double[,] impostorScoresUser9User15;
-        static double[,] impostorScoresUser9User16;
-        static double[,] impostorScoresUser9User17;
-        static double[,] impostorScoresUser9User18;
-        static double[,] impostorScoresUser9User19;
-        static double[,] impostorScoresUser9User20;
-
-        static double[,] impostorScoresUser9User21;
-        static double[,] impostorScoresUser9User22;
-        static double[,] impostorScoresUser9User23;
-        static double[,] impostorScoresUser9User24;
-        static double[,] impostorScoresUser9User25;
-        static double[,] impostorScoresUser9User26;
-        static double[,] impostorScoresUser9User27;
-        static double[,] impostorScoresUser9User28;
-        static double[,] impostorScoresUser9User29;
-        static double[,] impostorScoresUser9User30;
-
-        static double[,] impostorScoresUser9User31;
-        static double[,] impostorScoresUser9User32;
-        static double[,] impostorScoresUser9User33;
-        static double[,] impostorScoresUser9User34;
-        static double[,] impostorScoresUser9User35;
-        static double[,] impostorScoresUser9User36;
-        static double[,] impostorScoresUser9User37;
-        static double[,] impostorScoresUser9User38;
-        static double[,] impostorScoresUser9User39;
-        static double[,] impostorScoresUser9User40;
-
-        static double[,] impostorScoresUser9User41;
-        static double[,] impostorScoresUser9User42;
-        static double[,] impostorScoresUser9User43;
-        static double[,] impostorScoresUser9User44;
-        static double[,] impostorScoresUser9User45;
-        static double[,] impostorScoresUser9User46;
-        static double[,] impostorScoresUser9User47;
-        static double[,] impostorScoresUser9User48;
-        static double[,] impostorScoresUser9User49;
-        static double[,] impostorScoresUser9User50;
-
-        static double[,] impostorScoresUser9User51;
-        static double[,] impostorScoresUser9User52;
-        static double[,] impostorScoresUser9User53;
-        static double[,] impostorScoresUser9User54;
-        static double[,] impostorScoresUser9User55;
-        static double[,] impostorScoresUser9User56;
-        static double[,] impostorScoresUser9User57;
-        static double[,] impostorScoresUser9User58;
-        static double[,] impostorScoresUser9User59;
-        static double[,] impostorScoresUser9User60;
-
-        static double[,] impostorScoresUser9User61;
-        static double[,] impostorScoresUser9User62;
-        static double[,] impostorScoresUser9User63;
-        static double[,] impostorScoresUser9User64;
-        static double[,] impostorScoresUser9User65;
-        static double[,] impostorScoresUser9User66;
-        static double[,] impostorScoresUser9User67;
-        static double[,] impostorScoresUser9User68;
-        static double[,] impostorScoresUser9User69;
-        static double[,] impostorScoresUser9User70;
-
-        static double[,] impostorScoresUser9User71;
-        static double[,] impostorScoresUser9User72;
-        static double[,] impostorScoresUser9User73;
-        static double[,] impostorScoresUser9User74;
-        static double[,] impostorScoresUser9User75;
-        static double[,] impostorScoresUser9User76;
-        static double[,] impostorScoresUser9User77;
-        static double[,] impostorScoresUser9User78;
-        static double[,] impostorScoresUser9User79;
-        static double[,] impostorScoresUser9User80;
-
-        static double[,] impostorScoresUser9User81;
-        static double[,] impostorScoresUser9User82;
-        static double[,] impostorScoresUser9User83;
-        static double[,] impostorScoresUser9User84;
-        static double[,] impostorScoresUser9User85;
-        static double[,] impostorScoresUser9User86;
-        static double[,] impostorScoresUser9User87;
-        static double[,] impostorScoresUser9User88;
-        static double[,] impostorScoresUser9User89;
-        static double[,] impostorScoresUser9User90;
-
-        static double[,] impostorScoresUser9User91;
-        static double[,] impostorScoresUser9User92;
-        static double[,] impostorScoresUser9User93;
-        static double[,] impostorScoresUser9User94;
-        static double[,] impostorScoresUser9User95;
-        static double[,] impostorScoresUser9User96;
-        static double[,] impostorScoresUser9User97;
-        static double[,] impostorScoresUser9User98;
-        static double[,] impostorScoresUser9User99;
-        static double[,] impostorScoresUser9User100;
-        #endregion
-
-        #region Impostor scores for user 10
-        static double[,] impostorScoresUser10User1; static double[,] impostorScoresUser10User2; static double[,] impostorScoresUser10User3;
-        static double[,] impostorScoresUser10User4; static double[,] impostorScoresUser10User5; static double[,] impostorScoresUser10User6;
-        static double[,] impostorScoresUser10User7; static double[,] impostorScoresUser10User8; static double[,] impostorScoresUser10User9;
-        static double[,] impostorScoresUser10User11;
-
-        static double[,] impostorScoresUser10User12; static double[,] impostorScoresUser10User13; static double[,] impostorScoresUser10User14;
-        static double[,] impostorScoresUser10User15; static double[,] impostorScoresUser10User16; static double[,] impostorScoresUser10User17;
-        static double[,] impostorScoresUser10User18; static double[,] impostorScoresUser10User19; static double[,] impostorScoresUser10User20;
-
-        static double[,] impostorScoresUser10User21;
-        static double[,] impostorScoresUser10User22;
-        static double[,] impostorScoresUser10User23;
-        static double[,] impostorScoresUser10User24;
-        static double[,] impostorScoresUser10User25;
-        static double[,] impostorScoresUser10User26;
-        static double[,] impostorScoresUser10User27;
-        static double[,] impostorScoresUser10User28;
-        static double[,] impostorScoresUser10User29;
-        static double[,] impostorScoresUser10User30;
-
-        static double[,] impostorScoresUser10User31;
-        static double[,] impostorScoresUser10User32;
-        static double[,] impostorScoresUser10User33;
-        static double[,] impostorScoresUser10User34;
-        static double[,] impostorScoresUser10User35;
-        static double[,] impostorScoresUser10User36;
-        static double[,] impostorScoresUser10User37;
-        static double[,] impostorScoresUser10User38;
-        static double[,] impostorScoresUser10User39;
-        static double[,] impostorScoresUser10User40;
-
-        static double[,] impostorScoresUser10User41;
-        static double[,] impostorScoresUser10User42;
-        static double[,] impostorScoresUser10User43;
-        static double[,] impostorScoresUser10User44;
-        static double[,] impostorScoresUser10User45;
-        static double[,] impostorScoresUser10User46;
-        static double[,] impostorScoresUser10User47;
-        static double[,] impostorScoresUser10User48;
-        static double[,] impostorScoresUser10User49;
-        static double[,] impostorScoresUser10User50;
-
-        static double[,] impostorScoresUser10User51;
-        static double[,] impostorScoresUser10User52;
-        static double[,] impostorScoresUser10User53;
-        static double[,] impostorScoresUser10User54;
-        static double[,] impostorScoresUser10User55;
-        static double[,] impostorScoresUser10User56;
-        static double[,] impostorScoresUser10User57;
-        static double[,] impostorScoresUser10User58;
-        static double[,] impostorScoresUser10User59;
-        static double[,] impostorScoresUser10User60;
-
-        static double[,] impostorScoresUser10User61;
-        static double[,] impostorScoresUser10User62;
-        static double[,] impostorScoresUser10User63;
-        static double[,] impostorScoresUser10User64;
-        static double[,] impostorScoresUser10User65;
-        static double[,] impostorScoresUser10User66;
-        static double[,] impostorScoresUser10User67;
-        static double[,] impostorScoresUser10User68;
-        static double[,] impostorScoresUser10User69;
-        static double[,] impostorScoresUser10User70;
-
-        static double[,] impostorScoresUser10User71;
-        static double[,] impostorScoresUser10User72;
-        static double[,] impostorScoresUser10User73;
-        static double[,] impostorScoresUser10User74;
-        static double[,] impostorScoresUser10User75;
-        static double[,] impostorScoresUser10User76;
-        static double[,] impostorScoresUser10User77;
-        static double[,] impostorScoresUser10User78;
-        static double[,] impostorScoresUser10User79;
-        static double[,] impostorScoresUser10User80;
-
-        static double[,] impostorScoresUser10User81;
-        static double[,] impostorScoresUser10User82;
-        static double[,] impostorScoresUser10User83;
-        static double[,] impostorScoresUser10User84;
-        static double[,] impostorScoresUser10User85;
-        static double[,] impostorScoresUser10User86;
-        static double[,] impostorScoresUser10User87;
-        static double[,] impostorScoresUser10User88;
-        static double[,] impostorScoresUser10User89;
-        static double[,] impostorScoresUser10User90;
-
-        static double[,] impostorScoresUser10User91;
-        static double[,] impostorScoresUser10User92;
-        static double[,] impostorScoresUser10User93;
-        static double[,] impostorScoresUser10User94;
-        static double[,] impostorScoresUser10User95;
-        static double[,] impostorScoresUser10User96;
-        static double[,] impostorScoresUser10User97;
-        static double[,] impostorScoresUser10User98;
-        static double[,] impostorScoresUser10User99;
-        static double[,] impostorScoresUser10User100;
-        #endregion
-
-        #region Impostor scores for user 11
-        static double[,] impostorScoresUser11User1;
-        static double[,] impostorScoresUser11User2;
-        static double[,] impostorScoresUser11User3;
-        static double[,] impostorScoresUser11User4;
-        static double[,] impostorScoresUser11User5;
-        static double[,] impostorScoresUser11User6;
-        static double[,] impostorScoresUser11User7;
-        static double[,] impostorScoresUser11User8;
-        static double[,] impostorScoresUser11User9;
-        static double[,] impostorScoresUser11User10;
-
-        static double[,] impostorScoresUser11User12;
-        static double[,] impostorScoresUser11User13;
-        static double[,] impostorScoresUser11User14;
-        static double[,] impostorScoresUser11User15;
-        static double[,] impostorScoresUser11User16;
-        static double[,] impostorScoresUser11User17;
-        static double[,] impostorScoresUser11User18;
-        static double[,] impostorScoresUser11User19;
-        static double[,] impostorScoresUser11User20;
-
-        static double[,] impostorScoresUser11User21;
-        static double[,] impostorScoresUser11User22;
-        static double[,] impostorScoresUser11User23;
-        static double[,] impostorScoresUser11User24;
-        static double[,] impostorScoresUser11User25;
-        static double[,] impostorScoresUser11User26;
-        static double[,] impostorScoresUser11User27;
-        static double[,] impostorScoresUser11User28;
-        static double[,] impostorScoresUser11User29;
-        static double[,] impostorScoresUser11User30;
-
-        static double[,] impostorScoresUser11User31;
-        static double[,] impostorScoresUser11User32;
-        static double[,] impostorScoresUser11User33;
-        static double[,] impostorScoresUser11User34;
-        static double[,] impostorScoresUser11User35;
-        static double[,] impostorScoresUser11User36;
-        static double[,] impostorScoresUser11User37;
-        static double[,] impostorScoresUser11User38;
-        static double[,] impostorScoresUser11User39;
-        static double[,] impostorScoresUser11User40;
-
-        static double[,] impostorScoresUser11User41;
-        static double[,] impostorScoresUser11User42;
-        static double[,] impostorScoresUser11User43;
-        static double[,] impostorScoresUser11User44;
-        static double[,] impostorScoresUser11User45;
-        static double[,] impostorScoresUser11User46;
-        static double[,] impostorScoresUser11User47;
-        static double[,] impostorScoresUser11User48;
-        static double[,] impostorScoresUser11User49;
-        static double[,] impostorScoresUser11User50;
-
-        static double[,] impostorScoresUser11User51;
-        static double[,] impostorScoresUser11User52;
-        static double[,] impostorScoresUser11User53;
-        static double[,] impostorScoresUser11User54;
-        static double[,] impostorScoresUser11User55;
-        static double[,] impostorScoresUser11User56;
-        static double[,] impostorScoresUser11User57;
-        static double[,] impostorScoresUser11User58;
-        static double[,] impostorScoresUser11User59;
-        static double[,] impostorScoresUser11User60;
-
-        static double[,] impostorScoresUser11User61;
-        static double[,] impostorScoresUser11User62;
-        static double[,] impostorScoresUser11User63;
-        static double[,] impostorScoresUser11User64;
-        static double[,] impostorScoresUser11User65;
-        static double[,] impostorScoresUser11User66;
-        static double[,] impostorScoresUser11User67;
-        static double[,] impostorScoresUser11User68;
-        static double[,] impostorScoresUser11User69;
-        static double[,] impostorScoresUser11User70;
-
-        static double[,] impostorScoresUser11User71;
-        static double[,] impostorScoresUser11User72;
-        static double[,] impostorScoresUser11User73;
-        static double[,] impostorScoresUser11User74;
-        static double[,] impostorScoresUser11User75;
-        static double[,] impostorScoresUser11User76;
-        static double[,] impostorScoresUser11User77;
-        static double[,] impostorScoresUser11User78;
-        static double[,] impostorScoresUser11User79;
-        static double[,] impostorScoresUser11User80;
-
-        static double[,] impostorScoresUser11User81;
-        static double[,] impostorScoresUser11User82;
-        static double[,] impostorScoresUser11User83;
-        static double[,] impostorScoresUser11User84;
-        static double[,] impostorScoresUser11User85;
-        static double[,] impostorScoresUser11User86;
-        static double[,] impostorScoresUser11User87;
-        static double[,] impostorScoresUser11User88;
-        static double[,] impostorScoresUser11User89;
-        static double[,] impostorScoresUser11User90;
-
-        static double[,] impostorScoresUser11User91;
-        static double[,] impostorScoresUser11User92;
-        static double[,] impostorScoresUser11User93;
-        static double[,] impostorScoresUser11User94;
-        static double[,] impostorScoresUser11User95;
-        static double[,] impostorScoresUser11User96;
-        static double[,] impostorScoresUser11User97;
-        static double[,] impostorScoresUser11User98;
-        static double[,] impostorScoresUser11User99;
-        static double[,] impostorScoresUser11User100;
-        #endregion
-
-        #region Impostor scores for user 12
-        static double[,] impostorScoresUser12User1;
-        static double[,] impostorScoresUser12User2;
-        static double[,] impostorScoresUser12User3;
-        static double[,] impostorScoresUser12User4;
-        static double[,] impostorScoresUser12User5;
-        static double[,] impostorScoresUser12User6;
-        static double[,] impostorScoresUser12User7;
-        static double[,] impostorScoresUser12User8;
-        static double[,] impostorScoresUser12User9;
-        static double[,] impostorScoresUser12User10;
-
-        static double[,] impostorScoresUser12User11;
-        static double[,] impostorScoresUser12User13;
-        static double[,] impostorScoresUser12User14;
-        static double[,] impostorScoresUser12User15;
-        static double[,] impostorScoresUser12User16;
-        static double[,] impostorScoresUser12User17;
-        static double[,] impostorScoresUser12User18;
-        static double[,] impostorScoresUser12User19;
-        static double[,] impostorScoresUser12User20;
-
-        static double[,] impostorScoresUser12User21;
-        static double[,] impostorScoresUser12User22;
-        static double[,] impostorScoresUser12User23;
-        static double[,] impostorScoresUser12User24;
-        static double[,] impostorScoresUser12User25;
-        static double[,] impostorScoresUser12User26;
-        static double[,] impostorScoresUser12User27;
-        static double[,] impostorScoresUser12User28;
-        static double[,] impostorScoresUser12User29;
-        static double[,] impostorScoresUser12User30;
-
-        static double[,] impostorScoresUser12User31;
-        static double[,] impostorScoresUser12User32;
-        static double[,] impostorScoresUser12User33;
-        static double[,] impostorScoresUser12User34;
-        static double[,] impostorScoresUser12User35;
-        static double[,] impostorScoresUser12User36;
-        static double[,] impostorScoresUser12User37;
-        static double[,] impostorScoresUser12User38;
-        static double[,] impostorScoresUser12User39;
-        static double[,] impostorScoresUser12User40;
-
-        static double[,] impostorScoresUser12User41;
-        static double[,] impostorScoresUser12User42;
-        static double[,] impostorScoresUser12User43;
-        static double[,] impostorScoresUser12User44;
-        static double[,] impostorScoresUser12User45;
-        static double[,] impostorScoresUser12User46;
-        static double[,] impostorScoresUser12User47;
-        static double[,] impostorScoresUser12User48;
-        static double[,] impostorScoresUser12User49;
-        static double[,] impostorScoresUser12User50;
-
-        static double[,] impostorScoresUser12User51;
-        static double[,] impostorScoresUser12User52;
-        static double[,] impostorScoresUser12User53;
-        static double[,] impostorScoresUser12User54;
-        static double[,] impostorScoresUser12User55;
-        static double[,] impostorScoresUser12User56;
-        static double[,] impostorScoresUser12User57;
-        static double[,] impostorScoresUser12User58;
-        static double[,] impostorScoresUser12User59;
-        static double[,] impostorScoresUser12User60;
-
-        static double[,] impostorScoresUser12User61;
-        static double[,] impostorScoresUser12User62;
-        static double[,] impostorScoresUser12User63;
-        static double[,] impostorScoresUser12User64;
-        static double[,] impostorScoresUser12User65;
-        static double[,] impostorScoresUser12User66;
-        static double[,] impostorScoresUser12User67;
-        static double[,] impostorScoresUser12User68;
-        static double[,] impostorScoresUser12User69;
-        static double[,] impostorScoresUser12User70;
-
-        static double[,] impostorScoresUser12User71;
-        static double[,] impostorScoresUser12User72;
-        static double[,] impostorScoresUser12User73;
-        static double[,] impostorScoresUser12User74;
-        static double[,] impostorScoresUser12User75;
-        static double[,] impostorScoresUser12User76;
-        static double[,] impostorScoresUser12User77;
-        static double[,] impostorScoresUser12User78;
-        static double[,] impostorScoresUser12User79;
-        static double[,] impostorScoresUser12User80;
-
-        static double[,] impostorScoresUser12User81;
-        static double[,] impostorScoresUser12User82;
-        static double[,] impostorScoresUser12User83;
-        static double[,] impostorScoresUser12User84;
-        static double[,] impostorScoresUser12User85;
-        static double[,] impostorScoresUser12User86;
-        static double[,] impostorScoresUser12User87;
-        static double[,] impostorScoresUser12User88;
-        static double[,] impostorScoresUser12User89;
-        static double[,] impostorScoresUser12User90;
-
-        static double[,] impostorScoresUser12User91;
-        static double[,] impostorScoresUser12User92;
-        static double[,] impostorScoresUser12User93;
-        static double[,] impostorScoresUser12User94;
-        static double[,] impostorScoresUser12User95;
-        static double[,] impostorScoresUser12User96;
-        static double[,] impostorScoresUser12User97;
-        static double[,] impostorScoresUser12User98;
-        static double[,] impostorScoresUser12User99;
-        static double[,] impostorScoresUser12User100;
-        #endregion
-
-        #region Impostor scores for user 13
-        static double[,] impostorScoresUser13User1;
-        static double[,] impostorScoresUser13User2;
-        static double[,] impostorScoresUser13User3;
-        static double[,] impostorScoresUser13User4;
-        static double[,] impostorScoresUser13User5;
-        static double[,] impostorScoresUser13User6;
-        static double[,] impostorScoresUser13User7;
-        static double[,] impostorScoresUser13User8;
-        static double[,] impostorScoresUser13User9;
-        static double[,] impostorScoresUser13User10;
-
-        static double[,] impostorScoresUser13User11;
-        static double[,] impostorScoresUser13User12;
-        static double[,] impostorScoresUser13User14;
-        static double[,] impostorScoresUser13User15;
-        static double[,] impostorScoresUser13User16;
-        static double[,] impostorScoresUser13User17;
-        static double[,] impostorScoresUser13User18;
-        static double[,] impostorScoresUser13User19;
-        static double[,] impostorScoresUser13User20;
-
-        static double[,] impostorScoresUser13User21;
-        static double[,] impostorScoresUser13User22;
-        static double[,] impostorScoresUser13User23;
-        static double[,] impostorScoresUser13User24;
-        static double[,] impostorScoresUser13User25;
-        static double[,] impostorScoresUser13User26;
-        static double[,] impostorScoresUser13User27;
-        static double[,] impostorScoresUser13User28;
-        static double[,] impostorScoresUser13User29;
-        static double[,] impostorScoresUser13User30;
-
-        static double[,] impostorScoresUser13User31;
-        static double[,] impostorScoresUser13User32;
-        static double[,] impostorScoresUser13User33;
-        static double[,] impostorScoresUser13User34;
-        static double[,] impostorScoresUser13User35;
-        static double[,] impostorScoresUser13User36;
-        static double[,] impostorScoresUser13User37;
-        static double[,] impostorScoresUser13User38;
-        static double[,] impostorScoresUser13User39;
-        static double[,] impostorScoresUser13User40;
-
-        static double[,] impostorScoresUser13User41;
-        static double[,] impostorScoresUser13User42;
-        static double[,] impostorScoresUser13User43;
-        static double[,] impostorScoresUser13User44;
-        static double[,] impostorScoresUser13User45;
-        static double[,] impostorScoresUser13User46;
-        static double[,] impostorScoresUser13User47;
-        static double[,] impostorScoresUser13User48;
-        static double[,] impostorScoresUser13User49;
-        static double[,] impostorScoresUser13User50;
-
-        static double[,] impostorScoresUser13User51;
-        static double[,] impostorScoresUser13User52;
-        static double[,] impostorScoresUser13User53;
-        static double[,] impostorScoresUser13User54;
-        static double[,] impostorScoresUser13User55;
-        static double[,] impostorScoresUser13User56;
-        static double[,] impostorScoresUser13User57;
-        static double[,] impostorScoresUser13User58;
-        static double[,] impostorScoresUser13User59;
-        static double[,] impostorScoresUser13User60;
-
-        static double[,] impostorScoresUser13User61;
-        static double[,] impostorScoresUser13User62;
-        static double[,] impostorScoresUser13User63;
-        static double[,] impostorScoresUser13User64;
-        static double[,] impostorScoresUser13User65;
-        static double[,] impostorScoresUser13User66;
-        static double[,] impostorScoresUser13User67;
-        static double[,] impostorScoresUser13User68;
-        static double[,] impostorScoresUser13User69;
-        static double[,] impostorScoresUser13User70;
-
-        static double[,] impostorScoresUser13User71;
-        static double[,] impostorScoresUser13User72;
-        static double[,] impostorScoresUser13User73;
-        static double[,] impostorScoresUser13User74;
-        static double[,] impostorScoresUser13User75;
-        static double[,] impostorScoresUser13User76;
-        static double[,] impostorScoresUser13User77;
-        static double[,] impostorScoresUser13User78;
-        static double[,] impostorScoresUser13User79;
-        static double[,] impostorScoresUser13User80;
-
-        static double[,] impostorScoresUser13User81;
-        static double[,] impostorScoresuser13User82;
-        static double[,] impostorScoresUser13User83;
-        static double[,] impostorScoresUser13User84;
-        static double[,] impostorScoresUser13User85;
-        static double[,] impostorScoresUser13User86;
-        static double[,] impostorScoresUser13User87;
-        static double[,] impostorScoresUser13User88;
-        static double[,] impostorScoresUser13User89;
-        static double[,] impostorScoresUser13User90;
-
-        static double[,] impostorScoresUser13User91;
-        static double[,] impostorScoresUser13User92;
-        static double[,] impostorScoresUser13User93;
-        static double[,] impostorScoresUser13User94;
-        static double[,] impostorScoresUser13User95;
-        static double[,] impostorScoresUser13User96;
-        static double[,] impostorScoresUser13User97;
-        static double[,] impostorScoresUser13User98;
-        static double[,] impostorScoresUser13User99;
-        static double[,] impostorScoresUser13User100;
-        #endregion
-
-        #region Impostor scores for user 14
-        static double[,] impostorScoresUser14User1;
-        static double[,] impostorScoresUser14User2;
-        static double[,] impostorScoresUser14User3;
-        static double[,] impostorScoresUser14User4;
-        static double[,] impostorScoresUser14User5;
-        static double[,] impostorScoresUser14User6;
-        static double[,] impostorScoresUser14User7;
-        static double[,] impostorScoresUser14User8;
-        static double[,] impostorScoresUser14User9;
-        static double[,] impostorScoresUser14User10;
-
-        static double[,] impostorScoresUser14User11;
-        static double[,] impostorScoresUser14User12;
-        static double[,] impostorScoresUser14User13;
-        static double[,] impostorScoresUser14User15;
-        static double[,] impostorScoresUser14User16;
-        static double[,] impostorScoresUser14User17;
-        static double[,] impostorScoresUser14User18;
-        static double[,] impostorScoresUser14User19;
-        static double[,] impostorScoresUser14User20;
-
-        static double[,] impostorScoresUser14User21;
-        static double[,] impostorScoresUser14User22;
-        static double[,] impostorScoresUser14User23;
-        static double[,] impostorScoresUser14User24;
-        static double[,] impostorScoresUser14User25;
-        static double[,] impostorScoresUser14User26;
-        static double[,] impostorScoresUser14User27;
-        static double[,] impostorScoresUser14User28;
-        static double[,] impostorScoresUser14User29;
-        static double[,] impostorScoresUser14User30;
-
-        static double[,] impostorScoresUser14User31;
-        static double[,] impostorScoresUser14User32;
-        static double[,] impostorScoresUser14User33;
-        static double[,] impostorScoresUser14User34;
-        static double[,] impostorScoresUser14User35;
-        static double[,] impostorScoresUser14User36;
-        static double[,] impostorScoresUser14User37;
-        static double[,] impostorScoresUser14User38;
-        static double[,] impostorScoresUser14User39;
-        static double[,] impostorScoresUser14User40;
-
-        static double[,] impostorScoresUser14User41;
-        static double[,] impostorScoresUser14User42;
-        static double[,] impostorScoresUser14User43;
-        static double[,] impostorScoresUser14User44;
-        static double[,] impostorScoresUser14User45;
-        static double[,] impostorScoresUser14User46;
-        static double[,] impostorScoresUser14User47;
-        static double[,] impostorScoresUser14User48;
-        static double[,] impostorScoresUser14User49;
-        static double[,] impostorScoresUser14User50;
-
-        static double[,] impostorScoresUser14User51;
-        static double[,] impostorScoresUser14User52;
-        static double[,] impostorScoresUser14User53;
-        static double[,] impostorScoresUser14User54;
-        static double[,] impostorScoresUser14User55;
-        static double[,] impostorScoresUser14User56;
-        static double[,] impostorScoresUser14User57;
-        static double[,] impostorScoresUser14User58;
-        static double[,] impostorScoresUser14User59;
-        static double[,] impostorScoresUser14User60;
-
-        static double[,] impostorScoresUser14User61;
-        static double[,] impostorScoresUser14User62;
-        static double[,] impostorScoresUser14User63;
-        static double[,] impostorScoresUser14User64;
-        static double[,] impostorScoresUser14User65;
-        static double[,] impostorScoresUser14User66;
-        static double[,] impostorScoresUser14User67;
-        static double[,] impostorScoresUser14User68;
-        static double[,] impostorScoresUser14User69;
-        static double[,] impostorScoresUser14User70;
-
-        static double[,] impostorScoresUser14User71;
-        static double[,] impostorScoresUser14User72;
-        static double[,] impostorScoresUser14User73;
-        static double[,] impostorScoresUser14User74;
-        static double[,] impostorScoresUser14User75;
-        static double[,] impostorScoresUser14User76;
-        static double[,] impostorScoresUser14User77;
-        static double[,] impostorScoresUser14User78;
-        static double[,] impostorScoresUser14User79;
-        static double[,] impostorScoresUser14User80;
-
-        static double[,] impostorScoresUser14User81;
-        static double[,] impostorScoresUser14User82;
-        static double[,] impostorScoresUser14User83;
-        static double[,] impostorScoresUser14User84;
-        static double[,] impostorScoresUser14User85;
-        static double[,] impostorScoresUser14User86;
-        static double[,] impostorScoresUser14User87;
-        static double[,] impostorScoresUser14User88;
-        static double[,] impostorScoresUser14User89;
-        static double[,] impostorScoresUser14User90;
-
-        static double[,] impostorScoresUser14User91;
-        static double[,] impostorScoresUser14User92;
-        static double[,] impostorScoresUser14User93;
-        static double[,] impostorScoresUser14User94;
-        static double[,] impostorScoresUser14User95;
-        static double[,] impostorScoresUser14User96;
-        static double[,] impostorScoresUser14User97;
-        static double[,] impostorScoresUser14User98;
-        static double[,] impostorScoresUser14User99;
-        static double[,] impostorScoresUser14User100;
-        #endregion
-
-        #region Impostor scores for user 15
-        static double[,] impostorScoresUser15User1;
-        static double[,] impostorScoresUser15User2;
-        static double[,] impostorScoresUser15User3;
-        static double[,] impostorScoresUser15User4;
-        static double[,] impostorScoresUser15User5;
-        static double[,] impostorScoresUser15User6;
-        static double[,] impostorScoresUser15User7;
-        static double[,] impostorScoresUser15User8;
-        static double[,] impostorScoresUser15User9;
-        static double[,] impostorScoresUser15User10;
-
-        static double[,] impostorScoresUser15User11;
-        static double[,] impostorScoresUser15User12;
-        static double[,] impostorScoresUser15User13;
-        static double[,] impostorScoresUser15User14;
-        static double[,] impostorScoresUser15User16;
-        static double[,] impostorScoresUser15User17;
-        static double[,] impostorScoresUser15User18;
-        static double[,] impostorScoresUser15User19;
-        static double[,] impostorScoresUser15User20;
-
-        static double[,] impostorScoresUser15User21;
-        static double[,] impostorScoresUser15User22;
-        static double[,] impostorScoresUser15User23;
-        static double[,] impostorScoresUser15User24;
-        static double[,] impostorScoresUser15User25;
-        static double[,] impostorScoresUser15User26;
-        static double[,] impostorScoresUser15User27;
-        static double[,] impostorScoresUser15User28;
-        static double[,] impostorScoresUser15User29;
-        static double[,] impostorScoresUser15User30;
-
-        static double[,] impostorScoresUser15User31;
-        static double[,] impostorScoresUser15User32;
-        static double[,] impostorScoresUser15User33;
-        static double[,] impostorScoresUser15User34;
-        static double[,] impostorScoresUser15User35;
-        static double[,] impostorScoresUser15User36;
-        static double[,] impostorScoresUser15User37;
-        static double[,] impostorScoresUser15User38;
-        static double[,] impostorScoresUser15User39;
-        static double[,] impostorScoresUser15User40;
-
-        static double[,] impostorScoresUser15User41;
-        static double[,] impostorScoresUser15User42;
-        static double[,] impostorScoresUser15User43;
-        static double[,] impostorScoresUser15User44;
-        static double[,] impostorScoresUser15User45;
-        static double[,] impostorScoresUser15User46;
-        static double[,] impostorScoresUser15User47;
-        static double[,] impostorScoresUser15User48;
-        static double[,] impostorScoresUser15User49;
-        static double[,] impostorScoresUser15User50;
-
-        static double[,] impostorScoresUser15User51;
-        static double[,] impostorScoresUser15User52;
-        static double[,] impostorScoresUser15User53;
-        static double[,] impostorScoresUser15User54;
-        static double[,] impostorScoresUser15User55;
-        static double[,] impostorScoresUser15User56;
-        static double[,] impostorScoresUser15User57;
-        static double[,] impostorScoresUser15User58;
-        static double[,] impostorScoresUser15User59;
-        static double[,] impostorScoresUser15User60;
-
-        static double[,] impostorScoresUser15User61;
-        static double[,] impostorScoresUser15User62;
-        static double[,] impostorScoresUser15User63;
-        static double[,] impostorScoresUser15User64;
-        static double[,] impostorScoresUser15User65;
-        static double[,] impostorScoresUser15User66;
-        static double[,] impostorScoresUser15User67;
-        static double[,] impostorScoresUser15User68;
-        static double[,] impostorScoresUser15User69;
-        static double[,] impostorScoresUser15User70;
-
-        static double[,] impostorScoresUser15User71;
-        static double[,] impostorScoresUser15User72;
-        static double[,] impostorScoresUser15User73;
-        static double[,] impostorScoresUser15User74;
-        static double[,] impostorScoresUser15User75;
-        static double[,] impostorScoresUser15User76;
-        static double[,] impostorScoresUser15User77;
-        static double[,] impostorScoresUser15User78;
-        static double[,] impostorScoresUser15User79;
-        static double[,] impostorScoresUser15User80;
-
-        static double[,] impostorScoresUser15User81;
-        static double[,] impostorScoresUser15User82;
-        static double[,] impostorScoresUser15User83;
-        static double[,] impostorScoresUser15User84;
-        static double[,] impostorScoresUser15User85;
-        static double[,] impostorScoresUser15User86;
-        static double[,] impostorScoresUser15User87;
-        static double[,] impostorScoresUser15User88;
-        static double[,] impostorScoresUser15User89;
-        static double[,] impostorScoresUser15User90;
-
-        static double[,] impostorScoresUser15User91;
-        static double[,] impostorScoresUser15User92;
-        static double[,] impostorScoresUser15User93;
-        static double[,] impostorScoresUser15User94;
-        static double[,] impostorScoresUser15User95;
-        static double[,] impostorScoresUser15User96;
-        static double[,] impostorScoresUser15User97;
-        static double[,] impostorScoresUser15User98;
-        static double[,] impostorScoresUser15User99;
-        static double[,] impostorScoresUser15User100;
-        #endregion
-
-        #region Impostor scores for user 16
-        static double[,] impostorScoresUser16User1;
-        static double[,] impostorScoresUser16User2;
-        static double[,] impostorScoresUser16User3;
-        static double[,] impostorScoresUser16User4;
-        static double[,] impostorScoresUser16User5;
-        static double[,] impostorScoresUser16User6;
-        static double[,] impostorScoresUser16User7;
-        static double[,] impostorScoresUser16User8;
-        static double[,] impostorScoresUser16User9;
-        static double[,] impostorScoresUser16User10;
-
-        static double[,] impostorScoresUser16User11;
-        static double[,] impostorScoresUser16User12;
-        static double[,] impostorScoresUser16User13;
-        static double[,] impostorScoresUser16User14;
-        static double[,] impostorScoresUser16User15;
-        static double[,] impostorScoresUser16User17;
-        static double[,] impostorScoresUser16User18;
-        static double[,] impostorScoresUser16User19;
-        static double[,] impostorScoresUser16User20;
-
-        static double[,] impostorScoresUser16User21;
-        static double[,] impostorScoresUser16User22;
-        static double[,] impostorScoresUser16User23;
-        static double[,] impostorScoresUser16User24;
-        static double[,] impostorScoresUser16User25;
-        static double[,] impostorScoresUser16User26;
-        static double[,] impostorScoresUser16User27;
-        static double[,] impostorScoresUser16User28;
-        static double[,] impostorScoresUser16User29;
-        static double[,] impostorScoresUser16User30;
-
-        static double[,] impostorScoresUser16User31;
-        static double[,] impostorScoresUser16User32;
-        static double[,] impostorScoresUser16User33;
-        static double[,] impostorScoresUser16User34;
-        static double[,] impostorScoresUser16User35;
-        static double[,] impostorScoresUser16User36;
-        static double[,] impostorScoresUser16User37;
-        static double[,] impostorScoresUser16User38;
-        static double[,] impostorScoresUser16User39;
-        static double[,] impostorScoresUser16User40;
-
-        static double[,] impostorScoresUser16User41;
-        static double[,] impostorScoresUser16User42;
-        static double[,] impostorScoresUser16User43;
-        static double[,] impostorScoresUser16User44;
-        static double[,] impostorScoresUser16User45;
-        static double[,] impostorScoresUser16User46;
-        static double[,] impostorScoresUser16User47;
-        static double[,] impostorScoresUser16User48;
-        static double[,] impostorScoresUser16User49;
-        static double[,] impostorScoresUser16User50;
-
-        static double[,] impostorScoresUser16User51;
-        static double[,] impostorScoresUser16User52;
-        static double[,] impostorScoresUser16User53;
-        static double[,] impostorScoresUser16User54;
-        static double[,] impostorScoresUser16User55;
-        static double[,] impostorScoresUser16User56;
-        static double[,] impostorScoresUser16User57;
-        static double[,] impostorScoresUser16User58;
-        static double[,] impostorScoresUser16User59;
-        static double[,] impostorScoresUser16User60;
-
-        static double[,] impostorScoresUser16User61;
-        static double[,] impostorScoresUser16User62;
-        static double[,] impostorScoresUser16User63;
-        static double[,] impostorScoresUser16User64;
-        static double[,] impostorScoresUser16User65;
-        static double[,] impostorScoresUser16User66;
-        static double[,] impostorScoresUser16User67;
-        static double[,] impostorScoresUser16User68;
-        static double[,] impostorScoresUser16User69;
-        static double[,] impostorScoresUser16User70;
-
-        static double[,] impostorScoresUser16User71;
-        static double[,] impostorScoresUser16User72;
-        static double[,] impostorScoresUser16User73;
-        static double[,] impostorScoresUser16User74;
-        static double[,] impostorScoresUser16User75;
-        static double[,] impostorScoresUser16User76;
-        static double[,] impostorScoresUser16User77;
-        static double[,] impostorScoresUser16User78;
-        static double[,] impostorScoresUser16User79;
-        static double[,] impostorScoresUser16User80;
-
-        static double[,] impostorScoresUser16User81;
-        static double[,] impostorScoresUser16User82;
-        static double[,] impostorScoresUser16User83;
-        static double[,] impostorScoresUser16User84;
-        static double[,] impostorScoresUser16User85;
-        static double[,] impostorScoresUser16User86;
-        static double[,] impostorScoresUser16User87;
-        static double[,] impostorScoresUser16User88;
-        static double[,] impostorScoresUser16User89;
-        static double[,] impostorScoresUser16User90;
-
-        static double[,] impostorScoresUser16User91;
-        static double[,] impostorScoresUser16User92;
-        static double[,] impostorScoresUser16User93;
-        static double[,] impostorScoresUser16User94;
-        static double[,] impostorScoresUser16User95;
-        static double[,] impostorScoresUser16User96;
-        static double[,] impostorScoresUser16User97;
-        static double[,] impostorScoresUser16User98;
-        static double[,] impostorScoresUser16User99;
-        static double[,] impostorScoresUser16User100;
-        #endregion
-
-        #region Impostor scores for user 17
-        static double[,] impostorScoresUser17User1;
-        static double[,] impostorScoresUser17User2;
-        static double[,] impostorScoresUser17User3;
-        static double[,] impostorScoresUser17User4;
-        static double[,] impostorScoresUser17User5;
-        static double[,] impostorScoresUser17User6;
-        static double[,] impostorScoresUser17User7;
-        static double[,] impostorScoresUser17User8;
-        static double[,] impostorScoresUser17User9;
-        static double[,] impostorScoresUser17User10;
-
-        static double[,] impostorScoresUser17User11;
-        static double[,] impostorScoresUser17User12;
-        static double[,] impostorScoresUser17User13;
-        static double[,] impostorScoresUser17User14;
-        static double[,] impostorScoresUser17User15;
-        static double[,] impostorScoresUser17User16;
-        static double[,] impostorScoresUser17User18;
-        static double[,] impostorScoresUser17User19;
-        static double[,] impostorScoresUser17User20;
-
-        static double[,] impostorScoresUser17User21;
-        static double[,] impostorScoresUser17User22;
-        static double[,] impostorScoresUser17User23;
-        static double[,] impostorScoresUser17User24;
-        static double[,] impostorScoresUser17User25;
-        static double[,] impostorScoresUser17User26;
-        static double[,] impostorScoresUser17User27;
-        static double[,] impostorScoresUser17User28;
-        static double[,] impostorScoresUser17User29;
-        static double[,] impostorScoresUser17User30;
-
-        static double[,] impostorScoresUser17User31;
-        static double[,] impostorScoresUser17User32;
-        static double[,] impostorScoresUser17User33;
-        static double[,] impostorScoresUser17User34;
-        static double[,] impostorScoresUser17User35;
-        static double[,] impostorScoresUser17User36;
-        static double[,] impostorScoresUser17User37;
-        static double[,] impostorScoresUser17User38;
-        static double[,] impostorScoresUser17User39;
-        static double[,] impostorScoresUser17User40;
-
-        static double[,] impostorScoresUser17User41;
-        static double[,] impostorScoresUser17User42;
-        static double[,] impostorScoresUser17User43;
-        static double[,] impostorScoresUser17User44;
-        static double[,] impostorScoresUser17User45;
-        static double[,] impostorScoresUser17User46;
-        static double[,] impostorScoresUser17User47;
-        static double[,] impostorScoresUser17User48;
-        static double[,] impostorScoresUser17User49;
-        static double[,] impostorScoresUser17User50;
-
-        static double[,] impostorScoresUser17User51;
-        static double[,] impostorScoresUser17User52;
-        static double[,] impostorScoresUser17User53;
-        static double[,] impostorScoresUser17User54;
-        static double[,] impostorScoresUser17User55;
-        static double[,] impostorScoresUser17User56;
-        static double[,] impostorScoresUser17User57;
-        static double[,] impostorScoresUser17User58;
-        static double[,] impostorScoresUser17User59;
-        static double[,] impostorScoresUser17User60;
-
-        static double[,] impostorScoresUser17User61;
-        static double[,] impostorScoresUser17User62;
-        static double[,] impostorScoresUser17User63;
-        static double[,] impostorScoresUser17User64;
-        static double[,] impostorScoresUser17User65;
-        static double[,] impostorScoresUser17User66;
-        static double[,] impostorScoresUser17User67;
-        static double[,] impostorScoresUser17User68;
-        static double[,] impostorScoresUser17User69;
-        static double[,] impostorScoresUser17User70;
-
-        static double[,] impostorScoresUser17User71;
-        static double[,] impostorScoresUser17User72;
-        static double[,] impostorScoresUser17User73;
-        static double[,] impostorScoresUser17User74;
-        static double[,] impostorScoresUser17User75;
-        static double[,] impostorScoresUser17User76;
-        static double[,] impostorScoresUser17User77;
-        static double[,] impostorScoresUser17User78;
-        static double[,] impostorScoresUser17User79;
-        static double[,] impostorScoresUser17User80;
-
-        static double[,] impostorScoresUser17User81;
-        static double[,] impostorScoresUser17User82;
-        static double[,] impostorScoresUser17User83;
-        static double[,] impostorScoresUser17User84;
-        static double[,] impostorScoresUser17User85;
-        static double[,] impostorScoresUser17User86;
-        static double[,] impostorScoresUser17User87;
-        static double[,] impostorScoresUser17User88;
-        static double[,] impostorScoresUser17User89;
-        static double[,] impostorScoresUser17User90;
-
-        static double[,] impostorScoresUser17User91;
-        static double[,] impostorScoresUser17User92;
-        static double[,] impostorScoresUser17User93;
-        static double[,] impostorScoresUser17User94;
-        static double[,] impostorScoresUser17User95;
-        static double[,] impostorScoresUser17User96;
-        static double[,] impostorScoresUser17User97;
-        static double[,] impostorScoresUser17User98;
-        static double[,] impostorScoresUser17User99;
-        static double[,] impostorScoresUser17User100;
-        #endregion
-
-        #region Impostor scores for user 18
-        static double[,] impostorScoresUser18User1;
-        static double[,] impostorScoresUser18User2;
-        static double[,] impostorScoresUser18User3;
-        static double[,] impostorScoresUser18User4;
-        static double[,] impostorScoresUser18User5;
-        static double[,] impostorScoresUser18User6;
-        static double[,] impostorScoresUser18User7;
-        static double[,] impostorScoresUser18User8;
-        static double[,] impostorScoresUser18User9;
-        static double[,] impostorScoresUser18User10;
-
-        static double[,] impostorScoresUser18User11;
-        static double[,] impostorScoresUser18User12;
-        static double[,] impostorScoresUser18User13;
-        static double[,] impostorScoresUser18User14;
-        static double[,] impostorScoresUser18User15;
-        static double[,] impostorScoresUser18User16;
-        static double[,] impostorScoresUser18User17;
-        static double[,] impostorScoresUser18User19;
-        static double[,] impostorScoresUser18User20;
-
-        static double[,] impostorScoresUser18User21;
-        static double[,] impostorScoresUser18User22;
-        static double[,] impostorScoresUser18User23;
-        static double[,] impostorScoresUser18User24;
-        static double[,] impostorScoresUser18User25;
-        static double[,] impostorScoresUser18User26;
-        static double[,] impostorScoresUser18User27;
-        static double[,] impostorScoresUser18User28;
-        static double[,] impostorScoresUser18User29;
-        static double[,] impostorScoresUser18User30;
-
-        static double[,] impostorScoresUser18User31;
-        static double[,] impostorScoresUser18User32;
-        static double[,] impostorScoresUser18User33;
-        static double[,] impostorScoresUser18User34;
-        static double[,] impostorScoresUser18User35;
-        static double[,] impostorScoresUser18User36;
-        static double[,] impostorScoresUser18User37;
-        static double[,] impostorScoresUser18User38;
-        static double[,] impostorScoresUser18User39;
-        static double[,] impostorScoresUser18User40;
-
-        static double[,] impostorScoresUser18User41;
-        static double[,] impostorScoresUser18User42;
-        static double[,] impostorScoresUser18User43;
-        static double[,] impostorScoresUser18User44;
-        static double[,] impostorScoresUser18User45;
-        static double[,] impostorScoresUser18User46;
-        static double[,] impostorScoresUser18User47;
-        static double[,] impostorScoresUser18User48;
-        static double[,] impostorScoresUser18User49;
-        static double[,] impostorScoresUser18User50;
-
-        static double[,] impostorScoresUser18User51;
-        static double[,] impostorScoresUser18User52;
-        static double[,] impostorScoresUser18User53;
-        static double[,] impostorScoresUser18User54;
-        static double[,] impostorScoresUser18User55;
-        static double[,] impostorScoresUser18User56;
-        static double[,] impostorScoresUser18User57;
-        static double[,] impostorScoresUser18User58;
-        static double[,] impostorScoresUser18User59;
-        static double[,] impostorScoresUser18User60;
-
-        static double[,] impostorScoresUser18User61;
-        static double[,] impostorScoresUser18User62;
-        static double[,] impostorScoresUser18User63;
-        static double[,] impostorScoresUser18User64;
-        static double[,] impostorScoresUser18User65;
-        static double[,] impostorScoresUser18User66;
-        static double[,] impostorScoresUser18User67;
-        static double[,] impostorScoresUser18User68;
-        static double[,] impostorScoresUser18User69;
-        static double[,] impostorScoresUser18User70;
-
-        static double[,] impostorScoresUser18User71;
-        static double[,] impostorScoresUser18User72;
-        static double[,] impostorScoresUser18User73;
-        static double[,] impostorScoresUser18User74;
-        static double[,] impostorScoresUser18User75;
-        static double[,] impostorScoresUser18User76;
-        static double[,] impostorScoresUser18User77;
-        static double[,] impostorScoresUser18User78;
-        static double[,] impostorScoresUser18User79;
-        static double[,] impostorScoresUser18User80;
-
-        static double[,] impostorScoresUser18User81;
-        static double[,] impostorScoresUser18User82;
-        static double[,] impostorScoresUser18User83;
-        static double[,] impostorScoresUser18User84;
-        static double[,] impostorScoresUser18User85;
-        static double[,] impostorScoresUser18User86;
-        static double[,] impostorScoresUser18User87;
-        static double[,] impostorScoresUser18User88;
-        static double[,] impostorScoresUser18User89;
-        static double[,] impostorScoresUser18User90;
-
-        static double[,] impostorScoresUser18User91;
-        static double[,] impostorScoresUser18User92;
-        static double[,] impostorScoresUser18User93;
-        static double[,] impostorScoresUser18User94;
-        static double[,] impostorScoresUser18User95;
-        static double[,] impostorScoresUser18User96;
-        static double[,] impostorScoresUser18User97;
-        static double[,] impostorScoresUser18User98;
-        static double[,] impostorScoresUser18User99;
-        static double[,] impostorScoresUser18User100;
-        #endregion
-
-        #region Impostor scores for user 19
-        static double[,] impostorScoresUser19User1; static double[,] impostorScoresUser19User2; static double[,] impostorScoresUser19User3;
-        static double[,] impostorScoresUser19User4; static double[,] impostorScoresUser19User5; static double[,] impostorScoresUser19User6;
-        static double[,] impostorScoresUser19User7; static double[,] impostorScoresUser19User8; static double[,] impostorScoresUser19User9;
-        static double[,] impostorScoresUser19User10;
-
-        static double[,] impostorScoresUser19User11;
-        static double[,] impostorScoresUser19User12;
-        static double[,] impostorScoresUser19User13;
-        static double[,] impostorScoresUser19User14;
-        static double[,] impostorScoresUser19User15;
-        static double[,] impostorScoresUser19User16;
-        static double[,] impostorScoresUser19User17;
-        static double[,] impostorScoresUser19User18;
-        static double[,] impostorScoresUser19User20;
-
-        static double[,] impostorScoresUser19User21;
-        static double[,] impostorScoresUser19User22;
-        static double[,] impostorScoresUser19User23;
-        static double[,] impostorScoresUser19User24;
-        static double[,] impostorScoresUser19User25;
-        static double[,] impostorScoresUser19User26;
-        static double[,] impostorScoresUser19User27;
-        static double[,] impostorScoresUser19User28;
-        static double[,] impostorScoresUser19User29;
-        static double[,] impostorScoresUser19User30;
-
-        static double[,] impostorScoresUser19User31;
-        static double[,] impostorScoresUser19User32;
-        static double[,] impostorScoresUser19User33;
-        static double[,] impostorScoresUser19User34;
-        static double[,] impostorScoresUser19User35;
-        static double[,] impostorScoresUser19User36;
-        static double[,] impostorScoresUser19User37;
-        static double[,] impostorScoresUser19User38;
-        static double[,] impostorScoresUser19User39;
-        static double[,] impostorScoresUser19User40;
-
-        static double[,] impostorScoresUser19User41;
-        static double[,] impostorScoresUser19User42;
-        static double[,] impostorScoresUser19User43;
-        static double[,] impostorScoresUser19User44;
-        static double[,] impostorScoresUser19User45;
-        static double[,] impostorScoresUser19User46;
-        static double[,] impostorScoresUser19User47;
-        static double[,] impostorScoresUser19User48;
-        static double[,] impostorScoresUser19User49;
-        static double[,] impostorScoresUser19User50;
-
-        static double[,] impostorScoresUser19User51;
-        static double[,] impostorScoresUser19User52;
-        static double[,] impostorScoresUser19User53;
-        static double[,] impostorScoresUser19User54;
-        static double[,] impostorScoresUser19User55;
-        static double[,] impostorScoresUser19User56;
-        static double[,] impostorScoresUser19User57;
-        static double[,] impostorScoresUser19User58;
-        static double[,] impostorScoresUser19User59;
-        static double[,] impostorScoresUser19User60;
-
-        static double[,] impostorScoresUser19User61;
-        static double[,] impostorScoresUser19User62;
-        static double[,] impostorScoresUser19User63;
-        static double[,] impostorScoresUser19User64;
-        static double[,] impostorScoresUser19User65;
-        static double[,] impostorScoresUser19User66;
-        static double[,] impostorScoresUser19User67;
-        static double[,] impostorScoresUser19User68;
-        static double[,] impostorScoresUser19User69;
-        static double[,] impostorScoresUser19User70;
-
-        static double[,] impostorScoresUser19User71;
-        static double[,] impostorScoresUser19User72;
-        static double[,] impostorScoresUser19User73;
-        static double[,] impostorScoresUser19User74;
-        static double[,] impostorScoresUser19User75;
-        static double[,] impostorScoresUser19User76;
-        static double[,] impostorScoresUser19User77;
-        static double[,] impostorScoresUser19User78;
-        static double[,] impostorScoresUser19User79;
-        static double[,] impostorScoresUser19User80;
-
-        static double[,] impostorScoresUser19User81;
-        static double[,] impostorScoresUser19User82;
-        static double[,] impostorScoresUser19User83;
-        static double[,] impostorScoresUser19User84;
-        static double[,] impostorScoresUser19User85;
-        static double[,] impostorScoresUser19User86;
-        static double[,] impostorScoresUser19User87;
-        static double[,] impostorScoresUser19User88;
-        static double[,] impostorScoresUser19User89;
-        static double[,] impostorScoresUser19User90;
-
-        static double[,] impostorScoresUser19User91;
-        static double[,] impostorScoresUser19User92;
-        static double[,] impostorScoresUser19User93;
-        static double[,] impostorScoresUser19User94;
-        static double[,] impostorScoresUser19User95;
-        static double[,] impostorScoresUser19User96;
-        static double[,] impostorScoresUser19User97;
-        static double[,] impostorScoresUser19User98;
-        static double[,] impostorScoresUser19User99;
-        static double[,] impostorScoresUser19User100;
-        #endregion
-
-        #region Impostor scores for user 20
-        static double[,] impostorScoresUser20User1; static double[,] impostorScoresUser20User2; static double[,] impostorScoresUser20User3;
-        static double[,] impostorScoresUser20User4; static double[,] impostorScoresUser20User5; static double[,] impostorScoresUser20User6;
-        static double[,] impostorScoresUser20User7; static double[,] impostorScoresUser20User8; static double[,] impostorScoresUser20User9;
-
-        static double[,] impostorScoresUser20User10; static double[,] impostorScoresUser20User11; static double[,] impostorScoresUser20User12;
-        static double[,] impostorScoresUser20User13; static double[,] impostorScoresUser20User14; static double[,] impostorScoresUser20User15;
-        static double[,] impostorScoresUser20User16; static double[,] impostorScoresUser20User17; static double[,] impostorScoresUser20User18;
-
-        static double[,] impostorScoresUser20User19; static double[,] impostorScoresUser20User21; static double[,] impostorScoresUser20User22;
-        static double[,] impostorScoresUser20User23; static double[,] impostorScoresUser20User24; static double[,] impostorScoresUser20User25;
-        static double[,] impostorScoresUser20User26; static double[,] impostorScoresUser20User27; static double[,] impostorScoresUser20User28;
-
-        static double[,] impostorScoresUser20User29; static double[,] impostorScoresUser20User30; static double[,] impostorScoresUser20User31;
-        static double[,] impostorScoresUser20User32; static double[,] impostorScoresUser20User33; static double[,] impostorScoresUser20User34;
-        static double[,] impostorScoresUser20User35; static double[,] impostorScoresUser20User36; static double[,] impostorScoresUser20User37;
-
-        static double[,] impostorScoresUser20User38; static double[,] impostorScoresUser20User39; static double[,] impostorScoresUser20User40;
-        static double[,] impostorScoresUser20User41; static double[,] impostorScoresUser20User42; static double[,] impostorScoresUser20User43;
-        static double[,] impostorScoresUser20User44; static double[,] impostorScoresUser20User45; static double[,] impostorScoresUser20User46;
-
-        static double[,] impostorScoresUser20User47; static double[,] impostorScoresUser20User48; static double[,] impostorScoresUser20User49;
-        static double[,] impostorScoresUser20User50; static double[,] impostorScoresUser20User51; static double[,] impostorScoresUser20User52;
-        static double[,] impostorScoresUser20User53; static double[,] impostorScoresUser20User54; static double[,] impostorScoresUser20User55;
-
-        static double[,] impostorScoresUser20User56; static double[,] impostorScoresUser20User57; static double[,] impostorScoresUser20User58;
-        static double[,] impostorScoresUser20User59; static double[,] impostorScoresUser20User60; static double[,] impostorScoresUser20User61;
-        static double[,] impostorScoresUser20User62; static double[,] impostorScoresUser20User63; static double[,] impostorScoresUser20User64;
-
-        static double[,] impostorScoresUser20User65; static double[,] impostorScoresUser20User66; static double[,] impostorScoresUser20User67;
-        static double[,] impostorScoresUser20User68; static double[,] impostorScoresUser20User69; static double[,] impostorScoresUser20User70;
-        static double[,] impostorScoresUser20User71; static double[,] impostorScoresUser20User72; static double[,] impostorScoresUser20User73;
-
-        static double[,] impostorScoresUser20User74; static double[,] impostorScoresUser20User75; static double[,] impostorScoresUser20User76;
-        static double[,] impostorScoresUser20User77; static double[,] impostorScoresUser20User78; static double[,] impostorScoresUser20User79;
-        static double[,] impostorScoresUser20User80; static double[,] impostorScoresUser20User81; static double[,] impostorScoresUser20User82;
-
-        static double[,] impostorScoresUser20User83; static double[,] impostorScoresUser20User84; static double[,] impostorScoresUser20User85;
-        static double[,] impostorScoresUser20User86; static double[,] impostorScoresUser20User87; static double[,] impostorScoresUser20User88;
-        static double[,] impostorScoresUser20User89; static double[,] impostorScoresUser20User90; static double[,] impostorScoresUser20User91;
-
-        static double[,] impostorScoresUser20User92; static double[,] impostorScoresUser20User93; static double[,] impostorScoresUser20User94;
-        static double[,] impostorScoresUser20User95; static double[,] impostorScoresUser20User96; static double[,] impostorScoresUser20User97;
-        static double[,] impostorScoresUser20User98; static double[,] impostorScoresUser20User99; static double[,] impostorScoresUser20User100;
-        #endregion
-
-        #region Impostor scores for user 21
-        static double[,] impostorScoresUser21User1; static double[,] impostorScoresUser21User2; static double[,] impostorScoresUser21User3;
-        static double[,] impostorScoresUser21User4; static double[,] impostorScoresUser21User5; static double[,] impostorScoresUser21User6;
-        static double[,] impostorScoresUser21User7; static double[,] impostorScoresUser21User8; static double[,] impostorScoresUser21User9;
-        static double[,] impostorScoresUser21User10; static double[,] impostorScoresUser21User11; static double[,] impostorScoresUser21User12;
-
-        static double[,] impostorScoresUser21User13; static double[,] impostorScoresUser21User14; static double[,] impostorScoresUser21User15;
-        static double[,] impostorScoresUser21User16; static double[,] impostorScoresUser21User17; static double[,] impostorScoresUser21User18;
-        static double[,] impostorScoresUser21User19; static double[,] impostorScoresUser21User20; static double[,] impostorScoresUser21User22;
-        static double[,] impostorScoresUser21User23; static double[,] impostorScoresUser21User24; static double[,] impostorScoresUser21User25;
-
-        static double[,] impostorScoresUser21User26; static double[,] impostorScoresUser21User27; static double[,] impostorScoresUser21User28;
-        static double[,] impostorScoresUser21User29; static double[,] impostorScoresUser21User30; static double[,] impostorScoresUser21User31;
-        static double[,] impostorScoresUser21User32; static double[,] impostorScoresUser21User33; static double[,] impostorScoresUser21User34;
-        static double[,] impostorScoresUser21User35; static double[,] impostorScoresUser21User36; static double[,] impostorScoresUser21User37;
-
-        static double[,] impostorScoresUser21User38; static double[,] impostorScoresUser21User39; static double[,] impostorScoresUser21User40;
-        static double[,] impostorScoresUser21User41; static double[,] impostorScoresUser21User42; static double[,] impostorScoresUser21User43;
-        static double[,] impostorScoresUser21User44; static double[,] impostorScoresUser21User45; static double[,] impostorScoresUser21User46;
-        static double[,] impostorScoresUser21User47; static double[,] impostorScoresUser21User48; static double[,] impostorScoresUser21User49;
-
-        static double[,] impostorScoresUser21User50; static double[,] impostorScoresUser21User51; static double[,] impostorScoresUser21User52;
-        static double[,] impostorScoresUser21User53; static double[,] impostorScoresUser21User54; static double[,] impostorScoresUser21User55;
-        static double[,] impostorScoresUser21User56; static double[,] impostorScoresUser21User57; static double[,] impostorScoresUser21User58;
-        static double[,] impostorScoresUser21User59; static double[,] impostorScoresUser21User60; static double[,] impostorScoresUser21User61;
-
-        static double[,] impostorScoresUser21User62; static double[,] impostorScoresUser21User63; static double[,] impostorScoresUser21User64;
-        static double[,] impostorScoresUser21User65; static double[,] impostorScoresUser21User66; static double[,] impostorScoresUser21User67;
-        static double[,] impostorScoresUser21User68; static double[,] impostorScoresUser21User69; static double[,] impostorScoresUser21User70;
-        static double[,] impostorScoresUser21User71; static double[,] impostorScoresUser21User72; static double[,] impostorScoresUser21User73;
-
-        static double[,] impostorScoresUser21User74; static double[,] impostorScoresUser21User75; static double[,] impostorScoresUser21User76;
-        static double[,] impostorScoresUser21User77; static double[,] impostorScoresUser21User78; static double[,] impostorScoresUser21User79;
-        static double[,] impostorScoresUser21User80; static double[,] impostorScoresUser21User81; static double[,] impostorScoresUser21User82;
-        static double[,] impostorScoresUser21User83; static double[,] impostorScoresUser21User84; static double[,] impostorScoresUser21User85;
-
-        static double[,] impostorScoresUser21User86; static double[,] impostorScoresUser21User87; static double[,] impostorScoresUser21User88;
-        static double[,] impostorScoresUser21User89; static double[,] impostorScoresUser21User90; static double[,] impostorScoresUser21User91;
-        static double[,] impostorScoresUser21User92; static double[,] impostorScoresUser21User93; static double[,] impostorScoresUser21User94;
-        static double[,] impostorScoresUser21User95; static double[,] impostorScoresUser21User96; static double[,] impostorScoresUser21User97;
-        static double[,] impostorScoresUser21User98; static double[,] impostorScoresUser21User99; static double[,] impostorScoresUser21User100;
-        #endregion
-
-        #region Impostor scores for user 22
-        static double[,] impostorScoresUser22User1; static double[,] impostorScoresUser22User2; static double[,] impostorScoresUser22User3;
-        static double[,] impostorScoresUser22User4; static double[,] impostorScoresUser22User5; static double[,] impostorScoresUser22User6;
-        static double[,] impostorScoresUser22User7; static double[,] impostorScoresUser22User8; static double[,] impostorScoresUser22User9;
-        static double[,] impostorScoresUser22User10; static double[,] impostorScoresUser22User11; static double[,] impostorScoresUser22User12;
-        static double[,] impostorScoresUser22User13; static double[,] impostorScoresUser22User14; static double[,] impostorScoresUser22User15;
-        static double[,] impostorScoresUser22User16; static double[,] impostorScoresUser22User17; static double[,] impostorScoresUser22User18;
-        static double[,] impostorScoresUser22User19; static double[,] impostorScoresUser22User20; static double[,] impostorScoresUser22User21;
-        static double[,] impostorScoresUser22User23; static double[,] impostorScoresUser22User24; static double[,] impostorScoresUser22User25;
-        static double[,] impostorScoresUser22User26; static double[,] impostorScoresUser22User27; static double[,] impostorScoresUser22User28;
-        static double[,] impostorScoresUser22User29; static double[,] impostorScoresUser22User30; static double[,] impostorScoresUser22User31;
-        static double[,] impostorScoresUser22User32; static double[,] impostorScoresUser22User33; static double[,] impostorScoresUser22User34;
-        static double[,] impostorScoresUser22User35; static double[,] impostorScoresUser22User36; static double[,] impostorScoresUser22User37;
-        static double[,] impostorScoresUser22User38; static double[,] impostorScoresUser22User39; static double[,] impostorScoresUser22User40;
-        static double[,] impostorScoresUser22User41; static double[,] impostorScoresUser22User42; static double[,] impostorScoresUser22User43;
-        static double[,] impostorScoresUser22User44; static double[,] impostorScoresUser22User45; static double[,] impostorScoresUser22User46;
-        static double[,] impostorScoresUser22User47; static double[,] impostorScoresUser22User48; static double[,] impostorScoresUser22User49;
-        static double[,] impostorScoresUser22User50;
-
-        static double[,] impostorScoresUser22User51; static double[,] impostorScoresUser22User52; static double[,] impostorScoresUser22User53;
-        static double[,] impostorScoresUser22User54; static double[,] impostorScoresUser22User55; static double[,] impostorScoresUser22User56;
-        static double[,] impostorScoresUser22User57; static double[,] impostorScoresUser22User58; static double[,] impostorScoresUser22User59;
-        static double[,] impostorScoresUser22User60; static double[,] impostorScoresUser22User61; static double[,] impostorScoresUser22User62;
-        static double[,] impostorScoresUser22User63; static double[,] impostorScoresUser22User64; static double[,] impostorScoresUser22User65;
-        static double[,] impostorScoresUser22User66; static double[,] impostorScoresUser22User67; static double[,] impostorScoresUser22User68;
-        static double[,] impostorScoresUser22User69; static double[,] impostorScoresUser22User70; static double[,] impostorScoresUser22User71;
-        static double[,] impostorScoresUser22User72; static double[,] impostorScoresUser22User73; static double[,] impostorScoresUser22User74;
-        static double[,] impostorScoresUser22User75; static double[,] impostorScoresUser22User76; static double[,] impostorScoresUser22User77;
-        static double[,] impostorScoresUser22User78; static double[,] impostorScoresUser22User79; static double[,] impostorScoresUser22User80;
-        static double[,] impostorScoresUser22User81; static double[,] impostorScoresUser22User82; static double[,] impostorScoresUser22User83;
-        static double[,] impostorScoresUser22User84; static double[,] impostorScoresUser22User85; static double[,] impostorScoresUser22User86;
-        static double[,] impostorScoresUser22User87; static double[,] impostorScoresUser22User88; static double[,] impostorScoresUser22User89;
-        static double[,] impostorScoresUser22User90; static double[,] impostorScoresUser22User91; static double[,] impostorScoresUser22User92;
-        static double[,] impostorScoresUser22User93; static double[,] impostorScoresUser22User94; static double[,] impostorScoresUser22User95;
-        static double[,] impostorScoresUser22User96; static double[,] impostorScoresUser22User97; static double[,] impostorScoresUser22User98;
-        static double[,] impostorScoresUser22User99; static double[,] impostorScoresUser22User100;
-        #endregion
-
-        #region Impostor scores for user 23
-        static double[,] impostorScoresUser23User1; static double[,] impostorScoresUser23User2; static double[,] impostorScoresUser23User3;
-        static double[,] impostorScoresUser23User4; static double[,] impostorScoresUser23User5; static double[,] impostorScoresUser23User6;
-        static double[,] impostorScoresUser23User7; static double[,] impostorScoresUser23User8; static double[,] impostorScoresUser23User9;
-        static double[,] impostorScoresUser23User10; static double[,] impostorScoresUser23User11; static double[,] impostorScoresUser23User12;
-        static double[,] impostorScoresUser23User13; static double[,] impostorScoresUser23User14; static double[,] impostorScoresUser23User15;
-        static double[,] impostorScoresUser23User16; static double[,] impostorScoresUser23User17; static double[,] impostorScoresUser23User18;
-        static double[,] impostorScoresUser23User19; static double[,] impostorScoresUser23User20; static double[,] impostorScoresUser23User21;
-        static double[,] impostorScoresUser23User22; static double[,] impostorScoresUser23User24; static double[,] impostorScoresUser23User25;
-
-        static double[,] impostorScoresUser23User26; static double[,] impostorScoresUser23User27; static double[,] impostorScoresUser23User28;
-        static double[,] impostorScoresUser23User29; static double[,] impostorScoresUser23User30; static double[,] impostorScoresUser23User31;
-        static double[,] impostorScoresUser23User32; static double[,] impostorScoresUser23User33; static double[,] impostorScoresUser23User34;
-        static double[,] impostorScoresUser23User35; static double[,] impostorScoresUser23User36; static double[,] impostorScoresUser23User37;
-        static double[,] impostorScoresUser23User38; static double[,] impostorScoresUser23User39; static double[,] impostorScoresUser23User40;
-        static double[,] impostorScoresUser23User41; static double[,] impostorScoresUser23User42; static double[,] impostorScoresUser23User43;
-
-        static double[,] impostorScoresUser23User44; static double[,] impostorScoresUser23User45; static double[,] impostorScoresUser23User46;
-        static double[,] impostorScoresUser23User47; static double[,] impostorScoresUser23User48; static double[,] impostorScoresUser23User49;
-        static double[,] impostorScoresUser23User50; static double[,] impostorScoresUser23User51; static double[,] impostorScoresUser23User52;
-        static double[,] impostorScoresUser23User53; static double[,] impostorScoresUser23User54; static double[,] impostorScoresUser23User55;
-        static double[,] impostorScoresUser23User56; static double[,] impostorScoresUser23User57; static double[,] impostorScoresUser23User58;
-        static double[,] impostorScoresUser23User59; static double[,] impostorScoresUser23User60; static double[,] impostorScoresUser23User61;
-        static double[,] impostorScoresUser23User62; static double[,] impostorScoresUser23User63; static double[,] impostorScoresUser23User64;
-        static double[,] impostorScoresUser23User65; static double[,] impostorScoresUser23User66; static double[,] impostorScoresUser23User67;
-        static double[,] impostorScoresUser23User68; static double[,] impostorScoresUser23User69; static double[,] impostorScoresUser23User70;
-
-        static double[,] impostorScoresUser23User71; static double[,] impostorScoresUser23User72; static double[,] impostorScoresUser23User73;
-        static double[,] impostorScoresUser23User74; static double[,] impostorScoresUser23User75; static double[,] impostorScoresUser23User76;
-        static double[,] impostorScoresUser23User77; static double[,] impostorScoresUser23User78; static double[,] impostorScoresUser23User79;
-        static double[,] impostorScoresUser23User80; static double[,] impostorScoresUser23User81; static double[,] impostorScoresUser23User82;
-        static double[,] impostorScoresUser23User83; static double[,] impostorScoresUser23User84; static double[,] impostorScoresUser23User85;
-
-        static double[,] impostorScoresUser23User86; static double[,] impostorScoresUser23User87; static double[,] impostorScoresUser23User88;
-        static double[,] impostorScoresUser23User89; static double[,] impostorScoresUser23User90; static double[,] impostorScoresUser23User91;
-        static double[,] impostorScoresUser23User92; static double[,] impostorScoresUser23User93; static double[,] impostorScoresUser23User94;
-        static double[,] impostorScoresUser23User95; static double[,] impostorScoresUser23User96; static double[,] impostorScoresUser23User97;
-        static double[,] impostorScoresUser23User98; static double[,] impostorScoresUser23User99; static double[,] impostorScoresUser23User100;
-        #endregion
-
-        #region Impostor scores for user 24
-        static double[,] impostorScoresUser24User1; static double[,] impostorScoresUser24User2; static double[,] impostorScoresUser24User3;
-        static double[,] impostorScoresUser24User4; static double[,] impostorScoresUser24User5; static double[,] impostorScoresUser24User6;
-        static double[,] impostorScoresUser24User7; static double[,] impostorScoresUser24User8; static double[,] impostorScoresUser24User9;
-        static double[,] impostorScoresUser24User10;
-
-        static double[,] impostorScoresUser24User11; static double[,] impostorScoresUser24User12; static double[,] impostorScoresUser24User13;
-        static double[,] impostorScoresUser24User14; static double[,] impostorScoresUser24User15; static double[,] impostorScoresUser24User16;
-        static double[,] impostorScoresUser24User17; static double[,] impostorScoresUser24User18; static double[,] impostorScoresUser24User19;
-        static double[,] impostorScoresUser24User20;
-
-        static double[,] impostorScoresUser24User21; static double[,] impostorScoresUser24User22; static double[,] impostorScoresUser24User23;
-        static double[,] impostorScoresUser24User25; static double[,] impostorScoresUser24User26; static double[,] impostorScoresUser24User27;
-        static double[,] impostorScoresUser24User28; static double[,] impostorScoresUser24User29; static double[,] impostorScoresUser24User30;
-
-        static double[,] impostorScoresUser24User31; static double[,] impostorScoresUser24User32; static double[,] impostorScoresUser24User33;
-        static double[,] impostorScoresUser24User34; static double[,] impostorScoresUser24User35; static double[,] impostorScoresUser24User36;
-        static double[,] impostorScoresUser24User37; static double[,] impostorScoresUser24User38; static double[,] impostorScoresUser24User39;
-        static double[,] impostorScoresUser24User40;
-
-        static double[,] impostorScoresUser24User41; static double[,] impostorScoresUser24User42; static double[,] impostorScoresUser24User43;
-        static double[,] impostorScoresUser24User44; static double[,] impostorScoresUser24User45; static double[,] impostorScoresUser24User46;
-        static double[,] impostorScoresUser24User47; static double[,] impostorScoresUser24User48; static double[,] impostorScoresUser24User49;
-        static double[,] impostorScoresUser24User50;
-
-        static double[,] impostorScoresUser24User51; static double[,] impostorScoresUser24User52; static double[,] impostorScoresUser24User53;
-        static double[,] impostorScoresUser24User54; static double[,] impostorScoresUser24User55; static double[,] impostorScoresUser24User56;
-        static double[,] impostorScoresUser24User57; static double[,] impostorScoresUser24User58; static double[,] impostorScoresUser24User59;
-        static double[,] impostorScoresUser24User60;
-
-        static double[,] impostorScoresUser24User61; static double[,] impostorScoresUser24User62; static double[,] impostorScoresUser24User63;
-        static double[,] impostorScoresUser24User64; static double[,] impostorScoresUser24User65; static double[,] impostorScoresUser24User66;
-        static double[,] impostorScoresUser24User67; static double[,] impostorScoresUser24User68; static double[,] impostorScoresUser24User69;
-        static double[,] impostorScoresUser24User70;
-
-        static double[,] impostorScoresUser24User71; static double[,] impostorScoresUser24User72; static double[,] impostorScoresUser24User73;
-        static double[,] impostorScoresUser24User74; static double[,] impostorScoresUser24User75; static double[,] impostorScoresUser24User76;
-        static double[,] impostorScoresUser24User77; static double[,] impostorScoresUser24User78; static double[,] impostorScoresUser24User79;
-        static double[,] impostorScoresUser24User80;
-
-        static double[,] impostorScoresUser24User81; static double[,] impostorScoresUser24User82; static double[,] impostorScoresUser24User83;
-        static double[,] impostorScoresUser24User84; static double[,] impostorScoresUser24User85; static double[,] impostorScoresUser24User86;
-        static double[,] impostorScoresUser24User87; static double[,] impostorScoresUser24User88; static double[,] impostorScoresUser24User89;
-        static double[,] impostorScoresUser24User90;
-
-        static double[,] impostorScoresUser24User91; static double[,] impostorScoresUser24User92; static double[,] impostorScoresUser24User93;
-        static double[,] impostorScoresUser24User94; static double[,] impostorScoresUser24User95; static double[,] impostorScoresUser24User96;
-        static double[,] impostorScoresUser24User97; static double[,] impostorScoresUser24User98; static double[,] impostorScoresUser24User99;
-        static double[,] impostorScoresUser24User100;
-        #endregion
-
-        #region Impostor scores for user 25
-        static double[,] impostorScoresUser25User1; static double[,] impostorScoresUser25User2; static double[,] impostorScoresUser25User3;
-        static double[,] impostorScoresUser25User4; static double[,] impostorScoresUser25User5; static double[,] impostorScoresUser25User6;
-        static double[,] impostorScoresUser25User7; static double[,] impostorScoresUser25User8; static double[,] impostorScoresUser25User9;
-        static double[,] impostorScoresUser25User10; static double[,] impostorScoresUser25User11; static double[,] impostorScoresUser25User12;
-
-        static double[,] impostorScoresUser25User13; static double[,] impostorScoresUser25User14; static double[,] impostorScoresUser25User15;
-        static double[,] impostorScoresUser25User16; static double[,] impostorScoresUser25User17; static double[,] impostorScoresUser25User18;
-        static double[,] impostorScoresUser25User19; static double[,] impostorScoresUser25User20; static double[,] impostorScoresUser25User21;
-        static double[,] impostorScoresUser25User22; static double[,] impostorScoresUser25User23; static double[,] impostorScoresUser25User24;
-        static double[,] impostorScoresUser25User26; static double[,] impostorScoresUser25User27; static double[,] impostorScoresUser25User28;
-        static double[,] impostorScoresUser25User29; static double[,] impostorScoresUser25User30;
-
-        static double[,] impostorScoresUser25User31; static double[,] impostorScoresUser25User32; static double[,] impostorScoresUser25User33;
-        static double[,] impostorScoresUser25User34; static double[,] impostorScoresUser25User35; static double[,] impostorScoresUser25User36;
-        static double[,] impostorScoresUser25User37; static double[,] impostorScoresUser25User38; static double[,] impostorScoresUser25User39;
-        static double[,] impostorScoresUser25User40;
-
-        static double[,] impostorScoresUser25User41; static double[,] impostorScoresUser25User42;
-        static double[,] impostorScoresUser25User43; static double[,] impostorScoresUser25User44; static double[,] impostorScoresUser25User45;
-        static double[,] impostorScoresUser25User46; static double[,] impostorScoresUser25User47; static double[,] impostorScoresUser25User48;
-        static double[,] impostorScoresUser25User49; static double[,] impostorScoresUser25User50;
-
-        static double[,] impostorScoresUser25User51; static double[,] impostorScoresUser25User52; static double[,] impostorScoresUser25User53;
-        static double[,] impostorScoresUser25User54; static double[,] impostorScoresUser25User55; static double[,] impostorScoresUser25User56;
-        static double[,] impostorScoresUser25User57; static double[,] impostorScoresUser25User58; static double[,] impostorScoresUser25User59;
-        static double[,] impostorScoresUser25User60;
-
-        static double[,] impostorScoresUser25User61; static double[,] impostorScoresUser25User62; static double[,] impostorScoresUser25User63;
-        static double[,] impostorScoresUser25User64; static double[,] impostorScoresUser25User65; static double[,] impostorScoresUser25User66;
-        static double[,] impostorScoresUser25User67; static double[,] impostorScoresUser25User68; static double[,] impostorScoresUser25User69;
-        static double[,] impostorScoresUser25User70;
-
-        static double[,] impostorScoresUser25User71; static double[,] impostorScoresUser25User72; static double[,] impostorScoresUser25User73;
-        static double[,] impostorScoresUser25User74; static double[,] impostorScoresUser25User75; static double[,] impostorScoresUser25User76;
-        static double[,] impostorScoresUser25User77; static double[,] impostorScoresUser25User78; static double[,] impostorScoresUser25User79;
-        static double[,] impostorScoresUser25User80;
-
-        static double[,] impostorScoresUser25User81; static double[,] impostorScoresUser25User82; static double[,] impostorScoresUser25User83;
-        static double[,] impostorScoresUser25User84; static double[,] impostorScoresUser25User85; static double[,] impostorScoresUser25User86;
-        static double[,] impostorScoresUser25User87; static double[,] impostorScoresUser25User88; static double[,] impostorScoresUser25User89;
-        static double[,] impostorScoresUser25User90;
-
-        static double[,] impostorScoresUser25User91; static double[,] impostorScoresUser25User92; static double[,] impostorScoresUser25User93;
-        static double[,] impostorScoresUser25User94; static double[,] impostorScoresUser25User95; static double[,] impostorScoresUser25User96;
-        static double[,] impostorScoresUser25User97; static double[,] impostorScoresUser25User98; static double[,] impostorScoresUser25User99;
-        static double[,] impostorScoresUser25User100;
-        #endregion
-
-        #region Impostor scores for user 26
-        static double[,] impostorScoresUser26User1; static double[,] impostorScoresUser26User2; static double[,] impostorScoresUser26User3;
-        static double[,] impostorScoresUser26User4; static double[,] impostorScoresUser26User5; static double[,] impostorScoresUser26User6;
-        static double[,] impostorScoresUser26User7; static double[,] impostorScoresUser26User8; static double[,] impostorScoresUser26User9;
-        static double[,] impostorScoresUser26User10;
-
-        static double[,] impostorScoresUser26User11; static double[,] impostorScoresUser26User12; static double[,] impostorScoresUser26User13;
-        static double[,] impostorScoresUser26User14; static double[,] impostorScoresUser26User15; static double[,] impostorScoresUser26User16;
-        static double[,] impostorScoresUser26User17; static double[,] impostorScoresUser26User18; static double[,] impostorScoresUser26User19;
-        static double[,] impostorScoresUser26User20;
-
-        static double[,] impostorScoresUser26User21; static double[,] impostorScoresUser26User22; static double[,] impostorScoresUser26User23;
-        static double[,] impostorScoresUser26User24; static double[,] impostorScoresUser26User25; static double[,] impostorScoresUser26User27;
-        static double[,] impostorScoresUser26User28; static double[,] impostorScoresUser26User29; static double[,] impostorScoresUser26User30;
-
-        static double[,] impostorScoresUser26User31; static double[,] impostorScoresUser26User32; static double[,] impostorScoresUser26User33;
-        static double[,] impostorScoresUser26User34; static double[,] impostorScoresUser26User35; static double[,] impostorScoresUser26User36;
-        static double[,] impostorScoresUser26User37; static double[,] impostorScoresUser26User38; static double[,] impostorScoresUser26User39;
-        static double[,] impostorScoresUser26User40;
-
-        static double[,] impostorScoresUser26User41; static double[,] impostorScoresUser26User42; static double[,] impostorScoresUser26User43;
-        static double[,] impostorScoresUser26User44; static double[,] impostorScoresUser26User45; static double[,] impostorScoresUser26User46;
-        static double[,] impostorScoresUser26User47; static double[,] impostorScoresUser26User48; static double[,] impostorScoresUser26User49;
-        static double[,] impostorScoresUser26User50;
-
-        static double[,] impostorScoresUser26User51; static double[,] impostorScoresUser26User52; static double[,] impostorScoresUser26User53;
-        static double[,] impostorScoresUser26User54; static double[,] impostorScoresUser26User55; static double[,] impostorScoresUser26User56;
-        static double[,] impostorScoresUser26User57; static double[,] impostorScoresUser26User58; static double[,] impostorScoresUser26User59;
-        static double[,] impostorScoresUser26User60;
-
-        static double[,] impostorScoresUser26User61; static double[,] impostorScoresUser26User62; static double[,] impostorScoresUser26User63;
-        static double[,] impostorScoresUser26User64; static double[,] impostorScoresUser26User65; static double[,] impostorScoresUser26User66;
-        static double[,] impostorScoresUser26User67; static double[,] impostorScoresUser26User68; static double[,] impostorScoresUser26User69;
-        static double[,] impostorScoresUser26User70;
-
-        static double[,] impostorScoresUser26User71; static double[,] impostorScoresUser26User72; static double[,] impostorScoresUser26User73;
-        static double[,] impostorScoresUser26User74; static double[,] impostorScoresUser26User75; static double[,] impostorScoresUser26User76;
-        static double[,] impostorScoresUser26User77; static double[,] impostorScoresUser26User78; static double[,] impostorScoresUser26User79;
-        static double[,] impostorScoresUser26User80;
-
-        static double[,] impostorScoresUser26User81; static double[,] impostorScoresUser26User82; static double[,] impostorScoresUser26User83;
-        static double[,] impostorScoresUser26User84; static double[,] impostorScoresUser26User85; static double[,] impostorScoresUser26User86;
-        static double[,] impostorScoresUser26User87; static double[,] impostorScoresUser26User88; static double[,] impostorScoresUser26User89;
-        static double[,] impostorScoresUser26User90;
-
-        static double[,] impostorScoresUser26User91; static double[,] impostorScoresUser26User92; static double[,] impostorScoresUser26User93;
-        static double[,] impostorScoresUser26User94; static double[,] impostorScoresUser26User95; static double[,] impostorScoresUser26User96;
-        static double[,] impostorScoresUser26User97; static double[,] impostorScoresUser26User98; static double[,] impostorScoresUser26User99;
-        static double[,] impostorScoresUser26User100;
-        #endregion
-
-        #region Impostor scores for user 27
-        static double[,] impostorScoresUser27User1; static double[,] impostorScoresUser27User2; static double[,] impostorScoresUser27User3;
-        static double[,] impostorScoresUser27User4; static double[,] impostorScoresUser27User5; static double[,] impostorScoresUser27User6;
-        static double[,] impostorScoresUser27User7; static double[,] impostorScoresUser27User8; static double[,] impostorScoresUser27User9;
-        static double[,] impostorScoresUser27User10;
-
-        static double[,] impostorScoresUser27User11; static double[,] impostorScoresUser27User12; static double[,] impostorScoresUser27User13;
-        static double[,] impostorScoresUser27User14; static double[,] impostorScoresUser27User15; static double[,] impostorScoresUser27User16;
-        static double[,] impostorScoresUser27User17; static double[,] impostorScoresUser27User18; static double[,] impostorScoresUser27User19;
-        static double[,] impostorScoresUser27User20;
-
-        static double[,] impostorScoresUser27User21; static double[,] impostorScoresUser27User22; static double[,] impostorScoresUser27User23;
-        static double[,] impostorScoresUser27User24; static double[,] impostorScoresUser27User25; static double[,] impostorScoresUser27User26;
-        static double[,] impostorScoresUser27User28; static double[,] impostorScoresUser27User29; static double[,] impostorScoresUser27User30;
-
-        static double[,] impostorScoresUser27User31; static double[,] impostorScoresUser27User32; static double[,] impostorScoresUser27User33;
-        static double[,] impostorScoresUser27User34; static double[,] impostorScoresUser27User35; static double[,] impostorScoresUser27User36;
-        static double[,] impostorScoresUser27User37; static double[,] impostorScoresUser27User38; static double[,] impostorScoresUser27User39;
-        static double[,] impostorScoresUser27User40;
-
-        static double[,] impostorScoresUser27User41; static double[,] impostorScoresUser27User42; static double[,] impostorScoresUser27User43;
-        static double[,] impostorScoresUser27User44; static double[,] impostorScoresUser27User45; static double[,] impostorScoresUser27User46;
-        static double[,] impostorScoresUser27User47; static double[,] impostorScoresUser27User48; static double[,] impostorScoresUser27User49;
-        static double[,] impostorScoresUser27User50;
-
-        static double[,] impostorScoresUser27User51; static double[,] impostorScoresUser27User52; static double[,] impostorScoresUser27User53;
-        static double[,] impostorScoresUser27User54; static double[,] impostorScoresUser27User55; static double[,] impostorScoresUser27User56;
-        static double[,] impostorScoresUser27User57; static double[,] impostorScoresUser27User58; static double[,] impostorScoresUser27User59;
-        static double[,] impostorScoresUser27User60;
-
-        static double[,] impostorScoresUser27User61; static double[,] impostorScoresUser27User62; static double[,] impostorScoresUser27User63;
-        static double[,] impostorScoresUser27User64; static double[,] impostorScoresUser27User65; static double[,] impostorScoresUser27User66;
-        static double[,] impostorScoresUser27User67; static double[,] impostorScoresUser27User68; static double[,] impostorScoresUser27User69;
-        static double[,] impostorScoresUser27User70;
-
-        static double[,] impostorScoresUser27User71; static double[,] impostorScoresUser27User72; static double[,] impostorScoresUser27User73;
-        static double[,] impostorScoresUser27User74; static double[,] impostorScoresUser27User75; static double[,] impostorScoresUser27User76;
-        static double[,] impostorScoresUser27User77; static double[,] impostorScoresUser27User78; static double[,] impostorScoresUser27User79;
-        static double[,] impostorScoresUser27User80;
-
-        static double[,] impostorScoresUser27User81; static double[,] impostorScoresUser27User82; static double[,] impostorScoresUser27User83;
-        static double[,] impostorScoresUser27User84; static double[,] impostorScoresUser27User85; static double[,] impostorScoresUser27User86;
-        static double[,] impostorScoresUser27User87; static double[,] impostorScoresUser27User88; static double[,] impostorScoresUser27User89;
-        static double[,] impostorScoresUser27User90;
-
-        static double[,] impostorScoresUser27User91; static double[,] impostorScoresUser27User92; static double[,] impostorScoresUser27User93;
-        static double[,] impostorScoresUser27User94; static double[,] impostorScoresUser27User95; static double[,] impostorScoresUser27User96;
-        static double[,] impostorScoresUser27User97; static double[,] impostorScoresUser27User98; static double[,] impostorScoresUser27User99;
-        static double[,] impostorScoresUser27User100;
-        #endregion
-
-        #region Impostor scores for user 28
-        static double[,] impostorScoresUser28User1; static double[,] impostorScoresUser28User2; static double[,] impostorScoresUser28User3;
-        static double[,] impostorScoresUser28User4; static double[,] impostorScoresUser28User5; static double[,] impostorScoresUser28User6;
-        static double[,] impostorScoresUser28User7; static double[,] impostorScoresUser28User8; static double[,] impostorScoresUser28User9;
-        static double[,] impostorScoresUser28User10;
-
-        static double[,] impostorScoresUser28User11; static double[,] impostorScoresUser28User12; static double[,] impostorScoresUser28User13;
-        static double[,] impostorScoresUser28User14; static double[,] impostorScoresUser28User15; static double[,] impostorScoresUser28User16;
-        static double[,] impostorScoresUser28User17; static double[,] impostorScoresUser28User18; static double[,] impostorScoresUser28User19;
-        static double[,] impostorScoresUser28User20;
-
-        static double[,] impostorScoresUser28User21; static double[,] impostorScoresUser28User22; static double[,] impostorScoresUser28User23;
-        static double[,] impostorScoresUser28User24; static double[,] impostorScoresUser28User25; static double[,] impostorScoresUser28User26;
-        static double[,] impostorScoresUser28User27; static double[,] impostorScoresUser28User29; static double[,] impostorScoresUser28User30;
-
-        static double[,] impostorScoresUser28User31; static double[,] impostorScoresUser28User32; static double[,] impostorScoresUser28User33;
-        static double[,] impostorScoresUser28User34; static double[,] impostorScoresUser28User35; static double[,] impostorScoresUser28User36;
-        static double[,] impostorScoresUser28User37; static double[,] impostorScoresUser28User38; static double[,] impostorScoresUser28User39;
-        static double[,] impostorScoresUser28User40;
-
-        static double[,] impostorScoresUser28User41; static double[,] impostorScoresUser28User42; static double[,] impostorScoresUser28User43;
-        static double[,] impostorScoresUser28User44; static double[,] impostorScoresUser28User45; static double[,] impostorScoresUser28User46;
-        static double[,] impostorScoresUser28User47; static double[,] impostorScoresUser28User48; static double[,] impostorScoresUser28User49;
-        static double[,] impostorScoresUser28User50;
-
-        static double[,] impostorScoresUser28User51; static double[,] impostorScoresUser28User52; static double[,] impostorScoresUser28User53;
-        static double[,] impostorScoresUser28User54; static double[,] impostorScoresUser28User55; static double[,] impostorScoresUser28User56;
-        static double[,] impostorScoresUser28User57; static double[,] impostorScoresUser28User58; static double[,] impostorScoresUser28User59;
-        static double[,] impostorScoresUser28User60;
-
-        static double[,] impostorScoresUser28User61; static double[,] impostorScoresUser28User62; static double[,] impostorScoresUser28User63;
-        static double[,] impostorScoresUser28User64; static double[,] impostorScoresUser28User65; static double[,] impostorScoresUser28User66;
-        static double[,] impostorScoresUser28User67; static double[,] impostorScoresUser28User68; static double[,] impostorScoresUser28User69;
-        static double[,] impostorScoresUser28User70;
-
-        static double[,] impostorScoresUser28User71; static double[,] impostorScoresUser28User72; static double[,] impostorScoresUser28User73;
-        static double[,] impostorScoresUser28User74; static double[,] impostorScoresUser28User75; static double[,] impostorScoresUser28User76;
-        static double[,] impostorScoresUser28User77; static double[,] impostorScoresUser28User78; static double[,] impostorScoresUser28User79;
-        static double[,] impostorScoresUser28User80;
-
-        static double[,] impostorScoresUser28User81; static double[,] impostorScoresUser28User82; static double[,] impostorScoresUser28User83;
-        static double[,] impostorScoresUser28User84; static double[,] impostorScoresUser28User85; static double[,] impostorScoresUser28User86;
-        static double[,] impostorScoresUser28User87; static double[,] impostorScoresUser28User88; static double[,] impostorScoresUser28User89;
-        static double[,] impostorScoresUser28User90;
-
-        static double[,] impostorScoresUser28User91; static double[,] impostorScoresUser28User92; static double[,] impostorScoresUser28User93;
-        static double[,] impostorScoresUser28User94; static double[,] impostorScoresUser28User95; static double[,] impostorScoresUser28User96;
-        static double[,] impostorScoresUser28User97; static double[,] impostorScoresUser28User98; static double[,] impostorScoresUser28User99;
-        static double[,] impostorScoresUser28User100;
-        #endregion
-
-        #region Impostor scores for user 29
-        static double[,] impostorScoresUser29User1; static double[,] impostorScoresUser29User2; static double[,] impostorScoresUser29User3;
-        static double[,] impostorScoresUser29User4; static double[,] impostorScoresUser29User5; static double[,] impostorScoresUser29User6;
-        static double[,] impostorScoresUser29User7; static double[,] impostorScoresUser29User8; static double[,] impostorScoresUser29User9;
-        static double[,] impostorScoresUser29User10;
-
-        static double[,] impostorScoresUser29User11; static double[,] impostorScoresUser29User12; static double[,] impostorScoresUser29User13;
-        static double[,] impostorScoresUser29User14; static double[,] impostorScoresUser29User15; static double[,] impostorScoresUser29User16;
-        static double[,] impostorScoresUser29User17; static double[,] impostorScoresUser29User18; static double[,] impostorScoresUser29User19;
-        static double[,] impostorScoresUser29User20;
-
-        static double[,] impostorScoresUser29User21; static double[,] impostorScoresUser29User22; static double[,] impostorScoresUser29User23;
-        static double[,] impostorScoresUser29User24; static double[,] impostorScoresUser29User25; static double[,] impostorScoresUser29User26;
-        static double[,] impostorScoresUser29User27; static double[,] impostorScoresUser29User28; static double[,] impostorScoresUser29User30;
-
-        static double[,] impostorScoresUser29User31; static double[,] impostorScoresUser29User32; static double[,] impostorScoresUser29User33;
-        static double[,] impostorScoresUser29User34; static double[,] impostorScoresUser29User35; static double[,] impostorScoresUser29User36;
-        static double[,] impostorScoresUser29User37; static double[,] impostorScoresUser29User38; static double[,] impostorScoresUser29User39;
-        static double[,] impostorScoresUser29User40;
-
-        static double[,] impostorScoresUser29User41; static double[,] impostorScoresUser29User42; static double[,] impostorScoresUser29User43;
-        static double[,] impostorScoresUser29User44; static double[,] impostorScoresUser29User45; static double[,] impostorScoresUser29User46;
-        static double[,] impostorScoresUser29User47; static double[,] impostorScoresUser29User48; static double[,] impostorScoresUser29User49;
-        static double[,] impostorScoresUser29User50;
-
-        static double[,] impostorScoresUser29User51; static double[,] impostorScoresUser29User52; static double[,] impostorScoresUser29User53;
-        static double[,] impostorScoresUser29User54; static double[,] impostorScoresUser29User55; static double[,] impostorScoresUser29User56;
-        static double[,] impostorScoresUser29User57; static double[,] impostorScoresUser29User58; static double[,] impostorScoresUser29User59;
-        static double[,] impostorScoresUser29User60;
-
-        static double[,] impostorScoresUser29User61; static double[,] impostorScoresUser29User62; static double[,] impostorScoresUser29User63;
-        static double[,] impostorScoresUser29User64; static double[,] impostorScoresUser29User65; static double[,] impostorScoresUser29User66;
-        static double[,] impostorScoresUser29User67; static double[,] impostorScoresUser29User68; static double[,] impostorScoresUser29User69;
-        static double[,] impostorScoresUser29User70;
-
-        static double[,] impostorScoresUser29User71; static double[,] impostorScoresUser29User72; static double[,] impostorScoresUser29User73;
-        static double[,] impostorScoresUser29User74; static double[,] impostorScoresUser29User75; static double[,] impostorScoresUser29User76;
-        static double[,] impostorScoresUser29User77; static double[,] impostorScoresUser29User78; static double[,] impostorScoresUser29User79;
-        static double[,] impostorScoresUser29User80;
-
-        static double[,] impostorScoresUser29User81; static double[,] impostorScoresUser29User82; static double[,] impostorScoresUser29User83;
-        static double[,] impostorScoresUser29User84; static double[,] impostorScoresUser29User85; static double[,] impostorScoresUser29User86;
-        static double[,] impostorScoresUser29User87; static double[,] impostorScoresUser29User88; static double[,] impostorScoresUser29User89;
-        static double[,] impostorScoresUser29User90;
-
-        static double[,] impostorScoresUser29User91; static double[,] impostorScoresUser29User92; static double[,] impostorScoresUser29User93;
-        static double[,] impostorScoresUser29User94; static double[,] impostorScoresUser29User95; static double[,] impostorScoresUser29User96;
-        static double[,] impostorScoresUser29User97; static double[,] impostorScoresUser29User98; static double[,] impostorScoresUser29User99;
-        static double[,] impostorScoresUser29User100;
-        #endregion
-
-        #region Impostor scores for user 30
-        static double[,] impostorScoresUser30User1; static double[,] impostorScoresUser30User2; static double[,] impostorScoresUser30User3;
-        static double[,] impostorScoresUser30User4; static double[,] impostorScoresUser30User5; static double[,] impostorScoresUser30User6;
-        static double[,] impostorScoresUser30User7; static double[,] impostorScoresUser30User8; static double[,] impostorScoresUser30User9;
-        static double[,] impostorScoresUser30User10;
-
-        static double[,] impostorScoresUser30User11; static double[,] impostorScoresUser30User12; static double[,] impostorScoresUser30User13;
-        static double[,] impostorScoresUser30User14; static double[,] impostorScoresUser30User15; static double[,] impostorScoresUser30User16;
-        static double[,] impostorScoresUser30User17; static double[,] impostorScoresUser30User18; static double[,] impostorScoresUser30User19;
-        static double[,] impostorScoresUser30User20;
-
-        static double[,] impostorScoresUser30User21; static double[,] impostorScoresUser30User22; static double[,] impostorScoresUser30User23;
-        static double[,] impostorScoresUser30User24; static double[,] impostorScoresUser30User25; static double[,] impostorScoresUser30User26;
-        static double[,] impostorScoresUser30User27; static double[,] impostorScoresUser30User28; static double[,] impostorScoresUser30User29;
-
-        static double[,] impostorScoresUser30User31; static double[,] impostorScoresUser30User32; static double[,] impostorScoresUser30User33;
-        static double[,] impostorScoresUser30User34; static double[,] impostorScoresUser30User35; static double[,] impostorScoresUser30User36;
-        static double[,] impostorScoresUser30User37; static double[,] impostorScoresUser30User38; static double[,] impostorScoresUser30User39;
-        static double[,] impostorScoresUser30User40;
-
-        static double[,] impostorScoresUser30User41; static double[,] impostorScoresUser30User42; static double[,] impostorScoresUser30User43;
-        static double[,] impostorScoresUser30User44; static double[,] impostorScoresUser30User45; static double[,] impostorScoresUser30User46;
-        static double[,] impostorScoresUser30User47; static double[,] impostorScoresUser30User48; static double[,] impostorScoresUser30User49;
-        static double[,] impostorScoresUser30User50;
-
-        static double[,] impostorScoresUser30User51; static double[,] impostorScoresUser30User52; static double[,] impostorScoresUser30User53;
-        static double[,] impostorScoresUser30User54; static double[,] impostorScoresUser30User55; static double[,] impostorScoresUser30User56;
-        static double[,] impostorScoresUser30User57; static double[,] impostorScoresUser30User58; static double[,] impostorScoresUser30User59;
-        static double[,] impostorScoresUser30User60;
-
-        static double[,] impostorScoresUser30User61; static double[,] impostorScoresUser30User62; static double[,] impostorScoresUser30User63;
-        static double[,] impostorScoresUser30User64; static double[,] impostorScoresUser30User65; static double[,] impostorScoresUser30User66;
-        static double[,] impostorScoresUser30User67; static double[,] impostorScoresUser30User68; static double[,] impostorScoresUser30User69;
-        static double[,] impostorScoresUser30User70;
-
-        static double[,] impostorScoresUser30User71; static double[,] impostorScoresUser30User72; static double[,] impostorScoresUser30User73;
-        static double[,] impostorScoresUser30User74; static double[,] impostorScoresUser30User75; static double[,] impostorScoresUser30User76;
-        static double[,] impostorScoresUser30User77; static double[,] impostorScoresUser30User78; static double[,] impostorScoresUser30User79;
-        static double[,] impostorScoresUser30User80;
-
-        static double[,] impostorScoresUser30User81; static double[,] impostorScoresUser30User82; static double[,] impostorScoresUser30User83;
-        static double[,] impostorScoresUser30User84; static double[,] impostorScoresUser30User85; static double[,] impostorScoresUser30User86;
-        static double[,] impostorScoresUser30User87; static double[,] impostorScoresUser30User88; static double[,] impostorScoresUser30User89;
-        static double[,] impostorScoresUser30User90;
-
-        static double[,] impostorScoresUser30User91; static double[,] impostorScoresUser30User92; static double[,] impostorScoresUser30User93;
-        static double[,] impostorScoresUser30User94; static double[,] impostorScoresUser30User95; static double[,] impostorScoresUser30User96;
-        static double[,] impostorScoresUser30User97; static double[,] impostorScoresUser30User98; static double[,] impostorScoresUser30User99;
-        static double[,] impostorScoresUser30User100;
-        #endregion
-
         static void Main(string[] args)
         {
             // The dataFiltering class will be referred to 
@@ -2880,6 +367,7 @@ namespace QUML_Keystrokes
         {
             // Making reference to the ScaledManhattanDistance class
             ScaledManhattanDistance ScaledManhDist = new ScaledManhattanDistance();
+            ScoreVars sv = new ScoreVars();
 
             #region Calculating the mean vectors for all 100 subjects
             s001Mean = ScaledManhDist.CalculateMeanVector(s001);
@@ -3220,114 +708,114 @@ namespace QUML_Keystrokes
             #region Populating the impostor scores for each user in the following users
 
             #region User 1 Impostor scores
-            impostorScoresUser1User2 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s002);
-            impostorScoresUser1User3 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s003);
-            impostorScoresUser1User4 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s004);
-            impostorScoresUser1User5 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s005);
-            impostorScoresUser1User6 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s006);
-            impostorScoresUser1User7 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s007);
-            impostorScoresUser1User8 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s008);
-            impostorScoresUser1User9 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s009);
-            impostorScoresUser1User10 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s010);
+            sv.ImpostorScoresUser1User2 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s002);
+            sv.ImpostorScoresUser1User3 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s003);
+            sv.ImpostorScoresUser1User4 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s004);
+            sv.ImpostorScoresUser1User5 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s005);
+            sv.ImpostorScoresUser1User6 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s006);
+            sv.ImpostorScoresUser1User7 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s007);
+            sv.ImpostorScoresUser1User8 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s008);
+            sv.ImpostorScoresUser1User9 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s009);
+            sv.ImpostorScoresUser1User10 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s010);
 
-            impostorScoresUser1User11 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s011);
-            impostorScoresUser1User12 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s012);
-            impostorScoresUser1User13 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s013);
-            impostorScoresUser1User14 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s014);
-            impostorScoresUser1User15 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s015);
-            impostorScoresUser1User16 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s016);
-            impostorScoresUser1User17 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s017);
-            impostorScoresUser1User18 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s018);
-            impostorScoresUser1User19 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s019);
-            impostorScoresUser1User20 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s020);
+            sv.ImpostorScoresUser1User11 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s011);
+            sv.ImpostorScoresUser1User12 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s012);
+            sv.ImpostorScoresUser1User13 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s013);
+            sv.ImpostorScoresUser1User14 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s014);
+            sv.ImpostorScoresUser1User15 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s015);
+            sv.ImpostorScoresUser1User16 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s016);
+            sv.ImpostorScoresUser1User17 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s017);
+            sv.ImpostorScoresUser1User18 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s018);
+            sv.ImpostorScoresUser1User19 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s019);
+            sv.ImpostorScoresUser1User20 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s020);
 
-            impostorScoresUser1User21 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s021);
-            impostorScoresUser1User22 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s022);
-            impostorScoresUser1User23 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s023);
-            impostorScoresUser1User24 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s024);
-            impostorScoresUser1User25 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s025);
-            impostorScoresUser1User26 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s026);
-            impostorScoresUser1User27 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s027);
-            impostorScoresUser1User28 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s028);
-            impostorScoresUser1User29 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s029);
-            impostorScoresUser1User30 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s030);
+            sv.ImpostorScoresUser1User21 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s021);
+            sv.ImpostorScoresUser1User22 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s022);
+            sv.ImpostorScoresUser1User23 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s023);
+            sv.ImpostorScoresUser1User24 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s024);
+            sv.ImpostorScoresUser1User25 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s025);
+            sv.ImpostorScoresUser1User26 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s026);
+            sv.ImpostorScoresUser1User27 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s027);
+            sv.ImpostorScoresUser1User28 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s028);
+            sv.ImpostorScoresUser1User29 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s029);
+            sv.ImpostorScoresUser1User30 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s030);
 
-            impostorScoresUser1User31 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s031);
-            impostorScoresUser1User32 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s032);
-            impostorScoresUser1User33 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s033);
-            impostorScoresUser1User34 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s034);
-            impostorScoresUser1User35 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s035);
-            impostorScoresUser1User36 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s036);
-            impostorScoresUser1User37 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s037);
-            impostorScoresUser1User38 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s038);
-            impostorScoresUser1User39 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s039);
-            impostorScoresUser1User40 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s040);
+            sv.ImpostorScoresUser1User31 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s031);
+            sv.ImpostorScoresUser1User32 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s032);
+            sv.ImpostorScoresUser1User33 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s033);
+            sv.ImpostorScoresUser1User34 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s034);
+            sv.ImpostorScoresUser1User35 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s035);
+            sv.ImpostorScoresUser1User36 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s036);
+            sv.ImpostorScoresUser1User37 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s037);
+            sv.ImpostorScoresUser1User38 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s038);
+            sv.ImpostorScoresUser1User39 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s039);
+            sv.ImpostorScoresUser1User40 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s040);
 
-            impostorScoresUser1User41 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s041);
-            impostorScoresUser1User42 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s042);
-            impostorScoresUser1User43 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s043);
-            impostorScoresUser1User44 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s044);
-            impostorScoresUser1User45 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s045);
-            impostorScoresUser1User46 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s046);
-            impostorScoresUser1User47 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s047);
-            impostorScoresUser1User48 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s048);
-            impostorScoresUser1User49 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s049);
-            impostorScoresUser1User50 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s050);
+            sv.ImpostorScoresUser1User41 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s041);
+            sv.ImpostorScoresUser1User42 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s042);
+            sv.ImpostorScoresUser1User43 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s043);
+            sv.ImpostorScoresUser1User44 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s044);
+            sv.ImpostorScoresUser1User45 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s045);
+            sv.ImpostorScoresUser1User46 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s046);
+            sv.ImpostorScoresUser1User47 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s047);
+            sv.ImpostorScoresUser1User48 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s048);
+            sv.ImpostorScoresUser1User49 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s049);
+            sv.ImpostorScoresUser1User50 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s050);
 
-            impostorScoresUser1User51 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s051);
-            impostorScoresUser1User52 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s052);
-            impostorScoresUser1User53 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s053);
-            impostorScoresUser1User54 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s054);
-            impostorScoresUser1User55 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s055);
-            impostorScoresUser1User56 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s056);
-            impostorScoresUser1User57 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s057);
-            impostorScoresUser1User58 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s058);
-            impostorScoresUser1User59 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s059);
-            impostorScoresUser1User60 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s060);
+            sv.ImpostorScoresUser1User51 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s051);
+            sv.ImpostorScoresUser1User52 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s052);
+            sv.ImpostorScoresUser1User53 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s053);
+            sv.ImpostorScoresUser1User54 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s054);
+            sv.ImpostorScoresUser1User55 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s055);
+            sv.ImpostorScoresUser1User56 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s056);
+            sv.ImpostorScoresUser1User57 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s057);
+            sv.ImpostorScoresUser1User58 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s058);
+            sv.ImpostorScoresUser1User59 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s059);
+            sv.ImpostorScoresUser1User60 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s060);
 
-            impostorScoresUser1User61 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s061);
-            impostorScoresUser1User62 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s062);
-            impostorScoresUser1User63 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s063);
-            impostorScoresUser1User64 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s064);
-            impostorScoresUser1User65 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s065);
-            impostorScoresUser1User66 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s066);
-            impostorScoresUser1User67 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s067);
-            impostorScoresUser1User68 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s068);
-            impostorScoresUser1User69 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s069);
-            impostorScoresUser1User70 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s070);
+            sv.ImpostorScoresUser1User61 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s061);
+            sv.ImpostorScoresUser1User62 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s062);
+            sv.ImpostorScoresUser1User63 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s063);
+            sv.ImpostorScoresUser1User64 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s064);
+            sv.ImpostorScoresUser1User65 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s065);
+            sv.ImpostorScoresUser1User66 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s066);
+            sv.ImpostorScoresUser1User67 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s067);
+            sv.ImpostorScoresUser1User68 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s068);
+            sv.ImpostorScoresUser1User69 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s069);
+            sv.ImpostorScoresUser1User70 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s070);
 
-            impostorScoresUser1User71 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s071);
-            impostorScoresUser1User72 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s072);
-            impostorScoresUser1User73 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s073);
-            impostorScoresUser1User74 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s074);
-            impostorScoresUser1User75 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s075);
-            impostorScoresUser1User76 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s076);
-            impostorScoresUser1User77 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s077);
-            impostorScoresUser1User78 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s078);
-            impostorScoresUser1User79 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s079);
-            impostorScoresUser1User80 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s080);
+            sv.ImpostorScoresUser1User71 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s071);
+            sv.ImpostorScoresUser1User72 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s072);
+            sv.ImpostorScoresUser1User73 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s073);
+            sv.ImpostorScoresUser1User74 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s074);
+            sv.ImpostorScoresUser1User75 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s075);
+            sv.ImpostorScoresUser1User76 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s076);
+            sv.ImpostorScoresUser1User77 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s077);
+            sv.ImpostorScoresUser1User78 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s078);
+            sv.ImpostorScoresUser1User79 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s079);
+            sv.ImpostorScoresUser1User80 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s080);
 
-            impostorScoresUser1User81 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s081);
-            impostorScoresUser1User82 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s082);
-            impostorScoresUser1User83 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s083);
-            impostorScoresUser1User84 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s084);
-            impostorScoresUser1User85 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s085);
-            impostorScoresUser1User86 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s086);
-            impostorScoresUser1User87 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s087);
-            impostorScoresUser1User88 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s088);
-            impostorScoresUser1User89 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s089);
-            impostorScoresUser1User90 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s090);
+            sv.ImpostorScoresUser1User81 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s081);
+            sv.ImpostorScoresUser1User82 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s082);
+            sv.ImpostorScoresUser1User83 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s083);
+            sv.ImpostorScoresUser1User84 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s084);
+            sv.ImpostorScoresUser1User85 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s085);
+            sv.ImpostorScoresUser1User86 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s086);
+            sv.ImpostorScoresUser1User87 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s087);
+            sv.ImpostorScoresUser1User88 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s088);
+            sv.ImpostorScoresUser1User89 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s089);
+            sv.ImpostorScoresUser1User90 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s090);
 
-            impostorScoresUser1User91 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s091);
-            impostorScoresUser1User92 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s092);
-            impostorScoresUser1User93 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s093);
-            impostorScoresUser1User94 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s094);
-            impostorScoresUser1User95 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s095);
-            impostorScoresUser1User96 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s096);
-            impostorScoresUser1User97 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s097);
-            impostorScoresUser1User98 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s098);
-            impostorScoresUser1User99 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s099);
-            impostorScoresUser1User100 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s100);
+            sv.ImpostorScoresUser1User91 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s091);
+            sv.ImpostorScoresUser1User92 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s092);
+            sv.ImpostorScoresUser1User93 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s093);
+            sv.ImpostorScoresUser1User94 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s094);
+            sv.ImpostorScoresUser1User95 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s095);
+            sv.ImpostorScoresUser1User96 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s096);
+            sv.ImpostorScoresUser1User97 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s097);
+            sv.ImpostorScoresUser1User98 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s098);
+            sv.ImpostorScoresUser1User99 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s099);
+            sv.ImpostorScoresUser1User100 = ScaledManhDist.CalculateImpostorScores(s001Mean, stdDevUser1, s100);
             #endregion
 
             #region User 2 Impostor scores
@@ -3408,6 +896,7 @@ namespace QUML_Keystrokes
         private static void UseEuclideanVerifier()
         {
             EuclideanDistance EuclidDist = new EuclideanDistance();
+            ScoreVars sv = new ScoreVars();
 
             #region Populating the mean arrays for each user under the Euclidean Distance method
             s001Mean = EuclidDist.CalculateMeanVector(s001);
@@ -3636,114 +1125,114 @@ namespace QUML_Keystrokes
             #region Populating the impostor score 2D double arrays
 
             #region User 1 Impostor scores
-            impostorScoresUser1User2 = EuclidDist.CalculateImpostorScores(s001Mean, s002);
-            impostorScoresUser1User3 = EuclidDist.CalculateImpostorScores(s001Mean, s003);
-            impostorScoresUser1User4 = EuclidDist.CalculateImpostorScores(s001Mean, s004);
-            impostorScoresUser1User5 = EuclidDist.CalculateImpostorScores(s001Mean, s005);
-            impostorScoresUser1User6 = EuclidDist.CalculateImpostorScores(s001Mean, s006);
-            impostorScoresUser1User7 = EuclidDist.CalculateImpostorScores(s001Mean, s007);
-            impostorScoresUser1User8 = EuclidDist.CalculateImpostorScores(s001Mean, s008);
-            impostorScoresUser1User9 = EuclidDist.CalculateImpostorScores(s001Mean, s009);
-            impostorScoresUser1User10 = EuclidDist.CalculateImpostorScores(s001Mean, s010);
+            sv.ImpostorScoresUser1User2 = EuclidDist.CalculateImpostorScores(s001Mean, s002);
+            sv.ImpostorScoresUser1User3 = EuclidDist.CalculateImpostorScores(s001Mean, s003);
+            sv.ImpostorScoresUser1User4 = EuclidDist.CalculateImpostorScores(s001Mean, s004);
+            sv.ImpostorScoresUser1User5 = EuclidDist.CalculateImpostorScores(s001Mean, s005);
+            sv.ImpostorScoresUser1User6 = EuclidDist.CalculateImpostorScores(s001Mean, s006);
+            sv.ImpostorScoresUser1User7 = EuclidDist.CalculateImpostorScores(s001Mean, s007);
+            sv.ImpostorScoresUser1User8 = EuclidDist.CalculateImpostorScores(s001Mean, s008);
+            sv.ImpostorScoresUser1User9 = EuclidDist.CalculateImpostorScores(s001Mean, s009);
+            sv.ImpostorScoresUser1User10 = EuclidDist.CalculateImpostorScores(s001Mean, s010);
 
-            impostorScoresUser1User11 = EuclidDist.CalculateImpostorScores(s001Mean, s011);
-            impostorScoresUser1User12 = EuclidDist.CalculateImpostorScores(s001Mean, s012);
-            impostorScoresUser1User13 = EuclidDist.CalculateImpostorScores(s001Mean, s013);
-            impostorScoresUser1User14 = EuclidDist.CalculateImpostorScores(s001Mean, s014);
-            impostorScoresUser1User15 = EuclidDist.CalculateImpostorScores(s001Mean, s015);
-            impostorScoresUser1User16 = EuclidDist.CalculateImpostorScores(s001Mean, s016);
-            impostorScoresUser1User17 = EuclidDist.CalculateImpostorScores(s001Mean, s017);
-            impostorScoresUser1User18 = EuclidDist.CalculateImpostorScores(s001Mean, s018);
-            impostorScoresUser1User19 = EuclidDist.CalculateImpostorScores(s001Mean, s019);
-            impostorScoresUser1User20 = EuclidDist.CalculateImpostorScores(s001Mean, s020);
+            sv.ImpostorScoresUser1User11 = EuclidDist.CalculateImpostorScores(s001Mean, s011);
+            sv.ImpostorScoresUser1User12 = EuclidDist.CalculateImpostorScores(s001Mean, s012);
+            sv.ImpostorScoresUser1User13 = EuclidDist.CalculateImpostorScores(s001Mean, s013);
+            sv.ImpostorScoresUser1User14 = EuclidDist.CalculateImpostorScores(s001Mean, s014);
+            sv.ImpostorScoresUser1User15 = EuclidDist.CalculateImpostorScores(s001Mean, s015);
+            sv.ImpostorScoresUser1User16 = EuclidDist.CalculateImpostorScores(s001Mean, s016);
+            sv.ImpostorScoresUser1User17 = EuclidDist.CalculateImpostorScores(s001Mean, s017);
+            sv.ImpostorScoresUser1User18 = EuclidDist.CalculateImpostorScores(s001Mean, s018);
+            sv.ImpostorScoresUser1User19 = EuclidDist.CalculateImpostorScores(s001Mean, s019);
+            sv.ImpostorScoresUser1User20 = EuclidDist.CalculateImpostorScores(s001Mean, s020);
 
-            impostorScoresUser1User21 = EuclidDist.CalculateImpostorScores(s001Mean, s021);
-            impostorScoresUser1User22 = EuclidDist.CalculateImpostorScores(s001Mean, s022);
-            impostorScoresUser1User23 = EuclidDist.CalculateImpostorScores(s001Mean, s023);
-            impostorScoresUser1User24 = EuclidDist.CalculateImpostorScores(s001Mean, s024);
-            impostorScoresUser1User25 = EuclidDist.CalculateImpostorScores(s001Mean, s025);
-            impostorScoresUser1User26 = EuclidDist.CalculateImpostorScores(s001Mean, s026);
-            impostorScoresUser1User27 = EuclidDist.CalculateImpostorScores(s001Mean, s027);
-            impostorScoresUser1User28 = EuclidDist.CalculateImpostorScores(s001Mean, s028);
-            impostorScoresUser1User29 = EuclidDist.CalculateImpostorScores(s001Mean, s029);
-            impostorScoresUser1User30 = EuclidDist.CalculateImpostorScores(s001Mean, s030);
+            sv.ImpostorScoresUser1User21 = EuclidDist.CalculateImpostorScores(s001Mean, s021);
+            sv.ImpostorScoresUser1User22 = EuclidDist.CalculateImpostorScores(s001Mean, s022);
+            sv.ImpostorScoresUser1User23 = EuclidDist.CalculateImpostorScores(s001Mean, s023);
+            sv.ImpostorScoresUser1User24 = EuclidDist.CalculateImpostorScores(s001Mean, s024);
+            sv.ImpostorScoresUser1User25 = EuclidDist.CalculateImpostorScores(s001Mean, s025);
+            sv.ImpostorScoresUser1User26 = EuclidDist.CalculateImpostorScores(s001Mean, s026);
+            sv.ImpostorScoresUser1User27 = EuclidDist.CalculateImpostorScores(s001Mean, s027);
+            sv.ImpostorScoresUser1User28 = EuclidDist.CalculateImpostorScores(s001Mean, s028);
+            sv.ImpostorScoresUser1User29 = EuclidDist.CalculateImpostorScores(s001Mean, s029);
+            sv.ImpostorScoresUser1User30 = EuclidDist.CalculateImpostorScores(s001Mean, s030);
 
-            impostorScoresUser1User31 = EuclidDist.CalculateImpostorScores(s001Mean, s031);
-            impostorScoresUser1User32 = EuclidDist.CalculateImpostorScores(s001Mean, s032);
-            impostorScoresUser1User33 = EuclidDist.CalculateImpostorScores(s001Mean, s033);
-            impostorScoresUser1User34 = EuclidDist.CalculateImpostorScores(s001Mean, s034);
-            impostorScoresUser1User35 = EuclidDist.CalculateImpostorScores(s001Mean, s035);
-            impostorScoresUser1User36 = EuclidDist.CalculateImpostorScores(s001Mean, s036);
-            impostorScoresUser1User37 = EuclidDist.CalculateImpostorScores(s001Mean, s037);
-            impostorScoresUser1User38 = EuclidDist.CalculateImpostorScores(s001Mean, s038);
-            impostorScoresUser1User39 = EuclidDist.CalculateImpostorScores(s001Mean, s039);
-            impostorScoresUser1User40 = EuclidDist.CalculateImpostorScores(s001Mean, s040);
+            sv.ImpostorScoresUser1User31 = EuclidDist.CalculateImpostorScores(s001Mean, s031);
+            sv.ImpostorScoresUser1User32 = EuclidDist.CalculateImpostorScores(s001Mean, s032);
+            sv.ImpostorScoresUser1User33 = EuclidDist.CalculateImpostorScores(s001Mean, s033);
+            sv.ImpostorScoresUser1User34 = EuclidDist.CalculateImpostorScores(s001Mean, s034);
+            sv.ImpostorScoresUser1User35 = EuclidDist.CalculateImpostorScores(s001Mean, s035);
+            sv.ImpostorScoresUser1User36 = EuclidDist.CalculateImpostorScores(s001Mean, s036);
+            sv.ImpostorScoresUser1User37 = EuclidDist.CalculateImpostorScores(s001Mean, s037);
+            sv.ImpostorScoresUser1User38 = EuclidDist.CalculateImpostorScores(s001Mean, s038);
+            sv.ImpostorScoresUser1User39 = EuclidDist.CalculateImpostorScores(s001Mean, s039);
+            sv.ImpostorScoresUser1User40 = EuclidDist.CalculateImpostorScores(s001Mean, s040);
 
-            impostorScoresUser1User41 = EuclidDist.CalculateImpostorScores(s001Mean, s041);
-            impostorScoresUser1User42 = EuclidDist.CalculateImpostorScores(s001Mean, s042);
-            impostorScoresUser1User43 = EuclidDist.CalculateImpostorScores(s001Mean, s043);
-            impostorScoresUser1User44 = EuclidDist.CalculateImpostorScores(s001Mean, s044);
-            impostorScoresUser1User45 = EuclidDist.CalculateImpostorScores(s001Mean, s045);
-            impostorScoresUser1User46 = EuclidDist.CalculateImpostorScores(s001Mean, s046);
-            impostorScoresUser1User47 = EuclidDist.CalculateImpostorScores(s001Mean, s047);
-            impostorScoresUser1User48 = EuclidDist.CalculateImpostorScores(s001Mean, s048);
-            impostorScoresUser1User49 = EuclidDist.CalculateImpostorScores(s001Mean, s049);
-            impostorScoresUser1User50 = EuclidDist.CalculateImpostorScores(s001Mean, s050);
+            sv.ImpostorScoresUser1User41 = EuclidDist.CalculateImpostorScores(s001Mean, s041);
+            sv.ImpostorScoresUser1User42 = EuclidDist.CalculateImpostorScores(s001Mean, s042);
+            sv.ImpostorScoresUser1User43 = EuclidDist.CalculateImpostorScores(s001Mean, s043);
+            sv.ImpostorScoresUser1User44 = EuclidDist.CalculateImpostorScores(s001Mean, s044);
+            sv.ImpostorScoresUser1User45 = EuclidDist.CalculateImpostorScores(s001Mean, s045);
+            sv.ImpostorScoresUser1User46 = EuclidDist.CalculateImpostorScores(s001Mean, s046);
+            sv.ImpostorScoresUser1User47 = EuclidDist.CalculateImpostorScores(s001Mean, s047);
+            sv.ImpostorScoresUser1User48 = EuclidDist.CalculateImpostorScores(s001Mean, s048);
+            sv.ImpostorScoresUser1User49 = EuclidDist.CalculateImpostorScores(s001Mean, s049);
+            sv.ImpostorScoresUser1User50 = EuclidDist.CalculateImpostorScores(s001Mean, s050);
 
-            impostorScoresUser1User51 = EuclidDist.CalculateImpostorScores(s001Mean, s051);
-            impostorScoresUser1User52 = EuclidDist.CalculateImpostorScores(s001Mean, s052);
-            impostorScoresUser1User53 = EuclidDist.CalculateImpostorScores(s001Mean, s053);
-            impostorScoresUser1User54 = EuclidDist.CalculateImpostorScores(s001Mean, s054);
-            impostorScoresUser1User55 = EuclidDist.CalculateImpostorScores(s001Mean, s055);
-            impostorScoresUser1User56 = EuclidDist.CalculateImpostorScores(s001Mean, s056);
-            impostorScoresUser1User57 = EuclidDist.CalculateImpostorScores(s001Mean, s057);
-            impostorScoresUser1User58 = EuclidDist.CalculateImpostorScores(s001Mean, s058);
-            impostorScoresUser1User59 = EuclidDist.CalculateImpostorScores(s001Mean, s059);
-            impostorScoresUser1User60 = EuclidDist.CalculateImpostorScores(s001Mean, s060);
+            sv.ImpostorScoresUser1User51 = EuclidDist.CalculateImpostorScores(s001Mean, s051);
+            sv.ImpostorScoresUser1User52 = EuclidDist.CalculateImpostorScores(s001Mean, s052);
+            sv.ImpostorScoresUser1User53 = EuclidDist.CalculateImpostorScores(s001Mean, s053);
+            sv.ImpostorScoresUser1User54 = EuclidDist.CalculateImpostorScores(s001Mean, s054);
+            sv.ImpostorScoresUser1User55 = EuclidDist.CalculateImpostorScores(s001Mean, s055);
+            sv.ImpostorScoresUser1User56 = EuclidDist.CalculateImpostorScores(s001Mean, s056);
+            sv.ImpostorScoresUser1User57 = EuclidDist.CalculateImpostorScores(s001Mean, s057);
+            sv.ImpostorScoresUser1User58 = EuclidDist.CalculateImpostorScores(s001Mean, s058);
+            sv.ImpostorScoresUser1User59 = EuclidDist.CalculateImpostorScores(s001Mean, s059);
+            sv.ImpostorScoresUser1User60 = EuclidDist.CalculateImpostorScores(s001Mean, s060);
 
-            impostorScoresUser1User61 = EuclidDist.CalculateImpostorScores(s001Mean, s061);
-            impostorScoresUser1User62 = EuclidDist.CalculateImpostorScores(s001Mean, s062);
-            impostorScoresUser1User63 = EuclidDist.CalculateImpostorScores(s001Mean, s063);
-            impostorScoresUser1User64 = EuclidDist.CalculateImpostorScores(s001Mean, s064);
-            impostorScoresUser1User65 = EuclidDist.CalculateImpostorScores(s001Mean, s065);
-            impostorScoresUser1User66 = EuclidDist.CalculateImpostorScores(s001Mean, s066);
-            impostorScoresUser1User67 = EuclidDist.CalculateImpostorScores(s001Mean, s067);
-            impostorScoresUser1User68 = EuclidDist.CalculateImpostorScores(s001Mean, s068);
-            impostorScoresUser1User69 = EuclidDist.CalculateImpostorScores(s001Mean, s069);
-            impostorScoresUser1User70 = EuclidDist.CalculateImpostorScores(s001Mean, s070);
+            sv.ImpostorScoresUser1User61 = EuclidDist.CalculateImpostorScores(s001Mean, s061);
+            sv.ImpostorScoresUser1User62 = EuclidDist.CalculateImpostorScores(s001Mean, s062);
+            sv.ImpostorScoresUser1User63 = EuclidDist.CalculateImpostorScores(s001Mean, s063);
+            sv.ImpostorScoresUser1User64 = EuclidDist.CalculateImpostorScores(s001Mean, s064);
+            sv.ImpostorScoresUser1User65 = EuclidDist.CalculateImpostorScores(s001Mean, s065);
+            sv.ImpostorScoresUser1User66 = EuclidDist.CalculateImpostorScores(s001Mean, s066);
+            sv.ImpostorScoresUser1User67 = EuclidDist.CalculateImpostorScores(s001Mean, s067);
+            sv.ImpostorScoresUser1User68 = EuclidDist.CalculateImpostorScores(s001Mean, s068);
+            sv.ImpostorScoresUser1User69 = EuclidDist.CalculateImpostorScores(s001Mean, s069);
+            sv.ImpostorScoresUser1User70 = EuclidDist.CalculateImpostorScores(s001Mean, s070);
 
-            impostorScoresUser1User71 = EuclidDist.CalculateImpostorScores(s001Mean, s071);
-            impostorScoresUser1User72 = EuclidDist.CalculateImpostorScores(s001Mean, s072);
-            impostorScoresUser1User73 = EuclidDist.CalculateImpostorScores(s001Mean, s073);
-            impostorScoresUser1User74 = EuclidDist.CalculateImpostorScores(s001Mean, s074);
-            impostorScoresUser1User75 = EuclidDist.CalculateImpostorScores(s001Mean, s075);
-            impostorScoresUser1User76 = EuclidDist.CalculateImpostorScores(s001Mean, s076);
-            impostorScoresUser1User77 = EuclidDist.CalculateImpostorScores(s001Mean, s077);
-            impostorScoresUser1User78 = EuclidDist.CalculateImpostorScores(s001Mean, s078);
-            impostorScoresUser1User79 = EuclidDist.CalculateImpostorScores(s001Mean, s079);
-            impostorScoresUser1User80 = EuclidDist.CalculateImpostorScores(s001Mean, s080);
+            sv.ImpostorScoresUser1User71 = EuclidDist.CalculateImpostorScores(s001Mean, s071);
+            sv.ImpostorScoresUser1User72 = EuclidDist.CalculateImpostorScores(s001Mean, s072);
+            sv.ImpostorScoresUser1User73 = EuclidDist.CalculateImpostorScores(s001Mean, s073);
+            sv.ImpostorScoresUser1User74 = EuclidDist.CalculateImpostorScores(s001Mean, s074);
+            sv.ImpostorScoresUser1User75 = EuclidDist.CalculateImpostorScores(s001Mean, s075);
+            sv.ImpostorScoresUser1User76 = EuclidDist.CalculateImpostorScores(s001Mean, s076);
+            sv.ImpostorScoresUser1User77 = EuclidDist.CalculateImpostorScores(s001Mean, s077);
+            sv.ImpostorScoresUser1User78 = EuclidDist.CalculateImpostorScores(s001Mean, s078);
+            sv.ImpostorScoresUser1User79 = EuclidDist.CalculateImpostorScores(s001Mean, s079);
+            sv.ImpostorScoresUser1User80 = EuclidDist.CalculateImpostorScores(s001Mean, s080);
 
-            impostorScoresUser1User81 = EuclidDist.CalculateImpostorScores(s001Mean, s081);
-            impostorScoresUser1User82 = EuclidDist.CalculateImpostorScores(s001Mean, s082);
-            impostorScoresUser1User83 = EuclidDist.CalculateImpostorScores(s001Mean, s083);
-            impostorScoresUser1User84 = EuclidDist.CalculateImpostorScores(s001Mean, s084);
-            impostorScoresUser1User85 = EuclidDist.CalculateImpostorScores(s001Mean, s085);
-            impostorScoresUser1User86 = EuclidDist.CalculateImpostorScores(s001Mean, s086);
-            impostorScoresUser1User87 = EuclidDist.CalculateImpostorScores(s001Mean, s087);
-            impostorScoresUser1User88 = EuclidDist.CalculateImpostorScores(s001Mean, s088);
-            impostorScoresUser1User89 = EuclidDist.CalculateImpostorScores(s001Mean, s089);
-            impostorScoresUser1User90 = EuclidDist.CalculateImpostorScores(s001Mean, s090);
+            sv.ImpostorScoresUser1User81 = EuclidDist.CalculateImpostorScores(s001Mean, s081);
+            sv.ImpostorScoresUser1User82 = EuclidDist.CalculateImpostorScores(s001Mean, s082);
+            sv.ImpostorScoresUser1User83 = EuclidDist.CalculateImpostorScores(s001Mean, s083);
+            sv.ImpostorScoresUser1User84 = EuclidDist.CalculateImpostorScores(s001Mean, s084);
+            sv.ImpostorScoresUser1User85 = EuclidDist.CalculateImpostorScores(s001Mean, s085);
+            sv.ImpostorScoresUser1User86 = EuclidDist.CalculateImpostorScores(s001Mean, s086);
+            sv.ImpostorScoresUser1User87 = EuclidDist.CalculateImpostorScores(s001Mean, s087);
+            sv.ImpostorScoresUser1User88 = EuclidDist.CalculateImpostorScores(s001Mean, s088);
+            sv.ImpostorScoresUser1User89 = EuclidDist.CalculateImpostorScores(s001Mean, s089);
+            sv.ImpostorScoresUser1User90 = EuclidDist.CalculateImpostorScores(s001Mean, s090);
 
-            impostorScoresUser1User91 = EuclidDist.CalculateImpostorScores(s001Mean, s091);
-            impostorScoresUser1User92 = EuclidDist.CalculateImpostorScores(s001Mean, s092);
-            impostorScoresUser1User93 = EuclidDist.CalculateImpostorScores(s001Mean, s093);
-            impostorScoresUser1User94 = EuclidDist.CalculateImpostorScores(s001Mean, s094);
-            impostorScoresUser1User95 = EuclidDist.CalculateImpostorScores(s001Mean, s095);
-            impostorScoresUser1User96 = EuclidDist.CalculateImpostorScores(s001Mean, s096);
-            impostorScoresUser1User97 = EuclidDist.CalculateImpostorScores(s001Mean, s097);
-            impostorScoresUser1User98 = EuclidDist.CalculateImpostorScores(s001Mean, s098);
-            impostorScoresUser1User99 = EuclidDist.CalculateImpostorScores(s001Mean, s099);
-            impostorScoresUser1User100 = EuclidDist.CalculateImpostorScores(s001Mean, s100);
+            sv.ImpostorScoresUser1User91 = EuclidDist.CalculateImpostorScores(s001Mean, s091);
+            sv.ImpostorScoresUser1User92 = EuclidDist.CalculateImpostorScores(s001Mean, s092);
+            sv.ImpostorScoresUser1User93 = EuclidDist.CalculateImpostorScores(s001Mean, s093);
+            sv.ImpostorScoresUser1User94 = EuclidDist.CalculateImpostorScores(s001Mean, s094);
+            sv.ImpostorScoresUser1User95 = EuclidDist.CalculateImpostorScores(s001Mean, s095);
+            sv.ImpostorScoresUser1User96 = EuclidDist.CalculateImpostorScores(s001Mean, s096);
+            sv.ImpostorScoresUser1User97 = EuclidDist.CalculateImpostorScores(s001Mean, s097);
+            sv.ImpostorScoresUser1User98 = EuclidDist.CalculateImpostorScores(s001Mean, s098);
+            sv.ImpostorScoresUser1User99 = EuclidDist.CalculateImpostorScores(s001Mean, s099);
+            sv.ImpostorScoresUser1User100 = EuclidDist.CalculateImpostorScores(s001Mean, s100);
             #endregion
 
             #region User 2 Impostor scores
@@ -5919,6 +3408,7 @@ namespace QUML_Keystrokes
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
+            ScoreVars sv = new ScoreVars();
 
             #region Populating the mean arrays for each user
             s001Mean = ManhDist.CalculateMeanVector(s001);
@@ -6145,447 +3635,429 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 1 Impostor scores
-            impostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);
-            impostorScoresUser1User3 = ManhDist.CalculateImpostorScores(s001Mean, s003);
-            impostorScoresUser1User4 = ManhDist.CalculateImpostorScores(s001Mean, s004);
-            impostorScoresUser1User5 = ManhDist.CalculateImpostorScores(s001Mean, s005);
-            impostorScoresUser1User6 = ManhDist.CalculateImpostorScores(s001Mean, s006);
-            impostorScoresUser1User7 = ManhDist.CalculateImpostorScores(s001Mean, s007);
-            impostorScoresUser1User8 = ManhDist.CalculateImpostorScores(s001Mean, s008);
-            impostorScoresUser1User9 = ManhDist.CalculateImpostorScores(s001Mean, s009);
-            impostorScoresUser1User10 = ManhDist.CalculateImpostorScores(s001Mean, s010);
+            sv.ImpostorScoresUser1User2 = ManhDist.CalculateImpostorScores(s001Mean, s002);
+            sv.ImpostorScoresUser1User3 = ManhDist.CalculateImpostorScores(s001Mean, s003);
+            sv.ImpostorScoresUser1User4 = ManhDist.CalculateImpostorScores(s001Mean, s004);
+            sv.ImpostorScoresUser1User5 = ManhDist.CalculateImpostorScores(s001Mean, s005);
+            sv.ImpostorScoresUser1User6 = ManhDist.CalculateImpostorScores(s001Mean, s006);
+            sv.ImpostorScoresUser1User7 = ManhDist.CalculateImpostorScores(s001Mean, s007);
+            sv.ImpostorScoresUser1User8 = ManhDist.CalculateImpostorScores(s001Mean, s008);
+            sv.ImpostorScoresUser1User9 = ManhDist.CalculateImpostorScores(s001Mean, s009);
+            sv.ImpostorScoresUser1User10 = ManhDist.CalculateImpostorScores(s001Mean, s010);
 
-            impostorScoresUser1User11 = ManhDist.CalculateImpostorScores(s001Mean, s011);
-            impostorScoresUser1User12 = ManhDist.CalculateImpostorScores(s001Mean, s012);
-            impostorScoresUser1User13 = ManhDist.CalculateImpostorScores(s001Mean, s013);
-            impostorScoresUser1User14 = ManhDist.CalculateImpostorScores(s001Mean, s014);
-            impostorScoresUser1User15 = ManhDist.CalculateImpostorScores(s001Mean, s015);
-            impostorScoresUser1User16 = ManhDist.CalculateImpostorScores(s001Mean, s016);
-            impostorScoresUser1User17 = ManhDist.CalculateImpostorScores(s001Mean, s017);
-            impostorScoresUser1User18 = ManhDist.CalculateImpostorScores(s001Mean, s018);
-            impostorScoresUser1User19 = ManhDist.CalculateImpostorScores(s001Mean, s019);
-            impostorScoresUser1User20 = ManhDist.CalculateImpostorScores(s001Mean, s020);
+            sv.ImpostorScoresUser1User11 = ManhDist.CalculateImpostorScores(s001Mean, s011);
+            sv.ImpostorScoresUser1User12 = ManhDist.CalculateImpostorScores(s001Mean, s012);
+            sv.ImpostorScoresUser1User13 = ManhDist.CalculateImpostorScores(s001Mean, s013);
+            sv.ImpostorScoresUser1User14 = ManhDist.CalculateImpostorScores(s001Mean, s014);
+            sv.ImpostorScoresUser1User15 = ManhDist.CalculateImpostorScores(s001Mean, s015);
+            sv.ImpostorScoresUser1User16 = ManhDist.CalculateImpostorScores(s001Mean, s016);
+            sv.ImpostorScoresUser1User17 = ManhDist.CalculateImpostorScores(s001Mean, s017);
+            sv.ImpostorScoresUser1User18 = ManhDist.CalculateImpostorScores(s001Mean, s018);
+            sv.ImpostorScoresUser1User19 = ManhDist.CalculateImpostorScores(s001Mean, s019);
+            sv.ImpostorScoresUser1User20 = ManhDist.CalculateImpostorScores(s001Mean, s020);
 
-            impostorScoresUser1User21 = ManhDist.CalculateImpostorScores(s001Mean, s021);
-            impostorScoresUser1User22 = ManhDist.CalculateImpostorScores(s001Mean, s022);
-            impostorScoresUser1User23 = ManhDist.CalculateImpostorScores(s001Mean, s023);
-            impostorScoresUser1User24 = ManhDist.CalculateImpostorScores(s001Mean, s024);
-            impostorScoresUser1User25 = ManhDist.CalculateImpostorScores(s001Mean, s025);
-            impostorScoresUser1User26 = ManhDist.CalculateImpostorScores(s001Mean, s026);
-            impostorScoresUser1User27 = ManhDist.CalculateImpostorScores(s001Mean, s027);
-            impostorScoresUser1User28 = ManhDist.CalculateImpostorScores(s001Mean, s028);
-            impostorScoresUser1User29 = ManhDist.CalculateImpostorScores(s001Mean, s029);
-            impostorScoresUser1User30 = ManhDist.CalculateImpostorScores(s001Mean, s030);
+            sv.ImpostorScoresUser1User21 = ManhDist.CalculateImpostorScores(s001Mean, s021);
+            sv.ImpostorScoresUser1User22 = ManhDist.CalculateImpostorScores(s001Mean, s022);
+            sv.ImpostorScoresUser1User23 = ManhDist.CalculateImpostorScores(s001Mean, s023);
+            sv.ImpostorScoresUser1User24 = ManhDist.CalculateImpostorScores(s001Mean, s024);
+            sv.ImpostorScoresUser1User25 = ManhDist.CalculateImpostorScores(s001Mean, s025);
+            sv.ImpostorScoresUser1User26 = ManhDist.CalculateImpostorScores(s001Mean, s026);
+            sv.ImpostorScoresUser1User27 = ManhDist.CalculateImpostorScores(s001Mean, s027);
+            sv.ImpostorScoresUser1User28 = ManhDist.CalculateImpostorScores(s001Mean, s028);
+            sv.ImpostorScoresUser1User29 = ManhDist.CalculateImpostorScores(s001Mean, s029);
+            sv.ImpostorScoresUser1User30 = ManhDist.CalculateImpostorScores(s001Mean, s030);
 
-            impostorScoresUser1User31 = ManhDist.CalculateImpostorScores(s001Mean, s031);
-            impostorScoresUser1User32 = ManhDist.CalculateImpostorScores(s001Mean, s032);
-            impostorScoresUser1User33 = ManhDist.CalculateImpostorScores(s001Mean, s033);
-            impostorScoresUser1User34 = ManhDist.CalculateImpostorScores(s001Mean, s034);
-            impostorScoresUser1User35 = ManhDist.CalculateImpostorScores(s001Mean, s035);
-            impostorScoresUser1User36 = ManhDist.CalculateImpostorScores(s001Mean, s036);
-            impostorScoresUser1User37 = ManhDist.CalculateImpostorScores(s001Mean, s037);
-            impostorScoresUser1User38 = ManhDist.CalculateImpostorScores(s001Mean, s038);
-            impostorScoresUser1User39 = ManhDist.CalculateImpostorScores(s001Mean, s039);
-            impostorScoresUser1User40 = ManhDist.CalculateImpostorScores(s001Mean, s040);
+            sv.ImpostorScoresUser1User31 = ManhDist.CalculateImpostorScores(s001Mean, s031);
+            sv.ImpostorScoresUser1User32 = ManhDist.CalculateImpostorScores(s001Mean, s032);
+            sv.ImpostorScoresUser1User33 = ManhDist.CalculateImpostorScores(s001Mean, s033);
+            sv.ImpostorScoresUser1User34 = ManhDist.CalculateImpostorScores(s001Mean, s034);
+            sv.ImpostorScoresUser1User35 = ManhDist.CalculateImpostorScores(s001Mean, s035);
+            sv.ImpostorScoresUser1User36 = ManhDist.CalculateImpostorScores(s001Mean, s036);
+            sv.ImpostorScoresUser1User37 = ManhDist.CalculateImpostorScores(s001Mean, s037);
+            sv.ImpostorScoresUser1User38 = ManhDist.CalculateImpostorScores(s001Mean, s038);
+            sv.ImpostorScoresUser1User39 = ManhDist.CalculateImpostorScores(s001Mean, s039);
+            sv.ImpostorScoresUser1User40 = ManhDist.CalculateImpostorScores(s001Mean, s040);
 
-            impostorScoresUser1User41 = ManhDist.CalculateImpostorScores(s001Mean, s041);
-            impostorScoresUser1User42 = ManhDist.CalculateImpostorScores(s001Mean, s042);
-            impostorScoresUser1User43 = ManhDist.CalculateImpostorScores(s001Mean, s043);
-            impostorScoresUser1User44 = ManhDist.CalculateImpostorScores(s001Mean, s044);
-            impostorScoresUser1User45 = ManhDist.CalculateImpostorScores(s001Mean, s045);
-            impostorScoresUser1User46 = ManhDist.CalculateImpostorScores(s001Mean, s046);
-            impostorScoresUser1User47 = ManhDist.CalculateImpostorScores(s001Mean, s047);
-            impostorScoresUser1User48 = ManhDist.CalculateImpostorScores(s001Mean, s048);
-            impostorScoresUser1User49 = ManhDist.CalculateImpostorScores(s001Mean, s049);
-            impostorScoresUser1User50 = ManhDist.CalculateImpostorScores(s001Mean, s050);
+            sv.ImpostorScoresUser1User41 = ManhDist.CalculateImpostorScores(s001Mean, s041);
+            sv.ImpostorScoresUser1User42 = ManhDist.CalculateImpostorScores(s001Mean, s042);
+            sv.ImpostorScoresUser1User43 = ManhDist.CalculateImpostorScores(s001Mean, s043);
+            sv.ImpostorScoresUser1User44 = ManhDist.CalculateImpostorScores(s001Mean, s044);
+            sv.ImpostorScoresUser1User45 = ManhDist.CalculateImpostorScores(s001Mean, s045);
+            sv.ImpostorScoresUser1User46 = ManhDist.CalculateImpostorScores(s001Mean, s046);
+            sv.ImpostorScoresUser1User47 = ManhDist.CalculateImpostorScores(s001Mean, s047);
+            sv.ImpostorScoresUser1User48 = ManhDist.CalculateImpostorScores(s001Mean, s048);
+            sv.ImpostorScoresUser1User49 = ManhDist.CalculateImpostorScores(s001Mean, s049);
+            sv.ImpostorScoresUser1User50 = ManhDist.CalculateImpostorScores(s001Mean, s050);
 
-            impostorScoresUser1User51 = ManhDist.CalculateImpostorScores(s001Mean, s051);
-            impostorScoresUser1User52 = ManhDist.CalculateImpostorScores(s001Mean, s052);
-            impostorScoresUser1User53 = ManhDist.CalculateImpostorScores(s001Mean, s053);
-            impostorScoresUser1User54 = ManhDist.CalculateImpostorScores(s001Mean, s054);
-            impostorScoresUser1User55 = ManhDist.CalculateImpostorScores(s001Mean, s055);
-            impostorScoresUser1User56 = ManhDist.CalculateImpostorScores(s001Mean, s056);
-            impostorScoresUser1User57 = ManhDist.CalculateImpostorScores(s001Mean, s057);
-            impostorScoresUser1User58 = ManhDist.CalculateImpostorScores(s001Mean, s058);
-            impostorScoresUser1User59 = ManhDist.CalculateImpostorScores(s001Mean, s059);
-            impostorScoresUser1User60 = ManhDist.CalculateImpostorScores(s001Mean, s060);
+            sv.ImpostorScoresUser1User51 = ManhDist.CalculateImpostorScores(s001Mean, s051);
+            sv.ImpostorScoresUser1User52 = ManhDist.CalculateImpostorScores(s001Mean, s052);
+            sv.ImpostorScoresUser1User53 = ManhDist.CalculateImpostorScores(s001Mean, s053);
+            sv.ImpostorScoresUser1User54 = ManhDist.CalculateImpostorScores(s001Mean, s054);
+            sv.ImpostorScoresUser1User55 = ManhDist.CalculateImpostorScores(s001Mean, s055);
+            sv.ImpostorScoresUser1User56 = ManhDist.CalculateImpostorScores(s001Mean, s056);
+            sv.ImpostorScoresUser1User57 = ManhDist.CalculateImpostorScores(s001Mean, s057);
+            sv.ImpostorScoresUser1User58 = ManhDist.CalculateImpostorScores(s001Mean, s058);
+            sv.ImpostorScoresUser1User59 = ManhDist.CalculateImpostorScores(s001Mean, s059);
+            sv.ImpostorScoresUser1User60 = ManhDist.CalculateImpostorScores(s001Mean, s060);
 
-            impostorScoresUser1User61 = ManhDist.CalculateImpostorScores(s001Mean, s061);
-            impostorScoresUser1User62 = ManhDist.CalculateImpostorScores(s001Mean, s062);
-            impostorScoresUser1User63 = ManhDist.CalculateImpostorScores(s001Mean, s063);
-            impostorScoresUser1User64 = ManhDist.CalculateImpostorScores(s001Mean, s064);
-            impostorScoresUser1User65 = ManhDist.CalculateImpostorScores(s001Mean, s065);
-            impostorScoresUser1User66 = ManhDist.CalculateImpostorScores(s001Mean, s066);
-            impostorScoresUser1User67 = ManhDist.CalculateImpostorScores(s001Mean, s067);
-            impostorScoresUser1User68 = ManhDist.CalculateImpostorScores(s001Mean, s068);
-            impostorScoresUser1User69 = ManhDist.CalculateImpostorScores(s001Mean, s069);
-            impostorScoresUser1User70 = ManhDist.CalculateImpostorScores(s001Mean, s070);
+            sv.ImpostorScoresUser1User61 = ManhDist.CalculateImpostorScores(s001Mean, s061);
+            sv.ImpostorScoresUser1User62 = ManhDist.CalculateImpostorScores(s001Mean, s062);
+            sv.ImpostorScoresUser1User63 = ManhDist.CalculateImpostorScores(s001Mean, s063);
+            sv.ImpostorScoresUser1User64 = ManhDist.CalculateImpostorScores(s001Mean, s064);
+            sv.ImpostorScoresUser1User65 = ManhDist.CalculateImpostorScores(s001Mean, s065);
+            sv.ImpostorScoresUser1User66 = ManhDist.CalculateImpostorScores(s001Mean, s066);
+            sv.ImpostorScoresUser1User67 = ManhDist.CalculateImpostorScores(s001Mean, s067);
+            sv.ImpostorScoresUser1User68 = ManhDist.CalculateImpostorScores(s001Mean, s068);
+            sv.ImpostorScoresUser1User69 = ManhDist.CalculateImpostorScores(s001Mean, s069);
+            sv.ImpostorScoresUser1User70 = ManhDist.CalculateImpostorScores(s001Mean, s070);
 
-            impostorScoresUser1User71 = ManhDist.CalculateImpostorScores(s001Mean, s071);
-            impostorScoresUser1User72 = ManhDist.CalculateImpostorScores(s001Mean, s072);
-            impostorScoresUser1User73 = ManhDist.CalculateImpostorScores(s001Mean, s073);
-            impostorScoresUser1User74 = ManhDist.CalculateImpostorScores(s001Mean, s074);
-            impostorScoresUser1User75 = ManhDist.CalculateImpostorScores(s001Mean, s075);
-            impostorScoresUser1User76 = ManhDist.CalculateImpostorScores(s001Mean, s076);
-            impostorScoresUser1User77 = ManhDist.CalculateImpostorScores(s001Mean, s077);
-            impostorScoresUser1User78 = ManhDist.CalculateImpostorScores(s001Mean, s078);
-            impostorScoresUser1User79 = ManhDist.CalculateImpostorScores(s001Mean, s079);
-            impostorScoresUser1User80 = ManhDist.CalculateImpostorScores(s001Mean, s080);
+            sv.ImpostorScoresUser1User71 = ManhDist.CalculateImpostorScores(s001Mean, s071);
+            sv.ImpostorScoresUser1User72 = ManhDist.CalculateImpostorScores(s001Mean, s072);
+            sv.ImpostorScoresUser1User73 = ManhDist.CalculateImpostorScores(s001Mean, s073);
+            sv.ImpostorScoresUser1User74 = ManhDist.CalculateImpostorScores(s001Mean, s074);
+            sv.ImpostorScoresUser1User75 = ManhDist.CalculateImpostorScores(s001Mean, s075);
+            sv.ImpostorScoresUser1User76 = ManhDist.CalculateImpostorScores(s001Mean, s076);
+            sv.ImpostorScoresUser1User77 = ManhDist.CalculateImpostorScores(s001Mean, s077);
+            sv.ImpostorScoresUser1User78 = ManhDist.CalculateImpostorScores(s001Mean, s078);
+            sv.ImpostorScoresUser1User79 = ManhDist.CalculateImpostorScores(s001Mean, s079);
+            sv.ImpostorScoresUser1User80 = ManhDist.CalculateImpostorScores(s001Mean, s080);
 
-            impostorScoresUser1User81 = ManhDist.CalculateImpostorScores(s001Mean, s081);
-            impostorScoresUser1User82 = ManhDist.CalculateImpostorScores(s001Mean, s082);
-            impostorScoresUser1User83 = ManhDist.CalculateImpostorScores(s001Mean, s083);
-            impostorScoresUser1User84 = ManhDist.CalculateImpostorScores(s001Mean, s084);
-            impostorScoresUser1User85 = ManhDist.CalculateImpostorScores(s001Mean, s085);
-            impostorScoresUser1User86 = ManhDist.CalculateImpostorScores(s001Mean, s086);
-            impostorScoresUser1User87 = ManhDist.CalculateImpostorScores(s001Mean, s087);
-            impostorScoresUser1User88 = ManhDist.CalculateImpostorScores(s001Mean, s088);
-            impostorScoresUser1User89 = ManhDist.CalculateImpostorScores(s001Mean, s089);
-            impostorScoresUser1User90 = ManhDist.CalculateImpostorScores(s001Mean, s090);
+            sv.ImpostorScoresUser1User81 = ManhDist.CalculateImpostorScores(s001Mean, s081);
+            sv.ImpostorScoresUser1User82 = ManhDist.CalculateImpostorScores(s001Mean, s082);
+            sv.ImpostorScoresUser1User83 = ManhDist.CalculateImpostorScores(s001Mean, s083);
+            sv.ImpostorScoresUser1User84 = ManhDist.CalculateImpostorScores(s001Mean, s084);
+            sv.ImpostorScoresUser1User85 = ManhDist.CalculateImpostorScores(s001Mean, s085);
+            sv.ImpostorScoresUser1User86 = ManhDist.CalculateImpostorScores(s001Mean, s086);
+            sv.ImpostorScoresUser1User87 = ManhDist.CalculateImpostorScores(s001Mean, s087);
+            sv.ImpostorScoresUser1User88 = ManhDist.CalculateImpostorScores(s001Mean, s088);
+            sv.ImpostorScoresUser1User89 = ManhDist.CalculateImpostorScores(s001Mean, s089);
+            sv.ImpostorScoresUser1User90 = ManhDist.CalculateImpostorScores(s001Mean, s090);
 
-            impostorScoresUser1User91 = ManhDist.CalculateImpostorScores(s001Mean, s091);
-            impostorScoresUser1User92 = ManhDist.CalculateImpostorScores(s001Mean, s092);
-            impostorScoresUser1User93 = ManhDist.CalculateImpostorScores(s001Mean, s093);
-            impostorScoresUser1User94 = ManhDist.CalculateImpostorScores(s001Mean, s094);
-            impostorScoresUser1User95 = ManhDist.CalculateImpostorScores(s001Mean, s095);
-            impostorScoresUser1User96 = ManhDist.CalculateImpostorScores(s001Mean, s096);
-            impostorScoresUser1User97 = ManhDist.CalculateImpostorScores(s001Mean, s097);
-            impostorScoresUser1User98 = ManhDist.CalculateImpostorScores(s001Mean, s098);
-            impostorScoresUser1User99 = ManhDist.CalculateImpostorScores(s001Mean, s099);
-            impostorScoresUser1User100 = ManhDist.CalculateImpostorScores(s001Mean, s100);
+            sv.ImpostorScoresUser1User91 = ManhDist.CalculateImpostorScores(s001Mean, s091);
+            sv.ImpostorScoresUser1User92 = ManhDist.CalculateImpostorScores(s001Mean, s092);
+            sv.ImpostorScoresUser1User93 = ManhDist.CalculateImpostorScores(s001Mean, s093);
+            sv.ImpostorScoresUser1User94 = ManhDist.CalculateImpostorScores(s001Mean, s094);
+            sv.ImpostorScoresUser1User95 = ManhDist.CalculateImpostorScores(s001Mean, s095);
+            sv.ImpostorScoresUser1User96 = ManhDist.CalculateImpostorScores(s001Mean, s096);
+            sv.ImpostorScoresUser1User97 = ManhDist.CalculateImpostorScores(s001Mean, s097);
+            sv.ImpostorScoresUser1User98 = ManhDist.CalculateImpostorScores(s001Mean, s098);
+            sv.ImpostorScoresUser1User99 = ManhDist.CalculateImpostorScores(s001Mean, s099);
+            sv.ImpostorScoresUser1User100 = ManhDist.CalculateImpostorScores(s001Mean, s100);
             #endregion
 
             #region User 2 Impostor scores
-            impostorScoresUser2User1 = ManhDist.CalculateImpostorScores(s002Mean, s001);
-            impostorScoresUser2User3 = ManhDist.CalculateImpostorScores(s002Mean, s003);
-            impostorScoresUser2User4 = ManhDist.CalculateImpostorScores(s002Mean, s004);
-            impostorScoresUser2User5 = ManhDist.CalculateImpostorScores(s002Mean, s005);
-            impostorScoresUser2User6 = ManhDist.CalculateImpostorScores(s002Mean, s006);
-            impostorScoresUser2User7 = ManhDist.CalculateImpostorScores(s002Mean, s007);
-            impostorScoresUser2User8 = ManhDist.CalculateImpostorScores(s002Mean, s008);
-            impostorScoresUser2User9 = ManhDist.CalculateImpostorScores(s002Mean, s009);
-            impostorScoresUser2User10 = ManhDist.CalculateImpostorScores(s002Mean, s010);
+            sv.ImpostorScoresUser2User1 = ManhDist.CalculateImpostorScores(s002Mean, s001);
+            sv.ImpostorScoresUser2User3 = ManhDist.CalculateImpostorScores(s002Mean, s003);
+            sv.ImpostorScoresUser2User4 = ManhDist.CalculateImpostorScores(s002Mean, s004);
+            sv.ImpostorScoresUser2User5 = ManhDist.CalculateImpostorScores(s002Mean, s005);
+            sv.ImpostorScoresUser2User6 = ManhDist.CalculateImpostorScores(s002Mean, s006);
+            sv.ImpostorScoresUser2User7 = ManhDist.CalculateImpostorScores(s002Mean, s007);
+            sv.ImpostorScoresUser2User8 = ManhDist.CalculateImpostorScores(s002Mean, s008);
+            sv.ImpostorScoresUser2User9 = ManhDist.CalculateImpostorScores(s002Mean, s009);
+            sv.ImpostorScoresUser2User10 = ManhDist.CalculateImpostorScores(s002Mean, s010);
 
-            impostorScoresUser2User11 = ManhDist.CalculateImpostorScores(s002Mean, s011);
-            impostorScoresUser2User12 = ManhDist.CalculateImpostorScores(s002Mean, s012);
-            impostorScoresUser2User13 = ManhDist.CalculateImpostorScores(s002Mean, s013);
-            impostorScoresUser2User14 = ManhDist.CalculateImpostorScores(s002Mean, s014);
-            impostorScoresUser2User15 = ManhDist.CalculateImpostorScores(s002Mean, s015);
-            impostorScoresUser2User16 = ManhDist.CalculateImpostorScores(s002Mean, s016);
-            impostorScoresUser2User17 = ManhDist.CalculateImpostorScores(s002Mean, s017);
-            impostorScoresUser2User18 = ManhDist.CalculateImpostorScores(s002Mean, s018);
-            impostorScoresUser2User19 = ManhDist.CalculateImpostorScores(s002Mean, s019);
-            impostorScoresUser2User20 = ManhDist.CalculateImpostorScores(s002Mean, s020);
+            sv.ImpostorScoresUser2User11 = ManhDist.CalculateImpostorScores(s002Mean, s011);
+            sv.ImpostorScoresUser2User12 = ManhDist.CalculateImpostorScores(s002Mean, s012);
+            sv.ImpostorScoresUser2User13 = ManhDist.CalculateImpostorScores(s002Mean, s013);
+            sv.ImpostorScoresUser2User14 = ManhDist.CalculateImpostorScores(s002Mean, s014);
+            sv.ImpostorScoresUser2User15 = ManhDist.CalculateImpostorScores(s002Mean, s015);
+            sv.ImpostorScoresUser2User16 = ManhDist.CalculateImpostorScores(s002Mean, s016);
+            sv.ImpostorScoresUser2User17 = ManhDist.CalculateImpostorScores(s002Mean, s017);
+            sv.ImpostorScoresUser2User18 = ManhDist.CalculateImpostorScores(s002Mean, s018);
+            sv.ImpostorScoresUser2User19 = ManhDist.CalculateImpostorScores(s002Mean, s019);
+            sv.ImpostorScoresUser2User20 = ManhDist.CalculateImpostorScores(s002Mean, s020);
 
-            impostorScoresUser2User21 = ManhDist.CalculateImpostorScores(s002Mean, s021);
-            impostorScoresUser2User22 = ManhDist.CalculateImpostorScores(s002Mean, s022);
-            impostorScoresUser2User23 = ManhDist.CalculateImpostorScores(s002Mean, s023);
-            impostorScoresUser2User24 = ManhDist.CalculateImpostorScores(s002Mean, s024);
-            impostorScoresUser2User25 = ManhDist.CalculateImpostorScores(s002Mean, s025);
-            impostorScoresUser2User26 = ManhDist.CalculateImpostorScores(s002Mean, s026);
-            impostorScoresUser2User27 = ManhDist.CalculateImpostorScores(s002Mean, s027);
-            impostorScoresUser2User28 = ManhDist.CalculateImpostorScores(s002Mean, s028);
-            impostorScoresUser2User29 = ManhDist.CalculateImpostorScores(s002Mean, s029);
-            impostorScoresUser2User30 = ManhDist.CalculateImpostorScores(s002Mean, s030);
+            sv.ImpostorScoresUser2User21 = ManhDist.CalculateImpostorScores(s002Mean, s021);
+            sv.ImpostorScoresUser2User22 = ManhDist.CalculateImpostorScores(s002Mean, s022);
+            sv.ImpostorScoresUser2User23 = ManhDist.CalculateImpostorScores(s002Mean, s023);
+            sv.ImpostorScoresUser2User24 = ManhDist.CalculateImpostorScores(s002Mean, s024);
+            sv.ImpostorScoresUser2User25 = ManhDist.CalculateImpostorScores(s002Mean, s025);
+            sv.ImpostorScoresUser2User26 = ManhDist.CalculateImpostorScores(s002Mean, s026);
+            sv.ImpostorScoresUser2User27 = ManhDist.CalculateImpostorScores(s002Mean, s027);
+            sv.ImpostorScoresUser2User28 = ManhDist.CalculateImpostorScores(s002Mean, s028);
+            sv.ImpostorScoresUser2User29 = ManhDist.CalculateImpostorScores(s002Mean, s029);
+            sv.ImpostorScoresUser2User30 = ManhDist.CalculateImpostorScores(s002Mean, s030);
 
-            impostorScoresUser2User31 = ManhDist.CalculateImpostorScores(s002Mean, s031);
-            impostorScoresUser2User32 = ManhDist.CalculateImpostorScores(s002Mean, s032);
-            impostorScoresUser2User33 = ManhDist.CalculateImpostorScores(s002Mean, s033);
-            impostorScoresUser2User34 = ManhDist.CalculateImpostorScores(s002Mean, s034);
-            impostorScoresUser2User35 = ManhDist.CalculateImpostorScores(s002Mean, s035);
-            impostorScoresUser2User36 = ManhDist.CalculateImpostorScores(s002Mean, s036);
-            impostorScoresUser2User37 = ManhDist.CalculateImpostorScores(s002Mean, s037);
-            impostorScoresUser2User38 = ManhDist.CalculateImpostorScores(s002Mean, s038);
-            impostorScoresUser2User39 = ManhDist.CalculateImpostorScores(s002Mean, s039);
-            impostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040);
+            sv.ImpostorScoresUser2User31 = ManhDist.CalculateImpostorScores(s002Mean, s031);
+            sv.ImpostorScoresUser2User32 = ManhDist.CalculateImpostorScores(s002Mean, s032);
+            sv.ImpostorScoresUser2User33 = ManhDist.CalculateImpostorScores(s002Mean, s033);
+            sv.ImpostorScoresUser2User34 = ManhDist.CalculateImpostorScores(s002Mean, s034);
+            sv.ImpostorScoresUser2User35 = ManhDist.CalculateImpostorScores(s002Mean, s035);
+            sv.ImpostorScoresUser2User36 = ManhDist.CalculateImpostorScores(s002Mean, s036);
+            sv.ImpostorScoresUser2User37 = ManhDist.CalculateImpostorScores(s002Mean, s037);
+            sv.ImpostorScoresUser2User38 = ManhDist.CalculateImpostorScores(s002Mean, s038);
+            sv.ImpostorScoresUser2User39 = ManhDist.CalculateImpostorScores(s002Mean, s039);
+            sv.ImpostorScoresUser2User40 = ManhDist.CalculateImpostorScores(s002Mean, s040);
 
-            impostorScoresUser2User41 = ManhDist.CalculateImpostorScores(s002Mean, s041);
-            impostorScoresUser2User42 = ManhDist.CalculateImpostorScores(s002Mean, s042);
-            impostorScoresUser2User43 = ManhDist.CalculateImpostorScores(s002Mean, s043);
-            impostorScoresUser2User44 = ManhDist.CalculateImpostorScores(s002Mean, s044);
-            impostorScoresUser2User45 = ManhDist.CalculateImpostorScores(s002Mean, s045);
-            impostorScoresUser2User46 = ManhDist.CalculateImpostorScores(s002Mean, s046);
-            impostorScoresUser2User47 = ManhDist.CalculateImpostorScores(s002Mean, s047);
-            impostorScoresUser2User48 = ManhDist.CalculateImpostorScores(s002Mean, s048);
-            impostorScoresUser2User49 = ManhDist.CalculateImpostorScores(s002Mean, s049);
-            impostorScoresUser2User50 = ManhDist.CalculateImpostorScores(s002Mean, s050);
+            sv.ImpostorScoresUser2User41 = ManhDist.CalculateImpostorScores(s002Mean, s041);
+            sv.ImpostorScoresUser2User42 = ManhDist.CalculateImpostorScores(s002Mean, s042);
+            sv.ImpostorScoresUser2User43 = ManhDist.CalculateImpostorScores(s002Mean, s043);
+            sv.ImpostorScoresUser2User44 = ManhDist.CalculateImpostorScores(s002Mean, s044);
+            sv.ImpostorScoresUser2User45 = ManhDist.CalculateImpostorScores(s002Mean, s045);
+            sv.ImpostorScoresUser2User46 = ManhDist.CalculateImpostorScores(s002Mean, s046);
+            sv.ImpostorScoresUser2User47 = ManhDist.CalculateImpostorScores(s002Mean, s047);
+            sv.ImpostorScoresUser2User48 = ManhDist.CalculateImpostorScores(s002Mean, s048);
+            sv.ImpostorScoresUser2User49 = ManhDist.CalculateImpostorScores(s002Mean, s049);
+            sv.ImpostorScoresUser2User50 = ManhDist.CalculateImpostorScores(s002Mean, s050);
 
-            impostorScoresUser2User51 = ManhDist.CalculateImpostorScores(s002Mean, s051);
-            impostorScoresUser2User52 = ManhDist.CalculateImpostorScores(s002Mean, s052);
-            impostorScoresUser2User53 = ManhDist.CalculateImpostorScores(s002Mean, s053);
-            impostorScoresUser2User54 = ManhDist.CalculateImpostorScores(s002Mean, s054);
-            impostorScoresUser2User55 = ManhDist.CalculateImpostorScores(s002Mean, s055);
-            impostorScoresUser2User56 = ManhDist.CalculateImpostorScores(s002Mean, s056);
-            impostorScoresUser2User57 = ManhDist.CalculateImpostorScores(s002Mean, s057);
-            impostorScoresUser2User58 = ManhDist.CalculateImpostorScores(s002Mean, s058);
-            impostorScoresUser2User59 = ManhDist.CalculateImpostorScores(s002Mean, s059);
-            impostorScoresUser2User60 = ManhDist.CalculateImpostorScores(s002Mean, s060);
+            sv.ImpostorScoresUser2User51 = ManhDist.CalculateImpostorScores(s002Mean, s051);
+            sv.ImpostorScoresUser2User52 = ManhDist.CalculateImpostorScores(s002Mean, s052);
+            sv.ImpostorScoresUser2User53 = ManhDist.CalculateImpostorScores(s002Mean, s053);
+            sv.ImpostorScoresUser2User54 = ManhDist.CalculateImpostorScores(s002Mean, s054);
+            sv.ImpostorScoresUser2User55 = ManhDist.CalculateImpostorScores(s002Mean, s055);
+            sv.ImpostorScoresUser2User56 = ManhDist.CalculateImpostorScores(s002Mean, s056);
+            sv.ImpostorScoresUser2User57 = ManhDist.CalculateImpostorScores(s002Mean, s057);
+            sv.ImpostorScoresUser2User58 = ManhDist.CalculateImpostorScores(s002Mean, s058);
+            sv.ImpostorScoresUser2User59 = ManhDist.CalculateImpostorScores(s002Mean, s059);
+            sv.ImpostorScoresUser2User60 = ManhDist.CalculateImpostorScores(s002Mean, s060);
 
-            impostorScoresUser2User61 = ManhDist.CalculateImpostorScores(s002Mean, s061);
-            impostorScoresUser2User62 = ManhDist.CalculateImpostorScores(s002Mean, s062);
-            impostorScoresUser2User63 = ManhDist.CalculateImpostorScores(s002Mean, s063);
-            impostorScoresUser2User64 = ManhDist.CalculateImpostorScores(s002Mean, s064);
-            impostorScoresUser2User65 = ManhDist.CalculateImpostorScores(s002Mean, s065);
-            impostorScoresUser2User66 = ManhDist.CalculateImpostorScores(s002Mean, s066);
-            impostorScoresUser2User67 = ManhDist.CalculateImpostorScores(s002Mean, s067);
-            impostorScoresUser2User68 = ManhDist.CalculateImpostorScores(s002Mean, s068);
-            impostorScoresUser2User69 = ManhDist.CalculateImpostorScores(s002Mean, s069);
-            impostorScoresUser2User70 = ManhDist.CalculateImpostorScores(s002Mean, s070);
+            sv.ImpostorScoresUser2User61 = ManhDist.CalculateImpostorScores(s002Mean, s061);
+            sv.ImpostorScoresUser2User62 = ManhDist.CalculateImpostorScores(s002Mean, s062);
+            sv.ImpostorScoresUser2User63 = ManhDist.CalculateImpostorScores(s002Mean, s063);
+            sv.ImpostorScoresUser2User64 = ManhDist.CalculateImpostorScores(s002Mean, s064);
+            sv.ImpostorScoresUser2User65 = ManhDist.CalculateImpostorScores(s002Mean, s065);
+            sv.ImpostorScoresUser2User66 = ManhDist.CalculateImpostorScores(s002Mean, s066);
+            sv.ImpostorScoresUser2User67 = ManhDist.CalculateImpostorScores(s002Mean, s067);
+            sv.ImpostorScoresUser2User68 = ManhDist.CalculateImpostorScores(s002Mean, s068);
+            sv.ImpostorScoresUser2User69 = ManhDist.CalculateImpostorScores(s002Mean, s069);
+            sv.ImpostorScoresUser2User70 = ManhDist.CalculateImpostorScores(s002Mean, s070);
 
-            impostorScoresUser2User71 = ManhDist.CalculateImpostorScores(s002Mean, s071);
-            impostorScoresUser2User72 = ManhDist.CalculateImpostorScores(s002Mean, s072);
-            impostorScoresUser2User73 = ManhDist.CalculateImpostorScores(s002Mean, s073);
-            impostorScoresUser2User74 = ManhDist.CalculateImpostorScores(s002Mean, s074);
-            impostorScoresUser2User75 = ManhDist.CalculateImpostorScores(s002Mean, s075);
-            impostorScoresUser2User76 = ManhDist.CalculateImpostorScores(s002Mean, s076);
-            impostorScoresUser2User77 = ManhDist.CalculateImpostorScores(s002Mean, s077);
-            impostorScoresUser2User78 = ManhDist.CalculateImpostorScores(s002Mean, s078);
-            impostorScoresUser2User79 = ManhDist.CalculateImpostorScores(s002Mean, s079);
-            impostorScoresUser2User80 = ManhDist.CalculateImpostorScores(s002Mean, s080);
+            sv.ImpostorScoresUser2User71 = ManhDist.CalculateImpostorScores(s002Mean, s071);
+            sv.ImpostorScoresUser2User72 = ManhDist.CalculateImpostorScores(s002Mean, s072);
+            sv.ImpostorScoresUser2User73 = ManhDist.CalculateImpostorScores(s002Mean, s073);
+            sv.ImpostorScoresUser2User74 = ManhDist.CalculateImpostorScores(s002Mean, s074);
+            sv.ImpostorScoresUser2User75 = ManhDist.CalculateImpostorScores(s002Mean, s075);
+            sv.ImpostorScoresUser2User76 = ManhDist.CalculateImpostorScores(s002Mean, s076);
+            sv.ImpostorScoresUser2User77 = ManhDist.CalculateImpostorScores(s002Mean, s077);
+            sv.ImpostorScoresUser2User78 = ManhDist.CalculateImpostorScores(s002Mean, s078);
+            sv.ImpostorScoresUser2User79 = ManhDist.CalculateImpostorScores(s002Mean, s079);
+            sv.ImpostorScoresUser2User80 = ManhDist.CalculateImpostorScores(s002Mean, s080);
 
-            impostorScoresUser2User81 = ManhDist.CalculateImpostorScores(s002Mean, s081);
-            impostorScoresUser2User82 = ManhDist.CalculateImpostorScores(s002Mean, s082);
-            impostorScoresUser2User83 = ManhDist.CalculateImpostorScores(s002Mean, s083);
-            impostorScoresUser2User84 = ManhDist.CalculateImpostorScores(s002Mean, s084);
-            impostorScoresUser2User85 = ManhDist.CalculateImpostorScores(s002Mean, s085);
-            impostorScoresUser2User86 = ManhDist.CalculateImpostorScores(s002Mean, s086);
-            impostorScoresUser2User87 = ManhDist.CalculateImpostorScores(s002Mean, s087);
-            impostorScoresUser2User88 = ManhDist.CalculateImpostorScores(s002Mean, s088);
-            impostorScoresUser2User89 = ManhDist.CalculateImpostorScores(s002Mean, s089);
-            impostorScoresUser2User90 = ManhDist.CalculateImpostorScores(s002Mean, s090);
+            sv.ImpostorScoresUser2User81 = ManhDist.CalculateImpostorScores(s002Mean, s081);
+            sv.ImpostorScoresUser2User82 = ManhDist.CalculateImpostorScores(s002Mean, s082);
+            sv.ImpostorScoresUser2User83 = ManhDist.CalculateImpostorScores(s002Mean, s083);
+            sv.ImpostorScoresUser2User84 = ManhDist.CalculateImpostorScores(s002Mean, s084);
+            sv.ImpostorScoresUser2User85 = ManhDist.CalculateImpostorScores(s002Mean, s085);
+            sv.ImpostorScoresUser2User86 = ManhDist.CalculateImpostorScores(s002Mean, s086);
+            sv.ImpostorScoresUser2User87 = ManhDist.CalculateImpostorScores(s002Mean, s087);
+            sv.ImpostorScoresUser2User88 = ManhDist.CalculateImpostorScores(s002Mean, s088);
+            sv.ImpostorScoresUser2User89 = ManhDist.CalculateImpostorScores(s002Mean, s089);
+            sv.ImpostorScoresUser2User90 = ManhDist.CalculateImpostorScores(s002Mean, s090);
 
-            impostorScoresUser2User91 = ManhDist.CalculateImpostorScores(s002Mean, s091);
-            impostorScoresUser2User92 = ManhDist.CalculateImpostorScores(s002Mean, s092);
-            impostorScoresUser2User93 = ManhDist.CalculateImpostorScores(s002Mean, s093);
-            impostorScoresUser2User94 = ManhDist.CalculateImpostorScores(s002Mean, s094);
-            impostorScoresUser2User95 = ManhDist.CalculateImpostorScores(s002Mean, s095);
-            impostorScoresUser2User96 = ManhDist.CalculateImpostorScores(s002Mean, s096);
-            impostorScoresUser2User97 = ManhDist.CalculateImpostorScores(s002Mean, s097);
-            impostorScoresUser2User98 = ManhDist.CalculateImpostorScores(s002Mean, s098);
-            impostorScoresUser2User99 = ManhDist.CalculateImpostorScores(s002Mean, s099);
-            impostorScoresUser2User100 = ManhDist.CalculateImpostorScores(s002Mean, s100);
+            sv.ImpostorScoresUser2User91 = ManhDist.CalculateImpostorScores(s002Mean, s091);
+            sv.ImpostorScoresUser2User92 = ManhDist.CalculateImpostorScores(s002Mean, s092);
+            sv.ImpostorScoresUser2User93 = ManhDist.CalculateImpostorScores(s002Mean, s093);
+            sv.ImpostorScoresUser2User94 = ManhDist.CalculateImpostorScores(s002Mean, s094);
+            sv.ImpostorScoresUser2User95 = ManhDist.CalculateImpostorScores(s002Mean, s095);
+            sv.ImpostorScoresUser2User96 = ManhDist.CalculateImpostorScores(s002Mean, s096);
+            sv.ImpostorScoresUser2User97 = ManhDist.CalculateImpostorScores(s002Mean, s097);
+            sv.ImpostorScoresUser2User98 = ManhDist.CalculateImpostorScores(s002Mean, s098);
+            sv.ImpostorScoresUser2User99 = ManhDist.CalculateImpostorScores(s002Mean, s099);
+            sv.ImpostorScoresUser2User100 = ManhDist.CalculateImpostorScores(s002Mean, s100);
             #endregion
 
             #region User 3 Impostor scores
-            impostorScoresUser3User1 = ManhDist.CalculateImpostorScores(s003Mean, s001);
-            impostorScoresUser3User2 = ManhDist.CalculateImpostorScores(s003Mean, s002);
-            impostorScoresUser3User4 = ManhDist.CalculateImpostorScores(s003Mean, s004);
-            impostorScoresUser3User5 = ManhDist.CalculateImpostorScores(s003Mean, s005);
-            impostorScoresUser3User6 = ManhDist.CalculateImpostorScores(s003Mean, s006);
-            impostorScoresUser3User7 = ManhDist.CalculateImpostorScores(s003Mean, s007);
-            impostorScoresUser3User8 = ManhDist.CalculateImpostorScores(s003Mean, s008);
-            impostorScoresUser3User9 = ManhDist.CalculateImpostorScores(s003Mean, s009);
-            impostorScoresUser3User10 = ManhDist.CalculateImpostorScores(s003Mean, s010);
-
-            impostorScoresUser3User11 = ManhDist.CalculateImpostorScores(s003Mean, s011);
-            impostorScoresUser3User12 = ManhDist.CalculateImpostorScores(s003Mean, s012);
-            impostorScoresUser3User13 = ManhDist.CalculateImpostorScores(s003Mean, s013);
-            impostorScoresUser3User14 = ManhDist.CalculateImpostorScores(s003Mean, s014);
-            impostorScoresUser3User15 = ManhDist.CalculateImpostorScores(s003Mean, s015);
-            impostorScoresUser3User16 = ManhDist.CalculateImpostorScores(s003Mean, s016);
-            impostorScoresUser3User17 = ManhDist.CalculateImpostorScores(s003Mean, s017);
-            impostorScoresUser3User18 = ManhDist.CalculateImpostorScores(s003Mean, s018);
-            impostorScoresUser3User19 = ManhDist.CalculateImpostorScores(s003Mean, s019);
-            impostorScoresUser3User20 = ManhDist.CalculateImpostorScores(s003Mean, s020);
-
-            impostorScoresUser3User21 = ManhDist.CalculateImpostorScores(s003Mean, s021);
-            impostorScoresUser3User22 = ManhDist.CalculateImpostorScores(s003Mean, s022);
-            impostorScoresUser3User23 = ManhDist.CalculateImpostorScores(s003Mean, s023);
-            impostorScoresUser3User24 = ManhDist.CalculateImpostorScores(s003Mean, s024);
-            impostorScoresUser3User25 = ManhDist.CalculateImpostorScores(s003Mean, s025);
-            impostorScoresUser3User26 = ManhDist.CalculateImpostorScores(s003Mean, s026);
-            impostorScoresUser3User27 = ManhDist.CalculateImpostorScores(s003Mean, s027);
-            impostorScoresUser3User28 = ManhDist.CalculateImpostorScores(s003Mean, s028);
-            impostorScoresUser3User29 = ManhDist.CalculateImpostorScores(s003Mean, s029);
-            impostorScoresUser3User30 = ManhDist.CalculateImpostorScores(s003Mean, s030);
-
-            impostorScoresUser3User31 = ManhDist.CalculateImpostorScores(s003Mean, s031);
-            impostorScoresUser3User32 = ManhDist.CalculateImpostorScores(s003Mean, s032);
-            impostorScoresUser3User33 = ManhDist.CalculateImpostorScores(s003Mean, s033);
-            impostorScoresUser3User34 = ManhDist.CalculateImpostorScores(s003Mean, s034);
-            impostorScoresUser3User35 = ManhDist.CalculateImpostorScores(s003Mean, s035);
-            impostorScoresUser3User36 = ManhDist.CalculateImpostorScores(s003Mean, s036);
-            impostorScoresUser3User37 = ManhDist.CalculateImpostorScores(s003Mean, s037);
-            impostorScoresUser3User38 = ManhDist.CalculateImpostorScores(s003Mean, s038);
-            impostorScoresUser3User39 = ManhDist.CalculateImpostorScores(s003Mean, s039);
-            impostorScoresUser3User40 = ManhDist.CalculateImpostorScores(s003Mean, s040);
-
-            impostorScoresUser3User41 = ManhDist.CalculateImpostorScores(s003Mean, s041);
-            impostorScoresUser3User42 = ManhDist.CalculateImpostorScores(s003Mean, s042);
-            impostorScoresUser3User43 = ManhDist.CalculateImpostorScores(s003Mean, s043);
-            impostorScoresUser3User44 = ManhDist.CalculateImpostorScores(s003Mean, s044);
-            impostorScoresUser3User45 = ManhDist.CalculateImpostorScores(s003Mean, s045);
-            impostorScoresUser3User46 = ManhDist.CalculateImpostorScores(s003Mean, s046);
-            impostorScoresUser3User47 = ManhDist.CalculateImpostorScores(s003Mean, s047);
-            impostorScoresUser3User48 = ManhDist.CalculateImpostorScores(s003Mean, s048);
-            impostorScoresUser3User49 = ManhDist.CalculateImpostorScores(s003Mean, s049);
-            impostorScoresUser3User50 = ManhDist.CalculateImpostorScores(s003Mean, s050);
-
-            impostorScoresUser3User51 = ManhDist.CalculateImpostorScores(s003Mean, s051);
-            impostorScoresUser3User52 = ManhDist.CalculateImpostorScores(s003Mean, s052);
-            impostorScoresUser3User53 = ManhDist.CalculateImpostorScores(s003Mean, s053);
-            impostorScoresUser3User54 = ManhDist.CalculateImpostorScores(s003Mean, s054);
-            impostorScoresUser3User55 = ManhDist.CalculateImpostorScores(s003Mean, s055);
-            impostorScoresUser3User56 = ManhDist.CalculateImpostorScores(s003Mean, s056);
-            impostorScoresUser3User57 = ManhDist.CalculateImpostorScores(s003Mean, s057);
-            impostorScoresUser3User58 = ManhDist.CalculateImpostorScores(s003Mean, s058);
-            impostorScoresUser3User59 = ManhDist.CalculateImpostorScores(s003Mean, s059);
-            impostorScoresUser3User60 = ManhDist.CalculateImpostorScores(s003Mean, s060);
-
-            impostorScoresUser3User61 = ManhDist.CalculateImpostorScores(s003Mean, s061);
-            impostorScoresUser3User62 = ManhDist.CalculateImpostorScores(s003Mean, s062);
-            impostorScoresUser3User63 = ManhDist.CalculateImpostorScores(s003Mean, s063);
-            impostorScoresUser3User64 = ManhDist.CalculateImpostorScores(s003Mean, s064);
-            impostorScoresUser3User65 = ManhDist.CalculateImpostorScores(s003Mean, s065);
-            impostorScoresUser3User66 = ManhDist.CalculateImpostorScores(s003Mean, s066);
-            impostorScoresUser3User67 = ManhDist.CalculateImpostorScores(s003Mean, s067);
-            impostorScoresUser3User68 = ManhDist.CalculateImpostorScores(s003Mean, s068);
-            impostorScoresUser3User69 = ManhDist.CalculateImpostorScores(s003Mean, s069);
-            impostorScoresUser3User70 = ManhDist.CalculateImpostorScores(s003Mean, s070);
-
-            impostorScoresUser3User71 = ManhDist.CalculateImpostorScores(s003Mean, s071);
-            impostorScoresUser3User72 = ManhDist.CalculateImpostorScores(s003Mean, s072);
-            impostorScoresUser3User73 = ManhDist.CalculateImpostorScores(s003Mean, s073);
-            impostorScoresUser3User74 = ManhDist.CalculateImpostorScores(s003Mean, s074);
-            impostorScoresUser3User75 = ManhDist.CalculateImpostorScores(s003Mean, s075);
-            impostorScoresUser3User76 = ManhDist.CalculateImpostorScores(s003Mean, s076);
-            impostorScoresUser3User77 = ManhDist.CalculateImpostorScores(s003Mean, s077);
-            impostorScoresUser3User78 = ManhDist.CalculateImpostorScores(s003Mean, s078);
-            impostorScoresUser3User79 = ManhDist.CalculateImpostorScores(s003Mean, s079);
-            impostorScoresUser3User80 = ManhDist.CalculateImpostorScores(s003Mean, s080);
-
-            impostorScoresUser3User81 = ManhDist.CalculateImpostorScores(s003Mean, s081);
-            impostorScoresUser3User82 = ManhDist.CalculateImpostorScores(s003Mean, s082);
-            impostorScoresUser3User83 = ManhDist.CalculateImpostorScores(s003Mean, s083);
-            impostorScoresUser3User84 = ManhDist.CalculateImpostorScores(s003Mean, s084);
-            impostorScoresUser3User85 = ManhDist.CalculateImpostorScores(s003Mean, s085);
-            impostorScoresUser3User86 = ManhDist.CalculateImpostorScores(s003Mean, s086);
-            impostorScoresUser3User87 = ManhDist.CalculateImpostorScores(s003Mean, s087);
-            impostorScoresUser3User88 = ManhDist.CalculateImpostorScores(s003Mean, s088);
-            impostorScoresUser3User89 = ManhDist.CalculateImpostorScores(s003Mean, s089);
-            impostorScoresUser3User90 = ManhDist.CalculateImpostorScores(s003Mean, s090);
-
-            impostorScoresUser3User91 = ManhDist.CalculateImpostorScores(s003Mean, s091);
-            impostorScoresUser3User92 = ManhDist.CalculateImpostorScores(s003Mean, s092);
-            impostorScoresUser3User93 = ManhDist.CalculateImpostorScores(s003Mean, s093);
-            impostorScoresUser3User94 = ManhDist.CalculateImpostorScores(s003Mean, s094);
-            impostorScoresUser3User95 = ManhDist.CalculateImpostorScores(s003Mean, s095);
-            impostorScoresUser3User96 = ManhDist.CalculateImpostorScores(s003Mean, s096);
-            impostorScoresUser3User97 = ManhDist.CalculateImpostorScores(s003Mean, s097);
-            impostorScoresUser3User98 = ManhDist.CalculateImpostorScores(s003Mean, s098);
-            impostorScoresUser3User99 = ManhDist.CalculateImpostorScores(s003Mean, s099);
-            impostorScoresUser3User100 = ManhDist.CalculateImpostorScores(s003Mean, s100);
+            sv.ImpostorScoresUser3User1 = ManhDist.CalculateImpostorScores(s003Mean, s001);
+            sv.ImpostorScoresUser3User2 = ManhDist.CalculateImpostorScores(s003Mean, s002);
+            sv.ImpostorScoresUser3User4 = ManhDist.CalculateImpostorScores(s003Mean, s004);
+            sv.ImpostorScoresUser3User5 = ManhDist.CalculateImpostorScores(s003Mean, s005);
+            sv.ImpostorScoresUser3User6 = ManhDist.CalculateImpostorScores(s003Mean, s006);
+            sv.ImpostorScoresUser3User7 = ManhDist.CalculateImpostorScores(s003Mean, s007);
+            sv.ImpostorScoresUser3User8 = ManhDist.CalculateImpostorScores(s003Mean, s008);
+            sv.ImpostorScoresUser3User9 = ManhDist.CalculateImpostorScores(s003Mean, s009);
+            sv.ImpostorScoresUser3User10 = ManhDist.CalculateImpostorScores(s003Mean, s010);
+            sv.ImpostorScoresUser3User11 = ManhDist.CalculateImpostorScores(s003Mean, s011);
+            sv.ImpostorScoresUser3User12 = ManhDist.CalculateImpostorScores(s003Mean, s012);
+            sv.ImpostorScoresUser3User13 = ManhDist.CalculateImpostorScores(s003Mean, s013);
+            sv.ImpostorScoresUser3User14 = ManhDist.CalculateImpostorScores(s003Mean, s014);
+            sv.ImpostorScoresUser3User15 = ManhDist.CalculateImpostorScores(s003Mean, s015);
+            sv.ImpostorScoresUser3User16 = ManhDist.CalculateImpostorScores(s003Mean, s016);
+            sv.ImpostorScoresUser3User17 = ManhDist.CalculateImpostorScores(s003Mean, s017);
+            sv.ImpostorScoresUser3User18 = ManhDist.CalculateImpostorScores(s003Mean, s018);
+            sv.ImpostorScoresUser3User19 = ManhDist.CalculateImpostorScores(s003Mean, s019);
+            sv.ImpostorScoresUser3User20 = ManhDist.CalculateImpostorScores(s003Mean, s020);
+            sv.ImpostorScoresUser3User21 = ManhDist.CalculateImpostorScores(s003Mean, s021);
+            sv.ImpostorScoresUser3User22 = ManhDist.CalculateImpostorScores(s003Mean, s022);
+            sv.ImpostorScoresUser3User23 = ManhDist.CalculateImpostorScores(s003Mean, s023);
+            sv.ImpostorScoresUser3User24 = ManhDist.CalculateImpostorScores(s003Mean, s024);
+            sv.ImpostorScoresUser3User25 = ManhDist.CalculateImpostorScores(s003Mean, s025);
+            sv.ImpostorScoresUser3User26 = ManhDist.CalculateImpostorScores(s003Mean, s026);
+            sv.ImpostorScoresUser3User27 = ManhDist.CalculateImpostorScores(s003Mean, s027);
+            sv.ImpostorScoresUser3User28 = ManhDist.CalculateImpostorScores(s003Mean, s028);
+            sv.ImpostorScoresUser3User29 = ManhDist.CalculateImpostorScores(s003Mean, s029);
+            sv.ImpostorScoresUser3User30 = ManhDist.CalculateImpostorScores(s003Mean, s030);
+            sv.ImpostorScoresUser3User31 = ManhDist.CalculateImpostorScores(s003Mean, s031);
+            sv.ImpostorScoresUser3User32 = ManhDist.CalculateImpostorScores(s003Mean, s032);
+            sv.ImpostorScoresUser3User33 = ManhDist.CalculateImpostorScores(s003Mean, s033);
+            sv.ImpostorScoresUser3User34 = ManhDist.CalculateImpostorScores(s003Mean, s034);
+            sv.ImpostorScoresUser3User35 = ManhDist.CalculateImpostorScores(s003Mean, s035);
+            sv.ImpostorScoresUser3User36 = ManhDist.CalculateImpostorScores(s003Mean, s036);
+            sv.ImpostorScoresUser3User37 = ManhDist.CalculateImpostorScores(s003Mean, s037);
+            sv.ImpostorScoresUser3User38 = ManhDist.CalculateImpostorScores(s003Mean, s038);
+            sv.ImpostorScoresUser3User39 = ManhDist.CalculateImpostorScores(s003Mean, s039);
+            sv.ImpostorScoresUser3User40 = ManhDist.CalculateImpostorScores(s003Mean, s040);
+            sv.ImpostorScoresUser3User41 = ManhDist.CalculateImpostorScores(s003Mean, s041);
+            sv.ImpostorScoresUser3User42 = ManhDist.CalculateImpostorScores(s003Mean, s042);
+            sv.ImpostorScoresUser3User43 = ManhDist.CalculateImpostorScores(s003Mean, s043);
+            sv.ImpostorScoresUser3User44 = ManhDist.CalculateImpostorScores(s003Mean, s044);
+            sv.ImpostorScoresUser3User45 = ManhDist.CalculateImpostorScores(s003Mean, s045);
+            sv.ImpostorScoresUser3User46 = ManhDist.CalculateImpostorScores(s003Mean, s046);
+            sv.ImpostorScoresUser3User47 = ManhDist.CalculateImpostorScores(s003Mean, s047);
+            sv.ImpostorScoresUser3User48 = ManhDist.CalculateImpostorScores(s003Mean, s048);
+            sv.ImpostorScoresUser3User49 = ManhDist.CalculateImpostorScores(s003Mean, s049);
+            sv.ImpostorScoresUser3User50 = ManhDist.CalculateImpostorScores(s003Mean, s050);
+            sv.ImpostorScoresUser3User51 = ManhDist.CalculateImpostorScores(s003Mean, s051);
+            sv.ImpostorScoresUser3User52 = ManhDist.CalculateImpostorScores(s003Mean, s052);
+            sv.ImpostorScoresUser3User53 = ManhDist.CalculateImpostorScores(s003Mean, s053);
+            sv.ImpostorScoresUser3User54 = ManhDist.CalculateImpostorScores(s003Mean, s054);
+            sv.ImpostorScoresUser3User55 = ManhDist.CalculateImpostorScores(s003Mean, s055);
+            sv.ImpostorScoresUser3User56 = ManhDist.CalculateImpostorScores(s003Mean, s056);
+            sv.ImpostorScoresUser3User57 = ManhDist.CalculateImpostorScores(s003Mean, s057);
+            sv.ImpostorScoresUser3User58 = ManhDist.CalculateImpostorScores(s003Mean, s058);
+            sv.ImpostorScoresUser3User59 = ManhDist.CalculateImpostorScores(s003Mean, s059);
+            sv.ImpostorScoresUser3User60 = ManhDist.CalculateImpostorScores(s003Mean, s060);
+            sv.ImpostorScoresUser3User61 = ManhDist.CalculateImpostorScores(s003Mean, s061);
+            sv.ImpostorScoresUser3User62 = ManhDist.CalculateImpostorScores(s003Mean, s062);
+            sv.ImpostorScoresUser3User63 = ManhDist.CalculateImpostorScores(s003Mean, s063);
+            sv.ImpostorScoresUser3User64 = ManhDist.CalculateImpostorScores(s003Mean, s064);
+            sv.ImpostorScoresUser3User65 = ManhDist.CalculateImpostorScores(s003Mean, s065);
+            sv.ImpostorScoresUser3User66 = ManhDist.CalculateImpostorScores(s003Mean, s066);
+            sv.ImpostorScoresUser3User67 = ManhDist.CalculateImpostorScores(s003Mean, s067);
+            sv.ImpostorScoresUser3User68 = ManhDist.CalculateImpostorScores(s003Mean, s068);
+            sv.ImpostorScoresUser3User69 = ManhDist.CalculateImpostorScores(s003Mean, s069);
+            sv.ImpostorScoresUser3User70 = ManhDist.CalculateImpostorScores(s003Mean, s070);
+            sv.ImpostorScoresUser3User71 = ManhDist.CalculateImpostorScores(s003Mean, s071);
+            sv.ImpostorScoresUser3User72 = ManhDist.CalculateImpostorScores(s003Mean, s072);
+            sv.ImpostorScoresUser3User73 = ManhDist.CalculateImpostorScores(s003Mean, s073);
+            sv.ImpostorScoresUser3User74 = ManhDist.CalculateImpostorScores(s003Mean, s074);
+            sv.ImpostorScoresUser3User75 = ManhDist.CalculateImpostorScores(s003Mean, s075);
+            sv.ImpostorScoresUser3User76 = ManhDist.CalculateImpostorScores(s003Mean, s076);
+            sv.ImpostorScoresUser3User77 = ManhDist.CalculateImpostorScores(s003Mean, s077);
+            sv.ImpostorScoresUser3User78 = ManhDist.CalculateImpostorScores(s003Mean, s078);
+            sv.ImpostorScoresUser3User79 = ManhDist.CalculateImpostorScores(s003Mean, s079);
+            sv.ImpostorScoresUser3User80 = ManhDist.CalculateImpostorScores(s003Mean, s080);
+            sv.ImpostorScoresUser3User81 = ManhDist.CalculateImpostorScores(s003Mean, s081);
+            sv.ImpostorScoresUser3User82 = ManhDist.CalculateImpostorScores(s003Mean, s082);
+            sv.ImpostorScoresUser3User83 = ManhDist.CalculateImpostorScores(s003Mean, s083);
+            sv.ImpostorScoresUser3User84 = ManhDist.CalculateImpostorScores(s003Mean, s084);
+            sv.ImpostorScoresUser3User85 = ManhDist.CalculateImpostorScores(s003Mean, s085);
+            sv.ImpostorScoresUser3User86 = ManhDist.CalculateImpostorScores(s003Mean, s086);
+            sv.ImpostorScoresUser3User87 = ManhDist.CalculateImpostorScores(s003Mean, s087);
+            sv.ImpostorScoresUser3User88 = ManhDist.CalculateImpostorScores(s003Mean, s088);
+            sv.ImpostorScoresUser3User89 = ManhDist.CalculateImpostorScores(s003Mean, s089);
+            sv.ImpostorScoresUser3User90 = ManhDist.CalculateImpostorScores(s003Mean, s090);
+            sv.ImpostorScoresUser3User91 = ManhDist.CalculateImpostorScores(s003Mean, s091);
+            sv.ImpostorScoresUser3User92 = ManhDist.CalculateImpostorScores(s003Mean, s092);
+            sv.ImpostorScoresUser3User93 = ManhDist.CalculateImpostorScores(s003Mean, s093);
+            sv.ImpostorScoresUser3User94 = ManhDist.CalculateImpostorScores(s003Mean, s094);
+            sv.ImpostorScoresUser3User95 = ManhDist.CalculateImpostorScores(s003Mean, s095);
+            sv.ImpostorScoresUser3User96 = ManhDist.CalculateImpostorScores(s003Mean, s096);
+            sv.ImpostorScoresUser3User97 = ManhDist.CalculateImpostorScores(s003Mean, s097);
+            sv.ImpostorScoresUser3User98 = ManhDist.CalculateImpostorScores(s003Mean, s098);
+            sv.ImpostorScoresUser3User99 = ManhDist.CalculateImpostorScores(s003Mean, s099);
+            sv.ImpostorScoresUser3User100 = ManhDist.CalculateImpostorScores(s003Mean, s100);
             #endregion
 
             #region User 4 Impostor scores
-            impostorScoresUser4User1 = ManhDist.CalculateImpostorScores(s004Mean, s001);
-            impostorScoresUser4User2 = ManhDist.CalculateImpostorScores(s004Mean, s002);
-            impostorScoresUser4User3 = ManhDist.CalculateImpostorScores(s004Mean, s003);
-            impostorScoresUser4User5 = ManhDist.CalculateImpostorScores(s004Mean, s005);
-            impostorScoresUser4User6 = ManhDist.CalculateImpostorScores(s004Mean, s006);
-            impostorScoresUser4User7 = ManhDist.CalculateImpostorScores(s004Mean, s007);
-            impostorScoresUser4User8 = ManhDist.CalculateImpostorScores(s004Mean, s008);
-            impostorScoresUser4User9 = ManhDist.CalculateImpostorScores(s004Mean, s009);
-            impostorScoresUser4User10 = ManhDist.CalculateImpostorScores(s004Mean, s010);
-
-            impostorScoresUser4User11 = ManhDist.CalculateImpostorScores(s004Mean, s011);
-            impostorScoresUser4User12 = ManhDist.CalculateImpostorScores(s004Mean, s012);
-            impostorScoresUser4User13 = ManhDist.CalculateImpostorScores(s004Mean, s013);
-            impostorScoresUser4User14 = ManhDist.CalculateImpostorScores(s004Mean, s014);
-            impostorScoresUser4User15 = ManhDist.CalculateImpostorScores(s004Mean, s015);
-            impostorScoresUser4User16 = ManhDist.CalculateImpostorScores(s004Mean, s016);
-            impostorScoresUser4User17 = ManhDist.CalculateImpostorScores(s004Mean, s017);
-            impostorScoresUser4User18 = ManhDist.CalculateImpostorScores(s004Mean, s018);
-            impostorScoresUser4User19 = ManhDist.CalculateImpostorScores(s004Mean, s019);
-            impostorScoresUser4User20 = ManhDist.CalculateImpostorScores(s004Mean, s020);
-
-            impostorScoresUser4User21 = ManhDist.CalculateImpostorScores(s004Mean, s021);
-            impostorScoresUser4User22 = ManhDist.CalculateImpostorScores(s004Mean, s022);
-            impostorScoresUser4User23 = ManhDist.CalculateImpostorScores(s004Mean, s023);
-            impostorScoresUser4User24 = ManhDist.CalculateImpostorScores(s004Mean, s024);
-            impostorScoresUser4User25 = ManhDist.CalculateImpostorScores(s004Mean, s025);
-            impostorScoresUser4User26 = ManhDist.CalculateImpostorScores(s004Mean, s026);
-            impostorScoresUser4User27 = ManhDist.CalculateImpostorScores(s004Mean, s027);
-            impostorScoresUser4User28 = ManhDist.CalculateImpostorScores(s004Mean, s028);
-            impostorScoresUser4User29 = ManhDist.CalculateImpostorScores(s004Mean, s029);
-            impostorScoresUser4User30 = ManhDist.CalculateImpostorScores(s004Mean, s030);
-
-            impostorScoresUser4User31 = ManhDist.CalculateImpostorScores(s004Mean, s031);
-            impostorScoresUser4User32 = ManhDist.CalculateImpostorScores(s004Mean, s032);
-            impostorScoresUser4User33 = ManhDist.CalculateImpostorScores(s004Mean, s033);
-            impostorScoresUser4User34 = ManhDist.CalculateImpostorScores(s004Mean, s034);
-            impostorScoresUser4User35 = ManhDist.CalculateImpostorScores(s004Mean, s035);
-            impostorScoresUser4User36 = ManhDist.CalculateImpostorScores(s004Mean, s036);
-            impostorScoresUser4User37 = ManhDist.CalculateImpostorScores(s004Mean, s037);
-            impostorScoresUser4User38 = ManhDist.CalculateImpostorScores(s004Mean, s038);
-            impostorScoresUser4User39 = ManhDist.CalculateImpostorScores(s004Mean, s039);
-            impostorScoresUser4User40 = ManhDist.CalculateImpostorScores(s004Mean, s040);
-
-            impostorScoresUser4User41 = ManhDist.CalculateImpostorScores(s004Mean, s041);
-            impostorScoresUser4User42 = ManhDist.CalculateImpostorScores(s004Mean, s042);
-            impostorScoresUser4User43 = ManhDist.CalculateImpostorScores(s004Mean, s043);
-            impostorScoresUser4User44 = ManhDist.CalculateImpostorScores(s004Mean, s044);
-            impostorScoresUser4User45 = ManhDist.CalculateImpostorScores(s004Mean, s045);
-            impostorScoresUser4User46 = ManhDist.CalculateImpostorScores(s004Mean, s046);
-            impostorScoresUser4User47 = ManhDist.CalculateImpostorScores(s004Mean, s047);
-            impostorScoresUser4User48 = ManhDist.CalculateImpostorScores(s004Mean, s048);
-            impostorScoresUser4User49 = ManhDist.CalculateImpostorScores(s004Mean, s049);
-            impostorScoresUser4User50 = ManhDist.CalculateImpostorScores(s004Mean, s050);
-
-            impostorScoresUser4User51 = ManhDist.CalculateImpostorScores(s004Mean, s051);
-            impostorScoresUser4User52 = ManhDist.CalculateImpostorScores(s004Mean, s052);
-            impostorScoresUser4User53 = ManhDist.CalculateImpostorScores(s004Mean, s053);
-            impostorScoresUser4User54 = ManhDist.CalculateImpostorScores(s004Mean, s054);
-            impostorScoresUser4User55 = ManhDist.CalculateImpostorScores(s004Mean, s055);
-            impostorScoresUser4User56 = ManhDist.CalculateImpostorScores(s004Mean, s056);
-            impostorScoresUser4User57 = ManhDist.CalculateImpostorScores(s004Mean, s057);
-            impostorScoresUser4User58 = ManhDist.CalculateImpostorScores(s004Mean, s058);
-            impostorScoresUser4User59 = ManhDist.CalculateImpostorScores(s004Mean, s059);
-            impostorScoresUser4User60 = ManhDist.CalculateImpostorScores(s004Mean, s060);
-
-            impostorScoresUser4User61 = ManhDist.CalculateImpostorScores(s004Mean, s061);
-            impostorScoresUser4User62 = ManhDist.CalculateImpostorScores(s004Mean, s062);
-            impostorScoresUser4User63 = ManhDist.CalculateImpostorScores(s004Mean, s063);
-            impostorScoresUser4User64 = ManhDist.CalculateImpostorScores(s004Mean, s064);
-            impostorScoresUser4User65 = ManhDist.CalculateImpostorScores(s004Mean, s065);
-            impostorScoresUser4User66 = ManhDist.CalculateImpostorScores(s004Mean, s066);
-            impostorScoresUser4User67 = ManhDist.CalculateImpostorScores(s004Mean, s067);
-            impostorScoresUser4User68 = ManhDist.CalculateImpostorScores(s004Mean, s068);
-            impostorScoresUser4User69 = ManhDist.CalculateImpostorScores(s004Mean, s069);
-            impostorScoresUser4User70 = ManhDist.CalculateImpostorScores(s004Mean, s070);
-
-            impostorScoresUser4User71 = ManhDist.CalculateImpostorScores(s004Mean, s071);
-            impostorScoresUser4User72 = ManhDist.CalculateImpostorScores(s004Mean, s072);
-            impostorScoresUser4User73 = ManhDist.CalculateImpostorScores(s004Mean, s073);
-            impostorScoresUser4User74 = ManhDist.CalculateImpostorScores(s004Mean, s074);
-            impostorScoresUser4User75 = ManhDist.CalculateImpostorScores(s004Mean, s075);
-            impostorScoresUser4User76 = ManhDist.CalculateImpostorScores(s004Mean, s076);
-            impostorScoresUser4User77 = ManhDist.CalculateImpostorScores(s004Mean, s077);
-            impostorScoresUser4User78 = ManhDist.CalculateImpostorScores(s004Mean, s078);
-            impostorScoresUser4User79 = ManhDist.CalculateImpostorScores(s004Mean, s079);
-            impostorScoresUser4User80 = ManhDist.CalculateImpostorScores(s004Mean, s080);
-
-            impostorScoresUser4User81 = ManhDist.CalculateImpostorScores(s004Mean, s081);
-            impostorScoresUser4User82 = ManhDist.CalculateImpostorScores(s004Mean, s082);
-            impostorScoresUser4User83 = ManhDist.CalculateImpostorScores(s004Mean, s083);
-            impostorScoresUser4User84 = ManhDist.CalculateImpostorScores(s004Mean, s084);
-            impostorScoresUser4User85 = ManhDist.CalculateImpostorScores(s004Mean, s085);
-            impostorScoresUser4User86 = ManhDist.CalculateImpostorScores(s004Mean, s086);
-            impostorScoresUser4User87 = ManhDist.CalculateImpostorScores(s004Mean, s087);
-            impostorScoresUser4User88 = ManhDist.CalculateImpostorScores(s004Mean, s088);
-            impostorScoresUser4User89 = ManhDist.CalculateImpostorScores(s004Mean, s089);
-            impostorScoresUser4User90 = ManhDist.CalculateImpostorScores(s004Mean, s090);
-
-            impostorScoresUser4User91 = ManhDist.CalculateImpostorScores(s004Mean, s091);
-            impostorScoresUser4User92 = ManhDist.CalculateImpostorScores(s004Mean, s092);
-            impostorScoresUser4User93 = ManhDist.CalculateImpostorScores(s004Mean, s093);
-            impostorScoresUser4User94 = ManhDist.CalculateImpostorScores(s004Mean, s094);
-            impostorScoresUser4User95 = ManhDist.CalculateImpostorScores(s004Mean, s095);
-            impostorScoresUser4User96 = ManhDist.CalculateImpostorScores(s004Mean, s096);
-            impostorScoresUser4User97 = ManhDist.CalculateImpostorScores(s004Mean, s097);
-            impostorScoresUser4User98 = ManhDist.CalculateImpostorScores(s004Mean, s098);
-            impostorScoresUser4User99 = ManhDist.CalculateImpostorScores(s004Mean, s099);
-            impostorScoresUser4User100 = ManhDist.CalculateImpostorScores(s004Mean, s100);
+            sv.ImpostorScoresUser4User1 = ManhDist.CalculateImpostorScores(s004Mean, s001);
+            sv.ImpostorScoresUser4User2 = ManhDist.CalculateImpostorScores(s004Mean, s002);
+            sv.ImpostorScoresUser4User3 = ManhDist.CalculateImpostorScores(s004Mean, s003);
+            sv.ImpostorScoresUser4User5 = ManhDist.CalculateImpostorScores(s004Mean, s005);
+            sv.ImpostorScoresUser4User6 = ManhDist.CalculateImpostorScores(s004Mean, s006);
+            sv.ImpostorScoresUser4User7 = ManhDist.CalculateImpostorScores(s004Mean, s007);
+            sv.ImpostorScoresUser4User8 = ManhDist.CalculateImpostorScores(s004Mean, s008);
+            sv.ImpostorScoresUser4User9 = ManhDist.CalculateImpostorScores(s004Mean, s009);
+            sv.ImpostorScoresUser4User10 = ManhDist.CalculateImpostorScores(s004Mean, s010);
+            sv.ImpostorScoresUser4User11 = ManhDist.CalculateImpostorScores(s004Mean, s011);
+            sv.ImpostorScoresUser4User12 = ManhDist.CalculateImpostorScores(s004Mean, s012);
+            sv.ImpostorScoresUser4User13 = ManhDist.CalculateImpostorScores(s004Mean, s013);
+            sv.ImpostorScoresUser4User14 = ManhDist.CalculateImpostorScores(s004Mean, s014);
+            sv.ImpostorScoresUser4User15 = ManhDist.CalculateImpostorScores(s004Mean, s015);
+            sv.ImpostorScoresUser4User16 = ManhDist.CalculateImpostorScores(s004Mean, s016);
+            sv.ImpostorScoresUser4User17 = ManhDist.CalculateImpostorScores(s004Mean, s017);
+            sv.ImpostorScoresUser4User18 = ManhDist.CalculateImpostorScores(s004Mean, s018);
+            sv.ImpostorScoresUser4User19 = ManhDist.CalculateImpostorScores(s004Mean, s019);
+            sv.ImpostorScoresUser4User20 = ManhDist.CalculateImpostorScores(s004Mean, s020);
+            sv.ImpostorScoresUser4User21 = ManhDist.CalculateImpostorScores(s004Mean, s021);
+            sv.ImpostorScoresUser4User22 = ManhDist.CalculateImpostorScores(s004Mean, s022);
+            sv.ImpostorScoresUser4User23 = ManhDist.CalculateImpostorScores(s004Mean, s023);
+            sv.ImpostorScoresUser4User24 = ManhDist.CalculateImpostorScores(s004Mean, s024);
+            sv.ImpostorScoresUser4User25 = ManhDist.CalculateImpostorScores(s004Mean, s025);
+            sv.ImpostorScoresUser4User26 = ManhDist.CalculateImpostorScores(s004Mean, s026);
+            sv.ImpostorScoresUser4User27 = ManhDist.CalculateImpostorScores(s004Mean, s027);
+            sv.ImpostorScoresUser4User28 = ManhDist.CalculateImpostorScores(s004Mean, s028);
+            sv.ImpostorScoresUser4User29 = ManhDist.CalculateImpostorScores(s004Mean, s029);
+            sv.ImpostorScoresUser4User30 = ManhDist.CalculateImpostorScores(s004Mean, s030);
+            sv.ImpostorScoresUser4User31 = ManhDist.CalculateImpostorScores(s004Mean, s031);
+            sv.ImpostorScoresUser4User32 = ManhDist.CalculateImpostorScores(s004Mean, s032);
+            sv.ImpostorScoresUser4User33 = ManhDist.CalculateImpostorScores(s004Mean, s033);
+            sv.ImpostorScoresUser4User34 = ManhDist.CalculateImpostorScores(s004Mean, s034);
+            sv.ImpostorScoresUser4User35 = ManhDist.CalculateImpostorScores(s004Mean, s035);
+            sv.ImpostorScoresUser4User36 = ManhDist.CalculateImpostorScores(s004Mean, s036);
+            sv.ImpostorScoresUser4User37 = ManhDist.CalculateImpostorScores(s004Mean, s037);
+            sv.ImpostorScoresUser4User38 = ManhDist.CalculateImpostorScores(s004Mean, s038);
+            sv.ImpostorScoresUser4User39 = ManhDist.CalculateImpostorScores(s004Mean, s039);
+            sv.ImpostorScoresUser4User40 = ManhDist.CalculateImpostorScores(s004Mean, s040);
+            sv.ImpostorScoresUser4User41 = ManhDist.CalculateImpostorScores(s004Mean, s041);
+            sv.ImpostorScoresUser4User42 = ManhDist.CalculateImpostorScores(s004Mean, s042);
+            sv.ImpostorScoresUser4User43 = ManhDist.CalculateImpostorScores(s004Mean, s043);
+            sv.ImpostorScoresUser4User44 = ManhDist.CalculateImpostorScores(s004Mean, s044);
+            sv.ImpostorScoresUser4User45 = ManhDist.CalculateImpostorScores(s004Mean, s045);
+            sv.ImpostorScoresUser4User46 = ManhDist.CalculateImpostorScores(s004Mean, s046);
+            sv.ImpostorScoresUser4User47 = ManhDist.CalculateImpostorScores(s004Mean, s047);
+            sv.ImpostorScoresUser4User48 = ManhDist.CalculateImpostorScores(s004Mean, s048);
+            sv.ImpostorScoresUser4User49 = ManhDist.CalculateImpostorScores(s004Mean, s049);
+            sv.ImpostorScoresUser4User50 = ManhDist.CalculateImpostorScores(s004Mean, s050);
+            sv.ImpostorScoresUser4User51 = ManhDist.CalculateImpostorScores(s004Mean, s051);
+            sv.ImpostorScoresUser4User52 = ManhDist.CalculateImpostorScores(s004Mean, s052);
+            sv.ImpostorScoresUser4User53 = ManhDist.CalculateImpostorScores(s004Mean, s053);
+            sv.ImpostorScoresUser4User54 = ManhDist.CalculateImpostorScores(s004Mean, s054);
+            sv.ImpostorScoresUser4User55 = ManhDist.CalculateImpostorScores(s004Mean, s055);
+            sv.ImpostorScoresUser4User56 = ManhDist.CalculateImpostorScores(s004Mean, s056);
+            sv.ImpostorScoresUser4User57 = ManhDist.CalculateImpostorScores(s004Mean, s057);
+            sv.ImpostorScoresUser4User58 = ManhDist.CalculateImpostorScores(s004Mean, s058);
+            sv.ImpostorScoresUser4User59 = ManhDist.CalculateImpostorScores(s004Mean, s059);
+            sv.ImpostorScoresUser4User60 = ManhDist.CalculateImpostorScores(s004Mean, s060);
+            sv.ImpostorScoresUser4User61 = ManhDist.CalculateImpostorScores(s004Mean, s061);
+            sv.ImpostorScoresUser4User62 = ManhDist.CalculateImpostorScores(s004Mean, s062);
+            sv.ImpostorScoresUser4User63 = ManhDist.CalculateImpostorScores(s004Mean, s063);
+            sv.ImpostorScoresUser4User64 = ManhDist.CalculateImpostorScores(s004Mean, s064);
+            sv.ImpostorScoresUser4User65 = ManhDist.CalculateImpostorScores(s004Mean, s065);
+            sv.ImpostorScoresUser4User66 = ManhDist.CalculateImpostorScores(s004Mean, s066);
+            sv.ImpostorScoresUser4User67 = ManhDist.CalculateImpostorScores(s004Mean, s067);
+            sv.ImpostorScoresUser4User68 = ManhDist.CalculateImpostorScores(s004Mean, s068);
+            sv.ImpostorScoresUser4User69 = ManhDist.CalculateImpostorScores(s004Mean, s069);
+            sv.ImpostorScoresUser4User70 = ManhDist.CalculateImpostorScores(s004Mean, s070);
+            sv.ImpostorScoresUser4User71 = ManhDist.CalculateImpostorScores(s004Mean, s071);
+            sv.ImpostorScoresUser4User72 = ManhDist.CalculateImpostorScores(s004Mean, s072);
+            sv.ImpostorScoresUser4User73 = ManhDist.CalculateImpostorScores(s004Mean, s073);
+            sv.ImpostorScoresUser4User74 = ManhDist.CalculateImpostorScores(s004Mean, s074);
+            sv.ImpostorScoresUser4User75 = ManhDist.CalculateImpostorScores(s004Mean, s075);
+            sv.ImpostorScoresUser4User76 = ManhDist.CalculateImpostorScores(s004Mean, s076);
+            sv.ImpostorScoresUser4User77 = ManhDist.CalculateImpostorScores(s004Mean, s077);
+            sv.ImpostorScoresUser4User78 = ManhDist.CalculateImpostorScores(s004Mean, s078);
+            sv.ImpostorScoresUser4User79 = ManhDist.CalculateImpostorScores(s004Mean, s079);
+            sv.ImpostorScoresUser4User80 = ManhDist.CalculateImpostorScores(s004Mean, s080);
+            sv.ImpostorScoresUser4User81 = ManhDist.CalculateImpostorScores(s004Mean, s081);
+            sv.ImpostorScoresUser4User82 = ManhDist.CalculateImpostorScores(s004Mean, s082);
+            sv.ImpostorScoresUser4User83 = ManhDist.CalculateImpostorScores(s004Mean, s083);
+            sv.ImpostorScoresUser4User84 = ManhDist.CalculateImpostorScores(s004Mean, s084);
+            sv.ImpostorScoresUser4User85 = ManhDist.CalculateImpostorScores(s004Mean, s085);
+            sv.ImpostorScoresUser4User86 = ManhDist.CalculateImpostorScores(s004Mean, s086);
+            sv.ImpostorScoresUser4User87 = ManhDist.CalculateImpostorScores(s004Mean, s087);
+            sv.ImpostorScoresUser4User88 = ManhDist.CalculateImpostorScores(s004Mean, s088);
+            sv.ImpostorScoresUser4User89 = ManhDist.CalculateImpostorScores(s004Mean, s089);
+            sv.ImpostorScoresUser4User90 = ManhDist.CalculateImpostorScores(s004Mean, s090)
+            sv.ImpostorScoresUser4User91 = ManhDist.CalculateImpostorScores(s004Mean, s091);
+            sv.ImpostorScoresUser4User92 = ManhDist.CalculateImpostorScores(s004Mean, s092);
+            sv.ImpostorScoresUser4User93 = ManhDist.CalculateImpostorScores(s004Mean, s093);
+            sv.ImpostorScoresUser4User94 = ManhDist.CalculateImpostorScores(s004Mean, s094);
+            sv.ImpostorScoresUser4User95 = ManhDist.CalculateImpostorScores(s004Mean, s095);
+            sv.ImpostorScoresUser4User96 = ManhDist.CalculateImpostorScores(s004Mean, s096);
+            sv.ImpostorScoresUser4User97 = ManhDist.CalculateImpostorScores(s004Mean, s097);
+            sv.ImpostorScoresUser4User98 = ManhDist.CalculateImpostorScores(s004Mean, s098);
+            sv.ImpostorScoresUser4User99 = ManhDist.CalculateImpostorScores(s004Mean, s099);
+            sv.ImpostorScoresUser4User100 = ManhDist.CalculateImpostorScores(s004Mean, s100);
             #endregion
 
             #region User 5 Impostor scores
@@ -9208,7 +6680,6 @@ namespace QUML_Keystrokes
             impostorScoresUser29User8 = ManhDist.CalculateImpostorScores(s029Mean, s008);
             impostorScoresUser29User9 = ManhDist.CalculateImpostorScores(s029Mean, s009);
             impostorScoresUser29User10 = ManhDist.CalculateImpostorScores(s029Mean, s010);
-
             impostorScoresUser29User11 = ManhDist.CalculateImpostorScores(s029Mean, s011);
             impostorScoresUser29User12 = ManhDist.CalculateImpostorScores(s029Mean, s012);
             impostorScoresUser29User13 = ManhDist.CalculateImpostorScores(s029Mean, s013);
@@ -9219,7 +6690,6 @@ namespace QUML_Keystrokes
             impostorScoresUser29User18 = ManhDist.CalculateImpostorScores(s029Mean, s018);
             impostorScoresUser29User19 = ManhDist.CalculateImpostorScores(s029Mean, s019);
             impostorScoresUser29User20 = ManhDist.CalculateImpostorScores(s029Mean, s020);
-
             impostorScoresUser29User21 = ManhDist.CalculateImpostorScores(s029Mean, s021);
             impostorScoresUser29User22 = ManhDist.CalculateImpostorScores(s029Mean, s022);
             impostorScoresUser29User23 = ManhDist.CalculateImpostorScores(s029Mean, s023);
@@ -9309,114 +6779,127 @@ namespace QUML_Keystrokes
             #endregion
 
             #region User 30 Impostor scores
-            impostorScoresUser30User1 = ManhDist.CalculateImpostorScores(s030Mean, s001);
-            impostorScoresUser30User2 = ManhDist.CalculateImpostorScores(s030Mean, s002);
-            impostorScoresUser30User3 = ManhDist.CalculateImpostorScores(s030Mean, s003);
-            impostorScoresUser30User4 = ManhDist.CalculateImpostorScores(s030Mean, s004);
-            impostorScoresUser30User5 = ManhDist.CalculateImpostorScores(s030Mean, s005);
-            impostorScoresUser30User6 = ManhDist.CalculateImpostorScores(s030Mean, s006);
-            impostorScoresUser30User7 = ManhDist.CalculateImpostorScores(s030Mean, s007);
-            impostorScoresUser30User8 = ManhDist.CalculateImpostorScores(s030Mean, s008);
-            impostorScoresUser30User9 = ManhDist.CalculateImpostorScores(s030Mean, s009);
-            impostorScoresUser30User10 = ManhDist.CalculateImpostorScores(s030Mean, s010);
+            sv.ImpostorScoresUser30User1 = ManhDist.CalculateImpostorScores(s030Mean, s001);
+            sv.ImpostorScoresUser30User2 = ManhDist.CalculateImpostorScores(s030Mean, s002);
+            sv.ImpostorScoresUser30User3 = ManhDist.CalculateImpostorScores(s030Mean, s003);
+            sv.ImpostorScoresUser30User4 = ManhDist.CalculateImpostorScores(s030Mean, s004);
+            sv.ImpostorScoresUser30User5 = ManhDist.CalculateImpostorScores(s030Mean, s005);
+            sv.ImpostorScoresUser30User6 = ManhDist.CalculateImpostorScores(s030Mean, s006);
+            sv.ImpostorScoresUser30User7 = ManhDist.CalculateImpostorScores(s030Mean, s007);
+            sv.ImpostorScoresUser30User8 = ManhDist.CalculateImpostorScores(s030Mean, s008);
+            sv.ImpostorScoresUser30User9 = ManhDist.CalculateImpostorScores(s030Mean, s009);
+            sv.ImpostorScoresUser30User10 = ManhDist.CalculateImpostorScores(s030Mean, s010);
 
-            impostorScoresUser30User11 = ManhDist.CalculateImpostorScores(s030Mean, s011);
-            impostorScoresUser30User12 = ManhDist.CalculateImpostorScores(s030Mean, s012);
-            impostorScoresUser30User13 = ManhDist.CalculateImpostorScores(s030Mean, s013);
-            impostorScoresUser30User14 = ManhDist.CalculateImpostorScores(s030Mean, s014);
-            impostorScoresUser30User15 = ManhDist.CalculateImpostorScores(s030Mean, s015);
-            impostorScoresUser30User16 = ManhDist.CalculateImpostorScores(s030Mean, s016);
-            impostorScoresUser30User17 = ManhDist.CalculateImpostorScores(s030Mean, s017);
-            impostorScoresUser30User18 = ManhDist.CalculateImpostorScores(s030Mean, s018);
-            impostorScoresUser30User19 = ManhDist.CalculateImpostorScores(s030Mean, s019);
-            impostorScoresUser30User20 = ManhDist.CalculateImpostorScores(s030Mean, s020);
+            sv.ImpostorScoresUser30User11 = ManhDist.CalculateImpostorScores(s030Mean, s011);
+            sv.ImpostorScoresUser30User12 = ManhDist.CalculateImpostorScores(s030Mean, s012);
+            sv.ImpostorScoresUser30User13 = ManhDist.CalculateImpostorScores(s030Mean, s013);
+            sv.ImpostorScoresUser30User14 = ManhDist.CalculateImpostorScores(s030Mean, s014);
+            sv.ImpostorScoresUser30User15 = ManhDist.CalculateImpostorScores(s030Mean, s015);
+            sv.ImpostorScoresUser30User16 = ManhDist.CalculateImpostorScores(s030Mean, s016);
+            sv.ImpostorScoresUser30User17 = ManhDist.CalculateImpostorScores(s030Mean, s017);
+            sv.ImpostorScoresUser30User18 = ManhDist.CalculateImpostorScores(s030Mean, s018);
+            sv.ImpostorScoresUser30User19 = ManhDist.CalculateImpostorScores(s030Mean, s019);
+            sv.ImpostorScoresUser30User20 = ManhDist.CalculateImpostorScores(s030Mean, s020);
 
-            impostorScoresUser30User21 = ManhDist.CalculateImpostorScores(s030Mean, s021);
-            impostorScoresUser30User22 = ManhDist.CalculateImpostorScores(s030Mean, s022);
-            impostorScoresUser30User23 = ManhDist.CalculateImpostorScores(s030Mean, s023);
-            impostorScoresUser30User24 = ManhDist.CalculateImpostorScores(s030Mean, s024);
-            impostorScoresUser30User25 = ManhDist.CalculateImpostorScores(s030Mean, s025);
-            impostorScoresUser30User26 = ManhDist.CalculateImpostorScores(s030Mean, s026);
-            impostorScoresUser30User27 = ManhDist.CalculateImpostorScores(s030Mean, s027);
-            impostorScoresUser30User28 = ManhDist.CalculateImpostorScores(s030Mean, s028);
-            impostorScoresUser30User29 = ManhDist.CalculateImpostorScores(s030Mean, s029);
+            sv.ImpostorScoresUser30User21 = ManhDist.CalculateImpostorScores(s030Mean, s021);
+            sv.ImpostorScoresUser30User22 = ManhDist.CalculateImpostorScores(s030Mean, s022);
+            sv.ImpostorScoresUser30User23 = ManhDist.CalculateImpostorScores(s030Mean, s023);
+            sv.ImpostorScoresUser30User24 = ManhDist.CalculateImpostorScores(s030Mean, s024);
+            sv.ImpostorScoresUser30User25 = ManhDist.CalculateImpostorScores(s030Mean, s025);
+            sv.ImpostorScoresUser30User26 = ManhDist.CalculateImpostorScores(s030Mean, s026);
+            sv.ImpostorScoresUser30User27 = ManhDist.CalculateImpostorScores(s030Mean, s027);
+            sv.ImpostorScoresUser30User28 = ManhDist.CalculateImpostorScores(s030Mean, s028);
+            sv.ImpostorScoresUser30User29 = ManhDist.CalculateImpostorScores(s030Mean, s029);
 
-            impostorScoresUser30User31 = ManhDist.CalculateImpostorScores(s030Mean, s031);
-            impostorScoresUser30User32 = ManhDist.CalculateImpostorScores(s030Mean, s032);
-            impostorScoresUser30User33 = ManhDist.CalculateImpostorScores(s030Mean, s033);
-            impostorScoresUser30User34 = ManhDist.CalculateImpostorScores(s030Mean, s034);
-            impostorScoresUser30User35 = ManhDist.CalculateImpostorScores(s030Mean, s035);
-            impostorScoresUser30User36 = ManhDist.CalculateImpostorScores(s030Mean, s036);
-            impostorScoresUser30User37 = ManhDist.CalculateImpostorScores(s030Mean, s037);
-            impostorScoresUser30User38 = ManhDist.CalculateImpostorScores(s030Mean, s038);
-            impostorScoresUser30User39 = ManhDist.CalculateImpostorScores(s030Mean, s039);
-            impostorScoresUser30User40 = ManhDist.CalculateImpostorScores(s030Mean, s040);
+            sv.ImpostorScoresUser30User31 = ManhDist.CalculateImpostorScores(s030Mean, s031);
+            sv.ImpostorScoresUser30User32 = ManhDist.CalculateImpostorScores(s030Mean, s032);
+            sv.ImpostorScoresUser30User33 = ManhDist.CalculateImpostorScores(s030Mean, s033);
+            sv.ImpostorScoresUser30User34 = ManhDist.CalculateImpostorScores(s030Mean, s034);
+            sv.ImpostorScoresUser30User35 = ManhDist.CalculateImpostorScores(s030Mean, s035);
+            sv.ImpostorScoresUser30User36 = ManhDist.CalculateImpostorScores(s030Mean, s036);
+            sv.ImpostorScoresUser30User37 = ManhDist.CalculateImpostorScores(s030Mean, s037);
+            sv.ImpostorScoresUser30User38 = ManhDist.CalculateImpostorScores(s030Mean, s038);
+            sv.ImpostorScoresUser30User39 = ManhDist.CalculateImpostorScores(s030Mean, s039);
+            sv.ImpostorScoresUser30User40 = ManhDist.CalculateImpostorScores(s030Mean, s040);
 
-            impostorScoresUser30User41 = ManhDist.CalculateImpostorScores(s030Mean, s041);
-            impostorScoresUser30User42 = ManhDist.CalculateImpostorScores(s030Mean, s042);
-            impostorScoresUser30User43 = ManhDist.CalculateImpostorScores(s030Mean, s043);
-            impostorScoresUser30User44 = ManhDist.CalculateImpostorScores(s030Mean, s044);
-            impostorScoresUser30User45 = ManhDist.CalculateImpostorScores(s030Mean, s045);
-            impostorScoresUser30User46 = ManhDist.CalculateImpostorScores(s030Mean, s046);
-            impostorScoresUser30User47 = ManhDist.CalculateImpostorScores(s030Mean, s047);
-            impostorScoresUser30User48 = ManhDist.CalculateImpostorScores(s030Mean, s048);
-            impostorScoresUser30User49 = ManhDist.CalculateImpostorScores(s030Mean, s049);
-            impostorScoresUser30User50 = ManhDist.CalculateImpostorScores(s030Mean, s050);
+            sv.ImpostorScoresUser30User41 = ManhDist.CalculateImpostorScores(s030Mean, s041);
+            sv.ImpostorScoresUser30User42 = ManhDist.CalculateImpostorScores(s030Mean, s042);
+            sv.ImpostorScoresUser30User43 = ManhDist.CalculateImpostorScores(s030Mean, s043);
+            sv.ImpostorScoresUser30User44 = ManhDist.CalculateImpostorScores(s030Mean, s044);
+            sv.ImpostorScoresUser30User45 = ManhDist.CalculateImpostorScores(s030Mean, s045);
+            sv.ImpostorScoresUser30User46 = ManhDist.CalculateImpostorScores(s030Mean, s046);
+            sv.ImpostorScoresUser30User47 = ManhDist.CalculateImpostorScores(s030Mean, s047);
+            sv.ImpostorScoresUser30User48 = ManhDist.CalculateImpostorScores(s030Mean, s048);
+            sv.ImpostorScoresUser30User49 = ManhDist.CalculateImpostorScores(s030Mean, s049);
+            sv.ImpostorScoresUser30User50 = ManhDist.CalculateImpostorScores(s030Mean, s050);
 
-            impostorScoresUser30User51 = ManhDist.CalculateImpostorScores(s030Mean, s051);
-            impostorScoresUser30User52 = ManhDist.CalculateImpostorScores(s030Mean, s052);
-            impostorScoresUser30User53 = ManhDist.CalculateImpostorScores(s030Mean, s053);
-            impostorScoresUser30User54 = ManhDist.CalculateImpostorScores(s030Mean, s054);
-            impostorScoresUser30User55 = ManhDist.CalculateImpostorScores(s030Mean, s055);
-            impostorScoresUser30User56 = ManhDist.CalculateImpostorScores(s030Mean, s056);
-            impostorScoresUser30User57 = ManhDist.CalculateImpostorScores(s030Mean, s057);
-            impostorScoresUser30User58 = ManhDist.CalculateImpostorScores(s030Mean, s058);
-            impostorScoresUser30User59 = ManhDist.CalculateImpostorScores(s030Mean, s059);
-            impostorScoresUser30User60 = ManhDist.CalculateImpostorScores(s030Mean, s060);
+            sv.ImpostorScoresUser30User51 = ManhDist.CalculateImpostorScores(s030Mean, s051);
+            sv.ImpostorScoresUser30User52 = ManhDist.CalculateImpostorScores(s030Mean, s052);
+            sv.ImpostorScoresUser30User53 = ManhDist.CalculateImpostorScores(s030Mean, s053);
+            sv.ImpostorScoresUser30User54 = ManhDist.CalculateImpostorScores(s030Mean, s054);
+            sv.ImpostorScoresUser30User55 = ManhDist.CalculateImpostorScores(s030Mean, s055);
+            sv.ImpostorScoresUser30User56 = ManhDist.CalculateImpostorScores(s030Mean, s056);
+            sv.ImpostorScoresUser30User57 = ManhDist.CalculateImpostorScores(s030Mean, s057);
+            sv.ImpostorScoresUser30User58 = ManhDist.CalculateImpostorScores(s030Mean, s058);
+            sv.ImpostorScoresUser30User59 = ManhDist.CalculateImpostorScores(s030Mean, s059);
+            sv.ImpostorScoresUser30User60 = ManhDist.CalculateImpostorScores(s030Mean, s060);
 
-            impostorScoresUser30User61 = ManhDist.CalculateImpostorScores(s030Mean, s061);
-            impostorScoresUser30User62 = ManhDist.CalculateImpostorScores(s030Mean, s062);
-            impostorScoresUser30User63 = ManhDist.CalculateImpostorScores(s030Mean, s063);
-            impostorScoresUser30User64 = ManhDist.CalculateImpostorScores(s030Mean, s064);
-            impostorScoresUser30User65 = ManhDist.CalculateImpostorScores(s030Mean, s065);
-            impostorScoresUser30User66 = ManhDist.CalculateImpostorScores(s030Mean, s066);
-            impostorScoresUser30User67 = ManhDist.CalculateImpostorScores(s030Mean, s067);
-            impostorScoresUser30User68 = ManhDist.CalculateImpostorScores(s030Mean, s068);
-            impostorScoresUser30User69 = ManhDist.CalculateImpostorScores(s030Mean, s069);
-            impostorScoresUser30User70 = ManhDist.CalculateImpostorScores(s030Mean, s070);
+            sv.ImpostorScoresUser30User61 = ManhDist.CalculateImpostorScores(s030Mean, s061);
+            sv.ImpostorScoresUser30User62 = ManhDist.CalculateImpostorScores(s030Mean, s062);
+            sv.ImpostorScoresUser30User63 = ManhDist.CalculateImpostorScores(s030Mean, s063);
+            sv.ImpostorScoresUser30User64 = ManhDist.CalculateImpostorScores(s030Mean, s064);
+            sv.ImpostorScoresUser30User65 = ManhDist.CalculateImpostorScores(s030Mean, s065);
+            sv.ImpostorScoresUser30User66 = ManhDist.CalculateImpostorScores(s030Mean, s066);
+            sv.ImpostorScoresUser30User67 = ManhDist.CalculateImpostorScores(s030Mean, s067);
+            sv.ImpostorScoresUser30User68 = ManhDist.CalculateImpostorScores(s030Mean, s068);
+            sv.ImpostorScoresUser30User69 = ManhDist.CalculateImpostorScores(s030Mean, s069);
+            sv.ImpostorScoresUser30User70 = ManhDist.CalculateImpostorScores(s030Mean, s070);
 
-            impostorScoresUser30User71 = ManhDist.CalculateImpostorScores(s030Mean, s071);
-            impostorScoresUser30User72 = ManhDist.CalculateImpostorScores(s030Mean, s072);
-            impostorScoresUser30User73 = ManhDist.CalculateImpostorScores(s030Mean, s073);
-            impostorScoresUser30User74 = ManhDist.CalculateImpostorScores(s030Mean, s074);
-            impostorScoresUser30User75 = ManhDist.CalculateImpostorScores(s030Mean, s075);
-            impostorScoresUser30User76 = ManhDist.CalculateImpostorScores(s030Mean, s076);
-            impostorScoresUser30User77 = ManhDist.CalculateImpostorScores(s030Mean, s077);
-            impostorScoresUser30User78 = ManhDist.CalculateImpostorScores(s030Mean, s078);
-            impostorScoresUser30User79 = ManhDist.CalculateImpostorScores(s030Mean, s079);
-            impostorScoresUser30User80 = ManhDist.CalculateImpostorScores(s030Mean, s080);
+            sv.ImpostorScoresUser30User71 = ManhDist.CalculateImpostorScores(s030Mean, s071);
+            sv.ImpostorScoresUser30User72 = ManhDist.CalculateImpostorScores(s030Mean, s072);
+            sv.ImpostorScoresUser30User73 = ManhDist.CalculateImpostorScores(s030Mean, s073);
+            sv.ImpostorScoresUser30User74 = ManhDist.CalculateImpostorScores(s030Mean, s074);
+            sv.ImpostorScoresUser30User75 = ManhDist.CalculateImpostorScores(s030Mean, s075);
+            sv.ImpostorScoresUser30User76 = ManhDist.CalculateImpostorScores(s030Mean, s076);
+            sv.ImpostorScoresUser30User77 = ManhDist.CalculateImpostorScores(s030Mean, s077);
+            sv.ImpostorScoresUser30User78 = ManhDist.CalculateImpostorScores(s030Mean, s078);
+            sv.ImpostorScoresUser30User79 = ManhDist.CalculateImpostorScores(s030Mean, s079);
+            sv.ImpostorScoresUser30User80 = ManhDist.CalculateImpostorScores(s030Mean, s080);
 
-            impostorScoresUser30User81 = ManhDist.CalculateImpostorScores(s030Mean, s081);
-            impostorScoresUser30User82 = ManhDist.CalculateImpostorScores(s030Mean, s082);
-            impostorScoresUser30User83 = ManhDist.CalculateImpostorScores(s030Mean, s083);
-            impostorScoresUser30User84 = ManhDist.CalculateImpostorScores(s030Mean, s084);
-            impostorScoresUser30User85 = ManhDist.CalculateImpostorScores(s030Mean, s085);
-            impostorScoresUser30User86 = ManhDist.CalculateImpostorScores(s030Mean, s086);
-            impostorScoresUser30User87 = ManhDist.CalculateImpostorScores(s030Mean, s087);
-            impostorScoresUser30User88 = ManhDist.CalculateImpostorScores(s030Mean, s088);
-            impostorScoresUser30User89 = ManhDist.CalculateImpostorScores(s030Mean, s089);
-            impostorScoresUser30User90 = ManhDist.CalculateImpostorScores(s030Mean, s090);
+            sv.ImpostorScoresUser30User81 = ManhDist.CalculateImpostorScores(s030Mean, s081);
+            sv.ImpostorScoresUser30User82 = ManhDist.CalculateImpostorScores(s030Mean, s082);
+            sv.ImpostorScoresUser30User83 = ManhDist.CalculateImpostorScores(s030Mean, s083);
+            sv.ImpostorScoresUser30User84 = ManhDist.CalculateImpostorScores(s030Mean, s084);
+            sv.ImpostorScoresUser30User85 = ManhDist.CalculateImpostorScores(s030Mean, s085);
+            sv.ImpostorScoresUser30User86 = ManhDist.CalculateImpostorScores(s030Mean, s086);
+            sv.ImpostorScoresUser30User87 = ManhDist.CalculateImpostorScores(s030Mean, s087);
+            sv.ImpostorScoresUser30User88 = ManhDist.CalculateImpostorScores(s030Mean, s088);
+            sv.ImpostorScoresUser30User89 = ManhDist.CalculateImpostorScores(s030Mean, s089);
+            sv.ImpostorScoresUser30User90 = ManhDist.CalculateImpostorScores(s030Mean, s090);
 
-            impostorScoresUser30User91 = ManhDist.CalculateImpostorScores(s030Mean, s091);
-            impostorScoresUser30User92 = ManhDist.CalculateImpostorScores(s030Mean, s092);
-            impostorScoresUser30User93 = ManhDist.CalculateImpostorScores(s030Mean, s093);
-            impostorScoresUser30User94 = ManhDist.CalculateImpostorScores(s030Mean, s094);
-            impostorScoresUser30User95 = ManhDist.CalculateImpostorScores(s030Mean, s095);
-            impostorScoresUser30User96 = ManhDist.CalculateImpostorScores(s030Mean, s096);
-            impostorScoresUser30User97 = ManhDist.CalculateImpostorScores(s030Mean, s097);
-            impostorScoresUser30User98 = ManhDist.CalculateImpostorScores(s030Mean, s098);
-            impostorScoresUser30User99 = ManhDist.CalculateImpostorScores(s030Mean, s099);
-            impostorScoresUser30User100 = ManhDist.CalculateImpostorScores(s030Mean, s100);
+            sv.ImpostorScoresUser30User91 = ManhDist.CalculateImpostorScores(s030Mean, s091);
+            sv.ImpostorScoresUser30User92 = ManhDist.CalculateImpostorScores(s030Mean, s092);
+            sv.ImpostorScoresUser30User93 = ManhDist.CalculateImpostorScores(s030Mean, s093);
+            sv.ImpostorScoresUser30User94 = ManhDist.CalculateImpostorScores(s030Mean, s094);
+            sv.ImpostorScoresUser30User95 = ManhDist.CalculateImpostorScores(s030Mean, s095);
+            sv.ImpostorScoresUser30User96 = ManhDist.CalculateImpostorScores(s030Mean, s096);
+            sv.ImpostorScoresUser30User97 = ManhDist.CalculateImpostorScores(s030Mean, s097);
+            sv.ImpostorScoresUser30User98 = ManhDist.CalculateImpostorScores(s030Mean, s098);
+            sv.ImpostorScoresUser30User99 = ManhDist.CalculateImpostorScores(s030Mean, s099);
+            sv.ImpostorScoresUser30User100 = ManhDist.CalculateImpostorScores(s030Mean, s100);
+            #endregion
+
+            #region User 31 Impostor scores
+            sv.ImpostorScoresUser31User1 = ManhDist.CalculateImpostorScores(s031Mean, s001);
+            sv.ImpostorScoresUser31User2 = ManhDist.CalculateImpostorScores(s031Mean, s002);
+            sv.ImpostorScoresUser31User3 = ManhDist.CalculateImpostorScores(s031Mean, s003);
+            sv.ImpostorScoresUser31User4 = ManhDist.CalculateImpostorScores(s031Mean, s004);
+            sv.ImpostorScoresUser31User5 = ManhDist.CalculateImpostorScores(s031Mean, s005);
+            sv.ImpostorScoresUser31User6 = ManhDist.CalculateImpostorScores(s031Mean, s006);
+            sv.ImpostorScoresUser31User7 = ManhDist.CalculateImpostorScores(s031Mean, s007);
+            sv.ImpostorScoresUser31User8 = ManhDist.CalculateImpostorScores(s031Mean, s008);
+            sv.ImpostorScoresUser31User9 = ManhDist.CalculateImpostorScores(s031Mean, s009);
+            sv.ImpostorScoresUser31User10 = ManhDist.CalculateImpostorScores(s031Mean, s010);
             #endregion
 
             #region Showing the output of the genuine scores
