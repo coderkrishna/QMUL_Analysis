@@ -825,15 +825,15 @@
         private double[,] _impostorScoresUser2User19;
         public double[,] ImpostorScoresUser2User19
         {
-            get { return _impostorScoresUser2User19;}
-            set { _impostorScoresUser2User19 = value;}
+            get { return _impostorScoresUser2User19; }
+            set { _impostorScoresUser2User19 = value; }
         }
-        
+
         private double[,] _impostorScoresUser2User20;
         public double[,] ImpostorScoresUser2User20
         {
-            get {return _impostorScoresUser2User20;}
-            set {_impostorScoresUser2User20 = value;}
+            get { return _impostorScoresUser2User20; }
+            set { _impostorScoresUser2User20 = value; }
         }
 
         private double[,] _impostorScoresUser2User21;
@@ -1161,7 +1161,7 @@
         private double[,] _impostorScoresUser2User67;
         public double[,] ImpostorScoresUser2User67
         {
-            get { return _impostorScoresUser2User67;}
+            get { return _impostorScoresUser2User67; }
             set { _impostorScoresUser2User67 = value; }
         }
 
@@ -1199,7 +1199,7 @@
             get { return _impostorScoresUser2User72; }
             set { _impostorScoresUser2User72 = value; }
         }
-       
+
         private double[,] _impostorScoresUser2User73;
         public double[,] ImpostorScoresUser2User73
         {
@@ -1637,76 +1637,459 @@
         }
 
         private double[,] _impostorScoresUser3User36;
+        public double[,] ImpostorScoresUser3User36
+        {
+            get { return _impostorScoresUser3User36; }
+            set { _impostorScoresUser3User36 = value; }
+        }
+
         private double[,] _impostorScoresUser3User37;
+        public double[,] ImpostorScoresUser3User37
+        {
+            get { return _impostorScoresUser3User37; }
+            set { _impostorScoresUser3User37 = value; }
+        }
+
         private double[,] _impostorScoresUser3User38;
+        public double[,] ImpostorScoresUser3User38
+        {
+            get { return _impostorScoresUser3User38; }
+            set { _impostorScoresUser3User38 = value; }
+        }
+
         private double[,] _impostorScoresUser3User39;
+        public double[,] ImpostorScoresUser3User39
+        {
+            get { return _impostorScoresUser3User39; }
+            set { _impostorScoresUser3User39 = value; }
+        }
+
         private double[,] _impostorScoresUser3User40;
+        public double[,] ImpostorScoresUser3User40
+        {
+            get { return _impostorScoresUser3User40; }
+            set { _impostorScoresUser3User40 = value; }
+        }
 
         private double[,] _impostorScoresUser3User41;
+        public double[,] ImpostorScoresUser3User41
+        {
+            get { return _impostorScoresUser3User41; }
+            set { _impostorScoresUser3User41 = value; }
+        }
+
         private double[,] _impostorScoresUser3User42;
+        public double[,] ImpostorScoresUser3User42
+        {
+            get { return _impostorScoresUser3User42; }
+            set { _impostorScoresUser3User42 = value; }
+        }
+
         private double[,] _impostorScoresUser3User43;
+        public double[,] ImpostorScoresUser3User43
+        {
+            get { return _impostorScoresUser3User43; }
+            set { _impostorScoresUser3User43 = value; }
+        }
+
         private double[,] _impostorScoresUser3User44;
+        public double[,] ImpostorScoresUser3User44
+        {
+            get { return _impostorScoresUser3User44; }
+            set { _impostorScoresUser3User44 = value; }
+        }
+
         private double[,] _impostorScoresUser3User45;
+        public double[,] ImpostorScoresUser3User45
+        {
+            get { return _impostorScoresUser3User45; }
+            set { _impostorScoresUser3User45 = value; }
+        }
+
         private double[,] _impostorScoresUser3User46;
+        public double[,] ImpostorScoresUser3User46
+        {
+            get { return _impostorScoresUser3User46; }
+            set { _impostorScoresUser3User46 = value; }
+        }
+
         private double[,] _impostorScoresUser3User47;
+        public double[,] ImpostorScoresUser3User47
+        {
+            get { return _impostorScoresUser3User47; }
+            set { _impostorScoresUser3User47 = value; }
+        }
+
         private double[,] _impostorScoresUser3User48;
+        public double[,] ImpostorScoresUser3User48
+        {
+            get { return _impostorScoresUser3User48; }
+            set { _impostorScoresUser3User48 = value; }
+        }
+
         private double[,] _impostorScoresUser3User49;
+        public double[,] ImpostorScoresUser3User49
+        {
+            get { return _impostorScoresUser3User49; }
+            set { _impostorScoresUser3User49 = value; }
+        }
+
         private double[,] _impostorScoresUser3User50;
+        public double[,] ImpostorScoresUser3User50
+        {
+            get { return _impostorScoresUser3User50; }
+            set { _impostorScoresUser3User50 = value; }
+        }
 
         private double[,] _impostorScoresUser3User51;
+        public double[,] ImpostorScoresUser3User51
+        {
+            get { return _impostorScoresUser3User51; }
+            set { _impostorScoresUser3User51 = value; }
+        }
+
         private double[,] _impostorScoresUser3User52;
+        public double[,] ImpostorScoresUser3User52
+        {
+            get { return _impostorScoresUser3User52; }
+            set { _impostorScoresUser3User52 = value; }
+        }
+
         private double[,] _impostorScoresUser3User53;
+        public double[,] ImpostorScoresUser3User53
+        {
+            get { return _impostorScoresUser3User53; }
+            set { _impostorScoresUser3User53 = value; }
+        }
+
         private double[,] _impostorScoresUser3User54;
+        public double[,] ImpostorScoresUser3User54
+        {
+            get { return _impostorScoresUser3User54; }
+            set { _impostorScoresUser3User54 = value; }
+        }
+
         private double[,] _impostorScoresUser3User55;
+        public double[,] ImpostorScoresUser3User55
+        {
+            get { return _impostorScoresUser3User55; }
+            set { _impostorScoresUser3User55 = value; }
+        }
+
         private double[,] _impostorScoresUser3User56;
+        public double[,] ImpostorScoresUser3User56
+        {
+            get { return _impostorScoresUser3User56; }
+            set { _impostorScoresUser3User56 = value; }
+        }
+
         private double[,] _impostorScoresUser3User57;
+        public double[,] ImpostorScoresUser3User57
+        {
+            get { return _impostorScoresUser3User57; }
+            set { _impostorScoresUser3User57 = value; }
+        }
+
         private double[,] _impostorScoresUser3User58;
+        public double[,] ImpostorScoresUser3User58
+        {
+            get { return _impostorScoresUser3User58; }
+            set { _impostorScoresUser3User58 = value; }
+        }
+
         private double[,] _impostorScoresUser3User59;
+        public double[,] ImpostorScoresUser3User59
+        {
+            get { return _impostorScoresUser3User59; }
+            set { _impostorScoresUser3User59 = value; }
+        }
+
         private double[,] _impostorScoresUser3User60;
+        public double[,] ImpostorScoresUser3User60
+        {
+            get { return _impostorScoresUser3User60; }
+            set { _impostorScoresUser3User60 = value; }
+        }
 
-        static double[,] impostorScoresUser3User61;
-        static double[,] impostorScoresUser3User62;
-        static double[,] impostorScoresUser3User63;
-        static double[,] impostorScoresUser3User64;
-        static double[,] impostorScoresUser3User65;
-        static double[,] impostorScoresUser3User66;
-        static double[,] impostorScoresUser3User67;
-        static double[,] impostorScoresUser3User68;
-        static double[,] impostorScoresUser3User69;
-        static double[,] impostorScoresUser3User70;
+        private double[,] _impostorScoresUser3User61;
+        public double[,] ImpostorScoresUser3User61
+        {
+            get { return _impostorScoresUser3User61; }
+            set { _impostorScoresUser3User61 = value; }
+        }
 
-        static double[,] impostorScoresUser3User71;
-        static double[,] impostorScoresUser3User72;
-        static double[,] impostorScoresUser3User73;
-        static double[,] impostorScoresUser3User74;
-        static double[,] impostorScoresUser3User75;
-        static double[,] impostorScoresUser3User76;
-        static double[,] impostorScoresUser3User77;
-        static double[,] impostorScoresUser3User78;
-        static double[,] impostorScoresUser3User79;
-        static double[,] impostorScoresUser3User80;
+        private double[,] _impostorScoresUser3User62;
+        public double[,] ImpostorScoresUser3User62
+        {
+            get { return _impostorScoresUser3User62; }
+            set { _impostorScoresUser3User62 = value; }
+        }
 
-        static double[,] impostorScoresUser3User81;
-        static double[,] impostorScoresUser3User82;
-        static double[,] impostorScoresUser3User83;
-        static double[,] impostorScoresUser3User84;
-        static double[,] impostorScoresUser3User85;
-        static double[,] impostorScoresUser3User86;
-        static double[,] impostorScoresUser3User87;
-        static double[,] impostorScoresUser3User88;
-        static double[,] impostorScoresUser3User89;
-        static double[,] impostorScoresUser3User90;
+        private double[,] _impostorScoresUser3User63;
+        public double[,] ImpostorScoresUser3User63
+        {
+            get { return _impostorScoresUser3User63; }
+            set { _impostorScoresUser3User63 = value; }
+        }
 
-        static double[,] impostorScoresUser3User91;
-        static double[,] impostorScoresUser3User92;
-        static double[,] impostorScoresUser3User93;
-        static double[,] impostorScoresUser3User94;
-        static double[,] impostorScoresUser3User95;
-        static double[,] impostorScoresUser3User96;
-        static double[,] impostorScoresUser3User97;
-        static double[,] impostorScoresUser3User98;
-        static double[,] impostorScoresUser3User99;
-        static double[,] impostorScoresUser3User100;
+        private double[,] _impostorScoresUser3User64;
+        public double[,] ImpostorScoresUser3User64
+        {
+            get { return _impostorScoresUser3User64; }
+            set { _impostorScoresUser3User64 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User65;
+        public double[,] ImpostorScoresUser3User65
+        {
+            get { return _impostorScoresUser3User65; }
+            set { _impostorScoresUser3User65 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User66;
+        public double[,] ImpostorScoresUser3User66
+        {
+            get { return _impostorScoresUser3User66; }
+            set { _impostorScoresUser3User66 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User67;
+        public double[,] ImpostorScoresUser3User67
+        {
+            get { return _impostorScoresUser3User67; }
+            set { _impostorScoresUser3User67 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User68;
+        public double[,] ImpostorScoresUser3User68
+        {
+            get { return _impostorScoresUser3User68; }
+            set { _impostorScoresUser3User68 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User69;
+        public double[,] ImpostorScoresUser3User69
+        {
+            get { return _impostorScoresUser3User69; }
+            set { _impostorScoresUser3User69 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User70;
+        public double[,] ImpostorScoresUser3User70
+        {
+            get { return _impostorScoresUser3User70; }
+            set { _impostorScoresUser3User71 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User71;
+        public double[,] ImpostorScoresUser3User71
+        {
+            get { return _impostorScoresUser3User71; }
+            set { _impostorScoresUser3User71 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User72;
+        public double[,] ImpostorScoresUser3User72
+        {
+            get { return _impostorScoresUser3User72; }
+            set { _impostorScoresUser3User72 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User73;
+        public double[,] ImpostorScoresUser3User73
+        {
+            get { return _impostorScoresUser3User73; }
+            set { _impostorScoresUser3User73 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User74;
+        public double[,] ImpostorScoresUser3User74
+        {
+            get { return _impostorScoresUser3User74; }
+            set { _impostorScoresUser3User74 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User75;
+        public double[,] ImpostorScoresUser3User75
+        {
+            get { return _impostorScoresUser3User75; }
+            set { _impostorScoresUser3User75 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User76;
+        public double[,] ImpostorScoresUser3User76
+        {
+            get { return _impostorScoresUser3User76; }
+            set { _impostorScoresUser3User76 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User77;
+        public double[,] ImpostorScoresUser3User77
+        {
+            get { return _impostorScoresUser3User77; }
+            set { _impostorScoresUser3User77 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User78;
+        public double[,] ImpostorScoresUser3User78
+        {
+            get { return _impostorScoresUser3User78; }
+            set { _impostorScoresUser3User78 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User79;
+        public double[,] ImpostorScoresUser3User79
+        {
+            get { return _impostorScoresUser3User79; }
+            set { _impostorScoresUser3User79 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User80;
+        public double[,] ImpostorScoresUser3User80
+        {
+            get { return _impostorScoresUser3User80; }
+            set { _impostorScoresUser3User80 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User81;
+        public double[,] ImpostorScoresUser3User81
+        {
+            get { return _impostorScoresUser3User81; }
+            set { _impostorScoresUser3User81 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User82;
+        public double[,] ImpostorScoresUser3User82
+        {
+            get { return _impostorScoresUser3User82; }
+            set { _impostorScoresUser3User82 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User83;
+        public double[,] ImpostorScoresUser3User83
+        {
+            get { return _impostorScoresUser3User83; }
+            set { _impostorScoresUser3User83 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User84;
+        public double[,] ImpostorScoresUser3User84
+        {
+            get { return _impostorScoresUser3User84; }
+            set { _impostorScoresUser3User84 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User85;
+        public double[,] ImpostorScoresUser3User85
+        {
+            get { return _impostorScoresUser3User85; }
+            set { _impostorScoresUser3User85 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User86;
+        public double[,] ImpostorScoresUser3User86
+        {
+            get { return _impostorScoresUser3User86; }
+            set { _impostorScoresUser3User86 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User87;
+        public double[,] ImpostorScoresUser3User87
+        {
+            get { return _impostorScoresUser3User87; }
+            set { _impostorScoresUser3User87 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User88;
+        public double[,] ImpostorScoresUser3User88
+        {
+            get { return _impostorScoresUser3User88; }
+            set { _impostorScoresUser3User89 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User89;
+        public double[,] ImpostorScoresUser3User89
+        {
+            get { return _impostorScoresUser3User89; }
+            set { _impostorScoresUser3User89 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User90;
+        public double[,] ImpostorScoresUser3User90
+        {
+            get { return _impostorScoresUser3User90; }
+            set { _impostorScoresUser3User90 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User91;
+        public double[,] ImpostorScoresUser3User91
+        {
+            get { return _impostorScoresUser3User91; }
+            set { _impostorScoresUser3User91 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User92;
+        public double[,] ImpostorScoresUser3User92
+        {
+            get { return _impostorScoresUser3User92; }
+            set { _impostorScoresUser3User92 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User93;
+        public double[,] ImpostorScoresUser3User93
+        {
+            get { return _impostorScoresUser3User93; }
+            set { _impostorScoresUser3User93 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User94;
+        public double[,] ImpostorScoresUser3User94
+        {
+            get { return _impostorScoresUser3User94; }
+            set { _impostorScoresUser3User94 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User95;
+        public double[,] ImpostorScoresUser3User95
+        {
+            get { return _impostorScoresUser3User95; }
+            set { _impostorScoresUser3User95 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User96;
+        public double[,] ImpostorScoresUser3User96
+        {
+            get { return _impostorScoresUser3User96; }
+            set { _impostorScoresUser3User96 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User97;
+        public double[,] ImpostorScoresUser3User97
+        {
+            get { return _impostorScoresUser3User97; }
+            set { _impostorScoresUser3User97 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User98;
+        public double[,] ImpostorScoresUser3User98
+        {
+            get { return _impostorScoresUser3User98; }
+            set { _impostorScoresUser3User98 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User99;
+        public double[,] ImpostorScoresUser3User99
+        {
+            get { return _impostorScoresUser3User99; }
+            set { _impostorScoresUser3User99 = value; }
+        }
+
+        private double[,] _impostorScoresUser3User100;
+        public double[,] ImpostorScoresUser3User100
+        {
+            get { return _impostorScoresUser3User100; }
+            set { _impostorScoresUser3User100 = value; }
+        }
         #endregion
     }
 }
