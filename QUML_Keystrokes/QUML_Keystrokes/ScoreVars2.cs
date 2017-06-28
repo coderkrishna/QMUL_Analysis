@@ -49,6 +49,27 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser5User7; }
             set { _impostorScoresUser5User7 = value; }
         }
+
+        private double[,] _impostorScoresUser5User8;
+        public double[,] ImpostorScoresUser5User8
+        {
+            get { return _impostorScoresUser5User8; }
+            set { _impostorScoresUser5User8 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User9;
+        public double[,] ImpostorScoresUser5User9
+        {
+            get { return _impostorScoresUser5User9; }
+            set { _impostorScoresUser5User9 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User10;
+        public double[,] ImpostorScoresUser5User10
+        {
+            get { return _impostorScoresUser5User10; }
+            set { _impostorScoresUser5User10 = value; }
+        }
         #endregion
     }
 }

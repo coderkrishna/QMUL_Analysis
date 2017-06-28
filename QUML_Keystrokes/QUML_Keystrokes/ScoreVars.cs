@@ -2255,7 +2255,7 @@
         }
 
         private double[,] _impostorScoresUser4User25;
-        public double[,] ImpostorScoresUser4User
+        public double[,] ImpostorScoresUser4User25
         {
             get { return _impostorScoresUser4User25; }
             set { _impostorScoresUser4User25 = value; }
