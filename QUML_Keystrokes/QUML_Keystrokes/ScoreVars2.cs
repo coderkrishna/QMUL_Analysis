@@ -427,6 +427,48 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser5User61; }
             set { _impostorScoresUser5User61 = value; }
         }
+
+        private double[,] _impostorScoresUser5User62;
+        public double[,] ImpostorScoresUser5User62
+        {
+            get { return _impostorScoresUser5User62; }
+            set { _impostorScoresUser5User62 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User63;
+        public double[,] ImpostorScoresUser5User63
+        {
+            get { return _impostorScoresUser5User63; }
+            set { _impostorScoresUser5User63 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User64;
+        public double[,] ImpostorScoresUser5User64
+        {
+            get { return _impostorScoresUser5User64; }
+            set { _impostorScoresUser5User64 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User65;
+        public double[,] ImpostorScoresUser5User65
+        {
+            get { return _impostorScoresUser5User65; }
+            set { _impostorScoresUser5User65 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User66;
+        public double[,] ImpostorScoresUser5User66
+        {
+            get { return _impostorScoresUser5User66; }
+            set { _impostorScoresUser5User66 = value; }
+        }
+
+        private double[,] _impostorScoresUser5User67;
+        public double[,] ImpostorScoresUser5User67
+        {
+            get { return _impostorScoresUser5User67; }
+            set { _impostorScoresUser5User67 = value; }
+        }
         #endregion
     }
 }
