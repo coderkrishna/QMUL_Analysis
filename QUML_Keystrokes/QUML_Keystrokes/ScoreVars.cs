@@ -4,7 +4,7 @@
     /// Having the internal keyword means that this class
     /// will belong to this assembly
     /// </summary>
-    public partial class ScoreVars
+    public partial class ImpostorScoreVars
     {
         #region Impostor scores for user 1
         private double[,] _impostorScoresUser1User2;

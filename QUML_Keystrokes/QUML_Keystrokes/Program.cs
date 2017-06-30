@@ -20,7 +20,7 @@ using OperationsLib;
 
 namespace QUML_Keystrokes
 {
-    class Program : ScoreVars
+    class Program : ImpostorScoreVars
     {
         #region Static 2D Double arrays for all of the users
         static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
@@ -366,7 +366,7 @@ namespace QUML_Keystrokes
         {
             // Making reference to the ScaledManhattanDistance class
             ScaledManhattanDistance ScaledManhDist = new ScaledManhattanDistance();
-            ScoreVars sv = new ScoreVars();
+            ImpostorScoreVars sv = new ImpostorScoreVars();
 
             #region Calculating the mean vectors for all 100 subjects
             s001Mean = ScaledManhDist.CalculateMeanVector(s001);
@@ -1158,7 +1158,7 @@ namespace QUML_Keystrokes
         private static void UseEuclideanVerifier()
         {
             EuclideanDistance EuclidDist = new EuclideanDistance();
-            ScoreVars sv = new ScoreVars();
+            ImpostorScoreVars sv = new ImpostorScoreVars();
 
             #region Populating the mean arrays for each user under the Euclidean Distance method
             s001Mean = EuclidDist.CalculateMeanVector(s001);
@@ -1838,7 +1838,7 @@ namespace QUML_Keystrokes
         private static void UseManhattanVerifier()
         {
             ManhattanDistance ManhDist = new ManhattanDistance();
-            ScoreVars sv = new ScoreVars();
+            ImpostorScoreVars sv = new ImpostorScoreVars();
 
             #region Populating the mean arrays for each user
             s001Mean = ManhDist.CalculateMeanVector(s001);
