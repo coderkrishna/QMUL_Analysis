@@ -1878,7 +1878,7 @@
         public double[,] ImpostorScoresUser3User70
         {
             get { return _impostorScoresUser3User70; }
-            set { _impostorScoresUser3User71 = value; }
+            set { _impostorScoresUser3User70 = value; }
         }
 
         private double[,] _impostorScoresUser3User71;
@@ -2004,7 +2004,7 @@
         public double[,] ImpostorScoresUser3User88
         {
             get { return _impostorScoresUser3User88; }
-            set { _impostorScoresUser3User89 = value; }
+            set { _impostorScoresUser3User88 = value; }
         }
 
         private double[,] _impostorScoresUser3User89;
