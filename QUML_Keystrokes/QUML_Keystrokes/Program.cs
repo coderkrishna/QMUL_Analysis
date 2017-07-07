@@ -340,9 +340,6 @@ namespace QUML_Keystrokes
                 case "2":
                     UseScaledManhattanVerifier();
                     break;
-                case "3":
-                    UseScaledEuclideanVerifier();
-                    break;
                 case "4":
                     Console.WriteLine("The program will now quit. Good Bye!");
                     Console.ReadKey();
@@ -355,13 +352,6 @@ namespace QUML_Keystrokes
             // Default exiting of the program
             Console.ReadKey();
         }
-
-        #region Scaled Euclidean Verifier
-        private static void UseScaledEuclideanVerifier()
-        {
-            Console.WriteLine("The Scaled Euclidean Verifier is to be coded - TBC");
-        }
-        #endregion
 
         #region Scaled Manhattan Verifier
         private static void UseScaledManhattanVerifier()
