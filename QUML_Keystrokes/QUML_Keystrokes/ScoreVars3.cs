@@ -245,6 +245,62 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser10User35; }
             set { _impostorScoresUser10User35 = value; }
         }
+
+        private double[,] _impostorScoresUser10User36;
+        public double[,] ImpostorScoresUser10User36
+        {
+            get { return _impostorScoresUser10User36; }
+            set { _impostorScoresUser10User36 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User37;
+        public double[,] ImpostorScoresUser10User37
+        {
+            get { return _impostorScoresUser10User37; }
+            set { _impostorScoresUser10User37 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User38;
+        public double[,] ImpostorScoresUser10User38
+        {
+            get { return _impostorScoresUser10User38; }
+            set { _impostorScoresUser10User38 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User39;
+        public double[,] ImpostorScoresUser10User39
+        {
+            get { return _impostorScoresUser10User39; }
+            set { _impostorScoresUser10User39 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User40;
+        public double[,] ImpostorScoresUser10User40
+        {
+            get { return _impostorScoresUser10User40; }
+            set { _impostorScoresUser10User40 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User41;
+        public double[,] ImpostorScoresUser10User41
+        {
+            get { return _impostorScoresUser10User41; }
+            set { _impostorScoresUser10User41 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User42;
+        public double[,] ImpostorScoresUser19User42
+        {
+            get { return _impostorScoresUser10User42; }
+            set { _impostorScoresUser10User42 = value; }
+        }
+
+        private double[,] _impostorScoresUser10User43;
+        public double[,] ImpostorScoresUser10User43
+        {
+            get { return _impostorScoresUser10User43; }
+            set { _impostorScoresUser10User43 = value; }
+        }
         #endregion
     }
 }
