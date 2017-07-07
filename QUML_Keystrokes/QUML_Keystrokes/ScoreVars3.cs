@@ -289,7 +289,7 @@ namespace QUML_Keystrokes
         }
 
         private double[,] _impostorScoresUser10User42;
-        public double[,] ImpostorScoresUser19User42
+        public double[,] ImpostorScoresUser10User42
         {
             get { return _impostorScoresUser10User42; }
             set { _impostorScoresUser10User42 = value; }
