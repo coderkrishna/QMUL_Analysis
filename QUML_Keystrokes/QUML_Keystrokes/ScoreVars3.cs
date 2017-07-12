@@ -2786,5 +2786,63 @@ namespace QUML_Keystrokes
             set { _impostorScoresUser12User100 = value; }
         }
         #endregion
+
+        #region User 13 Impostor scores
+        private double[,] _impostorScoresUser13User1;
+        public double[,] ImpostorScoresUser13User1
+        {
+            get { return _impostorScoresUser13User1; }
+            set { _impostorScoresUser13User1 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User2;
+        public double[,] ImpostorScoresUser13User2
+        {
+            get { return _impostorScoresUser13User2; }
+            set { _impostorScoresUser13User2 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User3;
+        public double[,] ImpostorScoresUser13User3
+        {
+            get { return _impostorScoresUser13User3; }
+            set { _impostorScoresUser13User3 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User4;
+        public double[,] ImpostorScoresUser13User4
+        {
+            get { return _impostorScoresUser13User4; }
+            set { _impostorScoresUser13User4 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User5;
+        public double[,] ImpostorScoresUser13User5
+        {
+            get { return _impostorScoresUser13User5; }
+            set { _impostorScoresUser13User5 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User6;
+        public double[,] ImpostorScoresUser13User6
+        {
+            get { return _impostorScoresUser13User6; }
+            set { _impostorScoresUser13User6 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User7;
+        public double[,] ImpostorScoresUser13User7
+        {
+            get { return _impostorScoresUser13User7; }
+            set { _impostorScoresUser13User7 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User8;
+        public double[,] ImpostorScoresUser13User8
+        {
+            get { return _impostorScoresUser13User8; }
+            set { _impostorScoresUser13User8 = value; }
+        }
+        #endregion
     }
 }
