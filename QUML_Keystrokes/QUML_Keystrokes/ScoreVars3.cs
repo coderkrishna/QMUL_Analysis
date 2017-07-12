@@ -2843,6 +2843,48 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser13User8; }
             set { _impostorScoresUser13User8 = value; }
         }
+
+        private double[,] _impostorScoresUser13User9;
+        public double[,] ImpostorScoresUser13User9
+        {
+            get { return _impostorScoresUser13User9; }
+            set { _impostorScoresUser13User9 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User10;
+        public double[,] ImpostorScoresUser13User10
+        {
+            get { return _impostorScoresUser13User10; }
+            set { _impostorScoresUser13User10 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User11;
+        public double[,] ImpostorScoresUser13User11
+        {
+            get { return _impostorScoresUser13User11; }
+            set { _impostorScoresUser13User11 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User12;
+        public double[,] ImpostorScoresUser13User12
+        {
+            get { return _impostorScoresUser13User12; }
+            set { _impostorScoresUser13User12 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User14;
+        public double[,] ImpostorScoresUser13User14
+        {
+            get { return _impostorScoresUser13User14; }
+            set { _impostorScoresUser13User14 = value; }
+        }
+
+        private double[,] _impostorScoresUser13User15;
+        public double[,] ImpostorScoresUser13User15
+        {
+            get { return _impostorScoresUser13User15; }
+            set { _impostorScoresUser13User15 = value; }
+        }
         #endregion
     }
 }
