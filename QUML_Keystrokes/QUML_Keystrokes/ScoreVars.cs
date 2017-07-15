@@ -1,8 +1,9 @@
 ﻿namespace QUML_Keystrokes
 {
     /// <summary>
-    /// Having the internal keyword means that this class
-    /// will belong to this assembly
+    /// All of the Impostor score variables are being split amongst multiple
+    /// files, and all of the variables will be called as if it is from 
+    /// one huge class because of the partial keyword
     /// </summary>
     public partial class ImpostorScoreVars
     {
