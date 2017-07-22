@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace QUML_Keystrokes
+﻿namespace QUML_Keystrokes
 {
     public partial class ImpostorScoreVars
     {
@@ -1211,7 +1206,7 @@ namespace QUML_Keystrokes
         public double[,] ImpostorScoresUser10User74
         {
             get { return _impostorScoresUser10User74; }
-            set { _impostorScoresUser10User73 = value; }
+            set { _impostorScoresUser10User74 = value; }
         }
 
         private double[,] _impostorScoresUser10User75;
@@ -2538,7 +2533,7 @@ namespace QUML_Keystrokes
         public double[,] ImpostorScoresUser12User65
         {
             get { return ImpostorScoresUser12User65; }
-            set { ImpostorScoresUser12User65 = value; }
+            set { _impostorScoresUser12User65 = value; }
         }
 
         private double[,] _impostorScoresUser12User66;
@@ -3121,7 +3116,7 @@ namespace QUML_Keystrokes
         public double[,] ImpostorScoresUser13User49
         {
             get { return _impostorScoresUser13User49; }
-            set { _impostorScoresUser13User40 = value; }
+            set { _impostorScoresUser13User49 = value; }
         }
 
         private double[,] _impostorScoresUser13User50;
