@@ -63,7 +63,6 @@
     <None Include="Latency Data\user18.csv" />
     <None Include="Latency Data\user19.csv" />
     <None Include="Latency Data\user2.csv" />
-    <Content Include="Changelog.txt" />
     <Content Include="Latency Data\user3.csv" />
     <None Include="Latency Data\user20.csv" />
     <None Include="Latency Data\user21.csv" />
