@@ -210,6 +210,83 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser25User30; }
             set { _impostorScoresUser25User30 = value; }
         }
+
+        private double[,] _impostorScoresUser25User31;
+        public double[,] ImpostorScoresUser25User31
+        {
+            get { return _impostorScoresUser25User31; }
+            set { _impostorScoresUser25User31 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User32;
+        public double[,] ImpostorScoresUser25User32
+        {
+            get { return _impostorScoresUser25User32; }
+            set { _impostorScoresUser25User32 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User33;
+        public double[,] ImpostorScoresUser25User33
+        {
+            get { return _impostorScoresUser25User33; }
+            set { _impostorScoresUser25User33 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User34;
+        public double[,] ImpostorScoresUser25User34
+        {
+            get { return _impostorScoresUser25User34; }
+            set { _impostorScoresUser25User34 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User35;
+        public double[,] ImpostorScoresUser25User35
+        {
+            get { return _impostorScoresUser25User35; }
+            set { _impostorScoresUser25User35 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User36;
+        public double[,] ImpostorScoresUser25User36
+        {
+            get { return _impostorScoresUser25User36; }
+            set { _impostorScoresUser25User36 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User37;
+        public double[,] ImpostorScoresUser25User37
+        {
+            get { return _impostorScoresUser25User37; }
+            set { _impostorScoresUser25User37 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User38;
+        public double[,] ImpostorScoresUser25User38
+        {
+            get { return _impostorScoresUser25User38; }
+            set { _impostorScoresUser25User38 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User39;
+        public double[,] ImpostorScoresUser25User39
+        {
+            get { return _impostorScoresUser25User39; }
+            set { _impostorScoresUser25User39 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User40;
+        public double[,] ImpostorScoresUser25User40
+        {
+            get { return _impostorScoresUser25User40; }
+            set { _impostorScoresUser25User40 = value; }
+        }
+
+        private double[,] _impostorScoresUser25User41;
+        public double[,] ImpostorScoresUser25User41
+        {
+            get { return _impostorScoresUser25User41; }
+            set { _impostorScoresUser25User41 = value; }
+        }
         #endregion
     }
 }
