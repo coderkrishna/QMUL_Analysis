@@ -13,3 +13,4 @@ D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.pd
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojResolveAssemblyReference.cache
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csproj.CoreCompileInputs.cache
