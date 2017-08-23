@@ -2091,5 +2091,14 @@ namespace QUML_Keystrokes
             set { _impostorScoresUser27User100 = value; }
         }
         #endregion
+
+        #region Impostor scores for User 28
+        private double[,] _impostorScoresUser28User1;
+        public double[,] ImpostorScoresUser28User1
+        {
+            get { return _impostorScoresUser28User1; }
+            set { _impostorScoresUser28User1 = value; }
+        }
+        #endregion
     }
 }
