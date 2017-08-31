@@ -2386,6 +2386,118 @@ namespace QUML_Keystrokes
             get { return _impostorScoresUser28User43; }
             set { _impostorScoresUser28User43 = value; }
         }
+
+        private double[,] _impostorScoresUser28User44;
+        public double[,] ImpostorScoresUser28User44
+        {
+            get { return _impostorScoresUser28User44; }
+            set { _impostorScoresUser28User44 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User45;
+        public double[,] ImpostorScoresUser28User45
+        {
+            get { return _impostorScoresUser28User45; }
+            set { _impostorScoresUser28User45 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User46;
+        public double[,] ImpostorScoresUser28User46
+        {
+            get { return _impostorScoresUser28User46; }
+            set { _impostorScoresUser28User46 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User47;
+        public double[,] ImpostorScoresUser28User47
+        {
+            get { return _impostorScoresUser28User47; }
+            set { _impostorScoresUser28User47 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User48;
+        public double[,] ImpostorScoresUser28User48
+        {
+            get { return _impostorScoresUser28User48; }
+            set { _impostorScoresUser28User48 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User49;
+        public double[,] ImpostorScoresUser28User49
+        {
+            get { return _impostorScoresUser28User49; }
+            set { _impostorScoresUser28User49 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User50;
+        public double[,] ImpostorScoresUser28User50
+        {
+            get { return _impostorScoresUser28User50; }
+            set { _impostorScoresUser28User50 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User51;
+        public double[,] ImpostorScoresUser28User51
+        {
+            get { return _impostorScoresUser28User51; }
+            set { _impostorScoresUser28User51 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User52;
+        public double[,] ImpostorScoresUser28User52
+        {
+            get { return _impostorScoresUser28User52; }
+            set { _impostorScoresUser28User52 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User53;
+        public double[,] ImpostorScoresUser28User53
+        {
+            get { return _impostorScoresUser28User53; }
+            set { _impostorScoresUser28User53 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User54;
+        public double[,] ImpostorScoresUser28User54
+        {
+            get { return _impostorScoresUser28User54; }
+            set { _impostorScoresUser28User54 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User55;
+        public double[,] ImpostorScoresUser28User55
+        {
+            get { return _impostorScoresUser28User55; }
+            set { _impostorScoresUser28User55 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User56;
+        public double[,] ImpostorScoresUser28User56
+        {
+            get { return _impostorScoresUser28User56; }
+            set { _impostorScoresUser28User56 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User57;
+        public double[,] ImpostorScoresUser28User57
+        {
+            get { return _impostorScoresUser28User57; }
+            set { _impostorScoresUser28User57 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User58;
+        public double[,] ImpostorScoresUser28User58
+        {
+            get { return _impostorScoresUser28User58; }
+            set { _impostorScoresUser28User58 = value; }
+        }
+
+        private double[,] _impostorScoresUser28User59;
+        public double[,] ImpostorScoresUser28User59
+        {
+            get { return _impostorScoresUser28User59; }
+            set { _impostorScoresUser28User59 = value; }
+        }
         #endregion
     }
 }
