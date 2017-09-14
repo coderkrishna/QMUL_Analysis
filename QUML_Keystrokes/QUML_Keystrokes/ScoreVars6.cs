@@ -3502,6 +3502,13 @@ namespace QUML_Keystrokes
         {
             get { return _impostorScoresUser30User3; }
             set { _impostorScoresUser30User3 = value; }
+        }'
+
+        private double[,] _impostorScoresUser30User4;
+        public double[,] ImpostorScoresUser30User4
+        {
+            get { return _impostorScoresUser30User4; }
+            set { _impostorScoresUser30User4 = value; }
         }
         #endregion
     }
