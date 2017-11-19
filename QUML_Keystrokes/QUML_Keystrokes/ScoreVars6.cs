@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace QUML_Keystrokes
+﻿namespace QUML_Keystrokes
 {
     public partial class ImpostorScoreVars
     {
@@ -4174,6 +4169,50 @@ namespace QUML_Keystrokes
         {
             get { return _impostorScoresUser30User100; }
             set { _impostorScoresUser30User100 = value; }
+        }
+        #endregion
+
+        #region Impostor scores for User 31
+        private double[,] _impostorScoresUser31User1;
+        public double[,] ImpostorScoresUser31User1
+        {
+            get { return _impostorScoresUser31User1; }
+            set { _impostorScoresUser31User1 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User2;
+        public double[,] ImpostorScoresUser31User2
+        {
+            get { return _impostorScoresUser31User2; }
+            set { _impostorScoresUser31User2 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User3;
+        public double[,] ImpostorScoresUser31User3
+        {
+            get { return _impostorScoresUser31User3; }
+            set { _impostorScoresUser31User3 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User4;
+        public double[,] ImpostorScoresUser31User4
+        {
+            get { return _impostorScoresUser31User4; }
+            set { _impostorScoresUser31User4 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User5;
+        public double[,] ImpostorScoresUser31User5
+        {
+            get { return _impostorScoresUser31User5; }
+            set { _impostorScoresUser31User5 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User6;
+        public double[,] ImpostorScoresUser31User6
+        {
+            get { return _impostorScoresUser31User6; }
+            set { _impostorScoresUser31User6 = value; }
         }
         #endregion
     }
