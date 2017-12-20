@@ -4382,6 +4382,20 @@
             get { return _impostorScoresUser31User30; }
             set { _impostorScoresUser31User30 = value; }
         }
+
+        private double[,] _impostorScoresUser31User32;
+        public double[,] ImpostorScoresUser31User32
+        {
+            get { return _impostorScoresUser31User32; }
+            set { _impostorScoresUser31User32 = value; }
+        }
+
+        private double[,] _impostorScoresUser31User33;
+        public double[,] ImpostorScoresUser31User33
+        {
+            get { return _impostorScoresUser31User33; }
+            set { _impostorScoresUser31User33 = value; }
+        }
         #endregion
     }
 }
