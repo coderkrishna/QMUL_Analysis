@@ -5154,6 +5154,62 @@
             get { return _impostorScoresUser32User42; }
             set { _impostorScoresUser32User42 = value; }
         }
+
+        private double[,] _impostorScoresUser32User43;
+        public double[,] ImpostorScoresUser32User43
+        {
+            get { return _impostorScoresUser32User43; }
+            set { _impostorScoresUser32User43 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User44;
+        public double[,] ImpostorScoresUser32User44
+        {
+            get { return _impostorScoresUser32User44; }
+            set { _impostorScoresUser32User44 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User45;
+        public double[,] ImpostorScoresUser32User45
+        {
+            get { return _impostorScoresUser32User45; }
+            set { _impostorScoresUser32User45 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User46; 
+        public double[,] ImpostorScoresUser32User46
+        {
+            get { return _impostorScoresUser32User46; }
+            set { _impostorScoresUser32User46 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User47;
+        public double[,] ImpostorScoresUser32User47
+        {
+            get { return _impostorScoresUser32User47; }
+            set { _impostorScoresUser32User47 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User48; 
+        public double[,] ImpostorScoresUser32User48
+        {
+            get { return _impostorScoresUser32User48; }
+            set { _impostorScoresUser32User48 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User49;
+        public double[,] ImpostorScoresUser32User49
+        {
+            get { return _impostorScoresUser32User49; }
+            set { _impostorScoresUser32User49 = value; }
+        }
+
+        private double[,] _impostorScoresUser32User50;
+        public double[,] ImpostorScoresUser32User50
+        {
+            get { return _impostorScoresUser32User50; }
+            set { _impostorScoresUser32User50 = value; }
+        }
         #endregion
     }
 }
