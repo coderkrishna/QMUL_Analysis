@@ -5561,5 +5561,21 @@
             set { _impostorScoresUser32User100 = value; }
         }
         #endregion
+
+        #region Impostor scores for User 33
+        private double[,] _impostorScoresUser33User1;
+        public double[,] ImpostorScoresUser33User1
+        {
+            get { return _impostorScoresUser33User1; }
+            set { _impostorScoresUser33User1 = value; }
+        }
+
+        private double[,] _impostorScoresUser33User2; 
+        public double[,] ImpostorScoresUser33User2
+        {
+            get { return _impostorScoresUser33User2; }
+            set { _impostorScoresUser33User2 = value; }
+        }
+        #endregion
     }
 }
