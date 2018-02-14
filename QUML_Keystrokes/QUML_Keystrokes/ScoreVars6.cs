@@ -5625,6 +5625,41 @@
             get { return _impostorScoresUser33User9; }
             set { _impostorScoresUser33User9 = value; }
         }
+
+        private double[,] _impostorScoresUser33User10;
+        public double[,] ImpostorScoresUser33User10
+        {
+            get { return _impostorScoresUser33User10; }
+            set { _impostorScoresUser33User10 = value; }
+        }
+
+        private double[,] _impostorScoresUser33User11;
+        public double[,] ImpostorScoresUser33User11
+        {
+            get { return _impostorScoresUser33User11; }
+            set { _impostorScoresUser33User11 = value; }
+        }
+
+        private double[,] _impostorScoresUser33User12;
+        public double[,] ImpostorScoresUser33User12
+        {
+            get { return _impostorScoresUser33User12; }
+            set { _impostorScoresUser33User12 = value; }
+        }
+
+        private double[,] _impostorScoresUser33User13;
+        public double[,] ImpostorScoresUser33User13
+        {
+            get { return _impostorScoresUser33User13; }
+            set { _impostorScoresUser33User13 = value; }
+        }
+
+        private double[,] _impostorScoresUser33User14;
+        public double[,] ImpostorScoresUser33User14
+        {
+            get { return _impostorScoresUser33User14; }
+            set { _impostorScoresUser33User14 = value; }
+        }
         #endregion
     }
 }
