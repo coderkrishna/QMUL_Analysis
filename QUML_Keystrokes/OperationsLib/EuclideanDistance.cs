@@ -15,12 +15,10 @@
  * 1.3      22/06/2015  PKR     Writing the method the to calculate the impostor scores for the users.
  * 1.4      23/06/2015  PKR     Changing the method signature (method parameters order) to be fitting with the way that variables are declared in Program.cs file. 
  * 2.0      05/09/2015  PKR     Adding the EuclideanDistance.cs class file to the OperationsLib .dll project
+ * 2.1      23/03/2018  PKR     Adding the methods to calculate the false reject rate and cleaning up the code
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 
 namespace OperationsLib
 {
@@ -97,6 +95,40 @@ namespace OperationsLib
             }
 
             return impostorScoresMatrix;
+        }
+
+        public double CalculateFalseRejectRate(double[,] s001Gen, int N)
+        {
+            Console.Write("Enter your threshold T to find the False Reject Rate for " + N + " samples." + Environment.NewLine + "T = ");
+            double threshold_FRR = double.Parse(Console.ReadLine());
+
+            int impostor = 0, genuine = 0;
+            int FRR_Total = N * 100;
+
+            // Using nested for loop to find out where the false reject rates occur
+            // The logic here is a little funky, but it works somehow
+            for (int i = 0; i < s001Gen.GetLength(0); i++)
+            {
+                for (int j = 0; j < s001Gen.GetLength(1); j++)
+                {
+                    if (threshold_FRR <= s001Gen[i,j])
+                    {
+                        impostor++;
+                    }
+                    else
+                    {
+                        genuine++;
+                    }
+                }
+            }
+
+            Console.Write(impostor + " scores which have been marked as impostor out of " + FRR_Total + " scores.");
+
+            double FRR = Convert.ToDouble(impostor) / FRR_Total;
+
+            Console.Write("The false reject rate, FRR = " + FRR + " with N = " + N + " samples at the threshold T = " + threshold_FRR + Environment.NewLine);
+
+            return FRR; 
         }
     }
 }
