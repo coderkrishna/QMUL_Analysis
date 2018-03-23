@@ -6268,8 +6268,22 @@
         private double[,] _impostorScoresUser34User2;
         public double[,] ImpostorScoresUser34User2
         {
-            get { return _impostorScoresUser24User2; }
-            set { _impostorScoresUser24User2 = value; }
+            get { return _impostorScoresUser34User2; }
+            set { _impostorScoresUser34User2 = value; }
+        }
+
+        private double[,] _impostorScoresUser34User3;
+        public double[,] ImpostorScoresUser34User3
+        {
+            get { return _impostorScoresUser34User3; }
+            set { _impostorScoresUser34User3 = value; }
+        }
+
+        private double[,] _impostorScoresUser34User4;
+        public double[,] ImpostorScoresUser34User4
+        {
+            get { return _impostorScoresUser34User4; }
+            set { _impostorScoresUser34User4 = value; }
         }
         #endregion
     }
