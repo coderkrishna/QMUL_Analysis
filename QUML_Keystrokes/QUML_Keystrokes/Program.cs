@@ -4347,6 +4347,19 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser33User100 = ScaledManhDist.CalculateImpostorScores(s033Mean, stdDevUser33, s100);
             #endregion
 
+            #region User 34 Impostor scores
+            sv.ImpostorScoresUser34User1 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s001);
+            sv.ImpostorScoresUser34User2 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s002);
+            sv.ImpostorScoresUser34User3 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s003);
+            sv.ImpostorScoresUser34User4 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s004);
+            sv.ImpostorScoresUser34User5 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s005);
+            sv.ImpostorScoresUser34User6 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s006);
+            sv.ImpostorScoresUser34User7 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s007);
+            sv.ImpostorScoresUser34User8 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s008);
+            sv.ImpostorScoresUser34User9 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s009);
+            sv.ImpostorScoresUser34User10 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s010);
+            #endregion
+
             #endregion
         }
         #endregion
@@ -8246,6 +8259,19 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser33User100 = EuclidDist.CalculateImpostorScores(s033Mean, s100);
             #endregion
 
+            #region User 34 Impostor Scores
+            sv.ImpostorScoresUser34User1 = EuclidDist.CalculateImpostorScores(s034Mean, s001);
+            sv.ImpostorScoresUser34User2 = EuclidDist.CalculateImpostorScores(s034Mean, s002);
+            sv.ImpostorScoresUser34User3 = EuclidDist.CalculateImpostorScores(s034Mean, s003);
+            sv.ImpostorScoresUser34User4 = EuclidDist.CalculateImpostorScores(s034Mean, s004);
+            sv.ImpostorScoresUser34User5 = EuclidDist.CalculateImpostorScores(s034Mean, s005);
+            sv.ImpostorScoresUser34User6 = EuclidDist.CalculateImpostorScores(s034Mean, s006);
+            sv.ImpostorScoresUser34User7 = EuclidDist.CalculateImpostorScores(s034Mean, s007);
+            sv.ImpostorScoresUser34User8 = EuclidDist.CalculateImpostorScores(s034Mean, s008);
+            sv.ImpostorScoresUser34User9 = EuclidDist.CalculateImpostorScores(s034Mean, s009);
+            sv.ImpostorScoresUser34User10 = EuclidDist.CalculateImpostorScores(s034Mean, s010);
+            #endregion
+
             #endregion
         }
         #endregion
@@ -12143,6 +12169,19 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser33User98 = ManhDist.CalculateImpostorScores(s033Mean, s098);
             sv.ImpostorScoresUser33User99 = ManhDist.CalculateImpostorScores(s033Mean, s099);
             sv.ImpostorScoresUser33User100 = ManhDist.CalculateImpostorScores(s033Mean, s100);
+            #endregion
+
+            #region User 34 Impostor scores
+            sv.ImpostorScoresUser34User1 = ManhDist.CalculateImpostorScores(s034Mean, s001);
+            sv.ImpostorScoresUser34User2 = ManhDist.CalculateImpostorScores(s034Mean, s002);
+            sv.ImpostorScoresUser34User3 = ManhDist.CalculateImpostorScores(s034Mean, s003);
+            sv.ImpostorScoresUser34User4 = ManhDist.CalculateImpostorScores(s034Mean, s004);
+            sv.ImpostorScoresUser34User5 = ManhDist.CalculateImpostorScores(s034Mean, s005);
+            sv.ImpostorScoresUser34User6 = ManhDist.CalculateImpostorScores(s034Mean, s006);
+            sv.ImpostorScoresUser34User7 = ManhDist.CalculateImpostorScores(s034Mean, s007);
+            sv.ImpostorScoresUser34User8 = ManhDist.CalculateImpostorScores(s034Mean, s008);
+            sv.ImpostorScoresUser34User9 = ManhDist.CalculateImpostorScores(s034Mean, s009);
+            sv.ImpostorScoresUser34User10 = ManhDist.CalculateImpostorScores(s034Mean, s010);
             #endregion
 
             #endregion
