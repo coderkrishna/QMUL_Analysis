@@ -21,3 +21,10 @@ D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojResolveAssemblyReference.cache
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CoreCompileInputs.cache
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CopyComplete
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\eaa5d121faaa401ebf20de17ae4bfc51_QUML_Keystrokes.tmsx
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\RevDeBug.Common.dll
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\RevDeBug.TCPStateStorage.dll
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\RevDeBug.setup
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\RevDeBug.Web.dll
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\RevDeBug_Net20.dll
+D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.tmsx
