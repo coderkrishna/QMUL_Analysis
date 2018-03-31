@@ -4358,6 +4358,10 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser34User8 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s008);
             sv.ImpostorScoresUser34User9 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s009);
             sv.ImpostorScoresUser34User10 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s010);
+
+            sv.ImpostorScoresUser34User11 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s011);
+            sv.ImpostorScoresUser34User12 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s012);
+            sv.ImpostorScoresUser34User13 = ScaledManhDist.CalculateImpostorScores(s034Mean, stdDevUser34, s013);
             #endregion
 
             #endregion
@@ -8270,6 +8274,10 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser34User8 = EuclidDist.CalculateImpostorScores(s034Mean, s008);
             sv.ImpostorScoresUser34User9 = EuclidDist.CalculateImpostorScores(s034Mean, s009);
             sv.ImpostorScoresUser34User10 = EuclidDist.CalculateImpostorScores(s034Mean, s010);
+
+            sv.ImpostorScoresUser34User11 = EuclidDist.CalculateImpostorScores(s034Mean, s011);
+            sv.ImpostorScoresUser34User12 = EuclidDist.CalculateImpostorScores(s034Mean, s012);
+            sv.ImpostorScoresUser34User13 = EuclidDist.CalculateImpostorScores(s034Mean, s013);
             #endregion
 
             #endregion
@@ -12182,6 +12190,10 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser34User8 = ManhDist.CalculateImpostorScores(s034Mean, s008);
             sv.ImpostorScoresUser34User9 = ManhDist.CalculateImpostorScores(s034Mean, s009);
             sv.ImpostorScoresUser34User10 = ManhDist.CalculateImpostorScores(s034Mean, s010);
+
+            sv.ImpostorScoresUser34User11 = ManhDist.CalculateImpostorScores(s034Mean, s011);
+            sv.ImpostorScoresUser34User12 = ManhDist.CalculateImpostorScores(s034Mean, s012);
+            sv.ImpostorScoresUser34User13 = ManhDist.CalculateImpostorScores(s034Mean, s013);
             #endregion
 
             #endregion
