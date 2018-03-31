@@ -47,8 +47,6 @@
     <Compile Include="ScoreVars2.cs" />
     <Compile Include="ScoreVars3.cs" />
     <Compile Include="ScoreVars4.cs" />
-    <Compile Include="ScoreVars5.cs" />
-    <Compile Include="ScoreVars6.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Latency Data\user1.csv" />
