@@ -7106,6 +7106,62 @@
             get { return _impostorScoresUser35User22; }
             set { _impostorScoresUser35User22 = value; }
         }
+
+        private double[,] _impostorScoresUser35User23;
+        public double[,] ImpostorScoresUser35User23
+        {
+            get { return _impostorScoresUser35User23; }
+            set { _impostorScoresUser35User23 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User24;
+        public double[,] ImpostorScoresUser35User24
+        {
+            get { return _impostorScoresUser35User24; }
+            set { _impostorScoresUser35User24 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User25;
+        public double[,] ImpostorScoresUser35User25
+        {
+            get { return _impostorScoresUser35User25; }
+            set { _impostorScoresUser35User25 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User26;
+        public double[,] ImpostorScoresUser35User26
+        {
+            get { return _impostorScoresUser35User26; }
+            set { _impostorScoresUser35User26 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User27;
+        public double[,] ImpostorScoresUser35User27
+        {
+            get { return _impostorScoresUser35User27; }
+            set { _impostorScoresUser35User27 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User28;
+        public double[,] ImpostorScoresUser35User28
+        {
+            get { return _impostorScoresUser35User28; }
+            set { _impostorScoresUser35User28 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User29;
+        public double[,] ImpostorScoresUser35User29
+        {
+            get { return _impostorScoresUser35User29; }
+            set { _impostorScoresUser35User29 = value; }
+        }
+
+        private double[,] _impostorScoresUser35User30;
+        public double[,] ImpostorScoresUser35User30
+        {
+            get { return _impostorScoresUser35User30; }
+            set { _impostorScoresUser35User30 = value; }
+        }
         #endregion
     }
 }
