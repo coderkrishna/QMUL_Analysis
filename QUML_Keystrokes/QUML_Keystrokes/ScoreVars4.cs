@@ -7223,7 +7223,7 @@
         public double[,] ImpostorScoresUser35User40
         {
             get { return _impostorScoresUser35User40; }
-            set { _impostorScoresUser35User40 = value;  }
+            set { _impostorScoresUser35User40 = value; }
         }
 
         private double[,] _impostorScoresUser35User41;
@@ -7644,6 +7644,22 @@
         {
             get { return _impostorScoresUser35User100; }
             set { _impostorScoresUser35User100 = value; }
+        }
+        #endregion
+
+        #region Impostor scores for User 36
+        private double[,] _impostorScoresUser36User1;
+        public double[,] ImpostorScoresUser36User1
+        {
+            get { return _impostorScoresUser36User1; }
+            set { _impostorScoresUser36User1 = value; }
+        }
+
+        private double[,] _impostorScoresUser36User2;
+        public double[,] ImpostorScoresUser36User2
+        {
+            get { return _impostorScoresUser36User2; }
+            set { _impostorScoresUser36User2 = value; }
         }
         #endregion
     }
