@@ -13483,77 +13483,100 @@ namespace QUML_Keystrokes
             Console.WriteLine("Enter a number between 1 and 100 to view the genuine scores:");
 
             int user = int.Parse(Console.ReadLine());
+            DataFiltering data = new DataFiltering(); 
 
             Console.WriteLine("User chosen: " + user);
             switch (user)
             {
                 case 1:
-                    for (int i = 0; i < s001Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s001Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s001Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
-
-                    Console.ReadKey();
+                    data.PrintGenuineScores(s001Gen); 
                     break;
                 case 2:
-                    for (int i = 0; i < s002Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s002Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s002Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
+                    data.PrintGenuineScores(s002Gen);
                     break;
                 case 3:
-                    for (int i = 0; i < s003Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s003Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s003Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
+                    data.PrintGenuineScores(s003Gen);
                     break;
                 case 4:
-                    for (int i = 0; i < s004Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s004Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s004Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
+                    data.PrintGenuineScores(s004Gen);
                     break;
                 case 5:
-                    for (int i = 0; i < s005Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s005Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s005Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
+                    data.PrintGenuineScores(s005Gen);
                     break;
                 case 6:
-                    for (int i = 0; i < s006Gen.GetLength(0); i++)
-                    {
-                        for (int j = 0; j < s006Gen.GetLength(1); j++)
-                        {
-                            Console.Write(s006Gen[i, j] + " ");
-                        }
-
-                        Console.WriteLine();
-                    }
+                    data.PrintGenuineScores(s006Gen);
+                    break;
+                case 7:
+                    data.PrintGenuineScores(s007Gen);
+                    break;
+                case 8:
+                    data.PrintGenuineScores(s008Gen);
+                    break;
+                case 9:
+                    data.PrintGenuineScores(s009Gen);
+                    break;
+                case 10:
+                    data.PrintGenuineScores(s010Gen);
+                    break;
+                case 11:
+                    data.PrintGenuineScores(s011Gen);
+                    break;
+                case 12:
+                    data.PrintGenuineScores(s012Gen);
+                    break;
+                case 13:
+                    data.PrintGenuineScores(s013Gen);
+                    break;
+                case 14:
+                    data.PrintGenuineScores(s014Gen);
+                    break;
+                case 15:
+                    data.PrintGenuineScores(s015Gen);
+                    break;
+                case 16:
+                    data.PrintGenuineScores(s016Gen);
+                    break;
+                case 17:
+                    data.PrintGenuineScores(s017Gen);
+                    break;
+                case 18:
+                    data.PrintGenuineScores(s018Gen);
+                    break;
+                case 19:
+                    data.PrintGenuineScores(s019Gen);
+                    break;
+                case 20:
+                    data.PrintGenuineScores(s020Gen); 
+                    break;
+                case 21:
+                    data.PrintGenuineScores(s021Gen);
+                    break;
+                case 22:
+                    data.PrintGenuineScores(s022Gen);
+                    break;
+                case 23:
+                    data.PrintGenuineScores(s023Gen);
+                    break;
+                case 24:
+                    data.PrintGenuineScores(s024Gen);
+                    break;
+                case 25:
+                    data.PrintGenuineScores(s025Gen);
+                    break;
+                case 26:
+                    data.PrintGenuineScores(s026Gen);
+                    break;
+                case 27:
+                    data.PrintGenuineScores(s027Gen);
+                    break;
+                case 28:
+                    data.PrintGenuineScores(s028Gen);
+                    break;
+                case 29:
+                    data.PrintGenuineScores(s029Gen);
+                    break;
+                case 30:
+                    data.PrintGenuineScores(s030Gen);
                     break;
                 default:
                     Console.WriteLine("There was no choice made...the program will now exit!");

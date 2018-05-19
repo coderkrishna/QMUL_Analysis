@@ -6,19 +6,12 @@
  * Version History
  * 
  * Version  Date        Who     Description
- * -------  ----------  ------- ---------------
- * 1.0      11/05/2015  PKR     Original Version
- * 1.1      12/06/2015  PKR     Updating in-code documentation
- * 1.2      13/06/2015  PKR     Editing the number of lines of code that were written, and updating the in-code documentation
- * 1.2.1    25/06/2105  PKR     Cleaning up the in-code documentation of the DataFiltering.cs class
- * 2.0      05/09/2015  PKR     Creating a new .dll library for the operations - all the mathematical calculations will be done. 
+ * -------  ----------  ------- --------------- 
  * 2.1      26/10/2015  PKR     Reviewing this code, and updating the in-code documentation accordingly
+ * 3.0      19/05/2018  PKR     Adding in a method for outputting the data
  */
 
 using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.IO;
 
 namespace OperationsLib
@@ -53,6 +46,19 @@ namespace OperationsLib
 
             // Spitting back to the variable that was created
             return dataVals;
+        }
+
+        public void PrintGenuineScores(double[,] genScore)
+        {
+            for (int i = 0; i < genScore.GetLength(0); i++)
+            {
+                for (int j = 0; j < genScore.GetLength(1); j++)
+                {
+                    Console.Write(genScore[i, j] + " "); 
+                }
+
+                Console.WriteLine(); 
+            }
         }
     }
 }
