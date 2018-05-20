@@ -48,6 +48,10 @@ namespace OperationsLib
             return dataVals;
         }
 
+        /// <summary>
+        /// Printing out the genuine scores to the console screen
+        /// </summary>
+        /// <param name="genScore">The genuine scores that are to be printed out</param>
         public void PrintGenuineScores(double[,] genScore)
         {
             for (int i = 0; i < genScore.GetLength(0); i++)

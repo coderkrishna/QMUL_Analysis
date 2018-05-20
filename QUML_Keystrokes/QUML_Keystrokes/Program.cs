@@ -13578,6 +13578,153 @@ namespace QUML_Keystrokes
                 case 30:
                     data.PrintGenuineScores(s030Gen);
                     break;
+                case 31:
+                    data.PrintGenuineScores(s031Gen); 
+                    break;
+                case 32:
+                    data.PrintGenuineScores(s032Gen);
+                    break;
+                case 33:
+                    data.PrintGenuineScores(s033Gen);
+                    break;
+                case 34:
+                    data.PrintGenuineScores(s034Gen);
+                    break;
+                case 35:
+                    data.PrintGenuineScores(s035Gen);
+                    break;
+                case 36:
+                    data.PrintGenuineScores(s036Gen);
+                    break;
+                case 37:
+                    data.PrintGenuineScores(s037Gen);
+                    break;
+                case 38:
+                    data.PrintGenuineScores(s038Gen);
+                    break;
+                case 39:
+                    data.PrintGenuineScores(s039Gen);
+                    break;
+                case 40:
+                    data.PrintGenuineScores(s040Gen);
+                    break;
+                case 41:
+                    data.PrintGenuineScores(s041Gen);
+                    break;
+                case 42:
+                    data.PrintGenuineScores(s042Gen);
+                    break;
+                case 43:
+                    data.PrintGenuineScores(s043Gen);
+                    break;
+                case 44:
+                    data.PrintGenuineScores(s044Gen);
+                    break;
+                case 45:
+                    data.PrintGenuineScores(s045Gen);
+                    break;
+                case 46:
+                    data.PrintGenuineScores(s046Gen);
+                    break;
+                case 47:
+                    data.PrintGenuineScores(s047Gen);
+                    break;
+                case 48:
+                    data.PrintGenuineScores(s048Gen);
+                    break;
+                case 49:
+                    data.PrintGenuineScores(s049Gen);
+                    break;
+                case 50:
+                    data.PrintGenuineScores(s050Gen);
+                    break;
+                case 51:
+                    data.PrintGenuineScores(s051Gen);
+                    break;
+                case 52:
+                    data.PrintGenuineScores(s052Gen);
+                    break;
+                case 53:
+                    data.PrintGenuineScores(s053Gen);
+                    break;
+                case 54:
+                    data.PrintGenuineScores(s054Gen);
+                    break;
+                case 55:
+                    data.PrintGenuineScores(s055Gen);
+                    break;
+                case 56:
+                    data.PrintGenuineScores(s056Gen);
+                    break;
+                case 57:
+                    data.PrintGenuineScores(s057Gen);
+                    break;
+                case 58:
+                    data.PrintGenuineScores(s058Gen);
+                    break;
+                case 59:
+                    data.PrintGenuineScores(s059Gen);
+                    break;
+                case 60:
+                    data.PrintGenuineScores(s060Gen);
+                    break;
+                case 61:
+                    data.PrintGenuineScores(s061Gen);
+                    break;
+                case 62:
+                    data.PrintGenuineScores(s062Gen);
+                    break;
+                case 63:
+                    data.PrintGenuineScores(s063Gen);
+                    break;
+                case 64:
+                    data.PrintGenuineScores(s064Gen);
+                    break;
+                case 65:
+                    data.PrintGenuineScores(s065Gen);
+                    break;
+                case 66:
+                    data.PrintGenuineScores(s066Gen);
+                    break;
+                case 67:
+                    data.PrintGenuineScores(s067Gen);
+                    break;
+                case 68:
+                    data.PrintGenuineScores(s068Gen);
+                    break;
+                case 69:
+                    data.PrintGenuineScores(s069Gen);
+                    break;
+                case 70:
+                    data.PrintGenuineScores(s070Gen);
+                    break;
+                case 71:
+                    data.PrintGenuineScores(s071Gen);
+                    break;
+                case 72:
+                    data.PrintGenuineScores(s072Gen);
+                    break;
+                case 73:
+                    data.PrintGenuineScores(s073Gen);
+                    break;
+                case 74:
+                    data.PrintGenuineScores(s074Gen);
+                    break;
+                case 75:
+                    data.PrintGenuineScores(s075Gen);
+                    break;
+                case 76:
+                    data.PrintGenuineScores(s076Gen);
+                    break;
+                case 77:
+                    data.PrintGenuineScores(s077Gen);
+                    break;
+                case 78:
+                    data.PrintGenuineScores(s078Gen);
+                    break;
+                case 79:
+                    data.PrintGenuineScores(s079Gen);
+                    break;
                 default:
                     Console.WriteLine("There was no choice made...the program will now exit!");
                     Console.ReadKey();
