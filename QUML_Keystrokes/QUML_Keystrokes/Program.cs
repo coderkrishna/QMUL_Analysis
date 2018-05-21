@@ -13725,6 +13725,69 @@ namespace QUML_Keystrokes
                 case 79:
                     data.PrintGenuineScores(s079Gen);
                     break;
+                case 80:
+                    data.PrintGenuineScores(s080Gen);
+                    break;
+                case 81:
+                    data.PrintGenuineScores(s081Gen);
+                    break;
+                case 82:
+                    data.PrintGenuineScores(s082Gen);
+                    break;
+                case 83:
+                    data.PrintGenuineScores(s083Gen);
+                    break;
+                case 84:
+                    data.PrintGenuineScores(s084Gen);
+                    break;
+                case 85:
+                    data.PrintGenuineScores(s085Gen);
+                    break;
+                case 86:
+                    data.PrintGenuineScores(s086Gen);
+                    break;
+                case 87:
+                    data.PrintGenuineScores(s087Gen);
+                    break;
+                case 88:
+                    data.PrintGenuineScores(s088Gen);
+                    break;
+                case 89:
+                    data.PrintGenuineScores(s089Gen);
+                    break;
+                case 90:
+                    data.PrintGenuineScores(s090Gen);
+                    break;
+                case 91:
+                    data.PrintGenuineScores(s091Gen);
+                    break;
+                case 92:
+                    data.PrintGenuineScores(s092Gen);
+                    break;
+                case 93:
+                    data.PrintGenuineScores(s093Gen);
+                    break;
+                case 94:
+                    data.PrintGenuineScores(s094Gen);
+                    break;
+                case 95:
+                    data.PrintGenuineScores(s095Gen);
+                    break;
+                case 96:
+                    data.PrintGenuineScores(s096Gen);
+                    break;
+                case 97:
+                    data.PrintGenuineScores(s097Gen);
+                    break;
+                case 98:
+                    data.PrintGenuineScores(s098Gen);
+                    break;
+                case 99:
+                    data.PrintGenuineScores(s099Gen);
+                    break;
+                case 100:
+                    data.PrintGenuineScores(s100Gen);
+                    break;
                 default:
                     Console.WriteLine("There was no choice made...the program will now exit!");
                     Console.ReadKey();
