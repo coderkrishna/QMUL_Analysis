@@ -9432,6 +9432,14 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser39User68 = EuclidDist.CalculateImpostorScores(s039Mean, s068);
             sv.ImpostorScoresUser39User69 = EuclidDist.CalculateImpostorScores(s039Mean, s069);
             sv.ImpostorScoresUser39User70 = EuclidDist.CalculateImpostorScores(s039Mean, s070);
+
+            sv.ImpostorScoresUser39User71 = EuclidDist.CalculateImpostorScores(s039Mean, s071);
+            sv.ImpostorScoresUser39User72 = EuclidDist.CalculateImpostorScores(s039Mean, s072);
+            sv.ImpostorScoresUser39User73 = EuclidDist.CalculateImpostorScores(s039Mean, s073);
+            sv.ImpostorScoresUser39User74 = EuclidDist.CalculateImpostorScores(s039Mean, s074);
+            sv.ImpostorScoresUser39User75 = EuclidDist.CalculateImpostorScores(s039Mean, s075);
+            sv.ImpostorScoresUser39User76 = EuclidDist.CalculateImpostorScores(s039Mean, s076);
+            sv.ImpostorScoresUser39User77 = EuclidDist.CalculateImpostorScores(s039Mean, s077);
             #endregion
 
             #endregion
