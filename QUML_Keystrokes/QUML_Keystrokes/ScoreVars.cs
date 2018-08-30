@@ -110,208 +110,37 @@
         #endregion
 
         #region Impostor scores for user 2
-        private double[,] _impostorScoresUser2User1;
-        public double[,] ImpostorScoresUser2User1
-        {
-            get { return _impostorScoresUser2User1; }
-            set { _impostorScoresUser2User1 = value; }
-        }
+        public double[,] ImpostorScoresUser2User1 { get; set; }
+        public double[,] ImpostorScoresUser2User3 { get; set; }
+        public double[,] ImpostorScoresUser2User4 { get; set; }
+        public double[,] ImpostorScoresUser2User5 { get; set; }
+        public double[,] ImpostorScoresUser2User6 { get; set; }
+        public double[,] ImpostorScoresUser2User7 { get; set; }
+        public double[,] ImpostorScoresUser2User8 { get; set; }
+        public double[,] ImpostorScoresUser2User9 { get; set; }
+        public double[,] ImpostorScoresUser2User10 { get; set; }
 
-        private double[,] _impostorScoresUser2User3;
-        public double[,] ImpostorScoresUser2User3
-        {
-            get { return _impostorScoresUser2User3; }
-            set { _impostorScoresUser2User3 = value; }
-        }
+        public double[,] ImpostorScoresUser2User11 { get; set; }
+        public double[,] ImpostorScoresUser2User12 { get; set; }
+        public double[,] ImpostorScoresUser2User13 { get; set; }
+        public double[,] ImpostorScoresUser2User14 { get; set; }
+        public double[,] ImpostorScoresUser2User15 { get; set; }
+        public double[,] ImpostorScoresUser2User16 { get; set; }
+        public double[,] ImpostorScoresUser2User17 { get; set; }
+        public double[,] ImpostorScoresUser2User18 { get; set; }
+        public double[,] ImpostorScoresUser2User19 { get; set; }
+        public double[,] ImpostorScoresUser2User20 { get; set; }
 
-        private double[,] _impostorScoresUser2User4;
-        public double[,] ImpostorScoresUser2User4
-        {
-            get { return _impostorScoresUser2User4; }
-            set { _impostorScoresUser2User4 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User5;
-        public double[,] ImpostorScoresUser2User5
-        {
-            get { return _impostorScoresUser2User5; }
-            set { _impostorScoresUser2User5 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User6;
-        public double[,] ImpostorScoresUser2User6
-        {
-            get { return _impostorScoresUser2User6; }
-            set { _impostorScoresUser2User6 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User7;
-        public double[,] ImpostorScoresUser2User7
-        {
-            get { return _impostorScoresUser2User7; }
-            set { _impostorScoresUser2User7 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User8;
-        public double[,] ImpostorScoresUser2User8
-        {
-            get { return _impostorScoresUser2User8; }
-            set { _impostorScoresUser2User8 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User9;
-        public double[,] ImpostorScoresUser2User9
-        {
-            get { return _impostorScoresUser2User9; }
-            set { _impostorScoresUser2User9 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User10;
-        public double[,] ImpostorScoresUser2User10
-        {
-            get { return _impostorScoresUser2User10; }
-            set { _impostorScoresUser2User10 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User11;
-        public double[,] ImpostorScoresUser2User11
-        {
-            get { return _impostorScoresUser2User11; }
-            set { _impostorScoresUser2User11 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User12;
-        public double[,] ImpostorScoresUser2User12
-        {
-            get { return _impostorScoresUser2User12; }
-            set { _impostorScoresUser2User12 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User13;
-        public double[,] ImpostorScoresUser2User13
-        {
-            get { return _impostorScoresUser2User13; }
-            set { _impostorScoresUser2User13 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User14;
-        public double[,] ImpostorScoresUser2User14
-        {
-            get { return _impostorScoresUser2User14; }
-            set { _impostorScoresUser2User14 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User15;
-        public double[,] ImpostorScoresUser2User15
-        {
-            get { return _impostorScoresUser2User15; }
-            set { _impostorScoresUser2User15 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User16;
-        public double[,] ImpostorScoresUser2User16
-        {
-            get { return _impostorScoresUser2User16; }
-            set { _impostorScoresUser2User16 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User17;
-        public double[,] ImpostorScoresUser2User17
-        {
-            get { return _impostorScoresUser2User17; }
-            set { _impostorScoresUser2User17 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User18;
-        public double[,] ImpostorScoresUser2User18
-        {
-            get { return _impostorScoresUser2User18; }
-            set { _impostorScoresUser2User18 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User19;
-        public double[,] ImpostorScoresUser2User19
-        {
-            get { return _impostorScoresUser2User19; }
-            set { _impostorScoresUser2User19 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User20;
-        public double[,] ImpostorScoresUser2User20
-        {
-            get { return _impostorScoresUser2User20; }
-            set { _impostorScoresUser2User20 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User21;
-        public double[,] ImpostorScoresUser2User21
-        {
-            get { return _impostorScoresUser2User21; }
-            set { _impostorScoresUser2User21 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User22;
-        public double[,] ImpostorScoresUser2User22
-        {
-            get { return _impostorScoresUser2User22; }
-            set { _impostorScoresUser2User22 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User23;
-        public double[,] ImpostorScoresUser2User23
-        {
-            get { return _impostorScoresUser2User23; }
-            set { _impostorScoresUser2User23 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User24;
-        public double[,] ImpostorScoresUser2User24
-        {
-            get { return _impostorScoresUser2User24; }
-            set { _impostorScoresUser2User24 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User25;
-        public double[,] ImpostorScoresUser2User25
-        {
-            get { return _impostorScoresUser2User25; }
-            set { _impostorScoresUser2User25 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User26;
-        public double[,] ImpostorScoresUser2User26
-        {
-            get { return _impostorScoresUser2User26; }
-            set { _impostorScoresUser2User26 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User27;
-        public double[,] ImpostorScoresUser2User27
-        {
-            get { return _impostorScoresUser2User27; }
-            set { _impostorScoresUser2User27 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User28;
-        public double[,] ImpostorScoresUser2User28
-        {
-            get { return _impostorScoresUser2User28; }
-            set { _impostorScoresUser2User28 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User29;
-        public double[,] ImpostorScoresUser2User29
-        {
-            get { return _impostorScoresUser2User29; }
-            set { _impostorScoresUser2User29 = value; }
-        }
-
-        private double[,] _impostorScoresUser2User30;
-        public double[,] ImpostorScoresUser2User30
-        {
-            get { return _impostorScoresUser2User30; }
-            set { _impostorScoresUser2User30 = value; }
-        }
+        public double[,] ImpostorScoresUser2User21 { get; set; }
+        public double[,] ImpostorScoresUser2User22 { get; set; }
+        public double[,] ImpostorScoresUser2User23 { get; set; }
+        public double[,] ImpostorScoresUser2User24 { get; set; }
+        public double[,] ImpostorScoresUser2User25 { get; set; }
+        public double[,] ImpostorScoresUser2User26 { get; set; }
+        public double[,] ImpostorScoresUser2User27 { get; set; }
+        public double[,] ImpostorScoresUser2User28 { get; set; }
+        public double[,] ImpostorScoresUser2User29 { get; set; }
+        public double[,] ImpostorScoresUser2User30 { get; set; }
 
         private double[,] _impostorScoresUser2User31;
         public double[,] ImpostorScoresUser2User31
