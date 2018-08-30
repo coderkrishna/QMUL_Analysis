@@ -37,6 +37,16 @@
         public double[,] ImpostorScoresUser1User28 { get; set; }
         public double[,] ImpostorScoresUser1User29 { get; set; }
         public double[,] ImpostorScoresUser1User30 { get; set; }
+        public double[,] ImpostorScoresUser1User31 { get; set; }
+        public double[,] ImpostorScoresUser1User32 { get; set; }
+        public double[,] ImpostorScoresUser1User33 { get; set; }
+        public double[,] ImpostorScoresUser1User34 { get; set; }
+        public double[,] ImpostorScoresUser1User35 { get; set; }
+        public double[,] ImpostorScoresUser1User36 { get; set; }
+        public double[,] ImpostorScoresUser1User37 { get; set; }
+        public double[,] ImpostorScoresUser1User38 { get; set; }
+        public double[,] ImpostorScoresUser1User39 { get; set; }
+        public double[,] ImpostorScoresUser1User40 { get; set; }
         #endregion
 
         #region Impostor scores for user 2
