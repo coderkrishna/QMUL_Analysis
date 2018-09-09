@@ -10,6 +10,9 @@
         public double[,] ImpostorScoresUser41User5 { get; set; }
         public double[,] ImpostorScoresUser41User6 { get; set; }
         public double[,] ImpostorScoresUser41User7 { get; set; }
+        public double[,] ImpostorScoresUser41User8 { get; set; }
+        public double[,] ImpostorScoresUser41User9 { get; set; }
+        public double[,] ImpostorScoresUser41User10 { get; set; }
         #endregion
     }
 }
