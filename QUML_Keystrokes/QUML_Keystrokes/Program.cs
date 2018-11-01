@@ -10686,7 +10686,45 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser44User97 = EuclidDist.CalculateImpostorScores(s044Mean, s097);
             sv.ImpostorScoresUser44User98 = EuclidDist.CalculateImpostorScores(s044Mean, s098);
             sv.ImpostorScoresUser44User99 = EuclidDist.CalculateImpostorScores(s044Mean, s099);
-            sv.ImpostorScoresUser44User100 = EuclidDist.CalculateImpostorScores(s044Mean, s100); 
+            sv.ImpostorScoresUser44User100 = EuclidDist.CalculateImpostorScores(s044Mean, s100);
+            #endregion
+
+            #region User 45 Impostor scores
+            sv.ImpostorScoresUser45User1 = EuclidDist.CalculateImpostorScores(s045Mean, s001);
+            sv.ImpostorScoresUser45User2 = EuclidDist.CalculateImpostorScores(s045Mean, s002);
+            sv.ImpostorScoresUser45User3 = EuclidDist.CalculateImpostorScores(s045Mean, s003);
+            sv.ImpostorScoresUser45User4 = EuclidDist.CalculateImpostorScores(s045Mean, s004);
+            sv.ImpostorScoresUser45User5 = EuclidDist.CalculateImpostorScores(s045Mean, s005);
+            sv.ImpostorScoresUser45User6 = EuclidDist.CalculateImpostorScores(s045Mean, s006);
+            sv.ImpostorScoresUser45User7 = EuclidDist.CalculateImpostorScores(s045Mean, s007);
+            sv.ImpostorScoresUser45User8 = EuclidDist.CalculateImpostorScores(s045Mean, s008);
+            sv.ImpostorScoresUser45User9 = EuclidDist.CalculateImpostorScores(s045Mean, s009);
+            sv.ImpostorScoresUser45User10 = EuclidDist.CalculateImpostorScores(s045Mean, s010);
+
+            sv.ImpostorScoresUser45User11 = EuclidDist.CalculateImpostorScores(s045Mean, s011);
+            sv.ImpostorScoresUser45User12 = EuclidDist.CalculateImpostorScores(s045Mean, s012);
+            sv.ImpostorScoresUser45User13 = EuclidDist.CalculateImpostorScores(s045Mean, s013);
+            sv.ImpostorScoresUser45User14 = EuclidDist.CalculateImpostorScores(s045Mean, s014);
+            sv.ImpostorScoresUser45User15 = EuclidDist.CalculateImpostorScores(s045Mean, s015);
+            sv.ImpostorScoresUser45User16 = EuclidDist.CalculateImpostorScores(s045Mean, s016);
+            sv.ImpostorScoresUser45User17 = EuclidDist.CalculateImpostorScores(s045Mean, s017);
+            sv.ImpostorScoresUser45User18 = EuclidDist.CalculateImpostorScores(s045Mean, s018);
+            sv.ImpostorScoresUser45User19 = EuclidDist.CalculateImpostorScores(s045Mean, s019);
+            sv.ImpostorScoresUser45User20 = EuclidDist.CalculateImpostorScores(s045Mean, s020);
+
+            sv.ImpostorScoresUser45User21 = EuclidDist.CalculateImpostorScores(s045Mean, s021);
+            sv.ImpostorScoresUser45User22 = EuclidDist.CalculateImpostorScores(s045Mean, s022);
+            sv.ImpostorScoresUser45User23 = EuclidDist.CalculateImpostorScores(s045Mean, s023);
+            sv.ImpostorScoresUser45User24 = EuclidDist.CalculateImpostorScores(s045Mean, s024);
+            sv.ImpostorScoresUser45User25 = EuclidDist.CalculateImpostorScores(s045Mean, s025);
+            sv.ImpostorScoresUser45User26 = EuclidDist.CalculateImpostorScores(s045Mean, s026);
+            sv.ImpostorScoresUser45User27 = EuclidDist.CalculateImpostorScores(s045Mean, s027);
+            sv.ImpostorScoresUser45User28 = EuclidDist.CalculateImpostorScores(s045Mean, s028);
+            sv.ImpostorScoresUser45User29 = EuclidDist.CalculateImpostorScores(s045Mean, s029);
+            sv.ImpostorScoresUser45User30 = EuclidDist.CalculateImpostorScores(s045Mean, s030);
+
+            sv.ImpostorScoresUser45User31 = EuclidDist.CalculateImpostorScores(s045Mean, s031);
+            sv.ImpostorScoresUser45User32 = EuclidDist.CalculateImpostorScores(s045Mean, s032);
             #endregion
 
             #endregion
