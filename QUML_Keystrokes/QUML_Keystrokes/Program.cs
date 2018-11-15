@@ -83,48 +83,27 @@ namespace QUML_Keystrokes
         #endregion
 
         #region Here having the static 2D double arrays for the genuine scores of each user
-        static double[,] s001Gen; static double[,] s002Gen; static double[,] s003Gen;
-        static double[,] s004Gen; static double[,] s005Gen; static double[,] s006Gen;
-        static double[,] s007Gen; static double[,] s008Gen; static double[,] s009Gen;
-        static double[,] s010Gen; static double[,] s011Gen; static double[,] s012Gen;
+        static double[,] s001Gen; static double[,] s002Gen; static double[,] s003Gen; static double[,] s004Gen; static double[,] s005Gen; static double[,] s006Gen;
+        static double[,] s007Gen; static double[,] s008Gen; static double[,] s009Gen; static double[,] s010Gen; static double[,] s011Gen; static double[,] s012Gen;
+        static double[,] s013Gen; static double[,] s014Gen; static double[,] s015Gen; static double[,] s016Gen; static double[,] s017Gen; static double[,] s018Gen;
+        static double[,] s019Gen; static double[,] s020Gen; static double[,] s021Gen; static double[,] s022Gen; static double[,] s023Gen; static double[,] s024Gen;
 
-        static double[,] s013Gen; static double[,] s014Gen; static double[,] s015Gen;
-        static double[,] s016Gen; static double[,] s017Gen; static double[,] s018Gen;
-        static double[,] s019Gen; static double[,] s020Gen; static double[,] s021Gen;
-        static double[,] s022Gen; static double[,] s023Gen; static double[,] s024Gen;
+        static double[,] s025Gen; static double[,] s026Gen; static double[,] s027Gen; static double[,] s028Gen; static double[,] s029Gen; static double[,] s030Gen;
+        static double[,] s031Gen; static double[,] s032Gen; static double[,] s033Gen; static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
+        static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen; static double[,] s040Gen; static double[,] s041Gen; static double[,] s042Gen;
+        static double[,] s043Gen; static double[,] s044Gen; static double[,] s045Gen; static double[,] s046Gen; static double[,] s047Gen; static double[,] s048Gen;
 
-        static double[,] s025Gen; static double[,] s026Gen; static double[,] s027Gen;
-        static double[,] s028Gen; static double[,] s029Gen; static double[,] s030Gen;
-        static double[,] s031Gen; static double[,] s032Gen; static double[,] s033Gen;
-        static double[,] s034Gen; static double[,] s035Gen; static double[,] s036Gen;
+        static double[,] s049Gen; static double[,] s050Gen; static double[,] s051Gen; static double[,] s052Gen; static double[,] s053Gen; static double[,] s054Gen;
+        static double[,] s055Gen; static double[,] s056Gen; static double[,] s057Gen; static double[,] s058Gen; static double[,] s059Gen; static double[,] s060Gen;
+        static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen; static double[,] s064Gen; static double[,] s065Gen; static double[,] s066Gen;
+        static double[,] s067Gen; static double[,] s068Gen; static double[,] s069Gen; static double[,] s070Gen; static double[,] s071Gen; static double[,] s072Gen;
 
-        static double[,] s037Gen; static double[,] s038Gen; static double[,] s039Gen;
-        static double[,] s040Gen; static double[,] s041Gen; static double[,] s042Gen;
-        static double[,] s043Gen; static double[,] s044Gen; static double[,] s045Gen;
-        static double[,] s046Gen; static double[,] s047Gen; static double[,] s048Gen;
+        static double[,] s073Gen; static double[,] s074Gen; static double[,] s075Gen; static double[,] s076Gen; static double[,] s077Gen; static double[,] s078Gen;
+        static double[,] s079Gen; static double[,] s080Gen; static double[,] s081Gen; static double[,] s082Gen; static double[,] s083Gen; static double[,] s084Gen;
+        static double[,] s085Gen; static double[,] s086Gen; static double[,] s087Gen; static double[,] s088Gen; static double[,] s089Gen; static double[,] s090Gen;
+        static double[,] s091Gen; static double[,] s092Gen; static double[,] s093Gen; static double[,] s094Gen; static double[,] s095Gen; static double[,] s096Gen;
 
-        static double[,] s049Gen; static double[,] s050Gen; static double[,] s051Gen;
-        static double[,] s052Gen; static double[,] s053Gen; static double[,] s054Gen;
-        static double[,] s055Gen; static double[,] s056Gen; static double[,] s057Gen;
-        static double[,] s058Gen; static double[,] s059Gen; static double[,] s060Gen;
-
-        static double[,] s061Gen; static double[,] s062Gen; static double[,] s063Gen;
-        static double[,] s064Gen; static double[,] s065Gen; static double[,] s066Gen;
-        static double[,] s067Gen; static double[,] s068Gen; static double[,] s069Gen;
-        static double[,] s070Gen; static double[,] s071Gen; static double[,] s072Gen;
-
-        static double[,] s073Gen; static double[,] s074Gen; static double[,] s075Gen;
-        static double[,] s076Gen; static double[,] s077Gen; static double[,] s078Gen;
-        static double[,] s079Gen; static double[,] s080Gen; static double[,] s081Gen;
-        static double[,] s082Gen; static double[,] s083Gen; static double[,] s084Gen;
-
-        static double[,] s085Gen; static double[,] s086Gen; static double[,] s087Gen;
-        static double[,] s088Gen; static double[,] s089Gen; static double[,] s090Gen;
-        static double[,] s091Gen; static double[,] s092Gen; static double[,] s093Gen;
-        static double[,] s094Gen; static double[,] s095Gen; static double[,] s096Gen;
-
-        static double[,] s097Gen; static double[,] s098Gen; static double[,] s099Gen;
-        static double[,] s100Gen;
+        static double[,] s097Gen; static double[,] s098Gen; static double[,] s099Gen; static double[,] s100Gen;
         #endregion
 
         #region The standard deviation of each user - declared as double arrays (one dimensional arrays)
