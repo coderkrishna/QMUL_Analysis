@@ -1272,7 +1272,7 @@
         public double[,] ImpostorScoresUser52User42 { get; set; }
         public double[,] ImpostorScoresUser52User43 { get; set; }
         public double[,] ImpostorScoresUser52User44 { get; set; }
-        public double[,] ImpostorScoresUser52user45 { get; set; }
+        public double[,] ImpostorScoresUser52User45 { get; set; }
         public double[,] ImpostorScoresUser52User46 { get; set; }
         public double[,] ImpostorScoresUser52User47 { get; set; }
         public double[,] ImpostorScoresUser52User48 { get; set; }
