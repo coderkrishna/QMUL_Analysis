@@ -19060,6 +19060,71 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser54User38 = ManhDist.CalculateImpostorScores(s054Mean, s038);
             sv.ImpostorScoresUser54User39 = ManhDist.CalculateImpostorScores(s054Mean, s039);
             sv.ImpostorScoresUser54User40 = ManhDist.CalculateImpostorScores(s054Mean, s040);
+
+            sv.ImpostorScoresUser54User41 = ManhDist.CalculateImpostorScores(s054Mean, s041);
+            sv.ImpostorScoresUser54User42 = ManhDist.CalculateImpostorScores(s054Mean, s042);
+            sv.ImpostorScoresUser54User43 = ManhDist.CalculateImpostorScores(s054Mean, s043);
+            sv.ImpostorScoresUser54User44 = ManhDist.CalculateImpostorScores(s054Mean, s044);
+            sv.ImpostorScoresUser54User45 = ManhDist.CalculateImpostorScores(s054Mean, s045);
+            sv.ImpostorScoresUser54User46 = ManhDist.CalculateImpostorScores(s054Mean, s046);
+            sv.ImpostorScoresUser54User47 = ManhDist.CalculateImpostorScores(s054Mean, s047);
+            sv.ImpostorScoresUser54User48 = ManhDist.CalculateImpostorScores(s054Mean, s048);
+            sv.ImpostorScoresUser54User49 = ManhDist.CalculateImpostorScores(s054Mean, s049);
+            sv.ImpostorScoresUser54User50 = ManhDist.CalculateImpostorScores(s054Mean, s050);
+
+            sv.ImpostorScoresUser54User51 = ManhDist.CalculateImpostorScores(s054Mean, s051);
+            sv.ImpostorScoresUser54User52 = ManhDist.CalculateImpostorScores(s054Mean, s052);
+            sv.ImpostorScoresUser54User53 = ManhDist.CalculateImpostorScores(s054Mean, s053);
+            sv.ImpostorScoresUser54User55 = ManhDist.CalculateImpostorScores(s054Mean, s055);
+            sv.ImpostorScoresUser54User56 = ManhDist.CalculateImpostorScores(s054Mean, s056);
+            sv.ImpostorScoresUser54User57 = ManhDist.CalculateImpostorScores(s054Mean, s057);
+            sv.ImpostorScoresUser54User58 = ManhDist.CalculateImpostorScores(s054Mean, s058);
+            sv.ImpostorScoresUser54User59 = ManhDist.CalculateImpostorScores(s054Mean, s059);
+            sv.ImpostorScoresUser54User60 = ManhDist.CalculateImpostorScores(s054Mean, s060);
+
+            sv.ImpostorScoresUser54User61 = ManhDist.CalculateImpostorScores(s054Mean, s061);
+            sv.ImpostorScoresUser54User62 = ManhDist.CalculateImpostorScores(s054Mean, s062);
+            sv.ImpostorScoresUser54User63 = ManhDist.CalculateImpostorScores(s054Mean, s063);
+            sv.ImpostorScoresUser54User64 = ManhDist.CalculateImpostorScores(s054Mean, s064);
+            sv.ImpostorScoresUser54User65 = ManhDist.CalculateImpostorScores(s054Mean, s065);
+            sv.ImpostorScoresUser54User66 = ManhDist.CalculateImpostorScores(s054Mean, s066);
+            sv.ImpostorScoresUser54User67 = ManhDist.CalculateImpostorScores(s054Mean, s067);
+            sv.ImpostorScoresUser54User68 = ManhDist.CalculateImpostorScores(s054Mean, s068);
+            sv.ImpostorScoresUser54User69 = ManhDist.CalculateImpostorScores(s054Mean, s069);
+            sv.ImpostorScoresUser54User70 = ManhDist.CalculateImpostorScores(s054Mean, s070);
+
+            sv.ImpostorScoresUser54User71 = ManhDist.CalculateImpostorScores(s054Mean, s071);
+            sv.ImpostorScoresUser54User72 = ManhDist.CalculateImpostorScores(s054Mean, s072);
+            sv.ImpostorScoresUser54User73 = ManhDist.CalculateImpostorScores(s054Mean, s073);
+            sv.ImpostorScoresUser54User74 = ManhDist.CalculateImpostorScores(s054Mean, s074);
+            sv.ImpostorScoresUser54User75 = ManhDist.CalculateImpostorScores(s054Mean, s075);
+            sv.ImpostorScoresUser54User76 = ManhDist.CalculateImpostorScores(s054Mean, s076);
+            sv.ImpostorScoresUser54User77 = ManhDist.CalculateImpostorScores(s054Mean, s077);
+            sv.ImpostorScoresUser54User78 = ManhDist.CalculateImpostorScores(s054Mean, s078);
+            sv.ImpostorScoresUser54User79 = ManhDist.CalculateImpostorScores(s054Mean, s079);
+            sv.ImpostorScoresUser54User80 = ManhDist.CalculateImpostorScores(s054Mean, s080);
+
+            sv.ImpostorScoresUser54User81 = ManhDist.CalculateImpostorScores(s054Mean, s081);
+            sv.ImpostorScoresUser54User82 = ManhDist.CalculateImpostorScores(s054Mean, s082);
+            sv.ImpostorScoresUser54User82 = ManhDist.CalculateImpostorScores(s054Mean, s083);
+            sv.ImpostorScoresUser54User84 = ManhDist.CalculateImpostorScores(s054Mean, s084);
+            sv.ImpostorScoresUser54User85 = ManhDist.CalculateImpostorScores(s054Mean, s085);
+            sv.ImpostorScoresUser54User86 = ManhDist.CalculateImpostorScores(s054Mean, s086);
+            sv.ImpostorScoresUser54User87 = ManhDist.CalculateImpostorScores(s054Mean, s087);
+            sv.ImpostorScoresUser54User88 = ManhDist.CalculateImpostorScores(s054Mean, s088);
+            sv.ImpostorScoresUser54User89 = ManhDist.CalculateImpostorScores(s054Mean, s089);
+            sv.ImpostorScoresUser54User90 = ManhDist.CalculateImpostorScores(s054Mean, s090);
+
+            sv.ImpostorScoresUser54User91 = ManhDist.CalculateImpostorScores(s054Mean, s091);
+            sv.ImpostorScoresUser54User92 = ManhDist.CalculateImpostorScores(s054Mean, s092);
+            sv.ImpostorScoresUser54User93 = ManhDist.CalculateImpostorScores(s054Mean, s093);
+            sv.ImpostorScoresUser54User94 = ManhDist.CalculateImpostorScores(s054Mean, s094);
+            sv.ImpostorScoresUser54User95 = ManhDist.CalculateImpostorScores(s054Mean, s095);
+            sv.ImpostorScoresUser54User96 = ManhDist.CalculateImpostorScores(s054Mean, s096);
+            sv.ImpostorScoresUser54User97 = ManhDist.CalculateImpostorScores(s054Mean, s097);
+            sv.ImpostorScoresUser54User98 = ManhDist.CalculateImpostorScores(s054Mean, s098);
+            sv.ImpostorScoresUser54User99 = ManhDist.CalculateImpostorScores(s054Mean, s099);
+            sv.ImpostorScoresUser54User100 = ManhDist.CalculateImpostorScores(s054Mean, s100);
             #endregion
 
             #endregion
