@@ -1778,7 +1778,7 @@
         public double[,] ImpostorScoresUser56User100 { get; set; }
         #endregion
 
-        #region User 57 Impostor scores
+        #region Impostor scores for User 57
         public double[,] ImpostorScoresUser57User1 { get; set; }
         public double[,] ImpostorScoresUser57User2 { get; set; }
         public double[,] ImpostorScoresUser57User3 { get; set; }
