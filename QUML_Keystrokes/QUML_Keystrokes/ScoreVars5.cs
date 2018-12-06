@@ -1891,6 +1891,9 @@
 
         #region Impostor scores for User 58
         public double[,] ImpostorScoresUser58User1 { get; set; }
+        public double[,] ImpostorScoresUser58User2 { get; set; }
+        public double[,] ImpostorScoresUser58User3 { get; set; }
+        public double[,] ImpostorScoresUser58User4 { get; set; }
         #endregion
     }
 }
