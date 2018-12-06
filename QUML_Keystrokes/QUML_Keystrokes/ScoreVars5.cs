@@ -139,7 +139,7 @@
         public double[,] ImpostorScoresUser42User21 { get; set; }
         public double[,] ImpostorScoresUser42User22 { get; set; }
         public double[,] ImpostorScoresUser42User23 { get; set; }
-        public double[,] ImpostorScoresUser42User24 { get; set; } 
+        public double[,] ImpostorScoresUser42User24 { get; set; }
         public double[,] ImpostorScoresUser42User25 { get; set; }
         public double[,] ImpostorScoresUser42User26 { get; set; }
         public double[,] ImpostorScoresUser42User27 { get; set; }
@@ -1944,6 +1944,60 @@
         public double[,] ImpostorScoresUser58User48 { get; set; }
         public double[,] ImpostorScoresUser58User49 { get; set; }
         public double[,] ImpostorScoresUser58User50 { get; set; }
+
+        public double[,] ImpostorScoresUser58User51 { get; set; }
+        public double[,] ImpostorScoresUser58User52 { get; set; }
+        public double[,] ImpostorScoresUser58User53 { get; set; }
+        public double[,] ImpostorScoresUser58User54 { get; set; }
+        public double[,] ImpostorScoresUser58User55 { get; set; }
+        public double[,] ImpostorScoresUser58User56 { get; set; }
+        public double[,] ImpostorScoresUser58User57 { get; set; }
+        public double[,] ImpostorScoresUser58User59 { get; set; }
+        public double[,] ImpostorScoresUser58User60 { get; set; }
+
+        public double[,] ImpostorScoresUser58User61 { get; set; }
+        public double[,] ImpostorScoresUser58User62 { get; set; }
+        public double[,] ImpostorScoresUser58User63 { get; set; }
+        public double[,] ImpostorScoresUser58User64 { get; set; }
+        public double[,] ImpostorScoresUser58User65 { get; set; }
+        public double[,] ImpostorScoresUser58User66 { get; set; }
+        public double[,] ImpostorScoresUser58User67 { get; set; }
+        public double[,] ImpostorScoresUser58User68 { get; set; }
+        public double[,] ImpostorScoresUser58User69 { get; set; }
+        public double[,] ImpostorScoresUser58User70 { get; set; }
+
+        public double[,] ImpostorScoresUser58User71 { get; set; }
+        public double[,] ImpostorScoresUser58User72 { get; set; }
+        public double[,] ImpostorScoresUser58User73 { get; set; }
+        public double[,] ImpostorScoresUser58User74 { get; set; }
+        public double[,] ImpostorScoresUser58User75 { get; set; }
+        public double[,] ImpostorScoresUser58User76 { get; set; }
+        public double[,] ImpostorScoresUser58User77 { get; set; }
+        public double[,] ImpostorScoresUser58User78 { get; set; }
+        public double[,] ImpostorScoresUser58User79 { get; set; }
+        public double[,] ImpostorScoresUser58User80 { get; set; }
+
+        public double[,] ImpostorScoresUser58User81 { get; set; }
+        public double[,] ImpostorScoresUser58User82 { get; set; }
+        public double[,] ImpostorScoresUser58User83 { get; set; }
+        public double[,] ImpostorScoresUser58User84 { get; set; }
+        public double[,] ImpostorScoresUser58User85 { get; set; }
+        public double[,] ImpostorScoresUser58User86 { get; set; }
+        public double[,] ImpostorScoresUser58User87 { get; set; }
+        public double[,] ImpostorScoresUser58User88 { get; set; }
+        public double[,] ImpostorScoresUser58User89 { get; set; }
+        public double[,] ImpostorScoresUser58User90 { get; set; }
+
+        public double[,] ImpostorScoresUser58User91 { get; set; }
+        public double[,] ImpostorScoresUser58User92 { get; set; }
+        public double[,] ImpostorScoresUser58User93 { get; set; }
+        public double[,] ImpostorScoresUser58User94 { get; set; }
+        public double[,] ImpostorScoresUser58User95 { get; set; }
+        public double[,] ImpostorScoresUser58User96 { get; set; }
+        public double[,] ImpostorScoresUser58User97 { get; set; }
+        public double[,] ImpostorScoresUser58User98 { get; set; }
+        public double[,] ImpostorScoresUser58User99 { get; set; }
+        public double[,] ImpostorScoresUser58User100 { get; set; }
         #endregion
     }
 }
