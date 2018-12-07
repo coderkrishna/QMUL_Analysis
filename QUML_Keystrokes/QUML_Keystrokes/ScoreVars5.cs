@@ -2022,6 +2022,17 @@
         public double[,] ImpostorScoresUser59User18 { get; set; }
         public double[,] ImpostorScoresUser59User19 { get; set; }
         public double[,] ImpostorScoresUser59User20 { get; set; }
+
+        public double[,] ImpostorScoresUser59User21 { get; set; }
+        public double[,] ImpostorScoresUser59User22 { get; set; }
+        public double[,] ImpostorScoresUser59User23 { get; set; }
+        public double[,] ImpostorScoresUser59User24 { get; set; }
+        public double[,] ImpostorScoresUser59User25 { get; set; }
+        public double[,] ImpostorScoresUser59User26 { get; set; }
+        public double[,] ImpostorScoresUser59User27 { get; set; }
+        public double[,] ImpostorScoresUser59User28 { get; set; }
+        public double[,] ImpostorScoresUser59User29 { get; set; }
+        public double[,] ImpostorScoresUser59User30 { get; set; }
         #endregion
     }
 }
