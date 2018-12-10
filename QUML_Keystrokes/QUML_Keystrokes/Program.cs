@@ -13831,6 +13831,7 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser59User10 = EuclidDist.CalculateImpostorScores(s059Mean, s010);
 
             sv.ImpostorScoresUser59User11 = EuclidDist.CalculateImpostorScores(s059Mean, s011);
+            sv.ImpostorScoresUser59User12 = EuclidDist.CalculateImpostorScores(s059Mean, s012);
             #endregion
 
             #endregion
