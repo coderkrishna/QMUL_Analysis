@@ -21,3 +21,12 @@ D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CoreCompileInputs.cache
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CopyComplete
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojAssemblyReference.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.exe
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\QUML_Keystrokes.pdb
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.dll
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\bin\Debug\OperationsLib.pdb
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csprojAssemblyReference.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CoreCompileInputs.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.csproj.CopyComplete
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.exe
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\obj\Debug\QUML_Keystrokes.pdb
