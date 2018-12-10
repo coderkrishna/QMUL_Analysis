@@ -20686,6 +20686,28 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser59User68 = ManhDist.CalculateImpostorScores(s059Mean, s068);
             sv.ImpostorScoresUser59User69 = ManhDist.CalculateImpostorScores(s059Mean, s069);
             sv.ImpostorScoresUser59User70 = ManhDist.CalculateImpostorScores(s059Mean, s070);
+
+            sv.ImpostorScoresUser59User71 = ManhDist.CalculateImpostorScores(s059Mean, s071);
+            sv.ImpostorScoresUser59User72 = ManhDist.CalculateImpostorScores(s059Mean, s072);
+            sv.ImpostorScoresUser59User73 = ManhDist.CalculateImpostorScores(s059Mean, s073);
+            sv.ImpostorScoresUser59User74 = ManhDist.CalculateImpostorScores(s059Mean, s074);
+            sv.ImpostorScoresUser59User75 = ManhDist.CalculateImpostorScores(s059Mean, s075);
+            sv.ImpostorScoresUser59User76 = ManhDist.CalculateImpostorScores(s059Mean, s076);
+            sv.ImpostorScoresUser59User77 = ManhDist.CalculateImpostorScores(s059Mean, s077);
+            sv.ImpostorScoresUser59User78 = ManhDist.CalculateImpostorScores(s059Mean, s078);
+            sv.ImpostorScoresUser59User79 = ManhDist.CalculateImpostorScores(s059Mean, s079);
+            sv.ImpostorScoresUser59User80 = ManhDist.CalculateImpostorScores(s059Mean, s080);
+
+            sv.ImpostorScoresUser59User81 = ManhDist.CalculateImpostorScores(s059Mean, s081);
+            sv.ImpostorScoresUser59User82 = ManhDist.CalculateImpostorScores(s059Mean, s082);
+            sv.ImpostorScoresUser59User83 = ManhDist.CalculateImpostorScores(s059Mean, s083);
+            sv.ImpostorScoresUser59User84 = ManhDist.CalculateImpostorScores(s059Mean, s084);
+            sv.ImpostorScoresUser59User85 = ManhDist.CalculateImpostorScores(s059Mean, s085);
+            sv.ImpostorScoresUser59User86 = ManhDist.CalculateImpostorScores(s059Mean, s086);
+            sv.ImpostorScoresUser59User87 = ManhDist.CalculateImpostorScores(s059Mean, s087);
+            sv.ImpostorScoresUser59User88 = ManhDist.CalculateImpostorScores(s059Mean, s088);
+            sv.ImpostorScoresUser59User89 = ManhDist.CalculateImpostorScores(s059Mean, s089);
+            sv.ImpostorScoresUser59User90 = ManhDist.CalculateImpostorScores(s059Mean, s090);
             #endregion
 
             #endregion
