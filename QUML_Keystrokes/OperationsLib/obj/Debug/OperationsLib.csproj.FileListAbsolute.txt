@@ -14,3 +14,9 @@ D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dl
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csproj.CoreCompileInputs.cache
 D:\GitHub\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojAssemblyReference.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.dll
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\bin\Debug\OperationsLib.pdb
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csprojAssemblyReference.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.csproj.CoreCompileInputs.cache
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.dll
+C:\Users\v-prkris\Documents\Side Stuff\QMUL_Analysis\QUML_Keystrokes\OperationsLib\obj\Debug\OperationsLib.pdb
