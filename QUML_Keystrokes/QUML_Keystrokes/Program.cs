@@ -21387,6 +21387,15 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser61User100 = ManhDist.CalculateImpostorScores(s061Mean, s100);
             #endregion
 
+            #region User 62 Impostor scores
+            sv.ImpostorScoresUser62User1 = ManhDist.CalculateImpostorScores(s062Mean, s001);
+            sv.ImpostorScoresUser62User2 = ManhDist.CalculateImpostorScores(s062Mean, s002);
+            sv.ImpostorScoresUser62User3 = ManhDist.CalculateImpostorScores(s062Mean, s003);
+            sv.ImpostorScoresUser62User4 = ManhDist.CalculateImpostorScores(s062Mean, s004);
+            sv.ImpostorScoresUser62User5 = ManhDist.CalculateImpostorScores(s062Mean, s005);
+            sv.ImpostorScoresUser62User6 = ManhDist.CalculateImpostorScores(s062Mean, s006);
+            #endregion
+
             #endregion
 
             #region Showing the output of the genuine scores
