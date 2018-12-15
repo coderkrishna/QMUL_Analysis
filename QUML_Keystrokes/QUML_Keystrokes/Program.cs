@@ -7578,6 +7578,10 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser63User28 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s028);
             sv.ImpostorScoresUser63User29 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s029);
             sv.ImpostorScoresUser63User30 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s030);
+
+            sv.ImpostorScoresUser63User31 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s031);
+            sv.ImpostorScoresUser63User32 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s032);
+            sv.ImpostorScoresUser63User33 = ScaledManhDist.CalculateImpostorScores(s063Mean, stdDevUser63, s033);
             #endregion
 
             #endregion
