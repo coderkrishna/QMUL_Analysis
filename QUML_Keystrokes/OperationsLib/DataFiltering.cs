@@ -10,12 +10,11 @@
  * 2.1      26/10/2015  PKR     Reviewing this code, and updating the in-code documentation accordingly
  * 3.0      19/05/2018  PKR     Adding in a method for outputting the data
  */
-
-using System;
-using System.IO;
-
 namespace OperationsLib
 {
+    using System;
+    using System.IO;
+
     public class DataFiltering
     {
         /// <summary>

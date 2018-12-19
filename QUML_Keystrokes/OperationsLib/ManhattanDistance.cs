@@ -17,10 +17,10 @@
  * 2.1      23/03/2018  PKR     Adding the methods to calculate the False Reject Rate and then be able to clean up the using statements
  */
 
-using System;
-
 namespace OperationsLib
 {
+    using System;
+
     public class ManhattanDistance
     {
         /// <summary>

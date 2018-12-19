@@ -17,13 +17,10 @@
  * 1.4.1    30/08/2015  PKR     Updating the in-code documentation where it is appropriate
  */
 
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
 namespace OperationsLib
 {
+    using System;
+
     public class ScaledManhattanDistance
     {
         /// <summary>

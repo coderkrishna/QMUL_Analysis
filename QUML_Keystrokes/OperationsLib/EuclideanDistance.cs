@@ -18,10 +18,10 @@
  * 2.1      23/03/2018  PKR     Adding the methods to calculate the false reject rate and cleaning up the code
  */
 
-using System;
-
 namespace OperationsLib
 {
+    using System;
+
     public class EuclideanDistance
     {
         /// <summary>
