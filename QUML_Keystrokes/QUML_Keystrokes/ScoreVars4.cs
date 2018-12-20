@@ -2,7 +2,7 @@
 {
     public partial class ImpostorScoreVars
     {
-        #region Impostor scores for User 31
+        #region User 31 Impostor scores
         public double[,] ImpostorScoresUser31User1 { get; set; }
         public double[,] ImpostorScoresUser31User2 { get; set; }
         public double[,] ImpostorScoresUser31User3 { get; set; }
@@ -113,7 +113,7 @@
         public double[,] ImpostorScoresUser31User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 32
+        #region User 32 Impostor scores
         public double[,] ImpostorScoresUser32User1 { get; set; }
         public double[,] ImpostorScoresUser32User2 { get; set; }
         public double[,] ImpostorScoresUser32User3 { get; set; }
@@ -224,7 +224,7 @@
         public double[,] ImpostorScoresUser32User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 33
+        #region User 33 Impostor scores
         public double[,] ImpostorScoresUser33User1 { get; set; }
         public double[,] ImpostorScoresUser33User2 { get; set; }
         public double[,] ImpostorScoresUser33User3 { get; set; }
@@ -335,7 +335,7 @@
         public double[,] ImpostorScoresUser33User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 34
+        #region User 34 Impostor scores
         public double[,] ImpostorScoresUser34User1 { get; set; }
         public double[,] ImpostorScoresUser34User2 { get; set; }
         public double[,] ImpostorScoresUser34User3 { get; set; }
@@ -446,7 +446,7 @@
         public double[,] ImpostorScoresUser34User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 35
+        #region User 35 Impostor scores
         public double[,] ImpostorScoresUser35User1 { get; set; }
         public double[,] ImpostorScoresUser35User2 { get; set; }
         public double[,] ImpostorScoresUser35User3 { get; set; }
@@ -557,7 +557,7 @@
         public double[,] ImpostorScoresUser35User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 36
+        #region User 36 Impostor scores
         public double[,] ImpostorScoresUser36User1 { get; set; }
         public double[,] ImpostorScoresUser36User2 { get; set; }
         public double[,] ImpostorScoresUser36User3 { get; set; }
@@ -668,7 +668,7 @@
         public double[,] ImpostorScoresUser36User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 37
+        #region User 37 Impostor scores
         public double[,] ImpostorScoresUser37User1 { get; set; }
         public double[,] ImpostorScoresUser37User2 { get; set; }
         public double[,] ImpostorScoresUser37User3 { get; set; }
@@ -779,7 +779,7 @@
         public double[,] ImpostorScoresUser37User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 38
+        #region User 38 Impostor scores
         public double[,] ImpostorScoresUser38User1 { get; set; }
         public double[,] ImpostorScoresUser38User2 { get; set; }
         public double[,] ImpostorScoresUser38User3 { get; set; }
@@ -890,7 +890,7 @@
         public double[,] ImpostorScoresUser38User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 39
+        #region User 39 Impostor scores
         public double[,] ImpostorScoresUser39User1 { get; set; }
         public double[,] ImpostorScoresUser39User2 { get; set; }
         public double[,] ImpostorScoresUser39User3 { get; set; }
@@ -1001,7 +1001,7 @@
         public double[,] ImpostorScoresUser39User100 { get; set; }
         #endregion
 
-        #region Impostor scores for User 40
+        #region User 40 Impostor scores
         public double[,] ImpostorScoresUser40User1 { get; set; }
         public double[,] ImpostorScoresUser40User2 { get; set; }
         public double[,] ImpostorScoresUser40User3 { get; set; }
