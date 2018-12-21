@@ -15594,6 +15594,52 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser66User100 = EuclidDist.CalculateImpostorScores(s066Mean, s100);
             #endregion
 
+            #region User 67 Impostor scores
+            sv.ImpostorScoresUser67User1 = EuclidDist.CalculateImpostorScores(s067Mean, s001);
+            sv.ImpostorScoresUser67User2 = EuclidDist.CalculateImpostorScores(s067Mean, s002);
+            sv.ImpostorScoresUser67User3 = EuclidDist.CalculateImpostorScores(s067Mean, s003);
+            sv.ImpostorScoresUser67User4 = EuclidDist.CalculateImpostorScores(s067Mean, s004);
+            sv.ImpostorScoresUser67User5 = EuclidDist.CalculateImpostorScores(s067Mean, s005);
+            sv.ImpostorScoresUser67User6 = EuclidDist.CalculateImpostorScores(s067Mean, s006);
+            sv.ImpostorScoresUser67User7 = EuclidDist.CalculateImpostorScores(s067Mean, s007);
+            sv.ImpostorScoresUser67User8 = EuclidDist.CalculateImpostorScores(s067Mean, s008);
+            sv.ImpostorScoresUser67User9 = EuclidDist.CalculateImpostorScores(s067Mean, s009);
+            sv.ImpostorScoresUser67User10 = EuclidDist.CalculateImpostorScores(s067Mean, s010);
+
+            sv.ImpostorScoresUser67User11 = EuclidDist.CalculateImpostorScores(s067Mean, s011);
+            sv.ImpostorScoresUser67User12 = EuclidDist.CalculateImpostorScores(s067Mean, s012);
+            sv.ImpostorScoresUser67User13 = EuclidDist.CalculateImpostorScores(s067Mean, s013);
+            sv.ImpostorScoresUser67User14 = EuclidDist.CalculateImpostorScores(s067Mean, s014);
+            sv.ImpostorScoresUser67User15 = EuclidDist.CalculateImpostorScores(s067Mean, s015);
+            sv.ImpostorScoresUser67User16 = EuclidDist.CalculateImpostorScores(s067Mean, s016);
+            sv.ImpostorScoresUser67User17 = EuclidDist.CalculateImpostorScores(s067Mean, s017);
+            sv.ImpostorScoresUser67User18 = EuclidDist.CalculateImpostorScores(s067Mean, s018);
+            sv.ImpostorScoresUser67User19 = EuclidDist.CalculateImpostorScores(s067Mean, s019);
+            sv.ImpostorScoresUser67User20 = EuclidDist.CalculateImpostorScores(s067Mean, s020);
+
+            sv.ImpostorScoresUser67User21 = EuclidDist.CalculateImpostorScores(s067Mean, s021);
+            sv.ImpostorScoresUser67User22 = EuclidDist.CalculateImpostorScores(s067Mean, s022);
+            sv.ImpostorScoresUser67User23 = EuclidDist.CalculateImpostorScores(s067Mean, s023);
+            sv.ImpostorScoresUser67User24 = EuclidDist.CalculateImpostorScores(s067Mean, s024);
+            sv.ImpostorScoresUser67User25 = EuclidDist.CalculateImpostorScores(s067Mean, s025);
+            sv.ImpostorScoresUser67User26 = EuclidDist.CalculateImpostorScores(s067Mean, s026);
+            sv.ImpostorScoresUser67User27 = EuclidDist.CalculateImpostorScores(s067Mean, s027);
+            sv.ImpostorScoresUser67User28 = EuclidDist.CalculateImpostorScores(s067Mean, s028);
+            sv.ImpostorScoresUser67User29 = EuclidDist.CalculateImpostorScores(s067Mean, s029);
+            sv.ImpostorScoresUser67User30 = EuclidDist.CalculateImpostorScores(s067Mean, s030);
+
+            sv.ImpostorScoresUser67User31 = EuclidDist.CalculateImpostorScores(s067Mean, s031);
+            sv.ImpostorScoresUser67User32 = EuclidDist.CalculateImpostorScores(s067Mean, s032);
+            sv.ImpostorScoresUser67User33 = EuclidDist.CalculateImpostorScores(s067Mean, s033);
+            sv.ImpostorScoresUser67User34 = EuclidDist.CalculateImpostorScores(s067Mean, s034);
+            sv.ImpostorScoresUser67User35 = EuclidDist.CalculateImpostorScores(s067Mean, s035);
+            sv.ImpostorScoresUser67User36 = EuclidDist.CalculateImpostorScores(s067Mean, s036);
+            sv.ImpostorScoresUser67User37 = EuclidDist.CalculateImpostorScores(s067Mean, s037);
+            sv.ImpostorScoresUser67User38 = EuclidDist.CalculateImpostorScores(s067Mean, s038);
+            sv.ImpostorScoresUser67User39 = EuclidDist.CalculateImpostorScores(s067Mean, s039);
+            sv.ImpostorScoresUser67User40 = EuclidDist.CalculateImpostorScores(s067Mean, s040);
+            #endregion
+
             #endregion
         }
         #endregion
