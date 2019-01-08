@@ -8766,6 +8766,34 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser73User100 = ScaledManhDist.CalculateImpostorScores(s073Mean, stdDevUser73, s100);
             #endregion
 
+            #region User 74 Impostor scores
+            sv.ImpostorScoresUser74User1 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s001);
+            sv.ImpostorScoresUser74User2 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s002);
+            sv.ImpostorScoresUser74User3 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s003);
+            sv.ImpostorScoresUser74User4 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s004);
+            sv.ImpostorScoresUser74User5 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s005);
+            sv.ImpostorScoresUser74User6 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s006);
+            sv.ImpostorScoresUser74User7 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s007);
+            sv.ImpostorScoresUser74User8 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s008);
+            sv.ImpostorScoresUser74User9 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s009);
+            sv.ImpostorScoresUser74User10 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s010);
+
+            sv.ImpostorScoresUser74User11 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s011);
+            sv.ImpostorScoresUser74User12 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s012);
+            sv.ImpostorScoresUser74User13 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s013);
+            sv.ImpostorScoresUser74User14 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s014);
+            sv.ImpostorScoresUser74User15 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s015);
+            sv.ImpostorScoresUser74User16 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s016);
+            sv.ImpostorScoresUser74User17 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s017);
+            sv.ImpostorScoresUser74User18 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s018);
+            sv.ImpostorScoresUser74User19 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s019);
+            sv.ImpostorScoresUser74User20 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s020);
+
+            sv.ImpostorScoresUser74User21 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s021);
+            sv.ImpostorScoresUser74User22 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s022);
+            sv.ImpostorScoresUser74User23 = ScaledManhDist.CalculateImpostorScores(s074Mean, stdDevUser74, s023);
+            #endregion
+
             #endregion
         }
         #endregion
