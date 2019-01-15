@@ -490,6 +490,28 @@
         public double[,] ImpostorScoresUser75User38 { get; set; }
         public double[,] ImpostorScoresUser75User39 { get; set; }
         public double[,] ImpostorScoresUser75User40 { get; set; }
+
+        public double[,] ImpostorScoresUser75User41 { get; set; }
+        public double[,] ImpostorScoresUser75User42 { get; set; }
+        public double[,] ImpostorScoresUser75User43 { get; set; }
+        public double[,] ImpostorScoresUser75User44 { get; set; }
+        public double[,] ImpostorScoresUser75User45 { get; set; }
+        public double[,] ImpostorScoresUser75User46 { get; set; }
+        public double[,] ImpostorScoresUser75User47 { get; set; }
+        public double[,] ImpostorScoresUser75User48 { get; set; }
+        public double[,] ImpostorScoresUser75User49 { get; set; }
+        public double[,] ImpostorScoresUser75User50 { get; set; }
+
+        public double[,] ImpostorScoresUser75User51 { get; set; }
+        public double[,] ImpostorScoresUser75User52 { get; set; }
+        public double[,] ImpostorScoresUser75User53 { get; set; }
+        public double[,] ImpostorScoresUser75User54 { get; set; }
+        public double[,] ImpostorScoresUser75User55 { get; set; }
+        public double[,] ImpostorScoresUser75User56 { get; set; }
+        public double[,] ImpostorScoresUser75User57 { get; set; }
+        public double[,] ImpostorScoresUser75User58 { get; set; }
+        public double[,] ImpostorScoresUser75User59 { get; set; }
+        public double[,] ImpostorScoresUser75User60 { get; set; }
         #endregion
     }
 }
