@@ -227,6 +227,17 @@
         #region User 83 Impostor scores
         public double[,] ImpostorScoresUser83User1 { get; set; }
         public double[,] ImpostorScoresUser83User2 { get; set; }
+        public double[,] ImpostorScoresUser83User3 { get; set; }
+        public double[,] ImpostorScoresUser83User4 { get; set; }
+        public double[,] ImpostorScoresUser83User5 { get; set; }
+        public double[,] ImpostorScoresUser83User6 { get; set; }
+        public double[,] ImpostorScoresUser83User7 { get; set; }
+        public double[,] ImpostorScoresUser83User8 { get; set; }
+        public double[,] ImpostorScoresUser83User9 { get; set; }
+        public double[,] ImpostorScoresUser83User10 { get; set; }
+
+        public double[,] ImpostorScoresUser83User11 { get; set; }
+        public double[,] ImpostorScoresUser83User12 { get; set; }
         #endregion
     }
 }
