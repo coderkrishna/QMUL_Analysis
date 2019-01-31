@@ -223,5 +223,10 @@
         public double[,] ImpostorScoresUser82User99 { get; set; }
         public double[,] ImpostorScoresUser82User100 { get; set; }
         #endregion
+
+        #region User 83 Impostor scores
+        public double[,] ImpostorScoresUser83User1 { get; set; }
+        public double[,] ImpostorScoresUser83User2 { get; set; }
+        #endregion
     }
 }
