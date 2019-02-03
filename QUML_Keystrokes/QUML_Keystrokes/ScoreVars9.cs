@@ -346,6 +346,17 @@
         public double[,] ImpostorScoresUser84User8 { get; set; }
         public double[,] ImpostorScoresUser84User9 { get; set; }
         public double[,] ImpostorScoresUser84User10 { get; set; }
+
+        public double[,] ImpostorScoresUser84User11 { get; set; }
+        public double[,] ImpostorScoresUser84User12 { get; set; }
+        public double[,] ImpostorScoresUser84User13 { get; set; }
+        public double[,] ImpostorScoresUser84User14 { get; set; }
+        public double[,] ImpostorScoresUser84User15 { get; set; }
+        public double[,] ImpostorScoresUser84User16 { get; set; }
+        public double[,] ImpostorScoresUser84User17 { get; set; }
+        public double[,] ImpostorScoresUser84User18 { get; set; }
+        public double[,] ImpostorScoresUser84User19 { get; set; }
+        public double[,] ImpostorScoresUser84User20 { get; set; }
         #endregion
     }
 }
