@@ -9942,6 +9942,22 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser84User58 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s058);
             sv.ImpostorScoresUser84User59 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s059);
             sv.ImpostorScoresUser84User60 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s060);
+
+            sv.ImpostorScoresUser84User61 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s061);
+            sv.ImpostorScoresUser84User62 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s062);
+            sv.ImpostorScoresUser84User63 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s063);
+            sv.ImpostorScoresUser84User64 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s064);
+            sv.ImpostorScoresUser84User65 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s065);
+            sv.ImpostorScoresUser84User66 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s066);
+            sv.ImpostorScoresUser84User67 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s067);
+            sv.ImpostorScoresUser84User68 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s068);
+            sv.ImpostorScoresUser84User69 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s069);
+            sv.ImpostorScoresUser84User70 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s070);
+
+            sv.ImpostorScoresUser84User71 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s071);
+            sv.ImpostorScoresUser84User72 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s072);
+            sv.ImpostorScoresUser84User73 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s073);
+            sv.ImpostorScoresUser84User74 = ScaledManhDist.CalculateImpostorScores(s084Mean, stdDevUser84, s074);
             #endregion
 
             #endregion
