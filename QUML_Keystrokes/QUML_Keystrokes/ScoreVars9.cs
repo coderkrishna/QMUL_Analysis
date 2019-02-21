@@ -834,6 +834,12 @@
         public double[,] ImpostorScoresUser88User48 { get; set; }
         public double[,] ImpostorScoresUser88User49 { get; set; }
         public double[,] ImpostorScoresUser88User50 { get; set; }
+
+        public double[,] ImpostorScoresUser88User51 { get; set; }
+        public double[,] ImpostorScoresUser88User52 { get; set; }
+        public double[,] ImpostorScoresUser88User53 { get; set; }
+        public double[,] ImpostorScoresUser88User54 { get; set; }
+        public double[,] ImpostorScoresUser88User55 { get; set; }
         #endregion
     }
 }
