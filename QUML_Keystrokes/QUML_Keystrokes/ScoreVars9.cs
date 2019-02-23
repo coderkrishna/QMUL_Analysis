@@ -842,6 +842,52 @@
         public double[,] ImpostorScoresUser88User55 { get; set; }
         public double[,] ImpostorScoresUser88User56 { get; set; }
         public double[,] ImpostorScoresUser88User57 { get; set; }
+        public double[,] ImpostorScoresUser88User58 { get; set; }
+        public double[,] ImpostorScoresUser88User59 { get; set; }
+        public double[,] ImpostorScoresUser88User60 { get; set; }
+
+        public double[,] ImpostorScoresUser88User61 { get; set; }
+        public double[,] ImpostorScoresUser88User62 { get; set; }
+        public double[,] ImpostorScoresUser88User63 { get; set; }
+        public double[,] ImpostorScoresUser88User64 { get; set; }
+        public double[,] ImpostorScoresUser88User65 { get; set; }
+        public double[,] ImpostorScoresUser88User66 { get; set; }
+        public double[,] ImpostorScoresUser88User67 { get; set; }
+        public double[,] ImpostorScoresUser88User68 { get; set; }
+        public double[,] ImpostorScoresUser88User69 { get; set; }
+        public double[,] ImpostorScoresUser88User70 { get; set; }
+
+        public double[,] ImpostorScoresUser88User71 { get; set; }
+        public double[,] ImpostorScoresUser88User72 { get; set; }
+        public double[,] ImpostorScoresUser88User73 { get; set; }
+        public double[,] ImpostorScoresUser88User74 { get; set; }
+        public double[,] ImpostorScoresUser88User75 { get; set; }
+        public double[,] ImpostorScoresUser88User76 { get; set; }
+        public double[,] ImpostorScoresUser88User77 { get; set; }
+        public double[,] ImpostorScoresUser88User78 { get; set; }
+        public double[,] ImpostorScoresUser88User79 { get; set; }
+        public double[,] ImpostorScoresUser88User80 { get; set; }
+
+        public double[,] ImpostorScoresUser88User81 { get; set; }
+        public double[,] ImpostorScoresUser88User82 { get; set; }
+        public double[,] ImpostorScoresUser88User83 { get; set; }
+        public double[,] ImpostorScoresUser88User84 { get; set; }
+        public double[,] ImpostorScoresUser88User85 { get; set; }
+        public double[,] ImpostorScoresUser88User86 { get; set; }
+        public double[,] ImpostorScoresUser88User87 { get; set; }
+        public double[,] ImpostorScoresUser88User89 { get; set; }
+        public double[,] ImpostorScoresUser88User90 { get; set; }
+
+        public double[,] ImpostorScoresUser88User91 { get; set; }
+        public double[,] ImpostorScoresUser88User92 { get; set; }
+        public double[,] ImpostorScoresUser88User93 { get; set; }
+        public double[,] ImpostorScoresUser88User94 { get; set; }
+        public double[,] ImpostorScoresUser88User95 { get; set; }
+        public double[,] ImpostorScoresUser88User96 { get; set; }
+        public double[,] ImpostorScoresUser88User97 { get; set; }
+        public double[,] ImpostorScoresUser88User98 { get; set; }
+        public double[,] ImpostorScoresUser88User99 { get; set; }
+        public double[,] ImpostorScoresUser88User100 { get; set; }
         #endregion
     }
 }
