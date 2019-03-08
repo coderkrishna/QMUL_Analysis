@@ -344,6 +344,9 @@
         public double[,] ImpostorScoresUser94User5 { get; set; }
         public double[,] ImpostorScoresUser94User6 { get; set; }
         public double[,] ImpostorScoresUser94User7 { get; set; }
+        public double[,] ImpostorScoresUser94User8 { get; set; }
+        public double[,] ImpostorScoresUser94User9 { get; set; }
+        public double[,] ImpostorScoresUser94User10 { get; set; }
         #endregion
     }
 }
