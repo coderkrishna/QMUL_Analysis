@@ -16,7 +16,3 @@ The following are reasons why I have created this sample project:
 * To further practice my C# coding skills - To properly implement the concepts of inheritance, encapsulation, polymorphism
 * To be able to understand the development of reusable code
 * To also dive deeper with the concepts behind keystroke dynamics to properly enable the understanding of various verifiers that are used throughout the industry
-
-Application
-============
-<iframe height='390' scrolling='no' title='Microsoft Teams design guidelines - other dark theme colors' src='//codepen.io/msteams/embed/zPOEXN/?height=442&theme-id=31655&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen Microsoft Teams design guidelines - other dark theme colors by Microsoft Teams (@msteams) on CodePen. </iframe>
