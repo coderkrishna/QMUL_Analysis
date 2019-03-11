@@ -451,6 +451,13 @@
         public double[,] ImpostorScoresUser95User1 { get; set; }
         public double[,] ImpostorScoresUser95User2 { get; set; }
         public double[,] ImpostorScoresUser95User3 { get; set; }
+        public double[,] ImpostorScoresUser95User4 { get; set; }
+        public double[,] ImpostorScoresUser95User5 { get; set; }
+        public double[,] ImpostorScoresUser95User6 { get; set; }
+        public double[,] ImpostorScoresUser95User7 { get; set; }
+        public double[,] ImpostorScoresUser95User8 { get; set; }
+        public double[,] ImpostorScoresUser95User9 { get; set; }
+        public double[,] ImpostorScoresUser95User10 { get; set; }
         #endregion
     }
 }
