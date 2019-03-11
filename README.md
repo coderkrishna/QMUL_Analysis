@@ -19,5 +19,4 @@ The following are reasons why I have created this sample project:
 
 Application
 ============
-<iframe height='798' scrolling='no' title='Microsoft Teams design guidelines - dark theme color ramp' src='https://66eac45ba2a0418f9cfa290fcad4072b.codepen.website/#/details/27/AvePoint%20Online%20Services' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
-</iframe>
+<iframe height='390' scrolling='no' title='Microsoft Teams design guidelines - other dark theme colors' src='//codepen.io/msteams/embed/zPOEXN/?height=442&theme-id=31655&default-tab=result&embed-version=2' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>See the Pen Microsoft Teams design guidelines - other dark theme colors by Microsoft Teams (@msteams) on CodePen. </iframe>
