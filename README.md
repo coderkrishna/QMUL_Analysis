@@ -16,3 +16,8 @@ The following are reasons why I have created this sample project:
 * To further practice my C# coding skills - To properly implement the concepts of inheritance, encapsulation, polymorphism
 * To be able to understand the development of reusable code
 * To also dive deeper with the concepts behind keystroke dynamics to properly enable the understanding of various verifiers that are used throughout the industry
+
+Application
+============
+<iframe height='798' scrolling='no' title='Microsoft Teams design guidelines - dark theme color ramp' src='https://66eac45ba2a0418f9cfa290fcad4072b.codepen.website/#/details/27/AvePoint%20Online%20Services' frameborder='no' allowtransparency='true' allowfullscreen='true' style='width: 100%;'>
+</iframe>
