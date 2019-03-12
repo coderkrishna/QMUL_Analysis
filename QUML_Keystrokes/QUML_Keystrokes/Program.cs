@@ -11108,6 +11108,42 @@ namespace QUML_Keystrokes
             sv.ImpostorScoresUser95User8 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s008);
             sv.ImpostorScoresUser95User9 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s009);
             sv.ImpostorScoresUser95User10 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s010);
+
+            sv.ImpostorScoresUser95User11 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s011);
+            sv.ImpostorScoresUser95User12 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s012);
+            sv.ImpostorScoresUser95User13 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s013);
+            sv.ImpostorScoresUser95User14 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s014);
+            sv.ImpostorScoresUser95User15 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s015);
+            sv.ImpostorScoresUser95User16 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s016);
+            sv.ImpostorScoresUser95User17 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s017);
+            sv.ImpostorScoresUser95User18 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s018);
+            sv.ImpostorScoresUser95User19 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s019);
+            sv.ImpostorScoresUser95User20 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s020);
+
+            sv.ImpostorScoresUser95User21 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s021);
+            sv.ImpostorScoresUser95User22 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s022);
+            sv.ImpostorScoresUser95User23 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s023);
+            sv.ImpostorScoresUser95User24 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s024);
+            sv.ImpostorScoresUser95User25 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s025);
+            sv.ImpostorScoresUser95User26 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s026);
+            sv.ImpostorScoresUser95User27 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s027);
+            sv.ImpostorScoresUser95User28 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s028);
+            sv.ImpostorScoresUser95User29 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s029);
+            sv.ImpostorScoresUser95User30 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s030);
+
+            sv.ImpostorScoresUser95User31 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s031);
+            sv.ImpostorScoresUser95User32 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s032);
+            sv.ImpostorScoresUser95User33 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s033);
+            sv.ImpostorScoresUser95User34 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s034);
+            sv.ImpostorScoresUser95User35 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s035);
+            sv.ImpostorScoresUser95User36 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s036);
+            sv.ImpostorScoresUser95User37 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s037);
+            sv.ImpostorScoresUser95User38 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s038);
+            sv.ImpostorScoresUser95User39 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s039);
+            sv.ImpostorScoresUser95User40 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s040);
+
+            sv.ImpostorScoresUser95User41 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s041);
+            sv.ImpostorScoresUser95User42 = ScaledManhDist.CalculateImpostorScores(s095Mean, stdDevUser95, s042);
             #endregion
 
             #endregion
