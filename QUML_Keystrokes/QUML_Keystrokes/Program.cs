@@ -9,6 +9,9 @@ namespace QUML_Keystrokes
 
     class Program
     {
+        public static DataFiltering data = new DataFiltering();
+        public static ImpostorScoreVars sv = new ImpostorScoreVars();
+
         #region Static 2D Double arrays for all of the users
         static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
         static double[,] s007; static double[,] s008; static double[,] s009; static double[,] s010; static double[,] s011; static double[,] s012;
@@ -170,122 +173,119 @@ namespace QUML_Keystrokes
 
         static void Main(string[] args)
         {
-            // The dataFiltering class will be referred to 
-            DataFiltering dataFiltr = new DataFiltering();
-
             // Greeting of the Console
             Console.WriteLine("Welcome to the QUML Analyzer!" + Environment.NewLine);
 
             #region Data Extraction - This will be done before jumping into the use of any verifier
-            s001 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
-            s002 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
-            s003 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
-            s004 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
-            s005 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
-            s006 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv");
-            s007 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
-            s008 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
-            s009 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
-            s010 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user10.csv");
+            s001 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user1.csv");
+            s002 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user2.csv");
+            s003 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user3.csv");
+            s004 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user4.csv");
+            s005 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user5.csv");
+            s006 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user6.csv");
+            s007 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user7.csv");
+            s008 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user8.csv");
+            s009 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user9.csv");
+            s010 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user10.csv");
 
-            s011 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user11.csv");
-            s012 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv");
-            s013 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
-            s014 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
-            s015 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
-            s016 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user16.csv");
-            s017 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user17.csv");
-            s018 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
-            s019 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
-            s020 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv");
+            s011 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user11.csv");
+            s012 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user12.csv");
+            s013 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user13.csv");
+            s014 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user14.csv");
+            s015 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user15.csv");
+            s016 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user16.csv");
+            s017 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user17.csv");
+            s018 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user18.csv");
+            s019 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user19.csv");
+            s020 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user20.csv");
 
-            s021 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
-            s022 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
-            s023 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
-            s024 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user24.csv");
-            s025 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
-            s026 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
-            s027 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user27.csv");
-            s028 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user28.csv");
-            s029 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user29.csv");
-            s030 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user30.csv");
+            s021 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user21.csv");
+            s022 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user22.csv");
+            s023 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user23.csv");
+            s024 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user24.csv");
+            s025 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user25.csv");
+            s026 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user26.csv");
+            s027 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user27.csv");
+            s028 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user28.csv");
+            s029 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user29.csv");
+            s030 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user30.csv");
 
-            s031 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user31.csv");
-            s032 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user32.csv");
-            s033 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user33.csv");
-            s034 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user34.csv");
-            s035 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user35.csv");
-            s036 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user36.csv");
-            s037 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user37.csv");
-            s038 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user38.csv");
-            s039 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user39.csv");
-            s040 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user40.csv");
+            s031 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user31.csv");
+            s032 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user32.csv");
+            s033 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user33.csv");
+            s034 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user34.csv");
+            s035 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user35.csv");
+            s036 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user36.csv");
+            s037 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user37.csv");
+            s038 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user38.csv");
+            s039 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user39.csv");
+            s040 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user40.csv");
 
-            s041 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user41.csv");
-            s042 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user42.csv");
-            s043 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user43.csv");
-            s044 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user44.csv");
-            s045 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user45.csv");
-            s046 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user46.csv");
-            s047 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user47.csv");
-            s048 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user48.csv");
-            s049 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user49.csv");
-            s050 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv");
+            s041 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user41.csv");
+            s042 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user42.csv");
+            s043 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user43.csv");
+            s044 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user44.csv");
+            s045 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user45.csv");
+            s046 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user46.csv");
+            s047 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user47.csv");
+            s048 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user48.csv");
+            s049 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user49.csv");
+            s050 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user50.csv");
 
-            s051 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user51.csv");
-            s052 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user52.csv");
-            s053 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user53.csv");
-            s054 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user54.csv");
-            s055 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user55.csv");
-            s056 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user56.csv");
-            s057 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user57.csv");
-            s058 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user58.csv");
-            s059 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
-            s060 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv");
+            s051 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user51.csv");
+            s052 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user52.csv");
+            s053 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user53.csv");
+            s054 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user54.csv");
+            s055 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user55.csv");
+            s056 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user56.csv");
+            s057 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user57.csv");
+            s058 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user58.csv");
+            s059 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user59.csv");
+            s060 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user60.csv");
 
-            s061 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
-            s062 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
-            s063 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user63.csv");
-            s064 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv");
-            s065 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user65.csv");
-            s066 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user66.csv");
-            s067 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user67.csv");
-            s068 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user68.csv");
-            s069 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user69.csv");
-            s070 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user70.csv");
+            s061 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user61.csv");
+            s062 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user62.csv");
+            s063 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user63.csv");
+            s064 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user64.csv");
+            s065 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user65.csv");
+            s066 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user66.csv");
+            s067 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user67.csv");
+            s068 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user68.csv");
+            s069 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user69.csv");
+            s070 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user70.csv");
 
-            s071 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user71.csv");
-            s072 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user72.csv");
-            s073 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user73.csv");
-            s074 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user74.csv");
-            s075 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user75.csv");
-            s076 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user76.csv");
-            s077 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user77.csv");
-            s078 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user78.csv");
-            s079 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user79.csv");
-            s080 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user80.csv");
+            s071 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user71.csv");
+            s072 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user72.csv");
+            s073 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user73.csv");
+            s074 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user74.csv");
+            s075 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user75.csv");
+            s076 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user76.csv");
+            s077 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user77.csv");
+            s078 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user78.csv");
+            s079 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user79.csv");
+            s080 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user80.csv");
 
-            s081 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user81.csv");
-            s082 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user82.csv");
-            s083 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user83.csv");
-            s084 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user84.csv");
-            s085 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user85.csv");
-            s086 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user86.csv");
-            s087 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user87.csv");
-            s088 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user88.csv");
-            s089 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user89.csv");
-            s090 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user90.csv");
+            s081 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user81.csv");
+            s082 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user82.csv");
+            s083 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user83.csv");
+            s084 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user84.csv");
+            s085 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user85.csv");
+            s086 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user86.csv");
+            s087 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user87.csv");
+            s088 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user88.csv");
+            s089 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user89.csv");
+            s090 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user90.csv");
 
-            s091 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user91.csv");
-            s092 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user92.csv");
-            s093 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user93.csv");
-            s094 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user94.csv");
-            s095 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user95.csv");
-            s096 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user96.csv");
-            s097 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user97.csv");
-            s098 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user98.csv");
-            s099 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user99.csv");
-            s100 = dataFiltr.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user100.csv");
+            s091 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user91.csv");
+            s092 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user92.csv");
+            s093 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user93.csv");
+            s094 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user94.csv");
+            s095 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user95.csv");
+            s096 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user96.csv");
+            s097 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user97.csv");
+            s098 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user98.csv");
+            s099 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user99.csv");
+            s100 = data.ParseData(@"D:\GitHub\QMUL_Analysis\QUML_Keystrokes\QUML_Keystrokes\Latency Data\user100.csv");
             #endregion
 
             Console.WriteLine("Now choose your verifier: " + Environment.NewLine + "0 for Manhattan" + Environment.NewLine +
@@ -323,8 +323,7 @@ namespace QUML_Keystrokes
         {
             // Making reference to the ScaledManhattanDistance class
             var ScaledManhDist = new ScaledManhattanDistance();
-            var sv = new ImpostorScoreVars();
-
+            
             #region Calculating the mean vectors for all 100 subjects
             s001Mean = ScaledManhDist.CalculateMeanVector(s001);
             s002Mean = ScaledManhDist.CalculateMeanVector(s002);
@@ -11764,6 +11763,321 @@ namespace QUML_Keystrokes
             #endregion
 
             #endregion
+
+            #region Showing the output of the genuine scores
+            Console.WriteLine("Enter a number between 1 and 100 to view the genuine scores:");
+
+            int user = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("User chosen:" + user);
+            switch (user)
+            {
+                case 1:
+                    data.PrintGenuineScores(s001Gen);
+                    break;
+                case 2:
+                    data.PrintGenuineScores(s002Gen);
+                    break;
+                case 3:
+                    data.PrintGenuineScores(s003Gen);
+                    break;
+                case 4:
+                    data.PrintGenuineScores(s004Gen);
+                    break;
+                case 5:
+                    data.PrintGenuineScores(s005Gen);
+                    break;
+                case 6:
+                    data.PrintGenuineScores(s006Gen);
+                    break;
+                case 7:
+                    data.PrintGenuineScores(s007Gen);
+                    break;
+                case 8:
+                    data.PrintGenuineScores(s008Gen);
+                    break;
+                case 9:
+                    data.PrintGenuineScores(s009Gen);
+                    break;
+                case 10:
+                    data.PrintGenuineScores(s010Gen);
+                    break;
+                case 11:
+                    data.PrintGenuineScores(s011Gen);
+                    break;
+                case 12:
+                    data.PrintGenuineScores(s012Gen);
+                    break;
+                case 13:
+                    data.PrintGenuineScores(s013Gen);
+                    break;
+                case 14:
+                    data.PrintGenuineScores(s014Gen);
+                    break;
+                case 15:
+                    data.PrintGenuineScores(s015Gen);
+                    break;
+                case 16:
+                    data.PrintGenuineScores(s016Gen);
+                    break;
+                case 17:
+                    data.PrintGenuineScores(s017Gen);
+                    break;
+                case 18:
+                    data.PrintGenuineScores(s018Gen);
+                    break;
+                case 19:
+                    data.PrintGenuineScores(s019Gen);
+                    break;
+                case 20:
+                    data.PrintGenuineScores(s020Gen);
+                    break;
+                case 21:
+                    data.PrintGenuineScores(s021Gen);
+                    break;
+                case 22:
+                    data.PrintGenuineScores(s022Gen);
+                    break;
+                case 23:
+                    data.PrintGenuineScores(s023Gen);
+                    break;
+                case 24:
+                    data.PrintGenuineScores(s024Gen);
+                    break;
+                case 25:
+                    data.PrintGenuineScores(s025Gen);
+                    break;
+                case 26:
+                    data.PrintGenuineScores(s026Gen);
+                    break;
+                case 27:
+                    data.PrintGenuineScores(s027Gen);
+                    break;
+                case 28:
+                    data.PrintGenuineScores(s028Gen);
+                    break;
+                case 29:
+                    data.PrintGenuineScores(s029Gen);
+                    break;
+                case 30:
+                    data.PrintGenuineScores(s030Gen);
+                    break;
+                case 31:
+                    data.PrintGenuineScores(s031Gen);
+                    break;
+                case 32:
+                    data.PrintGenuineScores(s032Gen);
+                    break;
+                case 33:
+                    data.PrintGenuineScores(s033Gen);
+                    break;
+                case 34:
+                    data.PrintGenuineScores(s034Gen);
+                    break;
+                case 35:
+                    data.PrintGenuineScores(s035Gen);
+                    break;
+                case 36:
+                    data.PrintGenuineScores(s036Gen);
+                    break;
+                case 37:
+                    data.PrintGenuineScores(s037Gen);
+                    break;
+                case 38:
+                    data.PrintGenuineScores(s038Gen);
+                    break;
+                case 39:
+                    data.PrintGenuineScores(s039Gen);
+                    break;
+                case 40:
+                    data.PrintGenuineScores(s040Gen);
+                    break;
+                case 41:
+                    data.PrintGenuineScores(s041Gen);
+                    break;
+                case 42:
+                    data.PrintGenuineScores(s042Gen);
+                    break;
+                case 43:
+                    data.PrintGenuineScores(s043Gen);
+                    break;
+                case 44:
+                    data.PrintGenuineScores(s044Gen);
+                    break;
+                case 45:
+                    data.PrintGenuineScores(s045Gen);
+                    break;
+                case 46:
+                    data.PrintGenuineScores(s046Gen);
+                    break;
+                case 47:
+                    data.PrintGenuineScores(s047Gen);
+                    break;
+                case 48:
+                    data.PrintGenuineScores(s048Gen);
+                    break;
+                case 49:
+                    data.PrintGenuineScores(s049Gen);
+                    break;
+                case 50:
+                    data.PrintGenuineScores(s050Gen);
+                    break;
+                case 51:
+                    data.PrintGenuineScores(s051Gen);
+                    break;
+                case 52:
+                    data.PrintGenuineScores(s052Gen);
+                    break;
+                case 53:
+                    data.PrintGenuineScores(s053Gen);
+                    break;
+                case 54:
+                    data.PrintGenuineScores(s054Gen);
+                    break;
+                case 55:
+                    data.PrintGenuineScores(s055Gen);
+                    break;
+                case 56:
+                    data.PrintGenuineScores(s056Gen);
+                    break;
+                case 57:
+                    data.PrintGenuineScores(s057Gen);
+                    break;
+                case 58:
+                    data.PrintGenuineScores(s058Gen);
+                    break;
+                case 59:
+                    data.PrintGenuineScores(s059Gen);
+                    break;
+                case 60:
+                    data.PrintGenuineScores(s060Gen);
+                    break;
+                case 61:
+                    data.PrintGenuineScores(s061Gen);
+                    break;
+                case 62:
+                    data.PrintGenuineScores(s062Gen);
+                    break;
+                case 63:
+                    data.PrintGenuineScores(s063Gen);
+                    break;
+                case 64:
+                    data.PrintGenuineScores(s064Gen);
+                    break;
+                case 65:
+                    data.PrintGenuineScores(s065Gen);
+                    break;
+                case 66:
+                    data.PrintGenuineScores(s066Gen);
+                    break;
+                case 67:
+                    data.PrintGenuineScores(s067Gen);
+                    break;
+                case 68:
+                    data.PrintGenuineScores(s068Gen);
+                    break;
+                case 69:
+                    data.PrintGenuineScores(s069Gen);
+                    break;
+                case 70:
+                    data.PrintGenuineScores(s070Gen);
+                    break;
+                case 71:
+                    data.PrintGenuineScores(s071Gen);
+                    break;
+                case 72:
+                    data.PrintGenuineScores(s072Gen);
+                    break;
+                case 73:
+                    data.PrintGenuineScores(s073Gen);
+                    break;
+                case 74:
+                    data.PrintGenuineScores(s074Gen);
+                    break;
+                case 75:
+                    data.PrintGenuineScores(s075Gen);
+                    break;
+                case 76:
+                    data.PrintGenuineScores(s076Gen);
+                    break;
+                case 77:
+                    data.PrintGenuineScores(s077Gen);
+                    break;
+                case 78:
+                    data.PrintGenuineScores(s078Gen);
+                    break;
+                case 79:
+                    data.PrintGenuineScores(s079Gen);
+                    break;
+                case 80:
+                    data.PrintGenuineScores(s080Gen);
+                    break;
+                case 81:
+                    data.PrintGenuineScores(s081Gen);
+                    break;
+                case 82:
+                    data.PrintGenuineScores(s082Gen);
+                    break;
+                case 83:
+                    data.PrintGenuineScores(s083Gen);
+                    break;
+                case 84:
+                    data.PrintGenuineScores(s084Gen);
+                    break;
+                case 85:
+                    data.PrintGenuineScores(s085Gen);
+                    break;
+                case 86:
+                    data.PrintGenuineScores(s086Gen);
+                    break;
+                case 87:
+                    data.PrintGenuineScores(s087Gen);
+                    break;
+                case 88:
+                    data.PrintGenuineScores(s088Gen);
+                    break;
+                case 89:
+                    data.PrintGenuineScores(s089Gen);
+                    break;
+                case 90:
+                    data.PrintGenuineScores(s090Gen);
+                    break;
+                case 91:
+                    data.PrintGenuineScores(s091Gen);
+                    break;
+                case 92:
+                    data.PrintGenuineScores(s092Gen);
+                    break;
+                case 93:
+                    data.PrintGenuineScores(s093Gen);
+                    break;
+                case 94:
+                    data.PrintGenuineScores(s094Gen);
+                    break;
+                case 95:
+                    data.PrintGenuineScores(s095Gen);
+                    break;
+                case 96:
+                    data.PrintGenuineScores(s096Gen);
+                    break;
+                case 97:
+                    data.PrintGenuineScores(s097Gen);
+                    break;
+                case 98:
+                    data.PrintGenuineScores(s098Gen);
+                    break;
+                case 99:
+                    data.PrintGenuineScores(s099Gen);
+                    break;
+                case 100:
+                    data.PrintGenuineScores(s100Gen);
+                    break;
+                default:
+                    Console.WriteLine("There was no choice made...the program will now exit!");
+                    Console.ReadKey();
+                    break;
+            }
+            #endregion
         }
         #endregion
 
@@ -11771,8 +12085,7 @@ namespace QUML_Keystrokes
         private static void UseEuclideanVerifier()
         {
             var EuclidDist = new EuclideanDistance();
-            var sv = new ImpostorScoreVars();
-
+            
             #region Populating the mean arrays for each user under the Euclidean Distance method
             s001Mean = EuclidDist.CalculateMeanVector(s001);
             s002Mean = EuclidDist.CalculateMeanVector(s002);
@@ -23032,6 +23345,321 @@ namespace QUML_Keystrokes
             #endregion
 
             #endregion
+
+            #region Showing the output of the genuine scores
+            Console.WriteLine("Enter a number between 1 and 100 to view the genuine scores:");
+
+            int user = int.Parse(Console.ReadLine());
+
+            Console.WriteLine("User chosen:" + user);
+            switch (user)
+            {
+                case 1:
+                    data.PrintGenuineScores(s001Gen);
+                    break;
+                case 2:
+                    data.PrintGenuineScores(s002Gen);
+                    break;
+                case 3:
+                    data.PrintGenuineScores(s003Gen);
+                    break;
+                case 4:
+                    data.PrintGenuineScores(s004Gen);
+                    break;
+                case 5:
+                    data.PrintGenuineScores(s005Gen);
+                    break;
+                case 6:
+                    data.PrintGenuineScores(s006Gen);
+                    break;
+                case 7:
+                    data.PrintGenuineScores(s007Gen);
+                    break;
+                case 8:
+                    data.PrintGenuineScores(s008Gen);
+                    break;
+                case 9:
+                    data.PrintGenuineScores(s009Gen);
+                    break;
+                case 10:
+                    data.PrintGenuineScores(s010Gen);
+                    break;
+                case 11:
+                    data.PrintGenuineScores(s011Gen);
+                    break;
+                case 12:
+                    data.PrintGenuineScores(s012Gen);
+                    break;
+                case 13:
+                    data.PrintGenuineScores(s013Gen);
+                    break;
+                case 14:
+                    data.PrintGenuineScores(s014Gen);
+                    break;
+                case 15:
+                    data.PrintGenuineScores(s015Gen);
+                    break;
+                case 16:
+                    data.PrintGenuineScores(s016Gen);
+                    break;
+                case 17:
+                    data.PrintGenuineScores(s017Gen);
+                    break;
+                case 18:
+                    data.PrintGenuineScores(s018Gen);
+                    break;
+                case 19:
+                    data.PrintGenuineScores(s019Gen);
+                    break;
+                case 20:
+                    data.PrintGenuineScores(s020Gen);
+                    break;
+                case 21:
+                    data.PrintGenuineScores(s021Gen);
+                    break;
+                case 22:
+                    data.PrintGenuineScores(s022Gen);
+                    break;
+                case 23:
+                    data.PrintGenuineScores(s023Gen);
+                    break;
+                case 24:
+                    data.PrintGenuineScores(s024Gen);
+                    break;
+                case 25:
+                    data.PrintGenuineScores(s025Gen);
+                    break;
+                case 26:
+                    data.PrintGenuineScores(s026Gen);
+                    break;
+                case 27:
+                    data.PrintGenuineScores(s027Gen);
+                    break;
+                case 28:
+                    data.PrintGenuineScores(s028Gen);
+                    break;
+                case 29:
+                    data.PrintGenuineScores(s029Gen);
+                    break;
+                case 30:
+                    data.PrintGenuineScores(s030Gen);
+                    break;
+                case 31:
+                    data.PrintGenuineScores(s031Gen);
+                    break;
+                case 32:
+                    data.PrintGenuineScores(s032Gen);
+                    break;
+                case 33:
+                    data.PrintGenuineScores(s033Gen);
+                    break;
+                case 34:
+                    data.PrintGenuineScores(s034Gen);
+                    break;
+                case 35:
+                    data.PrintGenuineScores(s035Gen);
+                    break;
+                case 36:
+                    data.PrintGenuineScores(s036Gen);
+                    break;
+                case 37:
+                    data.PrintGenuineScores(s037Gen);
+                    break;
+                case 38:
+                    data.PrintGenuineScores(s038Gen);
+                    break;
+                case 39:
+                    data.PrintGenuineScores(s039Gen);
+                    break;
+                case 40:
+                    data.PrintGenuineScores(s040Gen);
+                    break;
+                case 41:
+                    data.PrintGenuineScores(s041Gen);
+                    break;
+                case 42:
+                    data.PrintGenuineScores(s042Gen);
+                    break;
+                case 43:
+                    data.PrintGenuineScores(s043Gen);
+                    break;
+                case 44:
+                    data.PrintGenuineScores(s044Gen);
+                    break;
+                case 45:
+                    data.PrintGenuineScores(s045Gen);
+                    break;
+                case 46:
+                    data.PrintGenuineScores(s046Gen);
+                    break;
+                case 47:
+                    data.PrintGenuineScores(s047Gen);
+                    break;
+                case 48:
+                    data.PrintGenuineScores(s048Gen);
+                    break;
+                case 49:
+                    data.PrintGenuineScores(s049Gen);
+                    break;
+                case 50:
+                    data.PrintGenuineScores(s050Gen);
+                    break;
+                case 51:
+                    data.PrintGenuineScores(s051Gen);
+                    break;
+                case 52:
+                    data.PrintGenuineScores(s052Gen);
+                    break;
+                case 53:
+                    data.PrintGenuineScores(s053Gen);
+                    break;
+                case 54:
+                    data.PrintGenuineScores(s054Gen);
+                    break;
+                case 55:
+                    data.PrintGenuineScores(s055Gen);
+                    break;
+                case 56:
+                    data.PrintGenuineScores(s056Gen);
+                    break;
+                case 57:
+                    data.PrintGenuineScores(s057Gen);
+                    break;
+                case 58:
+                    data.PrintGenuineScores(s058Gen);
+                    break;
+                case 59:
+                    data.PrintGenuineScores(s059Gen);
+                    break;
+                case 60:
+                    data.PrintGenuineScores(s060Gen);
+                    break;
+                case 61:
+                    data.PrintGenuineScores(s061Gen);
+                    break;
+                case 62:
+                    data.PrintGenuineScores(s062Gen);
+                    break;
+                case 63:
+                    data.PrintGenuineScores(s063Gen);
+                    break;
+                case 64:
+                    data.PrintGenuineScores(s064Gen);
+                    break;
+                case 65:
+                    data.PrintGenuineScores(s065Gen);
+                    break;
+                case 66:
+                    data.PrintGenuineScores(s066Gen);
+                    break;
+                case 67:
+                    data.PrintGenuineScores(s067Gen);
+                    break;
+                case 68:
+                    data.PrintGenuineScores(s068Gen);
+                    break;
+                case 69:
+                    data.PrintGenuineScores(s069Gen);
+                    break;
+                case 70:
+                    data.PrintGenuineScores(s070Gen);
+                    break;
+                case 71:
+                    data.PrintGenuineScores(s071Gen);
+                    break;
+                case 72:
+                    data.PrintGenuineScores(s072Gen);
+                    break;
+                case 73:
+                    data.PrintGenuineScores(s073Gen);
+                    break;
+                case 74:
+                    data.PrintGenuineScores(s074Gen);
+                    break;
+                case 75:
+                    data.PrintGenuineScores(s075Gen);
+                    break;
+                case 76:
+                    data.PrintGenuineScores(s076Gen);
+                    break;
+                case 77:
+                    data.PrintGenuineScores(s077Gen);
+                    break;
+                case 78:
+                    data.PrintGenuineScores(s078Gen);
+                    break;
+                case 79:
+                    data.PrintGenuineScores(s079Gen);
+                    break;
+                case 80:
+                    data.PrintGenuineScores(s080Gen);
+                    break;
+                case 81:
+                    data.PrintGenuineScores(s081Gen);
+                    break;
+                case 82:
+                    data.PrintGenuineScores(s082Gen);
+                    break;
+                case 83:
+                    data.PrintGenuineScores(s083Gen);
+                    break;
+                case 84:
+                    data.PrintGenuineScores(s084Gen);
+                    break;
+                case 85:
+                    data.PrintGenuineScores(s085Gen);
+                    break;
+                case 86:
+                    data.PrintGenuineScores(s086Gen);
+                    break;
+                case 87:
+                    data.PrintGenuineScores(s087Gen);
+                    break;
+                case 88:
+                    data.PrintGenuineScores(s088Gen);
+                    break;
+                case 89:
+                    data.PrintGenuineScores(s089Gen);
+                    break;
+                case 90:
+                    data.PrintGenuineScores(s090Gen);
+                    break;
+                case 91:
+                    data.PrintGenuineScores(s091Gen);
+                    break;
+                case 92:
+                    data.PrintGenuineScores(s092Gen);
+                    break;
+                case 93:
+                    data.PrintGenuineScores(s093Gen);
+                    break;
+                case 94:
+                    data.PrintGenuineScores(s094Gen);
+                    break;
+                case 95:
+                    data.PrintGenuineScores(s095Gen);
+                    break;
+                case 96:
+                    data.PrintGenuineScores(s096Gen);
+                    break;
+                case 97:
+                    data.PrintGenuineScores(s097Gen);
+                    break;
+                case 98:
+                    data.PrintGenuineScores(s098Gen);
+                    break;
+                case 99:
+                    data.PrintGenuineScores(s099Gen);
+                    break;
+                case 100:
+                    data.PrintGenuineScores(s100Gen);
+                    break;
+                default:
+                    Console.WriteLine("There was no choice made...the program will now exit!");
+                    Console.ReadKey();
+                    break;
+            }
+            #endregion
         }
         #endregion
 
@@ -23039,7 +23667,6 @@ namespace QUML_Keystrokes
         private static void UseManhattanVerifier()
         {
             var ManhDist = new ManhattanDistance();
-            var sv = new ImpostorScoreVars();
 
             #region Populating the mean arrays for each user
             Console.WriteLine("Populating the mean vectors...");
@@ -34380,7 +35007,6 @@ namespace QUML_Keystrokes
             Console.WriteLine("Enter a number between 1 and 100 to view the genuine scores:");
 
             int user = int.Parse(Console.ReadLine());
-            DataFiltering data = new DataFiltering();
 
             Console.WriteLine("User chosen: " + user);
             switch (user)
