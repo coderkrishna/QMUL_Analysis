@@ -12,15 +12,49 @@ namespace QUML_Keystrokes
         public static DataFiltering data = new DataFiltering();
         public static ImpostorScoreVars sv = new ImpostorScoreVars();
 
-        #region Static 2D Double arrays for all of the users
-        static double[,] s001; static double[,] s002; static double[,] s003; static double[,] s004; static double[,] s005; static double[,] s006;
-        static double[,] s007; static double[,] s008; static double[,] s009; static double[,] s010; static double[,] s011; static double[,] s012;
-        static double[,] s013; static double[,] s014; static double[,] s015; static double[,] s016; static double[,] s017; static double[,] s018;
-        static double[,] s019; static double[,] s020; static double[,] s021; static double[,] s022; static double[,] s023; static double[,] s024;
-        static double[,] s025; static double[,] s026; static double[,] s027; static double[,] s028; static double[,] s029; static double[,] s030;
+        static double[,] s001; 
+        static double[,] s002; 
+        static double[,] s003; 
+        static double[,] s004; 
+        static double[,] s005; 
+        static double[,] s006;
+        static double[,] s007; 
+        static double[,] s008; 
+        static double[,] s009; 
+        static double[,] s010; 
+        static double[,] s011; 
+        static double[,] s012;
+        static double[,] s013; 
+        static double[,] s014; 
+        static double[,] s015; 
+        static double[,] s016; 
+        static double[,] s017; 
+        static double[,] s018;
+        static double[,] s019; 
+        static double[,] s020; 
+        static double[,] s021; 
+        static double[,] s022; 
+        static double[,] s023; 
+        static double[,] s024;
+        static double[,] s025; 
+        static double[,] s026; 
+        static double[,] s027; 
+        static double[,] s028; 
+        static double[,] s029; 
+        static double[,] s030;
 
-        static double[,] s031; static double[,] s032; static double[,] s033; static double[,] s034; static double[,] s035; static double[,] s036;
-        static double[,] s037; static double[,] s038; static double[,] s039; static double[,] s040; static double[,] s041; static double[,] s042;
+        static double[,] s031; 
+        static double[,] s032; 
+        static double[,] s033; 
+        static double[,] s034; 
+        static double[,] s035; 
+        static double[,] s036;
+        static double[,] s037; 
+        static double[,] s038; 
+        static double[,] s039; 
+        static double[,] s040; 
+        static double[,] s041; 
+        static double[,] s042;
         static double[,] s043; static double[,] s044; static double[,] s045; static double[,] s046; static double[,] s047; static double[,] s048;
         static double[,] s049; static double[,] s050; static double[,] s051; static double[,] s052; static double[,] s053; static double[,] s054;
         static double[,] s055; static double[,] s056; static double[,] s057; static double[,] s058; static double[,] s059; static double[,] s060;
@@ -33,7 +67,6 @@ namespace QUML_Keystrokes
         static double[,] s085; static double[,] s086; static double[,] s087; static double[,] s088; static double[,] s089; static double[,] s090;
         static double[,] s091; static double[,] s092; static double[,] s093; static double[,] s094; static double[,] s095; static double[,] s096;
         static double[,] s097; static double[,] s098; static double[,] s099; static double[,] s100;
-        #endregion
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
         static double[] s001Mean; static double[] s002Mean; static double[] s003Mean;

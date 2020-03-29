@@ -29,7 +29,7 @@ namespace OperationsLib
 
             int i = 0, j = 0;
 
-            double[,] dataVals = new double[10, 7];
+            double[,] dataVals = new double[10,7];
 
             foreach (var row in inputFile.Split('\n'))
             {
@@ -53,6 +53,11 @@ namespace OperationsLib
         /// <param name="genScore">The genuine scores that are to be printed out</param>
         public void PrintGenuineScores(double[,] genScore)
         {
+            if (genScore == null)
+            {
+                throw new ArgumentNullException(nameof(genScore));
+            }
+
             for (int i = 0; i < genScore.GetLength(0); i++)
             {
                 for (int j = 0; j < genScore.GetLength(1); j++)
