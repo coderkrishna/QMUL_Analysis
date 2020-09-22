@@ -55,18 +55,68 @@ namespace QUML_Keystrokes
         static double[,] s040; 
         static double[,] s041; 
         static double[,] s042;
-        static double[,] s043; static double[,] s044; static double[,] s045; static double[,] s046; static double[,] s047; static double[,] s048;
-        static double[,] s049; static double[,] s050; static double[,] s051; static double[,] s052; static double[,] s053; static double[,] s054;
-        static double[,] s055; static double[,] s056; static double[,] s057; static double[,] s058; static double[,] s059; static double[,] s060;
+        static double[,] s043; 
+        static double[,] s044; 
+        static double[,] s045; 
+        static double[,] s046; 
+        static double[,] s047; 
+        static double[,] s048;
+        static double[,] s049; 
+        static double[,] s050; 
+        static double[,] s051; 
+        static double[,] s052; 
+        static double[,] s053; 
+        static double[,] s054;
+        static double[,] s055; 
+        static double[,] s056; 
+        static double[,] s057; 
+        static double[,] s058; 
+        static double[,] s059; 
+        static double[,] s060;
 
-        static double[,] s061; static double[,] s062; static double[,] s063; static double[,] s064; static double[,] s065; static double[,] s066;
-        static double[,] s067; static double[,] s068; static double[,] s069; static double[,] s070; static double[,] s071; static double[,] s072;
-        static double[,] s073; static double[,] s074; static double[,] s075; static double[,] s076; static double[,] s077; static double[,] s078;
-        static double[,] s079; static double[,] s080; static double[,] s081; static double[,] s082; static double[,] s083; static double[,] s084;
-
-        static double[,] s085; static double[,] s086; static double[,] s087; static double[,] s088; static double[,] s089; static double[,] s090;
-        static double[,] s091; static double[,] s092; static double[,] s093; static double[,] s094; static double[,] s095; static double[,] s096;
-        static double[,] s097; static double[,] s098; static double[,] s099; static double[,] s100;
+        static double[,] s061; 
+        static double[,] s062; 
+        static double[,] s063; 
+        static double[,] s064; 
+        static double[,] s065; 
+        static double[,] s066;
+        static double[,] s067; 
+        static double[,] s068; 
+        static double[,] s069; 
+        static double[,] s070; 
+        
+        static double[,] s071; 
+        static double[,] s072;
+        static double[,] s073; 
+        static double[,] s074; 
+        static double[,] s075; 
+        static double[,] s076; 
+        static double[,] s077; 
+        static double[,] s078;
+        static double[,] s079; 
+        static double[,] s080; 
+        
+        static double[,] s081; 
+        static double[,] s082; 
+        static double[,] s083; 
+        static double[,] s084;
+        static double[,] s085; 
+        static double[,] s086; 
+        static double[,] s087; 
+        static double[,] s088; 
+        static double[,] s089; 
+        static double[,] s090;
+        
+        static double[,] s091; 
+        static double[,] s092; 
+        static double[,] s093; 
+        static double[,] s094; 
+        static double[,] s095; 
+        static double[,] s096;
+        static double[,] s097; 
+        static double[,] s098; 
+        static double[,] s099; 
+        static double[,] s100;
 
         #region Static Double arrays for each user - these are the mean arrays, also known as the templates
         static double[] s001Mean; static double[] s002Mean; static double[] s003Mean;
